@@ -19,10 +19,10 @@
         "subscribe_J9Afdq": {
           "type": "subscribe",
           "settings": {
-            "heading": "Subscribe & save $30",
-            "text": "<p>3 Month Replacement Filter delivers every 90 days for only $35. Skip or cancel anytime. <a href=\"https:\/\/www.qureskincare.com\/pages\/subscriptions\" target=\"_blank\">See more details<\/a><\/p>",
-            "plan": "4496589039",
-            "discount": 3000
+            "heading": "Subscribe & save 30%",
+            "text": "<p>3 Month Replacement Filter delivers every 90 days for only $31.50. Skip or cancel anytime. <a href=\"https:\/\/www.qureskincare.com\/pages\/subscriptions\" target=\"_blank\">See more details<\/a><\/p>",
+            "plan": "5012848879",
+            "discount": 2670
           }
         }
       },
@@ -38,7 +38,9 @@
         "product_button_label": "Real results",
         "before_after_images_limit": 5,
         "before_after_button_label": "Product",
-        "reserve": false
+        "reserve": false,
+        "underbutton_text_left": "Dermatologist Reviewed",
+        "underbutton_text_right": "Free Shipping Over $100"
       }
     },
     "featuredin_RKtJRq": {
@@ -232,7 +234,8 @@
       ],
       "settings": {
         "classname": "mi_landing_result",
-        "heading": "Clearer, hydrated skin, on tap"
+        "heading": "Clearer, hydrated skin, on tap",
+        "text_verified_customer": "Verified customer"
       }
     },
     "two_column_box_9KGBC4": {
@@ -333,7 +336,8 @@
         "likes": "4.8K",
         "views": "192K views",
         "image": "shopify:\/\/shop_images\/trusted_main.webp",
-        "video_url": "https:\/\/www.youtube.com\/watch?v=QuJ3puVLKzU"
+        "video_url": "https:\/\/www.youtube.com\/watch?v=QuJ3puVLKzU",
+        "video_label": "Click To Watch Review"
       }
     },
     "two_column_box_mjpNxF": {
@@ -465,42 +469,48 @@
           "type": "object",
           "settings": {
             "image": "shopify:\/\/shop_images\/qurify_use_s_1.webp",
-            "text": "<p>Remove faucet aerator. Simply attach and twist it off using the key                                                        for removal.<\/p>"
+            "text": "<p>Remove faucet aerator. Simply attach and twist it off using the key                                                        for removal.<\/p>",
+            "step": "STEP"
           }
         },
         "object_AcMGDz": {
           "type": "object",
           "settings": {
             "image": "shopify:\/\/shop_images\/qurify_use_s_2.webp",
-            "text": "<p>Find the faucet thread accessory which best fits your faucet by size                                                        from the 7 provided. If none of the faucet thread accessories fit,                                                        then use the Universal Joint. <\/p>"
+            "text": "<p>Find the faucet thread accessory which best fits your faucet by size                                                        from the 7 provided. If none of the faucet thread accessories fit,                                                        then use the Universal Joint. <\/p>",
+            "step": "STEP"
           }
         },
         "object_YHXEeE": {
           "type": "object",
           "settings": {
             "image": "shopify:\/\/shop_images\/qurify_use_s_3.webp",
-            "text": "<p>Find the silicone ring that best fits and place it inside the faucet                                                        thread accessory.<\/p>"
+            "text": "<p>Find the silicone ring that best fits and place it inside the faucet                                                        thread accessory.<\/p>",
+            "step": "STEP"
           }
         },
         "object_caB4Cq": {
           "type": "object",
           "settings": {
             "image": "shopify:\/\/shop_images\/qurify_use_s_4.webp",
-            "text": "<p>Detach the mounting nut from the Q-urify Water Filter. Put the faucet                                                        thread accessory (with the silicone ring inside) through the                                                        mounting nut and secure it onto your faucet. <\/p>"
+            "text": "<p>Detach the mounting nut from the Q-urify Water Filter. Put the faucet                                                        thread accessory (with the silicone ring inside) through the                                                        mounting nut and secure it onto your faucet. <\/p>",
+            "step": "STEP"
           }
         },
         "object_Qmyt7M": {
           "type": "object",
           "settings": {
             "image": "shopify:\/\/shop_images\/qurify_use_s_5.webp",
-            "text": "<p>Once tightened, secure the Q-urify Water Filter to the mounting nut.<\/p>"
+            "text": "<p>Once tightened, secure the Q-urify Water Filter to the mounting nut.<\/p>",
+            "step": "STEP"
           }
         },
         "object_P3gAdM": {
           "type": "object",
           "settings": {
             "image": "shopify:\/\/shop_images\/qurify_use_s_6.webp",
-            "text": "<p>For filtered water, turn to “PUR” (short for purify). Turn to “TAP”                                                        if you prefer unfiltered water.                                                        Enjoy healthier, clearer skin!<\/p>"
+            "text": "<p>For filtered water, turn to “PUR” (short for purify). Turn to “TAP”                                                        if you prefer unfiltered water.                                                        Enjoy healthier, clearer skin!<\/p>",
+            "step": "STEP"
           }
         }
       },
@@ -644,7 +654,9 @@
       ],
       "settings": {
         "classname": "bg_yellow",
-        "heading": "The answers to your questions"
+        "heading": "The answers to your questions",
+        "button_label": "Show More Questions",
+        "button_hide_label": "Hide More Questions"
       }
     },
     "pdm_product_social_proof_data_4iretp": {
