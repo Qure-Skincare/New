@@ -23,7 +23,7 @@
     {% endcase %}
 
     {% assign product_price = product.price | money_without_trailing_zeros %}
-    {% assign product_price_discount = product.price | minus: 2580 | money_without_trailing_zeros %}
+    {% assign product_price_discount = product.price | times: 0.80 | money_without_trailing_zeros %}
     {% assign product_price_divided = product.price | divided_by: 4 | money_without_trailing_zeros %}
     {% assign product_variant_id = product.variants.first.id %}
 
