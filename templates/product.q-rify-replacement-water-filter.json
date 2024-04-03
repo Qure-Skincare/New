@@ -13,14 +13,14 @@
         "list_wfDQn3": {
           "type": "list",
           "settings": {
-            "text": "<ul><li>Q-urify Water Filter replacement cartridge for 3 month supply of purified tap water.<\/li><li>Reduces known skin irritants like chlorine, calcium and magnesium from tap water.<\/li><li>Helps to keep redness, dryness, breakouts and irritation at bay.<\/li><\/ul>"
+            "text": "<ul><li>Q-urify Water Filter replacement cartridge for 3 month supply of purified tap water.<\/li><li>Reduces known skin irritants like chlorine, calcium and magnesium from tap water.<\/li><li>Helps to keep redness, dryness, breakouts and irritation at bay.<\/li><\/ul>"
           }
         },
         "subscribe_qrzhkY": {
           "type": "subscribe",
           "settings": {
             "heading": "Subscribe & save 20%",
-            "text": "<p>Get a new replacement filter delivered every 90 days for just $31.50. Skip or cancel at any time.<\/p>",
+            "text": "<p>Get a new replacement filter delivered every 90 days for just [future_price]. Skip or cancel at any time.<\/p>",
             "plan": "5012848879",
             "discount": 20
           }

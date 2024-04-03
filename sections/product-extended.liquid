@@ -116,8 +116,15 @@
                                                         {% if block.settings.heading != blank %}
                                                             <h6>{{ block.settings.heading }}</h6>
                                                         {% endif %}
+                                                        
+                                                        {%- if product.handle contains 'q-urify-water-filter' -%}
+                                                            {%- assign future_price = 0.8 | times: all_products['q-rify-replacement-water-filter'].price | money_without_trailing_zeros %}
+                                                        {%- else -%}
+                                                            {%- assign future_price = discount_value | money_without_trailing_zeros -%}
+                                                        {%- endif -%}
+
                                                         {% if block.settings.text != blank %}
-                                                            {{ block.settings.text }}
+                                                            {{ block.settings.text | replace: '[future_price]', future_price }}
                                                         {% endif %}
                                                     </label>
                                                 </div>
