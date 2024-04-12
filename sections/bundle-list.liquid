@@ -65,7 +65,7 @@
                                         {% case media.media_type %}
                                             {% when 'external_video' %}
                                                 <div class="swiper-slide">
-                                                    <a class="popup-youtube" href="https://www.youtube.com/watch?v={{ media.external_id }}">
+                                                    <a class="popup-youtube" rel="nofollow" href="https://www.youtube.com/watch?v={{ media.external_id }}">
                                                         <div class="sale-bf-img">
                                                             <img class="img-fluid d-none d-md-block" src="{{ media | img_url: '720x' }}" />
                                                             <img class="img-fluid d-block d-md-none" src="{{ media | img_url: '540x' }}" />

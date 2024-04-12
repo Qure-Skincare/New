@@ -157,7 +157,7 @@
                                         {% endif %}
                                     {% endif %}
                                     <div class="play_btn">
-                                        <a class="popup-youtube" href="{{ video_source_url }}">
+                                        <a class="popup-youtube" rel="nofollow" href="{{ video_source_url }}">
                                             <span><img src="{{ 'trusted_play_md.svg' | asset_url }}" alt="" class="">
                                                 <h6>{{ block.settings.video_label }}</h6>
                                             </span>
@@ -217,6 +217,7 @@
     
                                                     <div class="swiper-slide video_popup">
                                                         <a class="popup-youtube d-block"
+                                                            rel="nofollow"
                                                             href="{{ video_source_url }}">
                                                             <picture id="image-id">
                                                                 <source media="(min-width:1920px)" srcset="{{ media | img_url: 'master' }}">
@@ -258,7 +259,7 @@
                                                                 {% endif %}
 
                                                                 <div class="swiper-slide video_popup">
-                                                                    <a class="popup-youtube" href="{{ video_source_url }}">
+                                                                    <a class="popup-youtube" rel="nofollow" href="{{ video_source_url }}">
                                                                         <picture id="image-id">
                                                                             <source media="(min-width:1920px)" srcset="{{ block.settings.image | img_url: 'master' }}">
                                                                             <source media="(min-width:1600px)" srcset="{{ block.settings.image | img_url: '1600x' }}">

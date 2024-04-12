@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col-12 col-md-6 col-lg-4 offset-lg-2 mx-auto">
                 {% if section.settings.heading %}
-                    <h2>{{ section.settings.heading }}</h2>
+                    <p>{{ section.settings.heading }}</p>
                 {% endif %}
                 <div class="newsletter_form">
                     {% for block in section.blocks %}
@@ -18,21 +18,21 @@
             </div>
             <div class="col-12 col-md-6 col-lg-2 offset-lg-4 mx-auto pt-4 pt-md-0">
                 {% if section.settings.social_text %}
-                    <h2 class="followUs">{{ section.settings.social_text }}</h2>
+                    <p class="followUs">{{ section.settings.social_text }}</p>
                 {% endif %}
                 {% if section.settings.social_show %}
                     <div class="social_icons">
                         {% if settings.social_instagram_link != blank %}
-                            <a href="{{ settings.social_instagram_link }}" target="_blank"><img src="{{ 'instagram.svg' | asset_url }}" alt=""></a>
+                            <a href="{{ settings.social_instagram_link }}" target="_blank" rel="nofollow"><img src="{{ 'instagram.svg' | asset_url }}" alt=""></a>
                         {% endif %}
                         {% if settings.social_tiktok_link != blank %}
-                            <a href="{{ settings.social_tiktok_link }}" target="_blank"> <img src="{{ 'tiktok.svg' | asset_url }}" alt=""></a>
+                            <a href="{{ settings.social_tiktok_link }}" target="_blank" rel="nofollow"> <img src="{{ 'tiktok.svg' | asset_url }}" alt=""></a>
                         {% endif %}
                         {% if settings.social_facebook_link != blank %}
-                            <a href="{{ settings.social_facebook_link }}" target="_blank"><img src="{{ 'facebook.svg' | asset_url }}" alt=""></a>
+                            <a href="{{ settings.social_facebook_link }}" target="_blank" rel="nofollow"><img src="{{ 'facebook.svg' | asset_url }}" alt=""></a>
                         {% endif %}
                         {% if settings.social_youtube_link != blank %}
-                            <a href="{{ settings.social_youtube_link }}" target="_blank"><img src="{{ 'youtube.svg' | asset_url }}" alt=""></a>
+                            <a href="{{ settings.social_youtube_link }}" target="_blank" rel="nofollow"><img src="{{ 'youtube.svg' | asset_url }}" alt=""></a>
                         {% endif %}
                     </div>
                 {% endif %}

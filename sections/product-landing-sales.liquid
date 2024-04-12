@@ -8,6 +8,7 @@
                         {% if section.settings.heading != blank %}
                             {{ section.settings.heading 
                                 |  replace: '<h2>', '<h2 class="bfHeading">'
+                                | replace: '<h1>', '<h1 class="bfHeading">'
                                 |  replace: '<h3>', '<h2 class="bfSub_heading">'
                             }} 
                         {% endif %}

@@ -33953,7 +33953,8 @@ p.insurance__text--bottom {
     padding: 10px 15px;
 }
 
-.newsletter_bl h2 {
+.newsletter_bl h2,
+.newsletter_bl p {
     font-size: 32px;
     line-height: 32px;
     padding-bottom: 20px;
@@ -34022,7 +34023,8 @@ p.insurance__text--bottom {
         padding: 64px 0 54px !important;
     }
 
-    .newsletter_bl h2 {
+    .newsletter_bl h2,
+    .newsletter_bl p {
         font-size: 28px;
         padding-bottom: 24px;
     }

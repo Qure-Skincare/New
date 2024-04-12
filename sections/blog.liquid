@@ -17,23 +17,27 @@
                     <div class="post_wrapper">
                         {% case blog.handle %}
                             {% when 'light-therapy' %}
-                                {% render 'blog-post' with blog_handle: 'light-therapy', limit: 9 %}
+                                {% render 'blog-post' with blog_handle: 'light-therapy', limit: 9, use_h1: true %}
                                 {% render 'blog-post' with blog_handle: 'skin', limit: 9 %}
                                 {% render 'blog-post' with blog_handle: 'skincare', limit: 9 %}
                             {% when 'skin' %}
-                                {% render 'blog-post' with blog_handle: 'skin', limit: 9 %}
+                                {% render 'blog-post' with blog_handle: 'skin', limit: 9, use_h1: true %}
                                 {% render 'blog-post' with blog_handle: 'light-therapy', limit: 9 %}
                                 {% render 'blog-post' with blog_handle: 'skincare', limit: 9 %}  
                             {% when 'skincare' %}
-                                {% render 'blog-post' with blog_handle: 'skincare', limit: 9 %}
+                                {% render 'blog-post' with blog_handle: 'skincare', limit: 9, use_h1: true %}
                                 {% render 'blog-post' with blog_handle: 'light-therapy', limit: 9 %}
                                 {% render 'blog-post' with blog_handle: 'skin', limit: 9 %}
+                            {% when 'led-light-therapy' %}
+                                {% render 'blog-post' with blog_handle: 'light-therapy', limit: 9, use_h1: true %}
+                                {% render 'blog-post' with blog_handle: 'skin', limit: 9 %}
+                                {% render 'blog-post' with blog_handle: 'skincare', limit: 9 %}
                             {% when 'all' %}
-                                {% render 'blog-post' with blog_handle: 'light-therapy', limit: 9 %}
+                                {% render 'blog-post' with blog_handle: 'light-therapy', limit: 9, use_h1: true %}
                                 {% render 'blog-post' with blog_handle: 'skin', limit: 9 %}
                                 {% render 'blog-post' with blog_handle: 'skincare', limit: 9 %}    
                             {% when '' %}
-                                {% render 'blog-post' with blog_handle: 'light-therapy', limit: 9 %}
+                                {% render 'blog-post' with blog_handle: 'light-therapy', limit: 9, use_h1: true %}
                                 {% render 'blog-post' with blog_handle: 'skin', limit: 9 %}
                                 {% render 'blog-post' with blog_handle: 'skincare', limit: 9 %}    
                         {% endcase %}
