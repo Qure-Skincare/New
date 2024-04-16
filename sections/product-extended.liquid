@@ -24,19 +24,19 @@
 
 
 <!-- -- main banner start -- -->
-<div class="refill_bl pt-0 tabSlider">
+<div class="refill_bl pt-0 tabSlider before-after-result-test">
     <div class="container">
         <div class="row">
-            <div class="col-md-6 order-2 order-md-1">
+            <div class="col-md-6 order-2 order-md-1 before-after-main">
                 <div class="refill_info pt-0 pt-md-3">
                     <div class="section_header text-start">
                         {% if section.settings.heading != blank %}
-                            <h2 class="title-xl d-none d-md-block">{{ section.settings.heading }}</h2> 
+                            <h2 class="title-xl d-none d-md-block">{{ section.settings.heading | replace: '\n', '<br />' }}</h2> 
                         {% endif %}
                         {% if section.settings.heading_mobile != blank %}
-                            <h2 class="title-xl d-md-none">{{ section.settings.heading_mobile }}</h2>
+                            <h2 class="title-xl d-md-none">{{ section.settings.heading_mobile | replace: '\n', '<br />' }}</h2>
                         {% elsif section.settings.heading != blank %}
-                            <h2 class="title-xl d-md-none">{{ section.settings.heading }}</h2>
+                            <h2 class="title-xl d-md-none">{{ section.settings.heading | replace: '\n', '<br />' }}</h2>
                         {% endif %}
                     </div>
                     {% if rating_count %}
@@ -196,7 +196,7 @@
                             {% render 'pdm_orderby' %}
                         {% endunless %}
                             <a class="btn btn-lg btn-primary buy_btn event_btn" href="{{ routes.cart_add_url }}?id={{ product.variants.first.id }}&quantity=1" data-ajax-cart-request-button>{% if section.settings.reserve == true %}Reserve now{% else %}Buy Now{% endif %} -
-                                {{ product.price | money_without_trailing_zeros }}<img src="{{ 'arrow_right.svg' | asset_url }}" alt="">
+                            <span class="igPrice" data-product-id="{{ product.id }}"> {{ product.price | money_without_trailing_zeros }}</span><img src="{{ 'arrow_right.svg' | asset_url }}" alt="">
                             </a>
 
                             {% if product.compare_at_price != blank %}
@@ -214,7 +214,7 @@
                             {% endif %}
 
                             <div class="payment_method">
-                                <p class="d-none d-md-block">OR pay 4 monthly payments of {{ product.price | divided_by: 4 | money_without_trailing_zeros }} with</p>
+                                <p class="d-none d-md-block">OR pay 4 monthly payments of <span class="igInstallmentPrice" data-product-id="{{ product.id }}"> {{ product.price | divided_by: 4 | money_without_trailing_zeros }}</span> with</p>
                                 <p class="d-block d-md-none">OR 4 monthly payments of {{ product.price | divided_by: 4 | money_without_trailing_zeros }} with</p>
                                 <div class="pmt_img ps-2">
                                     <img src="{{ 'klarna.svg' | asset_url }}" alt="">
@@ -238,9 +238,11 @@
                     </div>
 
                 </div>
-            </div>
+                </div>
+                {% render 'pdm_cross-sell', cross-sell-products: product.metafields.custom.cross_sell.value, visibility: "mobile" %}
+            {% comment %} component-original {% endcomment %}
             <div class="col-md-6  order-1 order-md-2">
-                <div class="refill_slider mw-mob-100">
+                <div class="refill_slider mw-mob-100 before-after-original-component">
                     <div class="refill_s_tab_content">
                         <div class="tab-content" id="pills-tabContent">
                             <div class="tab-pane fade show active" id="pills-home" role="tabpanel"
@@ -302,6 +304,7 @@
                             </div>
                             {% if section.settings.before_after_images_limit > 0 %}
                                 <div 
+                                    data-test="product-water"
                                     class="tab-pane fade" 
                                     id="pills-profile" 
                                     role="tabpanel"
@@ -352,6 +355,11 @@
                         </div>
                     {% endif %}
                 </div>
+                
+                {% comment %} end component original {% endcomment %}
+            
+                {% render 'endrock_before_after', data: section.blocks, dataSection: section.settings %}
+                {% render 'pdm_cross-sell', cross-sell-products: product.metafields.custom.cross_sell.value, visibility: "desktop" %}
             </div>
         </div>
     </div>
@@ -379,46 +387,31 @@
     "@type": "Thing",
     "name": "{{ product.vendor | escape }}"
   },
-  {% if product.variants %}
-    "offers": [
-      {% for variant in product.variants %}
-        {
-          "@type" : "Offer",
-          "availability" : "http://schema.org/{% if product.available %}InStock{% else %}OutOfStock{% endif %}",
-          "price" : "{{ variant.price | divided_by: 100.00 }}",
-          "priceCurrency" : "{{ shop.currency }}",
-          "url" : "{{ shop.url }}{{ variant.url }}",
-          "itemOffered" :
-          {
-              "@type" : "Product",
-              {% if variant.image %}
-                {% assign variant_image_size = variant.image.width | append: 'x' %}
-                "image": "http:{{ variant.image.src | img_url: variant_image_size }}",
-              {% endif %}
-              {% if variant.title != blank %}
-                "name" : "{{ variant.title | escape }}",
-              {% endif %}
-              {% if variant.sku != blank %}
-                "sku": "{{ variant.sku }}",
-              {% endif %}
-              {% if variant.weight != blank %}
-                "weight": {
-                  "@type": "QuantitativeValue",
-                  {% if variant.weight_unit != blank %}
-                    "unitCode": "{{ variant.weight_unit }}",
-                  {% endif %}
-                  "value": "{{ variant.weight | weight_with_unit: variant.weight_unit }}"
-                },
-              {% endif %}
-              "url": "{{ shop.url }}{{ variant.url }}"
-          }
-        }{% unless forloop.last %},{% endunless %}
-      {% endfor %}
-    ]
-  {% endif %}
+  "offers": [
+    {%- for variant in product.variants -%}
+      {
+        "@type" : "Offer",
+        {%- if variant.sku != blank -%}
+          "sku": {{ variant.sku | json }},
+        {%- endif -%}
+        {%- if variant.barcode.size == 12 -%}
+          "gtin12": {{ variant.barcode }},
+        {%- endif -%}
+        {%- if variant.barcode.size == 13 -%}
+          "gtin13": {{ variant.barcode }},
+        {%- endif -%}
+        {%- if variant.barcode.size == 14 -%}
+          "gtin14": {{ variant.barcode }},
+        {%- endif -%}
+        "availability" : "http://schema.org/{% if variant.available %}InStock{% else %}OutOfStock{% endif %}",
+        "price" : {{ variant.price | divided_by: 100.00 | json }},
+        "priceCurrency" : {{ cart.currency.iso_code | json }},
+        "url" : {{ request.origin | append: variant.url | json }}
+      }{% unless forloop.last %},{% endunless %}
+    {%- endfor -%}
+  ]
 }
 </script>
-
 {% schema %}
     {
         "name": "t:sections.product-extended.name",
@@ -485,6 +478,29 @@
                 "id": "underbutton_text_right",
                 "label": "t:common.text.label",
                 "default": "Free Shipping Over $100"
+            },
+            {
+                "type": "header",
+                "content": "Test section first image",
+                "info": "the section only affect the test before and after first image"
+            },
+            {
+                "type": "text",
+                "id": "text_label_real_result_1",
+                "label": "label text real result button 1",
+                "default": "Product"
+            },
+            {
+                "type": "text",
+                "id": "text_label_real_result_2",
+                "label": "label text real result button 2",
+                "default": "Real Results"
+            },
+            {
+                "type": "text",
+                "id": "text_label_real_result_3",
+                "label": "label text real result button 3",
+                "default": "Dermatologist"
             }
         ],
         "blocks": [
@@ -571,7 +587,86 @@
                         "default": 0
                     }
                 ]
-		    }
+		    },
+            {
+                "type": "before_and_after",
+                "name": "before and after test",
+                "limit": 1,
+                "settings": [
+                    {
+                        "type": "image_picker",
+                        "id": "image_new_section_1",
+                        "label": "image"
+                    },
+                    {
+                        "type": "text",
+                        "id": "image_new_section_text_1",
+                        "label": "Alt text Imagen 1"
+                    },
+                    {
+                        "type": "image_picker",
+                        "id": "image_new_section_2",
+                        "label": "image"
+                    },
+                    {
+                        "type": "text",
+                        "id": "image_new_section_text_2",
+                        "label": "Alt text Imagen 2"
+                    },
+                    {
+                        "type": "image_picker",
+                        "id": "image_new_section_3",
+                        "label": "image"
+                    },
+                    {
+                        "type": "text",
+                        "id": "image_new_section_text_3",
+                        "label": "Alt text Imagen 3"
+                    },
+                    {
+                        "type": "image_picker",
+                        "id": "image_new_section_4",
+                        "label": "image"
+                    },
+                    {
+                        "type": "text",
+                        "id": "image_new_section_text_4",
+                        "label": "Alt text Imagen 4"
+                    },
+                    {
+                        "type": "image_picker",
+                        "id": "image_new_section_5",
+                        "label": "image"
+                    },
+                    {
+                        "type": "text",
+                        "id": "image_new_section_text_5",
+                        "label": "Alt text Imagen 5"
+                    },
+                    {
+                        "type": "image_picker",
+                        "id": "image_new_section_6",
+                        "label": "image"
+                    },
+                    {
+                        "type": "text",
+                        "id": "image_new_section_text_6",
+                        "label": "Alt text Imagen 6"
+                    }
+                ]                  
+            },
+            {
+                "type": "video_before_and_after",
+                "name": "video derm test",
+                "limit": 1,
+                "settings": [
+                    {
+                        "type": "video",
+                        "id": "video_new_section",
+                        "label": "video"
+                    }
+                ]
+            }          
         ]
     }
 {% endschema %}

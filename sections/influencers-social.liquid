@@ -1,4 +1,4 @@
-<div class="social_media all_bg_gradient_yellow_bt section">
+<div class="{{ section.settings.classname }}">
     <div class="section_header text-center mb-3">
         {% if section.settings.heading != blank %}
             <h2 class="title-lg">{{ section.settings.heading }}</h2> 
@@ -18,12 +18,13 @@
                                     {% if block.settings.image != blank %}
                                         <img class="img-fluid insta_img" src="{{ block.settings.image | img_url: '450x' }}" alt="">
                                     {% endif %}
-                                    <div class="insta_tag">
+                                    
+                                    <a href="{{ block.settings.button_url }}" class="insta_tag" target="_blank">
                                         {% if block.settings.image != blank %}
                                             <img src="{{ block.settings.image | img_url: '120x' }}" alt="">
                                         {% endif %}
                                         {{ block.settings.text }}
-                                    </div>
+                                    </a>
                                 </div>
                             </div>
                         {% endif %}
@@ -44,6 +45,7 @@
     {% endif %}
 </div>
 
+
 {% schema %}
     {
         "name": "t:sections.influencers-social.name",
@@ -58,6 +60,12 @@
                 "type": "richtext",
                 "id": "text",
                 "label": "t:common.text.label"
+            },
+            {
+                "type": "text",
+                "id": "classname",
+                "label": "t:common.classname.label",
+                "default": "social_media all_bg_gradient_yellow_bt section"
             }
         ],
         "blocks": [
@@ -80,6 +88,11 @@
                         "type": "richtext",
                         "id": "text",
                         "label": "t:common.text.label"
+                    },
+                    {
+                        "type": "url",
+                        "id": "button_url",
+                        "label": "t:common.button.url.label"
                     }
                 ]
 		    },
@@ -105,7 +118,53 @@
         ],
         "presets": [
 			{
-				"name": "t:sections.influencers-social.name"
+				"name": "t:sections.influencers-social.name",
+                "settings": {
+                    "heading": "Join the Qure family",
+                    "text": ""
+                },
+                "blocks": [
+                    {
+                        "type": "object",
+                        "settings": {
+                            "image": "shopify:\/\/shop_images\/affiliate_insta_1.webp",
+                            "image_icon": "shopify:\/\/shop_images\/vanidiy.webp",
+                            "text": "<p>@vanidiy<\/p>"
+                        }
+                    },
+                    {
+                        "type": "object",
+                        "settings": {
+                            "image": "shopify:\/\/shop_images\/affiliate_insta_2.webp",
+                            "image_icon": "shopify:\/\/shop_images\/dr_skinsanity.webp",
+                            "text": "<p>@dr_skinsanity<\/p>"
+                        }
+                    },
+                    {
+                        "type": "object",
+                        "settings": {
+                            "image": "shopify:\/\/shop_images\/affiliate_insta_3.webp",
+                            "image_icon": "shopify:\/\/shop_images\/thisthatbeauty.webp",
+                            "text": "<p>@thisthatbeauty<\/p>"
+                        }
+                    },
+                    {
+                        "type": "object",
+                        "settings": {
+                            "image": "shopify:\/\/shop_images\/affiliate_insta_4.webp",
+                            "image_icon": "shopify:\/\/shop_images\/beautyjunkymonkey.webp",
+                            "text": "<p>@beautyjunkymonkey<\/p>"
+                        }
+                    },
+                    {
+                        "type": "object",
+                        "settings": {
+                            "image": "shopify:\/\/shop_images\/affiliate_insta_5.webp",
+                            "image_icon": "shopify:\/\/shop_images\/tseitsvincent.webp",
+                            "text": "<p>@tseitsvincent<\/p>"
+                        }
+                    }
+                ]
 			}
         ]
     }

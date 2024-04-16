@@ -8,6 +8,9 @@
     <link rel="canonical" href="{{ canonical_url }}">
     <meta name="p:domain_verify" content="67d2a1408f84408a05deffe883a0a523"/>
     <meta name="google-site-verification" content="eJrHRDM9bifPc8Nf-ycIg275f3KrlSoWEHd5VM5M9LQ" />
+    <meta name="google-site-verification" content="N0QF9SQ35xUa1DQifP7jZgs_z2odMQBZlSB4L7n5fl4" /> 
+    <meta name="msvalidate.01" content="E6D2CFAEB841C8D3C13C6473265B99B6" /> 
+
 
     {% capture seo_title %}
       {{ page_title }}
@@ -31,6 +34,23 @@
     {%- endif -%}
 
     {% include 'social-meta-tags' %}
+
+    {% if request.path == 'index' %}
+      <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "name": "Qure Skincare",
+          "url": "https://www.qureskincare.com/",
+          "logo": "",
+          "sameAs": [
+            "https://www.facebook.com/Qureskincare/",
+            "https://www.instagram.com/qureskincare/",
+            "https://www.youtube.com/channel/UCGTi3BZn8GVlu30NtQ-reYA"
+          ]
+        }
+      </script>
+    {% endif %}
 
     {% if settings.favicon != blank %}
         <link rel="shortcut icon" href="{{ settings.favicon | img_url: '32x32' }}" type="image/png">
@@ -199,7 +219,7 @@
     <script id="ze-snippet" src="https://static.zdassets.com/ekr/snippet.js?key=4a846202-05f3-48b3-a077-4d4a2eacbe6a"> </script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
-    <script>
+    {% comment %} <script>
         {% if collection %}
             console.log('https://admin.shopify.com/store/qure-skincare/collections/{{ collection.id }}')
             console.log('handle: {{ collection.handle }}')
@@ -229,7 +249,7 @@
             console.log('handle: {{ article.handle }}')
             console.log('template name: {{ template }}')
         {% endif %}
-    </script>
+    </script> {% endcomment %}
 
 </body>
 
