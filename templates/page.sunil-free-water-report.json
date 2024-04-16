@@ -7,7 +7,8 @@
           "type": "button",
           "settings": {
             "button_label": "Get my FREE Water Report",
-            "button_url": "#giveaway_form_wrap"
+            "button_url": "#giveaway_form_wrap",
+            "classname": "btn_white m-0 bg-green"
           }
         }
       },

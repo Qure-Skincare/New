@@ -238,8 +238,7 @@
                     </div>
 
                 </div>
-                </div>
-                {% render 'pdm_cross-sell', cross-sell-products: product.metafields.custom.cross_sell.value, visibility: "mobile" %}
+            </div>
             {% comment %} component-original {% endcomment %}
             <div class="col-md-6  order-1 order-md-2">
                 <div class="refill_slider mw-mob-100 before-after-original-component">
@@ -356,10 +355,9 @@
                     {% endif %}
                 </div>
                 
-                {% comment %} end component original {% endcomment %}
+            {% comment %} end component original {% endcomment %}
             
-                {% render 'endrock_before_after', data: section.blocks, dataSection: section.settings %}
-                {% render 'pdm_cross-sell', cross-sell-products: product.metafields.custom.cross_sell.value, visibility: "desktop" %}
+            {% render 'endrock_before_after', data: section.blocks, dataSection: section.settings %}
             </div>
         </div>
     </div>
@@ -412,6 +410,7 @@
   ]
 }
 </script>
+
 {% schema %}
     {
         "name": "t:sections.product-extended.name",
