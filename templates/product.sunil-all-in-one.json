@@ -1,10 +1,10 @@
 {
   "order": [
     "main",
-    "two_column_box_TyH4EK",
     "featuredin_MiWihW",
-    "before_after_box_bQQL6y",
+    "two_column_box_TyH4EK",
     "before_after_box_J7Ee7E",
+    "before_after_box_bQQL6y",
     "before_after_box_9qjQBW",
     "details_MgamBA",
     "results_8RA6RD",
@@ -308,6 +308,7 @@
       "settings": {
         "classname": "bg_yellow",
         "heading": "The answers to your questions",
+        "text": "",
         "button_label": "Show More Questions",
         "button_hide_label": "Hide More Questions"
       }
@@ -421,6 +422,21 @@
     "main": {
       "type": "product-extended",
       "blocks": {
+        "before_and_after_z8mG4R": {
+          "type": "before_and_after",
+          "settings": {
+            "image_new_section_1": "shopify:\/\/shop_images\/serum_4_x2_4e167e87-8b16-4e97-8879-6cebad536522.png",
+            "image_new_section_text_1": "serum case 1",
+            "image_new_section_2": "shopify:\/\/shop_images\/serum_2_x_2.png",
+            "image_new_section_text_2": "serum case 2",
+            "image_new_section_3": "shopify:\/\/shop_images\/serum_3_x2_db46a098-032e-4ac4-a9d7-9eecce8be344.png",
+            "image_new_section_text_3": "serum case 3",
+            "image_new_section_4": "shopify:\/\/shop_images\/serum_1_x2_1bf090ac-a228-4800-b713-18e24968aa86.png",
+            "image_new_section_text_4": "serum case 4",
+            "image_new_section_text_5": "",
+            "image_new_section_text_6": ""
+          }
+        },
         "list_kGgFyL": {
           "type": "list",
           "settings": {
@@ -442,12 +458,20 @@
             "plan": "5012783343",
             "discount": 20
           }
+        },
+        "video_before_and_after_QXnPdD": {
+          "type": "video_before_and_after",
+          "settings": {
+            "video_new_section": "shopify:\/\/files\/videos\/Serum edit.mov"
+          }
         }
       },
       "block_order": [
         "rating_rh9xg6",
         "list_kGgFyL",
-        "subscribe_8ThJCW"
+        "subscribe_8ThJCW",
+        "before_and_after_z8mG4R",
+        "video_before_and_after_QXnPdD"
       ],
       "settings": {
         "heading": "Embrace ageless confidence with All-In-One Face Serum",
@@ -458,7 +482,10 @@
         "before_after_button_label": "Real Results",
         "reserve": false,
         "underbutton_text_left": "Dermatologist Reviewed",
-        "underbutton_text_right": "Free Shipping Over $100"
+        "underbutton_text_right": "Free Shipping Over $100",
+        "text_label_real_result_1": "Product",
+        "text_label_real_result_2": "Real Results",
+        "text_label_real_result_3": "Dermatologist"
       }
     },
     "pdm_product_social_proof_data_PUKidk": {
@@ -567,14 +594,14 @@
         }
       },
       "block_order": [
-        "result_6iEPHP",
-        "result_tQ6xTp",
+        "result_aEQJMi",
         "result_UnxUQa",
+        "result_AdLwAt",
         "result_KdLc7q",
         "result_ehhnNV",
+        "result_tQ6xTp",
         "result_rzJmMH",
-        "result_aEQJMi",
-        "result_AdLwAt"
+        "result_6iEPHP"
       ],
       "settings": {
         "classname": "mi_landing_result",
@@ -621,11 +648,21 @@
           "type": "content",
           "settings": {
             "text": "<h2>Everything you need in one serum<\/h2><p>Our unique blend of active ingredients help to brighten, plump, and smooth the look of skin effortlessly, addressing various concerns in just one step. Free from fragrance, parabens, and PEG, it offers a streamlined and pure skincare experience.<\/p><p>[image_mobile]<\/p>",
+            "column_content": 0,
             "classname": "it_info p-0 pt-0 pt-md-3"
+          }
+        },
+        "image_KK9rFk": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/all_serum_difference-desk.png",
+            "image_mobile": "shopify:\/\/shop_images\/all_serum_difference-mob.png",
+            "classname": "mw-mob-100"
           }
         }
       },
       "block_order": [
+        "image_KK9rFk",
         "content_3tryDW"
       ],
       "custom_css": [
@@ -692,7 +729,8 @@
         "video_7dy6bq"
       ],
       "settings": {
-        "heading": "Confident skin starts here. Just ask the internet."
+        "heading": "Confident skin starts here. Just ask the internet.",
+        "classname": "section videosQure"
       }
     }
   }

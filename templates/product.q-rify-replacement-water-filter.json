@@ -83,6 +83,7 @@
       "settings": {
         "classname": "bg_yellow",
         "heading": "Keep the questions flowing",
+        "text": "",
         "button_label": "Show More Questions",
         "button_hide_label": "Hide More Questions"
       }
@@ -194,10 +195,23 @@
     "main": {
       "type": "product-extended",
       "blocks": {
+        "before_and_after_zYCwCN": {
+          "type": "before_and_after",
+          "settings": {
+            "image_new_section_1": "shopify:\/\/shop_images\/water_filter_replacement_1_x2_cf7796b4-1bdf-4cc7-9eba-a63789ffeb7c.png",
+            "image_new_section_text_1": "",
+            "image_new_section_2": "shopify:\/\/shop_images\/B_A_-_D_ec2b58f0-5975-46e7-86d3-998d562d7751.png",
+            "image_new_section_text_2": "",
+            "image_new_section_text_3": "",
+            "image_new_section_text_4": "",
+            "image_new_section_text_5": "",
+            "image_new_section_text_6": ""
+          }
+        },
         "list_wfDQn3": {
           "type": "list",
           "settings": {
-            "text": "<ul><li>Q-urify Water Filter replacement cartridge for 3 month supply of purified tap water.<\/li><li>Reduces known skin irritants like chlorine, calcium and magnesium from tap water.<\/li><li>Helps to keep redness, dryness, breakouts and irritation at bay.<\/li><\/ul>"
+            "text": "<ul><li>Q-urify Water Filter replacement cartridge for 3 month supply of purified tap water.<\/li><li>Reduces known skin irritants like chlorine, calcium and magnesium from tap water.<\/li><li>Helps to keep redness, dryness, breakouts and irritation at bay.<\/li><\/ul>"
           }
         },
         "rating_bUyHqg": {
@@ -215,12 +229,20 @@
             "plan": "5012848879",
             "discount": 20
           }
+        },
+        "video_before_and_after_6QD74Y": {
+          "type": "video_before_and_after",
+          "settings": {
+            "video_new_section": "shopify:\/\/files\/videos\/Water Filter Refill Edit.mov"
+          }
         }
       },
       "block_order": [
         "rating_bUyHqg",
         "list_wfDQn3",
-        "subscribe_qrzhkY"
+        "subscribe_qrzhkY",
+        "before_and_after_zYCwCN",
+        "video_before_and_after_6QD74Y"
       ],
       "settings": {
         "heading": "Q-urify Water Filter Replacement",
@@ -231,7 +253,10 @@
         "before_after_button_label": "Real results",
         "reserve": false,
         "underbutton_text_left": "Dermatologist Reviewed",
-        "underbutton_text_right": "Free Shipping Over $100"
+        "underbutton_text_right": "Free Shipping Over $100",
+        "text_label_real_result_1": "Product",
+        "text_label_real_result_2": "Real Results",
+        "text_label_real_result_3": "Dermatologist"
       }
     },
     "pdm_product_social_proof_data_6ctXkc": {
@@ -384,6 +409,7 @@
           "type": "content",
           "settings": {
             "text": "<h2>The proactive way to care for your skin<\/h2><p>Studies have shown that residue from sodium lauryl sulfate (SLS), a harsh detergent found in many everyday cleansers, causes skin irritation and skin barrier impairment. Two contaminants found in hard water – calcium and magnesium – affect the skin’s ability to wash away all those SLS deposits.<\/p><p>[image_mobile]<\/p><p>Your Q-urify Water Filter works to remove up to 99.9% of skin irritants like calcium, magnesium and chlorine from your faucet water, reducing SLS deposits on the skin and protecting it against further damage. You get the purest clean yet – maximizing skincare effectiveness, making daily use the most proactive way to care for your skin! <\/p>",
+            "column_content": 0,
             "classname": "proactive_info"
           }
         },
