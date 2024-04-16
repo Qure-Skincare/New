@@ -83,9 +83,10 @@
         "client": "Jess"
       }
     },
-    "before_after_box_bQQL6y": {
-      "type": "before-after-box",
+    "two_column_box_TyH4EK": {
+      "type": "two-column-box",
       "blocks": {
+
         "object_e4attk": {
           "type": "object",
           "settings": {
@@ -107,24 +108,24 @@
         "object_LCb3tm": {
           "type": "object",
           "settings": {
-            "heading": "<p><strong>Lactic & Mandelic acid <\/strong>(Gentle Exfoliators)<\/p>",
-            "text": "<p>Gentle chemical exfoliants gobble up the top layer of dead cells which can reveal clearer, smoother skin.<\/p>",
-            "feedback": "<p><strong>…100% of subjects <\/strong>reported firmer, smoother skin resulting in fewer fine lines and wrinkles, along with reduction of acne.<\/p>",
-            "popup_content": "<p>Participants using lactic acid experienced fimer, thicker skin and saw significant improvement in reduction of lines and wrinkles after application with boosted skin radiance. Along with reduction and prevention of acne lesions.<\/p><p><strong>About the clinical trial<\/strong><\/p><p>Clinical trial was conducted and test participants applied lactic acid twice a day for 3 months. Changes in skin smoothness and texture, the depth and number of lines and wrinkles, and epidermal and dermal firmness and thickness were determined.<\/p><p>Reference: Rathi SK. Acne vulgaris treatment : The Current Scenario. Indian J Dermatol 2011;56:7-13<\/p>"
+            "image": "shopify:\/\/shop_images\/all_serum_difference-desk.png",
+            "image_mobile": "shopify:\/\/shop_images\/all_serum_difference-mob.png",
+            "classname": "mw-mob-100"
           }
         }
       },
       "block_order": [
-        "object_ikd9MX",
-        "object_LCb3tm",
-        "object_e4attk"
+        "image_KK9rFk",
+        "content_3tryDW"
+      ],
+      "custom_css": [
+        ".img-fluid {max-width: 250px; display: block; margin: 0 auto;}",
+        "@media (max-width: 767px) {.img-fluid {max-width: 153px; }}"
       ],
       "settings": {
-        "heading": "Uneven Skin Texture",
-        "text": "<p>Helps clarify and even skin tone, minimise enlarged pores, strengthen skin’s barrier, and reduce breakouts.<\/p>",
-        "image": "shopify:\/\/shop_images\/bethany_skincare.webp",
-        "image_country": "shopify:\/\/shop_images\/canada_f.svg",
-        "client": "Bethany N."
+        "classname": "richtext_prog_section section",
+        "column_image": 5,
+        "column_content": 7
       }
     },
     "before_after_box_J7Ee7E": {
@@ -559,15 +560,16 @@
         "result_rzJmMH": {
           "type": "result",
           "settings": {
-            "image": "shopify:\/\/shop_images\/results_lena.webp",
-            "heading": "My skin feels tight",
-            "text": "<p>\"I tried this serum after trying all the others. I have found the fountain of youth! It started minimizing fine lines from the first use. My skin feels tight, but, not too tight. My face is softer than it has been in 20 years. I will not be using any serums on my face except QURE. I am thrilled with the results!”<\/p>",
+            "image": "shopify:\/\/shop_images\/results_vanessa.webp",
+            "heading": "My cystic acne is gone.",
+            "text": "<p>\"So far loving it! Had a little purging the first day using it but when it settled down, boy was it good. My cystic acne is gone. I still have some hyperpigmentation and little surface pimples that I get occasionally but no where near the pain I experienced with cystic acne.\"<\/p>",
             "image_country": "shopify:\/\/shop_images\/usa_89e25711-f730-4521-8931-83b3307204af.png",
             "text_country": "United States",
-            "client": "Lena A.",
+            "client": "Vanessa B.",
             "code": ""
           }
         },
+
         "result_tQ6xTp": {
           "type": "result",
           "settings": {

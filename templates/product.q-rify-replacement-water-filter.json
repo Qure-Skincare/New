@@ -69,6 +69,25 @@
             "text": "<p>Hard water is water that contains a high quantity of dissolved minerals (like calcium and magnesium). Where soft water has been treated, so that the only ion remaining is sodium. When rainwater falls, it is naturally soft. <\/p><p>However, as water makes its way through the ground and into our waterways, it picks up minerals like chalk, lime, calcium and magnesium and becomes hard water. Hard water is to blame for dishes with spots, dingy looking clothes, and residue and soap scums in bathrooms. Soap and cleansers are also less effective with hard water due to its reaction to the magnesium and calcium, which makes the lather not as rich and bubbly and leaves hair feeling sticky and dull.<\/p>",
             "code": ""
           }
+        },
+        "before_and_after_zYCwCN": {
+          "type": "before_and_after",
+          "settings": {
+            "image_new_section_1": "shopify:\/\/shop_images\/water_filter_replacement_1_x2_cf7796b4-1bdf-4cc7-9eba-a63789ffeb7c.png",
+            "image_new_section_text_1": "",
+            "image_new_section_2": "shopify:\/\/shop_images\/B_A_-_D_ec2b58f0-5975-46e7-86d3-998d562d7751.png",
+            "image_new_section_text_2": "",
+            "image_new_section_text_3": "",
+            "image_new_section_text_4": "",
+            "image_new_section_text_5": "",
+            "image_new_section_text_6": ""
+          }
+        },
+        "video_before_and_after_6QD74Y": {
+          "type": "video_before_and_after",
+          "settings": {
+            "video_new_section": "shopify:\/\/files\/videos\/Water Filter Refill Edit.mov"
+          }
         }
       },
       "block_order": [
