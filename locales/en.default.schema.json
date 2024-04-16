@@ -61,6 +61,9 @@
         "label": "Heading for mobile"
       }
     },
+    "name": {
+      "label": "Name"
+    },
     "subheading": {
       "label": "Subheading"
     },
@@ -69,6 +72,9 @@
     },
     "menu": {
       "label": "Menu"
+    },
+    "icons": {
+      "label": "Icons"
     },
     "form": {
       "label": "Klaviyo form",
@@ -277,6 +283,20 @@
       "blocks": {
       }
     },
+    "banner-two-column": {
+      "name": "Banner two column",
+      "settings": {
+      },
+      "blocks": {
+      }
+    },
+    "one-column-box": {
+      "name": "One column box",
+      "settings": {
+      },
+      "blocks": {
+      }
+    },
     "header-landing": {
       "name": "Header landing",
       "settings": {
@@ -330,6 +350,10 @@
     "product-landing": {
       "name": "Product landing",
       "settings": {
+        "product_images_offset": {
+          "label": "Product media ofsset",
+          "unit": "unit"
+        },
         "product_images_limit": {
           "label": "Product media limit",
           "unit": "unit"
@@ -412,6 +436,13 @@
             }
           }
         }
+      }
+    },
+    "slider": {
+      "name": "Slider",
+      "settings": {
+      },
+      "blocks": {
       }
     },
     "details-slider": {

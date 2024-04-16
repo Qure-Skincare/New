@@ -27,6 +27,14 @@
             "link_url": "https:\/\/www.qureskincare.com\/products\/neck-decolletage-led"
           }
         },
+        "slide_9wpXXH": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/M.I_Patches_Mobile.png",
+            "link_label": "Micro-Infusion Targeted Patches",
+            "link_url": "https:\/\/www.qureskincare.com\/products\/micro-infusion-targeted-patches"
+          }
+        },
         "slide_aKL6kD": {
           "type": "slide",
           "settings": {
@@ -56,6 +64,7 @@
         "slide_eMzaPx",
         "slide_qqmpCY",
         "slide_iQgE8e",
+        "slide_9wpXXH",
         "slide_aKL6kD",
         "slide_9qAien",
         "slide_GReD48"
@@ -69,21 +78,19 @@
         "link_crBjL9": {
           "type": "link",
           "settings": {
-            "link_label": "Get FREE Face Serum",
-            "link_url": "shopify:\/\/collections\/best-sellers"
+            "link_label": "Get Youthful-Looking Skin",
+            "link_url": "shopify:\/\/products\/micro-infusion-targeted-patches-single"
           }
         }
       },
       "block_order": [
         "link_crBjL9"
       ],
-      "disabled": true,
       "settings": {
-        "heading": "HAPPY INTERNATIONAL WOMEN'S DAY",
-        "subheading": "Together, we con-Qure self-confidence",
-        "text": "<p>*(worth $79) with orders over $150<\/p>",
-        "image": "shopify:\/\/shop_images\/womens_banner_desk.webp",
-        "image_mobile": "shopify:\/\/shop_images\/womens_banner_mob.webp"
+        "heading": "Treat stubborn areas & say goodbye to wrinkles",
+        "text": "<p>MICRO-INFUSION <strong>TARGETED PATCHES<\/strong><\/p>",
+        "image": "shopify:\/\/shop_images\/mipatches_banner_desk_2f72a060-b075-4c66-862b-b6fd364e277c.webp",
+        "image_mobile": "shopify:\/\/shop_images\/mipatches_banner_mob_64dd7ec2-8dec-48ad-a880-42a624bbfc04.webp"
       }
     },
     "main_banner_rJmjKt": {
@@ -100,10 +107,11 @@
       "block_order": [
         "link_6iQ8RV"
       ],
+      "disabled": true,
       "settings": {
         "heading": "Clinic-level results from home - minus the ‘clinical’ costs.",
         "subheading": "smoother, brighter, healthier skin",
-        "text": "<p><strong>+ 40,745 <\/strong>customers feel more confident in their own skin.<\/p>",
+        "text": "<p><strong>50,000+ <\/strong>customers feel more confident in their own skin.<\/p>",
         "image": "shopify:\/\/shop_images\/homepage_banner_desk1.webp",
         "image_mobile": "shopify:\/\/shop_images\/homepage_banner_mob1.webp"
       }
@@ -171,190 +179,6 @@
       ],
       "settings": {
         "heading": ""
-      }
-    },
-    "endrock_bestseller_7J3dy3": {
-      "type": "endrock_bestseller",
-      "blocks": {
-        "product_mngAaH": {
-          "type": "product",
-          "settings": {
-            "main_image": "shopify:\/\/shop_images\/LED-Mask---Mask-with-iPhone-red-blue-light-v2_73cfec5b-4c5c-4e64-a00d-8ac3f80c724f.png",
-            "hover_image": "shopify:\/\/shop_images\/led-product-1mob.webp",
-            "card_title": "Repair & rejuvenate your skin with our Light Therapy Mask",
-            "description": "<ul><li>Quick 3 minute wireless treatments<\/li><li>Clinical-grade LED light therapy mask<\/li><li>Treats aging and acne prone skin<\/li><\/ul>",
-            "category": "cat1",
-            "product_link": "https:\/\/www.qureskincare.com\/products\/q-rejuvalight-pro-facewear?_ga=2.48872934.159936663.1704679229-1847278782.1699285247&_gac=1.14035653.1703823824.Cj0KCQiAuqKqBhDxARIsAFZELmI8CPpdpu9NxElOnncQtzdg92Oq73FT3UWI6tqgbX0g6pvrtDAvxLsaAt66EALw_wcB",
-            "product_handle": "q-rejuvalight-pro-facewear",
-            "rating": 4.7
-          }
-        },
-        "product_MCbCce": {
-          "type": "product",
-          "settings": {
-            "main_image": "shopify:\/\/shop_images\/MI_6x-mixed.png",
-            "hover_image": "shopify:\/\/shop_images\/mi_pdp-product-1.webp",
-            "card_title": "Transform dull skin with Micro-Infusion Facial System",
-            "description": "<ul><li>Quick & easy at-home facial<\/li><li>Minimal to no downtime<\/li><li>Transforms dull-looking skin<\/li><\/ul>",
-            "category": "cat1",
-            "product_link": "https:\/\/www.qureskincare.com\/pages\/microinfusion?_ga=2.242801986.159936663.1704679229-1847278782.1699285247&_gac=1.128331902.1703823824.Cj0KCQiAuqKqBhDxARIsAFZELmI8CPpdpu9NxElOnncQtzdg92Oq73FT3UWI6tqgbX0g6pvrtDAvxLsaAt66EALw_wcB",
-            "product_handle": "",
-            "rating": 4.8
-          }
-        },
-        "product_YVVwRk": {
-          "type": "product",
-          "settings": {
-            "main_image": "shopify:\/\/shop_images\/neck_deck.jpg",
-            "hover_image": "shopify:\/\/shop_images\/chest-product-1.webp",
-            "card_title": "Neck & Décolletage LED Light Therapy",
-            "description": "<ul><li>Helps reduce appearance of wrinkles<\/li><li>Rejuvenated, firmer feeling skin<\/li><li>Non-invasive LED light therapy<\/li><\/ul>",
-            "category": "cat1",
-            "product_link": "https:\/\/www.qureskincare.com\/products\/neck-decolletage-led?_ga=2.243399109.159936663.1704679229-1847278782.1699285247&_gac=1.194354655.1703823824.Cj0KCQiAuqKqBhDxARIsAFZELmI8CPpdpu9NxElOnncQtzdg92Oq73FT3UWI6tqgbX0g6pvrtDAvxLsaAt66EALw_wcB",
-            "product_handle": "neck-decolletage-led",
-            "rating": 5
-          }
-        },
-        "product_KGxfam": {
-          "type": "product",
-          "settings": {
-            "main_image": "shopify:\/\/shop_images\/serumwithbox.jpg",
-            "hover_image": "shopify:\/\/shop_images\/all_serum_product_4.webp",
-            "card_title": "Embrace ageless confidence with All-In-One Face Serum",
-            "description": "<ul><li>Treat various skin concerns in just one step.<\/li><li>Reveal more even, brighter-looking skin<\/li><li>Reduces look of fine lines & dark spots<\/li><\/ul>",
-            "category": "cat1",
-            "product_link": "https:\/\/www.qureskincare.com\/products\/face-serum?_ga=2.243399109.159936663.1704679229-1847278782.1699285247&_gac=1.194354655.1703823824.Cj0KCQiAuqKqBhDxARIsAFZELmI8CPpdpu9NxElOnncQtzdg92Oq73FT3UWI6tqgbX0g6pvrtDAvxLsaAt66EALw_wcB",
-            "product_handle": "face-serum",
-            "rating": 4.9
-          }
-        },
-        "product_DxbhT7": {
-          "type": "product",
-          "settings": {
-            "main_image": "shopify:\/\/shop_images\/qurify-with-box_c4085504-c2cd-441f-a608-db568c3c9de3.jpg",
-            "hover_image": "shopify:\/\/shop_images\/qurify-product-2.webp",
-            "card_title": "Get healthier skin, on tap, with Q-urify Water Filter",
-            "description": "<ul><li>Reduces skin irritants from your faucet water<\/li><li>Clinically proven to increase hydration<\/li><li>Contributes to a clearer & Hydrated Skin<\/li><\/ul>",
-            "category": "cat1",
-            "product_link": "https:\/\/www.qureskincare.com\/products\/q-urify-water-filter?_ga=2.241875522.159936663.1704679229-1847278782.1699285247&_gac=1.146706630.1703823824.Cj0KCQiAuqKqBhDxARIsAFZELmI8CPpdpu9NxElOnncQtzdg92Oq73FT3UWI6tqgbX0g6pvrtDAvxLsaAt66EALw_wcB",
-            "product_handle": "",
-            "rating": 4.5
-          }
-        },
-        "product_frJFc2": {
-          "type": "product",
-          "settings": {
-            "main_image": "shopify:\/\/shop_images\/LED-Mask---Mask-with-iPhone-red-blue-light-v2_73cfec5b-4c5c-4e64-a00d-8ac3f80c724f.png",
-            "hover_image": "shopify:\/\/shop_images\/led-product-1mob.webp",
-            "card_title": "Repair & rejuvenate your skin with our Light Therapy Mask",
-            "description": "<ul><li>Quick 3 minute wireless treatments<\/li><li>Clinical-grade LED light therapy mask<\/li><li>Treats aging and acne prone skin<\/li><\/ul>",
-            "category": "cat2",
-            "product_link": "https:\/\/www.qureskincare.com\/products\/q-rejuvalight-pro-facewear?_ga=2.48872934.159936663.1704679229-1847278782.1699285247&_gac=1.14035653.1703823824.Cj0KCQiAuqKqBhDxARIsAFZELmI8CPpdpu9NxElOnncQtzdg92Oq73FT3UWI6tqgbX0g6pvrtDAvxLsaAt66EALw_wcB",
-            "product_handle": "q-rejuvalight-pro-facewear",
-            "rating": 4.7
-          }
-        },
-        "product_Dxbhc2": {
-          "type": "product",
-          "settings": {
-            "main_image": "shopify:\/\/shop_images\/qurify-with-box_c4085504-c2cd-441f-a608-db568c3c9de3.jpg",
-            "hover_image": "shopify:\/\/shop_images\/qurify-product-2.webp",
-            "card_title": "Get healthier skin, on tap, with Q-urify Water Filter",
-            "description": "<ul><li>Reduces skin irritants from your faucet water<\/li><li>Clinically proven to increase hydration<\/li><li>Contributes to a clearer & Hydrated Skin<\/li><\/ul>",
-            "category": "cat2",
-            "product_link": "https:\/\/www.qureskincare.com\/products\/q-urify-water-filter?_ga=2.241875522.159936663.1704679229-1847278782.1699285247&_gac=1.146706630.1703823824.Cj0KCQiAuqKqBhDxARIsAFZELmI8CPpdpu9NxElOnncQtzdg92Oq73FT3UWI6tqgbX0g6pvrtDAvxLsaAt66EALw_wcB",
-            "product_handle": "",
-            "rating": 4.5
-          }
-        },
-        "product_KGxfc2": {
-          "type": "product",
-          "settings": {
-            "main_image": "shopify:\/\/shop_images\/serumwithbox.jpg",
-            "hover_image": "shopify:\/\/shop_images\/all_serum_product_4.webp",
-            "card_title": "Embrace ageless confidence with All-In-One Face Serum",
-            "description": "<ul><li>Treat various skin concerns in just one step.<\/li><li>Reveal more even, brighter-looking skin<\/li><li>Reduces look of fine lines & dark spots<\/li><\/ul>",
-            "category": "cat2",
-            "product_link": "https:\/\/www.qureskincare.com\/products\/face-serum?_ga=2.243399109.159936663.1704679229-1847278782.1699285247&_gac=1.194354655.1703823824.Cj0KCQiAuqKqBhDxARIsAFZELmI8CPpdpu9NxElOnncQtzdg92Oq73FT3UWI6tqgbX0g6pvrtDAvxLsaAt66EALw_wcB",
-            "product_handle": "face-serum",
-            "rating": 4.9
-          }
-        },
-        "product_9KxCc3": {
-          "type": "product",
-          "settings": {
-            "main_image": "shopify:\/\/shop_images\/MI_6x-mixed.png",
-            "hover_image": "shopify:\/\/shop_images\/mi_pdp-product-1.webp",
-            "card_title": "Transform dull skin with Micro-Infusion Facial System",
-            "description": "<ul><li>Quick & easy at-home facial<\/li><li>Minimal to no downtime<\/li><li>Transforms dull-looking skin<\/li><\/ul>",
-            "category": "cat3",
-            "product_link": "https:\/\/www.qureskincare.com\/pages\/microinfusion?_ga=2.242801986.159936663.1704679229-1847278782.1699285247&_gac=1.128331902.1703823824.Cj0KCQiAuqKqBhDxARIsAFZELmI8CPpdpu9NxElOnncQtzdg92Oq73FT3UWI6tqgbX0g6pvrtDAvxLsaAt66EALw_wcB",
-            "product_handle": "",
-            "rating": 4.8
-          }
-        },
-        "product_frJFc3": {
-          "type": "product",
-          "settings": {
-            "main_image": "shopify:\/\/shop_images\/LED-Mask---Mask-with-iPhone-red-blue-light-v2_73cfec5b-4c5c-4e64-a00d-8ac3f80c724f.png",
-            "hover_image": "shopify:\/\/shop_images\/led-product-1mob.webp",
-            "card_title": "Repair & rejuvenate your skin with our Light Therapy Mask",
-            "description": "<ul><li>Quick 3 minute wireless treatments<\/li><li>Clinical-grade LED light therapy mask<\/li><li>Treats aging and acne prone skin<\/li><\/ul>",
-            "category": "cat3",
-            "product_link": "https:\/\/www.qureskincare.com\/products\/q-rejuvalight-pro-facewear?_ga=2.48872934.159936663.1704679229-1847278782.1699285247&_gac=1.14035653.1703823824.Cj0KCQiAuqKqBhDxARIsAFZELmI8CPpdpu9NxElOnncQtzdg92Oq73FT3UWI6tqgbX0g6pvrtDAvxLsaAt66EALw_wcB",
-            "product_handle": "q-rejuvalight-pro-facewear",
-            "rating": 4.7
-          }
-        },
-        "product_pPnLc3": {
-          "type": "product",
-          "settings": {
-            "main_image": "shopify:\/\/shop_images\/neck_deck.jpg",
-            "hover_image": "shopify:\/\/shop_images\/chest-product-1.webp",
-            "card_title": "Neck & Décolletage LED Light Therapy",
-            "description": "<ul><li>Helps reduce appearance of wrinkles<\/li><li>Rejuvenated, firmer feeling skin<\/li><li>Non-invasive LED light therapy<\/li><\/ul>",
-            "category": "cat3",
-            "product_link": "https:\/\/www.qureskincare.com\/products\/neck-decolletage-led?_ga=2.243399109.159936663.1704679229-1847278782.1699285247&_gac=1.194354655.1703823824.Cj0KCQiAuqKqBhDxARIsAFZELmI8CPpdpu9NxElOnncQtzdg92Oq73FT3UWI6tqgbX0g6pvrtDAvxLsaAt66EALw_wcB",
-            "product_handle": "neck-decolletage-led",
-            "rating": 5
-          }
-        },
-        "product_KGxfc3": {
-          "type": "product",
-          "settings": {
-            "main_image": "shopify:\/\/shop_images\/serumwithbox.jpg",
-            "hover_image": "shopify:\/\/shop_images\/all_serum_product_4.webp",
-            "card_title": "Embrace ageless confidence with All-In-One Face Serum",
-            "description": "<ul><li>Treat various skin concerns in just one step.<\/li><li>Reveal more even, brighter-looking skin<\/li><li>Reduces look of fine lines & dark spots<\/li><\/ul>",
-            "category": "cat3",
-            "product_link": "https:\/\/www.qureskincare.com\/products\/face-serum?_ga=2.243399109.159936663.1704679229-1847278782.1699285247&_gac=1.194354655.1703823824.Cj0KCQiAuqKqBhDxARIsAFZELmI8CPpdpu9NxElOnncQtzdg92Oq73FT3UWI6tqgbX0g6pvrtDAvxLsaAt66EALw_wcB",
-            "product_handle": "face-serum",
-            "rating": 4.9
-          }
-        }
-      },
-      "block_order": [
-        "product_mngAaH",
-        "product_MCbCce",
-        "product_YVVwRk",
-        "product_KGxfam",
-        "product_DxbhT7",
-        "product_frJFc2",
-        "product_Dxbhc2",
-        "product_KGxfc2",
-        "product_9KxCc3",
-        "product_frJFc3",
-        "product_pPnLc3",
-        "product_KGxfc3"
-      ],
-      "settings": {
-        "title": "Best Sellers",
-        "category1_label": "Signs of Aging",
-        "category2_label": "Acne",
-        "category3_label": "Dark Spots",
-        "label_cta_button": "Buy Now",
-        "label_cta_section": "Shop Best Sellers",
-        "cta_section_link": "https:\/\/www.qureskincare.com\/collections\/best-sellers?_ga=2.226287322.1770688495.1707749426-2005519871.1706210570"
       }
     },
     "uses_gjAiWF": {
@@ -513,12 +337,12 @@
             "text_after": "AFTER 4 WEEKS",
             "image_country": "shopify:\/\/shop_images\/canada_f.svg",
             "client": "BJ Nardi.",
-            "progress": 83,
-            "progress_text": "<p><strong>reduction<\/strong> of acne breakouts after 8 weeks.<\/p>",
+            "progress": 81,
+            "progress_text": "<p><strong>reduction<\/strong> of acne breakouts after 12 weeks.<\/p>",
             "text": "",
-            "feedback_text": "<p><strong>...9 out of 10 <\/strong>subjects said they                                                      saw <strong>a reduction in the skin acne after 2 weeks<\/strong>.<\/p>",
+            "feedback_text": "<p>...Acne count was significantly <strong>reduced by 81%<\/strong> after 12 weeks <\/p>",
             "popup_link_text": "Read More About Clinical Study",
-            "popup_content": "<p>Improvement ranging up to 83.3% of moderate acne lesion count. A downward shift in the Burton                                                                  grade was seen overall. No adverse effects were reported.<\/p><p><strong>About the clinical trial<\/strong><\/p><p>Clinical trial was conducted with male and female subjects with acne grades at baseline ranging from                                                                  Burton grade 1 to 5. Subjects were treated with LED therapy, alternating between the blue (415 nm) and  near-IR (830 nm) heads. No other treatment was allowed. Results were assessed and compared with the baseline values at 1, 4 and 8 weeks post-treatment.<\/p><p>Reference: SOURCE: J Invest Dermatol. 2009 Dec;129(12):2751-9. doi: 10.1038\/jid.2009.186. Epub 2009 Jul 9<\/p>"
+            "popup_content": "<p><strong>After 4 weeks: <\/strong>The mean lesion count reduction was significant at 46%<\/p><p><strong>After 12 weeks: <\/strong>The mean lesion count reduction was also significant at 81%.<\/p><p>Patient and dermatologist assessments were similar. Severe acne showed a marginally better response than mild acne. Side effects were minimal and transitory. Comedones did not respond as well as inflammatory lesions.<\/p><p><strong>About the clinical trial<\/strong><\/p><p>Clinical trial was conducted on twenty-four subjects, Fitzpatrick skin types II-V, with mild to severe symmetric facial acne vulgaris. Subjects were treated, alternating between 415 nm blue light and 633 nm red light from a light-emitting diode (LED)-based therapy system. Acne was assessed at baseline and at weeks 2, 4, 8 and 12.<\/p><p><em>Reference: J Cosmet Laser Ther. 2006 Jun;8(2):71-5. doi: 10.1080\/14764170600735912.<\/em><\/p>"
           }
         },
         "slide_B4zrcd": {
@@ -564,6 +388,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/trusted_shah_max.jpg",
             "video_url": "https:\/\/www.youtube.com\/watch?v=JPWycy8cwN8&t=1s",
+            "video_label": "Watch Video",
             "wistia_id": "",
             "text": "<p>\"There have been studies to show that this will definitely work to help your products penetrate better...\"<\/p><h6><strong>Dr Shah & Dr Maxfield,<\/strong> Certified Dermatologist<\/h6>"
           }
@@ -573,6 +398,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/trusted_maren_e150642f-391b-46c3-98e6-d57c44d7e9e8.webp",
             "video_url": "https:\/\/www.youtube.com\/watch?v=DvA8FkhJqso",
+            "video_label": "Watch Video",
             "wistia_id": "",
             "text": "<p>\"There are actually many of these on the market but I love this one for several reasons. It's well made, it has a comfortable adjustable headband, it comes with an app..\"<\/p><h6><strong>Dr Maren Locke,<\/strong> Board Certified Dermatologist<\/h6>"
           }
@@ -582,6 +408,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/trusted_maxfield_99f72bee-8b87-4244-a5b9-43323823b22a.webp",
             "video_url": "https:\/\/www.youtube.com\/watch?v=AeksxRPZyrA",
+            "video_label": "Watch Video",
             "wistia_id": "",
             "text": "<p>\"This is one of my faves from @qureskincare. It’s a high quality mask and personalizable.\"<\/p><h6><strong>Dr Maxfield,<\/strong> Board Certified Dermatologist<\/h6>"
           }
@@ -591,6 +418,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/trusted_greeney_76bc7346-026a-4350-96df-6fd73c5be00e.webp",
             "video_url": "https:\/\/www.youtube.com\/watch?v=1iXBgh7WPOY",
+            "video_label": "Watch Video",
             "wistia_id": "",
             "text": "<p>\"Qure's anti-ageing treatment gets down deep into your skin to stimulate collagen & makes a big difference in skin texture, decreasing fine lines & wrinkles.\"<\/p><h6><strong>Dr Greeney,<\/strong> Board Certified Dermatologist<\/h6>"
           }
@@ -614,6 +442,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/trusted_prem_cfb40060-a584-406c-a95e-6cb806f2a5d6.webp",
             "video_url": "https:\/\/www.youtube.com\/watch?v=_w8yWCPeijg",
+            "video_label": "Watch Video",
             "wistia_id": "",
             "text": "<p>\"Qure has a fully customized mask which has 5 clinical-grade wavelength for anti-ageing, hyperpigmentation and acne and app makes it very easy to customize and control...\"<\/p><h6><strong>Dr Prem,<\/strong> Board Certified Dermatologist<\/h6>"
           }
@@ -623,6 +452,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/trusted_natasha.webp",
             "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/ebb5f0ed35b844f7b9f2486db670748b.mp4?_ga=2.232823709.263527484.1696998277-1098661776.1696998277",
+            "video_label": "Watch Video",
             "wistia_id": "",
             "text": "<p>\"I like this one because it allows you to customize your treatment... This is a great skin care investment.\"<\/p><h6><strong>Dr Natasha Henry,<\/strong> Medical Doctor<\/h6>"
           }
@@ -644,7 +474,8 @@
         "likes": "7.1K",
         "views": "351K views",
         "image": "shopify:\/\/shop_images\/trusted_2.jpg",
-        "video_url": "https:\/\/www.youtube.com\/watch?v=I2Fe-kP-2Jg"
+        "video_url": "https:\/\/www.youtube.com\/watch?v=I2Fe-kP-2Jg",
+        "video_label": "Click To Watch Review"
       }
     },
     "bestseller_zBUA8r": {
@@ -765,7 +596,7 @@
             "image": "shopify:\/\/shop_images\/beauty_ledmask.webp",
             "heading": "Q-Rejuvalight \\nPro LED Mask",
             "text": "<p><strong>one-time cost investment<\/strong><\/p>",
-            "price": "$329",
+            "price": "$349",
             "style": "correctCircle",
             "list": "<ul><li>saves you time<\/li><li>comfort and convenience of your own home<\/li><li><strong>unlimited treatments<\/strong><\/li><li><strong>only 3 minutes daily<\/strong><\/li><li>no ongoing payments<\/li><\/ul>"
           }
@@ -857,7 +688,6 @@
     "promotion_main_banner_48gkNr",
     "main_banner_rJmjKt",
     "featuredin_cgKaqj",
-    "endrock_bestseller_7J3dy3",
     "uses_gjAiWF",
     "icons_list_aYq7xP",
     "before_after_slider_dckiYy",

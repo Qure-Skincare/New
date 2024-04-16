@@ -41,8 +41,8 @@
                     {{ product.description }}
                 </div>
                 <div class="bundle_price">
-                    <div class="old_price">{{ product.compare_at_price |  money_without_trailing_zeros }}</div>
-                    <div class="new_price">{{ product.price |  money_without_trailing_zeros }}</div>
+                    <div class="old_price" data-product-id="{{ product.id }}">{{ product.compare_at_price |  money_without_trailing_zeros }}</div>
+                    <div class="new_price" data-product-id="{{ product.id }}">{{ product.price |  money_without_trailing_zeros }}</div>
                     {% if product.compare_at_price != blank %}
                         <div class="discount_percentage">{{ product.price | times: 100 | divided_by: product.compare_at_price | minus: 100 | abs | round }}% OFF</div>
                     {% endif %}
@@ -72,7 +72,7 @@
                 {% endif %}
 
                 <div class="payment_method">
-                    <p>OR pay 4 monthly payments of {{ product.price | divided_by: 4 | money_without_trailing_zeros }} with</p>
+                    <p>OR pay 4 monthly payments of <span class="igInstallmentPrice" data-product-id="{{ product.id }}">{{ product.price | divided_by: 4 | money_without_trailing_zeros }}</span> with</p>
                     <div class="pmt_img ps-2">
                         <img src="{{ 'klarna.svg' | asset_url }}" alt="">
                         <img src="{{ 'sezzle.svg' | asset_url }}" alt="">
@@ -231,43 +231,29 @@
     "@type": "Thing",
     "name": "{{ product.vendor | escape }}"
   },
-  {% if product.variants %}
-    "offers": [
-      {% for variant in product.variants %}
-        {
-          "@type" : "Offer",
-          "availability" : "http://schema.org/{% if product.available %}InStock{% else %}OutOfStock{% endif %}",
-          "price" : "{{ variant.price | divided_by: 100.00 }}",
-          "priceCurrency" : "{{ shop.currency }}",
-          "url" : "{{ shop.url }}{{ variant.url }}",
-          "itemOffered" :
-          {
-              "@type" : "Product",
-              {% if variant.image %}
-                {% assign variant_image_size = variant.image.width | append: 'x' %}
-                "image": "http:{{ variant.image.src | img_url: variant_image_size }}",
-              {% endif %}
-              {% if variant.title != blank %}
-                "name" : "{{ variant.title | escape }}",
-              {% endif %}
-              {% if variant.sku != blank %}
-                "sku": "{{ variant.sku }}",
-              {% endif %}
-              {% if variant.weight != blank %}
-                "weight": {
-                  "@type": "QuantitativeValue",
-                  {% if variant.weight_unit != blank %}
-                    "unitCode": "{{ variant.weight_unit }}",
-                  {% endif %}
-                  "value": "{{ variant.weight | weight_with_unit: variant.weight_unit }}"
-                },
-              {% endif %}
-              "url": "{{ shop.url }}{{ variant.url }}"
-          }
-        }{% unless forloop.last %},{% endunless %}
-      {% endfor %}
-    ]
-  {% endif %}
+  "offers": [
+    {%- for variant in product.variants -%}
+      {
+        "@type" : "Offer",
+        {%- if variant.sku != blank -%}
+          "sku": {{ variant.sku | json }},
+        {%- endif -%}
+        {%- if variant.barcode.size == 12 -%}
+          "gtin12": {{ variant.barcode }},
+        {%- endif -%}
+        {%- if variant.barcode.size == 13 -%}
+          "gtin13": {{ variant.barcode }},
+        {%- endif -%}
+        {%- if variant.barcode.size == 14 -%}
+          "gtin14": {{ variant.barcode }},
+        {%- endif -%}
+        "availability" : "http://schema.org/{% if variant.available %}InStock{% else %}OutOfStock{% endif %}",
+        "price" : {{ variant.price | divided_by: 100.00 | json }},
+        "priceCurrency" : {{ cart.currency.iso_code | json }},
+        "url" : {{ request.origin | append: variant.url | json }}
+      }{% unless forloop.last %},{% endunless %}
+    {%- endfor -%}
+  ]
 }
 </script>
 
