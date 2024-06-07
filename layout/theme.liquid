@@ -60,6 +60,7 @@
     <!--== CSS ==-->
     <link rel="stylesheet" href="{{ 'style.css' | asset_url }}">
     <link rel="stylesheet" href="{{ 'product.css' | asset_url }}">
+    <link rel="stylesheet" href="{{ 'header_new.css' | asset_url }}">
     <link rel="stylesheet" href="{{ 'custom.css' | asset_url }}">
 
     {{ content_for_header }}
@@ -84,13 +85,6 @@
     <!-- end styles endrock -->
 
     {% render 'header-scripts' %}
-
-  <script>
-    if (window.location.pathname.startsWith('/account')) {
-      window.location.href = '/a/account/login';
-    }
-  </script>
-
 
 </head>
 
