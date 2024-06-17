@@ -8,10 +8,11 @@ Usage:
   <div class="container">
     <div class="science-section-wrapper">
       <div class="left-panel">
-        <div class="science-video-container">
+        {% comment %} delete if no need it, and the part of schema {% endcomment %}
+        <div class="science-video-container-horizontal">
           {{ data.video_science_section | video_tag: loop: true, autoplay: true }}
         </div>
-        <div>
+        <div class="science-video-container-vertical">
           {{ data.video_science_section_vertical | video_tag: loop: true, autoplay: true }}
         </div>
       </div>
