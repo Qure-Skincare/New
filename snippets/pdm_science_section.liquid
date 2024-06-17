@@ -11,6 +11,9 @@ Usage:
         <div class="science-video-container">
           {{ data.video_science_section | video_tag: loop: true, autoplay: true }}
         </div>
+        <div>
+          {{ data.video_science_section_vertical | video_tag: loop: true, autoplay: true }}
+        </div>
       </div>
       <div class="right-panel">
         <div class="science-text-container">
