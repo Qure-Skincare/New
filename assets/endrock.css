@@ -1135,7 +1135,7 @@ body[data-test-product-landing='true'] .pdm-product-landing-sales{
     padding: 0 16px;
   }
 }
-.pdm_product-landing-sales-wrapper .right-panel .swiper-pdm-landing-sales-prev{
+.pdm_product-landing-sales-wrapper .right-panel .container-swiper-product-landing .swiper-pdm-landing-sales-prev{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1149,17 +1149,17 @@ body[data-test-product-landing='true'] .pdm-product-landing-sales{
 }
 
 @media screen and (max-width: 768px){
-  .pdm_product-landing-sales-wrapper .right-panel .swiper-pdm-landing-sales-prev{
+  .pdm_product-landing-sales-wrapper .right-panel .container-swiper-product-landing .swiper-pdm-landing-sales-prev{
     left: 5px;
   }
 }
 
-.pdm_product-landing-sales-wrapper .right-panel .swiper-pdm-landing-sales-prev svg{
+.pdm_product-landing-sales-wrapper .right-panel .container-swiper-product-landing .swiper-pdm-landing-sales-prev svg{
   width: 20px;
   height: 20px;
 }
 
-.pdm_product-landing-sales-wrapper .right-panel .swiper-pdm-landing-sales-next{
+.pdm_product-landing-sales-wrapper .right-panel .container-swiper-product-landing .swiper-pdm-landing-sales-next{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1173,16 +1173,235 @@ body[data-test-product-landing='true'] .pdm-product-landing-sales{
 }
 
 @media screen and (max-width: 768px){
-  .pdm_product-landing-sales-wrapper .right-panel .swiper-pdm-landing-sales-next{
+  .pdm_product-landing-sales-wrapper .right-panel .container-swiper-product-landing .swiper-pdm-landing-sales-next{
     right: 5px;
   }
 }
 
-.pdm_product-landing-sales-wrapper .right-panel .swiper-pdm-landing-sales-next svg{
+.pdm_product-landing-sales-wrapper .right-panel .container-swiper-product-landing .swiper-pdm-landing-sales-next svg{
   width: 20px;
   height: 20px;
 }
+@media screen and (max-width: 640px){
+  .container-swiper-product-landing .pdm_swiper_product_landing{
+    width: 100%;
+    height: 100%;
+  }
+}
 
+.container-swiper-product-landing .pdm_swiper_product_landing .swiper-pdm-landing-sales-pagination{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  padding-top: 26px;
+  padding-bottom: 16px;
+}
+@media screen and (max-width: 768px){
+  .container-swiper-product-landing .pdm_swiper_product_landing .swiper-pdm-landing-sales-pagination{
+    padding-top: 0;
+    padding-bottom: 14px;
+  }
+}
+
+.container-swiper-product-landing .pdm_swiper_product_landing .swiper-pdm-landing-sales-pagination .swiper-pagination-bullet{
+  width: 6px;
+  height: 6px;
+  margin: 0;
+}
+
+.container-swiper-product-landing .pdm_swiper_product_landing .swiper-pdm-landing-sales-pagination .swiper-pagination-bullet-active{
+  width: 6px;
+  height: 6px;
+  background-color: black;
+}
+
+.container-swiper-product-landing .pdm_swiper_product_landing .pdm-product-landing-card-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container-swiper-product-landing .pdm_swiper_product_landing .pdm-product-landing-card-container .product-landing-text-container{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding-top: 32px;
+  position: relative;
+}
+@media screen and (max-width: 640px){
+  .container-swiper-product-landing .pdm_swiper_product_landing .pdm-product-landing-card-container .product-landing-text-container{
+  padding: 16px 32px 0;
+  }    
+}
+@media screen and (max-width: 325px) {
+  .container-swiper-product-landing .pdm_swiper_product_landing .pdm-product-landing-card-container .product-landing-text-container{
+  padding: 16px 10px;
+  }
+}
+
+.container-swiper-product-landing .pdm_swiper_product_landing .pdm-product-landing-card-container .product-landing-information-item{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+@media screen and (max-width: 640px){
+  .container-swiper-product-landing .pdm_swiper_product_landing .pdm-product-landing-card-container .product-landing-information-item{
+    gap: 10px
+  }
+}
+.container-swiper-product-landing .pdm_swiper_product_landing .pdm-product-landing-card-container .product-landing-information-item span{
+  display: block;
+  height: 34px;
+  font-family: 'Poppins';
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 1.5px;
+  text-align: left;
+  color: #797D7C;
+}
+@media screen and (max-width: 768px){
+  .container-swiper-product-landing .pdm_swiper_product_landing .pdm-product-landing-card-container .product-landing-information-item span{
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 1.0273523330688477px;
+    height: 16px;
+  }
+}
+
+.container-swiper-product-landing .pdm_swiper_product_landing .pdm-product-landing-card-container .product-landing-information-item h3{
+  font-family: 'Canela Web';
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 32px;
+  text-align: left;
+  margin: 0;
+}
+@media screen and (max-width: 768px) {
+  .container-swiper-product-landing .pdm_swiper_product_landing .pdm-product-landing-card-container .product-landing-information-item h3{
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 28px;
+    margin: 0;
+    white-space: nowrap;
+  }
+}
+.container-swiper-product-landing .pdm_swiper_product_landing .pdm-product-landing-card-container .product-landing-save-price {
+  position: absolute;
+  top: 32px;
+  right: 0;
+  z-index: 10;
+} 
+@media screen and (max-width: 640px){
+  .container-swiper-product-landing .pdm_swiper_product_landing .pdm-product-landing-card-container .product-landing-save-price {
+    top: 16px;
+    right: 7%;
+  }
+}
+
+.container-swiper-product-landing .pdm_swiper_product_landing .pdm-product-landing-card-container .product-landing-save-price p{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #3B8566;
+  font-family: 'Poppins';
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 12px;
+  letter-spacing: 0.05em;
+  text-align: left;
+  color: white;
+  width: 92px;
+  height: 20px;
+  border-radius: 16px;
+  padding-top: 4.5px;
+  padding-bottom: 3.5px;
+}
+@media screen and (max-width: 768px){
+  .container-swiper-product-landing .pdm_swiper_product_landing .pdm-product-landing-card-container .product-landing-save-price p{
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 10px;
+    letter-spacing: 0.05em;
+    text-align: left;
+    width: 92px;
+  }
+}
+
+.container-swiper-product-landing .pdm_swiper_product_landing .pdm-product-landing-card-container .product-landing-img-container{
+  width: 100%;
+  height: 350px;
+}
+
+@media screen and (max-width: 640px){
+  .container-swiper-product-landing .pdm_swiper_product_landing .pdm-product-landing-card-container .product-landing-img-container{
+    width: 100%;
+    height: 200px;
+  }
+}
+@media screen and (max-width: 321px){
+  .container-swiper-product-landing .pdm_swiper_product_landing .pdm-product-landing-card-container .product-landing-img-container{
+    height: 200px;
+  }
+}
+
+.container-swiper-product-landing .pdm_swiper_product_landing .pdm-product-landing-card-container .product-landing-footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+@media screen and (max-width: 768px){
+  .container-swiper-product-landing .pdm_swiper_product_landing .pdm-product-landing-card-container .product-landing-footer{
+    margin-top: 10px;
+    padding: 32px 32px 10px;
+  }
+}
+
+.container-swiper-product-landing .pdm_swiper_product_landing .pdm-product-landing-card-container .product-landing-footer .product-landing-footer-price{
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+}
+.pdm-product-landing-card-container .product-landing-footer .product-landing-footer-price  .product-landing-footer-price_full{
+  font-family: 'Poppins';
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 24px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  text-decoration: line-through;
+}
+.pdm-product-landing-card-container .product-landing-footer .product-landing-footer-price .product-landing-footer-price_discount{
+  font-family: 'Poppins';
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.01em;
+  text-align: left;
+}
+
+.container-swiper-product-landing .pdm_swiper_product_landing .pdm-product-landing-card-container .product-landing-footer a{
+  width: 108px;
+  height: 32px;
+  padding: 8px 24px 8px 24px;
+  border-radius: 100px;
+  font-family: 'Poppins';
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 0.01em;
+  text-align: center;
+  background-color: black;
+  color: white;
+
+}
+
+/* end pdm_product-landing-sales */
 
   /*
   .pdm-product-landing-sales{
