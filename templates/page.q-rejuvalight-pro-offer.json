@@ -68,6 +68,13 @@
         "image_zMN79M": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/cosmopolitan-black.svg"
+          }
+        },
+        "image_JpPtgQ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/grazia_black.svg"
           }
         }
       },
@@ -80,7 +87,8 @@
         "image_8tfyfW",
         "image_NdF9h6",
         "image_i7wNbd",
-        "image_zMN79M"
+        "image_zMN79M",
+        "image_JpPtgQ"
       ],
       "settings": {
         "heading": "FEATURED IN"
