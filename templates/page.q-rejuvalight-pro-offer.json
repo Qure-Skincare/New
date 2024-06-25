@@ -1,12 +1,74 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "main": {
       "type": "temp-q-rejuvalight-pro-offer",
       "settings": {
       }
+    },
+    "featuredin_extended_VcQjPU": {
+      "type": "featuredin_extended",
+      "blocks": {
+        "text_aMVCcC": {
+          "type": "text",
+          "settings": {
+            "text": "<p>“The professional grade is the perfect addition to any<br\/>at-home skincare routine.”<\/p>"
+          }
+        },
+        "text_UXAKki": {
+          "type": "text",
+          "settings": {
+            "text": "<p>\"Treatment time is only three minutes—among the fastest<br\/>of all devices.\"<\/p>"
+          }
+        },
+        "text_MBHndR": {
+          "type": "text",
+          "settings": {
+            "text": "<p>\"A multi-use LED mask with five different light setting options to plump, smooth and rejuvenate all skin types.\"<\/p>"
+          }
+        },
+        "text_HFbcTT": {
+          "type": "text",
+          "settings": {
+            "text": "<p>“The combination of colors allows you to customize which lights are used, maximizing its benefits to help your skin...”<\/p>"
+          }
+        },
+        "text_q6WKTh": {
+          "type": "text",
+          "settings": {
+            "text": "<p>“The Qure mask is the FIRST mask in the world that adapts to your skin! ...There is an app that reminds you of the treatments too.”<\/p>"
+          }
+        },
+        "image_8tfyfW": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/vogue-black_5851d9e9-b2a6-47f1-a606-0f0243a9319f.svg"
+          }
+        }
+      },
+      "block_order": [
+        "text_aMVCcC",
+        "text_UXAKki",
+        "text_MBHndR",
+        "text_HFbcTT",
+        "text_q6WKTh",
+        "image_8tfyfW"
+      ],
+      "settings": {
+        "heading": "FEATURED IN"
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "featuredin_extended_VcQjPU"
   ]
 }
