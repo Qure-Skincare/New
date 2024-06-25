@@ -13,90 +13,9 @@
       "type": "temp-q-rejuvalight-pro-offer",
       "settings": {
       }
-    },
-    "featuredin_extended_VcQjPU": {
-      "type": "featuredin_extended",
-      "blocks": {
-        "text_aMVCcC": {
-          "type": "text",
-          "settings": {
-            "text": "<p>“The professional grade is the perfect addition to any<br\/>at-home skincare routine.”<\/p>"
-          }
-        },
-        "text_UXAKki": {
-          "type": "text",
-          "settings": {
-            "text": "<p>\"Treatment time is only three minutes—among the fastest<br\/>of all devices.\"<\/p>"
-          }
-        },
-        "text_MBHndR": {
-          "type": "text",
-          "settings": {
-            "text": "<p>\"A multi-use LED mask with five different light setting options to plump, smooth and rejuvenate all skin types.\"<\/p>"
-          }
-        },
-        "text_HFbcTT": {
-          "type": "text",
-          "settings": {
-            "text": "<p>“The combination of colors allows you to customize which lights are used, maximizing its benefits to help your skin...”<\/p>"
-          }
-        },
-        "text_q6WKTh": {
-          "type": "text",
-          "settings": {
-            "text": "<p>“The Qure mask is the FIRST mask in the world that adapts to your skin! ...There is an app that reminds you of the treatments too.”<\/p>"
-          }
-        },
-        "image_8tfyfW": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/vogue-black_5851d9e9-b2a6-47f1-a606-0f0243a9319f.svg"
-          }
-        },
-        "image_NdF9h6": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/womenshealth_e1cfba2e-29da-4232-9235-69184bd9d1a3.svg"
-          }
-        },
-        "image_i7wNbd": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/elle-black_af7c0fb6-1535-4d44-b64c-b96b7d90bf08.svg"
-          }
-        },
-        "image_zMN79M": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/cosmopolitan-black.svg"
-          }
-        },
-        "image_JpPtgQ": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/grazia_black.svg"
-          }
-        }
-      },
-      "block_order": [
-        "text_aMVCcC",
-        "text_UXAKki",
-        "text_MBHndR",
-        "text_HFbcTT",
-        "text_q6WKTh",
-        "image_8tfyfW",
-        "image_NdF9h6",
-        "image_i7wNbd",
-        "image_zMN79M",
-        "image_JpPtgQ"
-      ],
-      "settings": {
-        "heading": "FEATURED IN"
-      }
     }
   },
   "order": [
-    "main",
-    "featuredin_extended_VcQjPU"
+    "main"
   ]
 }
