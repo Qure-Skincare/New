@@ -63,7 +63,6 @@
     <!--== CSS ==-->
     <link rel="stylesheet" href="{{ 'style.css' | asset_url }}">
     <link rel="stylesheet" href="{{ 'product.css' | asset_url }}">
-    <link rel="stylesheet" href="{{ 'header_new.css' | asset_url }}">
     <link rel="stylesheet" href="{{ 'custom.css' | asset_url }}">
 
     {{ content_for_header }}
@@ -84,6 +83,8 @@
         {{ 'endrock.css' | asset_url | stylesheet_tag }}
     {% endcase %}
     {{ 'endrock-sidecart.css' | asset_url | stylesheet_tag }}
+
+    <link rel="stylesheet" href="{{ 'header_new.css' | asset_url }}">
     
     <!-- end styles endrock -->
 
