@@ -52,6 +52,23 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/vogue-black_5851d9e9-b2a6-47f1-a606-0f0243a9319f.svg"
           }
+        },
+        "image_NdF9h6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/womenshealth_e1cfba2e-29da-4232-9235-69184bd9d1a3.svg"
+          }
+        },
+        "image_i7wNbd": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/elle-black_af7c0fb6-1535-4d44-b64c-b96b7d90bf08.svg"
+          }
+        },
+        "image_zMN79M": {
+          "type": "image",
+          "settings": {
+          }
         }
       },
       "block_order": [
@@ -60,7 +77,10 @@
         "text_MBHndR",
         "text_HFbcTT",
         "text_q6WKTh",
-        "image_8tfyfW"
+        "image_8tfyfW",
+        "image_NdF9h6",
+        "image_i7wNbd",
+        "image_zMN79M"
       ],
       "settings": {
         "heading": "FEATURED IN"
