@@ -957,11 +957,234 @@ body[class~="page.sunil-mi-landing"] .product-price{
 .pdm-product-landing-sales{
   display: none;
 }
-body[data-test-product-landing='true']{
-  .original-product-landing-sales{
+body[data-test-product-landing='true'] .original-product-landing-sales {
     display: none;
   }
 
+body[data-test-product-landing='true'] .pdm-product-landing-sales{
+  display: block;
+  background: linear-gradient(to right, white 50%, #F5F5F5 50%);
+}
+
+@media screen and (max-width: 768px){
+    body[data-test-product-landing='true'] .pdm-product-landing-sales{
+    background: white;
+  }
+}
+
+@media screen and (max-width: 640px){
+  .pdm-product-landing-sales .container{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+}
+
+.pdm-product-landing-sales .container .pdm_product-landing-sales-wrapper{
+  display: flex;
+  flex-direction: row;
+  height: auto;
+}
+@media screen and (max-width: 768px){
+  .pdm-product-landing-sales .container .pdm_product-landing-sales-wrapper{
+    flex-direction: column;
+    height: auto;
+  }
+}
+
+.pdm_product-landing-sales-wrapper  .left-panel{
+  width: 41.67%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+@media screen and (max-width: 1144px) {
+  .pdm_product-landing-sales-wrapper  .left-panel{
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 768px){
+  .pdm_product-landing-sales-wrapper  .left-panel{
+    width: 100%;
+  }
+}
+
+.pdm_product-landing-sales-wrapper .left-panel .product-landing-information{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 24px;
+  width: 350px;
+}
+@media screen and (max-width: 768px){
+  .pdm_product-landing-sales-wrapper .left-panel .product-landing-information{
+    align-items: center;
+    padding: 31px 0;
+    gap: 16px;
+  }
+}
+
+.pdm_product-landing-sales-wrapper .left-panel .product-landing-information .product-landing-information-text{
+  display: flex;
+  flex-direction: column;
+}
+
+.pdm_product-landing-sales-wrapper .left-panel .product-landing-information .product-landing-information-text h3{
+  font-family: 'Poppins';
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 1.5px;
+  text-align: left;
+  padding-bottom: 8px;
+  margin: 0;
+}
+@media screen and (max-width: 768px){
+  .pdm_product-landing-sales-wrapper .left-panel .product-landing-information .product-landing-information-text h3{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 1.5px;
+    text-align: center;
+    margin: 0;
+  }
+}
+
+.pdm_product-landing-sales-wrapper .left-panel .product-landing-information .product-landing-information-text h2{
+  font-family: 'Canela Web';
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 64px;
+  letter-spacing: 1.5px;
+  text-align: left;
+  margin: 0;
+  white-space: nowrap;
+}
+
+@media screen and (max-width: 768px){
+  .pdm_product-landing-sales-wrapper .left-panel .product-landing-information .product-landing-information-text h2{
+    font-size: 38px;
+    font-weight: 500;
+    line-height: 44px;
+    letter-spacing: 1.5px;
+    text-align: center;
+    margin: 0;
+  }
+}
+
+.pdm_product-landing-sales-wrapper .left-panel .product-landing-information .product-landing-information-anchor a{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 236px;
+  height: 48px;
+  padding: 8px 32px 8px 32px;
+  border-radius: 100px;
+  font-family: 'Poppins';
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0.01em;
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+
+@media screen and (max-width: 768px){
+  .pdm_product-landing-sales-wrapper .left-panel .product-landing-information .product-landing-information-anchor a{
+    height: 42px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0.01em;
+    text-align: center;
+  }
+}
+
+.pdm_product-landing-sales-wrapper .right-panel{
+  width: 58.33%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: #F5F5F5;
+}
+
+@media screen and (max-width: 1144px){
+  .pdm_product-landing-sales-wrapper .right-panel{
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 768px){
+  .pdm_product-landing-sales-wrapper .right-panel{
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.pdm_product-landing-sales-wrapper .right-panel .container-swiper-product-landing{
+  position: relative;
+  width: 472px;
+  height: 100%;
+}
+@media screen and (max-width: 640px){
+  .pdm_product-landing-sales-wrapper .right-panel .container-swiper-product-landing{
+    width: 100%;
+    height: 100%;
+    padding: 0 16px;
+  }
+}
+.pdm_product-landing-sales-wrapper .right-panel .swiper-pdm-landing-sales-prev{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  position: absolute;
+  left: -40px;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px){
+  .pdm_product-landing-sales-wrapper .right-panel .swiper-pdm-landing-sales-prev{
+    left: 5px;
+  }
+}
+
+.pdm_product-landing-sales-wrapper .right-panel .swiper-pdm-landing-sales-prev svg{
+  width: 20px;
+  height: 20px;
+}
+
+.pdm_product-landing-sales-wrapper .right-panel .swiper-pdm-landing-sales-next{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  position: absolute;
+  right: -40px;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px){
+  .pdm_product-landing-sales-wrapper .right-panel .swiper-pdm-landing-sales-next{
+    right: 5px;
+  }
+}
+
+.pdm_product-landing-sales-wrapper .right-panel .swiper-pdm-landing-sales-next svg{
+  width: 20px;
+  height: 20px;
+}
+
+
+  /*
   .pdm-product-landing-sales{
     display: block;
     background: linear-gradient(to right, white 50%, #F5F5F5 50%);
@@ -1328,5 +1551,5 @@ body[data-test-product-landing='true']{
     }
   }
 }
-
+*/
 /* end pdm_product-landing-sales */
