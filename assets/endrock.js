@@ -105,7 +105,6 @@ const verifyCustomer = () => {
 
 /* ATC NO PRICES PDP */
 const atcNoPricesPdp = () => {
-console.log('🚀 --- atcNoPricesPdp');
   const subscriptionTypes = document.querySelectorAll('.subscriptionType'); 
   console.log(subscriptionTypes);
   if (subscriptionTypes) {
@@ -113,9 +112,7 @@ console.log('🚀 --- atcNoPricesPdp');
       element.addEventListener('click', function(e) {
 
         const subscriptionType = e.currentTarget.getAttribute('data-subscription');
-        const subscriptionPrices = document.querySelectorAll('.subscriptions-prices');
-        console.log("subscriptionType", subscriptionType);
-        console.log("subscriptionPrices", subscriptionPrices);
+        const subscriptionPrices = document.querySelectorAll('.subscriptions-prices')
 
         subscriptionPrices.forEach((element) => { element.classList.add('hidden'); });
         document.getElementById(`${subscriptionType}`).classList.remove('hidden');
