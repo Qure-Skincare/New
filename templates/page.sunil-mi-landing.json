@@ -294,7 +294,7 @@
 
       ],
       "settings": {
-        "classname": "imageText buzz_about",
+        "classname": "imageText buzz_about buzz_original",
         "column_image": 6,
         "column_content": 6
       }
