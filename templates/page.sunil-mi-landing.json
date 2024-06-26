@@ -227,7 +227,7 @@
             "mobile_hide": true
           }
         },
-        "science_section_block_bLjGnx": {
+        "science_section_block_zcp3g7": {
           "type": "science_section_block",
           "settings": {
             "video_science_section": "shopify:\/\/files\/videos\/-f2d8-4301-becc-9db87b3963fa.mp4",
@@ -254,7 +254,7 @@
         "image_wdPDGq",
         "image_TXKk7A",
         "image_k7aY9B",
-        "science_section_block_bLjGnx"
+        "science_section_block_zcp3g7"
       ],
       "settings": {
         "heading": ""
@@ -294,7 +294,7 @@
 
       ],
       "settings": {
-        "classname": "imageText buzz_about buzz_original",
+        "classname": "imageText buzz_about",
         "column_image": 6,
         "column_content": 6
       }
@@ -323,7 +323,7 @@
         "image_VkznhH"
       ],
       "settings": {
-        "classname": "imageText section imageText_original",
+        "classname": "imageText section",
         "column_image": 6,
         "column_content": 6
       }
@@ -352,7 +352,7 @@
         "content_XdKeWR"
       ],
       "settings": {
-        "classname": "imageText section imageText_original_2",
+        "classname": "imageText section",
         "column_image": 6,
         "column_content": 6
       }
