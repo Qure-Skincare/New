@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "main": {
@@ -401,7 +410,7 @@
             "progress": 91,
             "progress_text": "<p><strong>improved<\/strong> clarity, smoother texture and skin appearance.<\/p>",
             "text": "",
-            "feedback_title": "In a Clinical Trial...",
+            "feedback_title": "In a User Study",
             "feedback_text": "<p><strong>...9 out of 10<\/strong> users reported <strong>a                                                         noticeable difference<\/strong> in <strong>skin                                                          texture<\/strong> and <strong>clarify<\/strong> after                                                      treatment.<\/p>",
             "popup_link_text": "",
             "popup_content": ""
