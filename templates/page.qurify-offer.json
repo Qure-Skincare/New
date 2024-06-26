@@ -38,8 +38,8 @@
         "navigation_link_wVVWXW": {
           "type": "navigation-link",
           "settings": {
-            "link_label": "FAQ",
-            "link_url": "#faq_section",
+            "link_label": "LOCAL WATER REPORT",
+            "link_url": "https:\/\/www.qureskincare.com\/pages\/free-water-report",
             "image": "shopify:\/\/shop_images\/header-lp-faq.webp"
           }
         }
