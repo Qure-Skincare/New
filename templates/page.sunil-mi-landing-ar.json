@@ -29,8 +29,8 @@
         "navigation_link_HmzbhG": {
           "type": "navigation-link",
           "settings": {
-            "link_label": "Link label",
-            "link_url": ""
+            "link_label": "الآراء والنتائج",
+            "link_url": "#result_section"
           }
         },
         "navigation_link_kGKtTD": {
