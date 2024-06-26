@@ -1,5 +1,10 @@
 <!DOCTYPE html>
+
+{% if request.path contains 'qure-microinfusion-offer-ar' %}
+<html lang="ar" dir="rtl"></html>
+{% else %}
 <html lang="{{ shop.locale }}">
+{% endif %}
 
 <head>
     <meta charset="utf-8">
@@ -63,7 +68,6 @@
     <!--== CSS ==-->
     <link rel="stylesheet" href="{{ 'style.css' | asset_url }}">
     <link rel="stylesheet" href="{{ 'product.css' | asset_url }}">
-    <link rel="stylesheet" href="{{ 'header_new.css' | asset_url }}">
     <link rel="stylesheet" href="{{ 'custom.css' | asset_url }}">
 
     {{ content_for_header }}
@@ -84,6 +88,8 @@
         {{ 'endrock.css' | asset_url | stylesheet_tag }}
     {% endcase %}
     {{ 'endrock-sidecart.css' | asset_url | stylesheet_tag }}
+
+    <link rel="stylesheet" href="{{ 'header_new.css' | asset_url }}">
     
     <!-- end styles endrock -->
 
@@ -267,7 +273,18 @@
     {% section 'slidecart' %}
 
     {% render 'gdpr' %} 
+  <!-- hide launcher on the below page -->
+ 
+  {% if request.path == '/pages/exclusive-eofy-bundle-deal' or request.path =='/pages/exclusive-holiday-bundle-deal' or request.path =='/pages/q-rejuvalight-pro-led-mask-guide' or request.path =='/pages/qure-microinfusion-offer' or request.path =='/pages/microinfusion-safety-guide' %}
+  <style>  
+    .stamped-launcher-button {
+    display: none !important;
+}
+  </style>
+  {% endif %}
   
+<!-- hide launcher on the above page -->
+
 </body>
 
 </html>
