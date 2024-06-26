@@ -18,10 +18,34 @@
             "heading": "توصيل مجاني إلى جميع أنحاء العالم | وفر 43% عرض لفترة محدودة فقط ينتهي هذا الشهر",
             "heading_mobile": "عرض لفترة محدودة فقط ينتهي هذا الشهر!"
           }
+        },
+        "navigation_link_DDmmXC": {
+          "type": "navigation-link",
+          "settings": {
+            "link_label": "المزايا",
+            "link_url": "#reasons_section"
+          }
+        },
+        "navigation_link_HmzbhG": {
+          "type": "navigation-link",
+          "settings": {
+            "link_label": "Link label",
+            "link_url": ""
+          }
+        },
+        "navigation_link_kGKtTD": {
+          "type": "navigation-link",
+          "settings": {
+            "link_label": "Link label",
+            "link_url": ""
+          }
         }
       },
       "block_order": [
-        "announcement_BiDNQi"
+        "announcement_BiDNQi",
+        "navigation_link_DDmmXC",
+        "navigation_link_HmzbhG",
+        "navigation_link_kGKtTD"
       ],
       "settings": {
         "button_label": "وفر ما يصل إلى 43%",
