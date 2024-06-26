@@ -36,8 +36,8 @@
         "navigation_link_kGKtTD": {
           "type": "navigation-link",
           "settings": {
-            "link_label": "Link label",
-            "link_url": ""
+            "link_label": "الأسئلة الشائعة",
+            "link_url": "#faq_section"
           }
         }
       },
