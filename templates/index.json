@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "main": {
@@ -398,10 +407,10 @@
             "text_after": "AFTER 1 TREATMENT",
             "image_country": "shopify:\/\/shop_images\/america_f.webp",
             "client": "Mica A.",
-            "progress": 91,
-            "progress_text": "<p><strong>improved<\/strong> clarity, smoother texture and skin appearance.<\/p>",
+            "progress": 90,
+            "progress_text": "<p>saw<strong> improved<\/strong> smoother texture and clearer skin appearance.<\/p>",
             "text": "",
-            "feedback_title": "In a Clinical Trial...",
+            "feedback_title": "In a User Study",
             "feedback_text": "<p><strong>...9 out of 10<\/strong> users reported <strong>a                                                         noticeable difference<\/strong> in <strong>skin                                                          texture<\/strong> and <strong>clarify<\/strong> after                                                      treatment.<\/p>",
             "popup_link_text": "",
             "popup_content": ""
@@ -563,7 +572,7 @@
         "views": "351K views",
         "image": "shopify:\/\/shop_images\/trusted_2.jpg",
         "video_url": "https:\/\/www.youtube.com\/watch?v=I2Fe-kP-2Jg",
-        "video_label": "Click To Watch Review"
+        "video_label": "Watch Review"
       }
     },
     "bestseller_zBUA8r": {
