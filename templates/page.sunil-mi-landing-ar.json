@@ -1,0 +1,12 @@
+{
+    "sections": {
+      "main": {
+        "type": "temp-sunil-mi-landing-ar",
+        "settings": {
+        }
+      }
+    },
+    "order": [
+      "main"
+    ]
+  }
