@@ -72,8 +72,6 @@
 
     {{ content_for_header }}
 
-    {% include 'config-layout' %}
-
     <!-- styles endrock -->
 
     {% if template == 'page.sunil-mi-landing' %}
@@ -90,6 +88,8 @@
     {{ 'endrock-sidecart.css' | asset_url | stylesheet_tag }}
 
     <link rel="stylesheet" href="{{ 'header_new.css' | asset_url }}">
+
+    {% include 'config-layout' %}
     
     <!-- end styles endrock -->
 
