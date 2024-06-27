@@ -33,7 +33,7 @@
   },
   "common": {
     "timer": {
-      "label": "Time",
+      "label": "Timer",
       "info": "Valid until this time",
       "next": {
         "label": "Add days",
