@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "main": {
@@ -398,10 +407,10 @@
             "text_after": "AFTER 1 TREATMENT",
             "image_country": "shopify:\/\/shop_images\/america_f.webp",
             "client": "Mica A.",
-            "progress": 91,
-            "progress_text": "<p><strong>improved<\/strong> clarity, smoother texture and skin appearance.<\/p>",
+            "progress": 90,
+            "progress_text": "<p>saw<strong> improved<\/strong> smoother texture and clearer skin appearance.<\/p>",
             "text": "",
-            "feedback_title": "In a Clinical Trial...",
+            "feedback_title": "In a User Study",
             "feedback_text": "<p><strong>...9 out of 10<\/strong> users reported <strong>a                                                         noticeable difference<\/strong> in <strong>skin                                                          texture<\/strong> and <strong>clarify<\/strong> after                                                      treatment.<\/p>",
             "popup_link_text": "",
             "popup_content": ""
@@ -563,7 +572,15 @@
         "views": "351K views",
         "image": "shopify:\/\/shop_images\/trusted_2.jpg",
         "video_url": "https:\/\/www.youtube.com\/watch?v=I2Fe-kP-2Jg",
-        "video_label": "Click To Watch Review"
+        "video_label": "Watch Review",
+        "dermatoglis_check": "shopify:\/\/shop_images\/Layer_1.svg",
+        "dermatoglist_check_text": "Trusted and recommended by world leading Dermatologists",
+        "dermatoglist_left_subtext": "<p>\"The best LED mask on the market in my opinion at this time, that being said you do need to use this consistently to see results…\"<\/p>",
+        "dermatoglist_right_image": "shopify:\/\/shop_images\/doctor.png",
+        "dermatoglist_right_name": "Dr Shah, MD",
+        "dermatoglist_right_especiality": "Board certified dermatologist",
+        "dermatoglist_right_play": "shopify:\/\/shop_images\/octicon_play-16.svg",
+        "dermatoglist_right_video_url": "https:\/\/www.youtube.com\/watch?v=I2Fe-kP-2Jg"
       }
     },
     "bestseller_zBUA8r": {
