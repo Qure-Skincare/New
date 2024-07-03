@@ -751,6 +751,18 @@
             "client": "Shelby F.",
             "code": ""
           }
+        },
+        "result_L7YxRr": {
+          "type": "result",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Audrey_M.png",
+            "heading": "Microneedling has been a skin saver!",
+            "text": "<p>\"I bought the refill after I initially ran out of my infusion vials. I am so impressed with the results! As an acne sufferer with minor scarring this has been great in reducing overall texture and making my skin truly glow!\"<\/p>",
+            "image_country": "shopify:\/\/shop_images\/usa_189ccd4e-add5-48f9-8078-c50c3e29332f.png",
+            "text_country": "United States",
+            "client": "Audrey M.",
+            "code": ""
+          }
         }
       },
       "block_order": [
@@ -766,7 +778,8 @@
         "result_kynacj",
         "result_jb3R8J",
         "result_LVp6xH",
-        "result_LqwJg4"
+        "result_LqwJg4",
+        "result_L7YxRr"
       ],
       "settings": {
         "classname": "mi_landing_result",
