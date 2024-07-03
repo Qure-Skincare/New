@@ -416,6 +416,18 @@
             "client": "Shelly S.",
             "code": ""
           }
+        },
+        "result_djxhNa": {
+          "type": "result",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Shelby_F.png",
+            "heading": "Wow amazing",
+            "text": "<p>\"Just using this product once my skin looks and feels healthy! I’ve also had acne scars for about 5 years now and this fixed them I couldn’t believe it! Can’t wait to do it again in 2 weeks!\"<\/p>",
+            "image_country": "shopify:\/\/shop_images\/usa_189ccd4e-add5-48f9-8078-c50c3e29332f.png",
+            "text_country": "United States",
+            "client": "Shelby F.",
+            "code": ""
+          }
         }
       },
       "block_order": [
@@ -430,7 +442,8 @@
         "result_rhcQKL",
         "result_g6zQgr",
         "result_zHPFqU",
-        "result_EpL9mk"
+        "result_EpL9mk",
+        "result_djxhNa"
       ],
       "settings": {
         "classname": "mi_landing_result",
