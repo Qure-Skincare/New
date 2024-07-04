@@ -159,6 +159,15 @@
             "button_url_id": "#hydra-glow",
             "button_text_id": "Get yours"
           }
+        },
+        "product_MAY97j": {
+          "type": "product",
+          "settings": {
+            "product": "exclusive-amazon-prime-bundle",
+            "announcement_id": "",
+            "button_url_id": "#amazon-prime",
+            "button_text_id": "Get yours"
+          }
         }
       },
       "block_order": [
@@ -170,7 +179,8 @@
         "product_Pmff3V",
         "product_mmM6Jm",
         "product_MpViyV",
-        "product_Mhxq4H"
+        "product_Mhxq4H",
+        "product_MAY97j"
       ],
       "settings": {
         "text_banner": "EXCLUSIVE HOLIDAY BUNDLES",
@@ -571,6 +581,7 @@
         },
         "product_FjAVNE": {
           "type": "product",
+          "disabled": true,
           "settings": {
             "product": "exclusive-amazon-prime-bundle",
             "comment_ammount": 100,
