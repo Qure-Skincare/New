@@ -16,7 +16,7 @@
             {% assign num = 0 %}
             {%- for block in section.blocks -%}
                 {% if block.type == 'banner' %}
-                    {% if num == 0 %}
+                    {% if num == 1 %}
                         <a class="dm_imgItem" href="{{ block.settings.button_url }}">
                             <img src="{{ block.settings.image | img_url: '400x' }}" alt="" class="img-fluid">
                             <h6>{{ block.settings.button_label |  replace: '[', '<span>' |  replace: ']', '</span>' }} <img src="{{ 'header_drop_right.svg' | asset_url }}" alt="" class="ms-1"></h6>
