@@ -164,7 +164,7 @@
           "type": "product",
           "disabled": true,
           "settings": {
-            "product": "exclusive-amazon-prime-bundle",
+            "product": "exclusive-amazon-prime",
             "announcement_id": "",
             "button_url_id": "#amazon-prime",
             "button_text_id": "Get yours"
@@ -584,7 +584,7 @@
           "type": "product",
           "disabled": true,
           "settings": {
-            "product": "exclusive-amazon-prime-bundle",
+            "product": "exclusive-amazon-prime",
             "comment_ammount": 100,
             "percent": 34,
             "ppl_choise": 0,
