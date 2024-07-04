@@ -162,6 +162,7 @@
         },
         "product_MAY97j": {
           "type": "product",
+          "disabled": true,
           "settings": {
             "product": "exclusive-amazon-prime-bundle",
             "announcement_id": "",
