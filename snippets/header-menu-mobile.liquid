@@ -10,6 +10,23 @@
 {% comment %} sliders {% endcomment %}
 
 {% capture first_slider %}
+    {% assign num = 0 %}
+    {%- for block in section.blocks -%}
+        {% if block.type == 'banner' %}
+            {% if num == 1 %}
+                <div class="menuSlider">
+                    <a class="dm_imgItem" href="{{ block.settings.button_url }}">
+                        <img src="{{ block.settings.image | img_url: '400x' }}" alt="" class="img-fluid">
+                        <h6>{{ block.settings.button_label |  replace: '[', '<span>' |  replace: ']', '</span>'  }} <img src="{{ 'header_drop_right.svg' | asset_url }}" alt="" class="ms-1"></h6>
+                    </a>
+                </div>
+            {% endif %}
+            {%- assign num = num | plus: 1 -%}
+        {% endif %}
+    {% endfor %}
+{% endcapture %}
+
+{% comment %} {% capture first_slider %}
     {% if section.blocks.size > 0 %}
         <div class="swiper twa__swiper menuSlider dot_pagination"
             id="twa__swiper-menuSlider" data-section-id="menuSlider"
@@ -35,7 +52,7 @@
             </div>
         </div>
     {% endif %}
-{% endcapture %}
+{% endcapture %} {% endcomment %}
 
 {% capture second_slider %}
     {% if section.blocks.size > 0 %}
@@ -122,15 +139,64 @@
                     <div class="dm_list">
                         <div class="dm_list_heading">{{ childlink.title | escape }}</div>
                         {% if childlink.links.size > 0 %}
-                        <ul>
-                            {% for childChildlink in childlink.links %}
-                                <li>
-                                    <a href="{{ childChildlink.url }}" aria-label="{{ childChildlink.title | escape }}">
-                                        <span>{{ childChildlink.title | escape }}</span>
-                                    </a>
-                                </li>
-                            {%- endfor -%}
-                        </ul>
+                            {% if childlink.title == 'Shop' %}
+                                <ul>
+                                    <li>
+                                        <a
+                                            href="https://www.qureskincare.com/products/q-rejuvalight-pro-facewear">
+                                            <span>Q-Rejuvalight Pro LED Mask</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.qureskincare.com/products/face-serum">
+                                            <span>All-In-One Face Serum</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a
+                                            href="https://www.qureskincare.com/products/neck-decolletage-led?_ga=2.233635166.1796206231.1699522551-483097032.1690277319">
+                                            <span>Neck & Décolletage LED Device</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.qureskincare.com/pages/qurify-offer">
+                                            <span>Q-urify Water Filter</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.qureskincare.com/pages/microinfusion">
+                                            <span>Micro-Infusion Facial System</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.qureskincare.com/pages/micro-infusion-refill">
+                                            <span>Micro-Infusion Refill</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a
+                                            href="https://www.qureskincare.com/products/micro-infusion-targeted-patches">
+                                            <span>Micro-Infusion Targeted Patches</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a
+                                            href="https://www.qureskincare.com/pages/exclusive-holiday-bundle-deal">
+                                            <span>Holiday Bundles</span>
+                                        </a>
+                                    </li>
+                                </ul> 
+                            {% else %}
+                                <ul>
+                                    {% for childChildlink in childlink.links %}
+                                        <li>
+                                            <a href="{{ childChildlink.url }}" aria-label="{{ childChildlink.title | escape }}">
+                                                <span>{{ childChildlink.title | escape }}</span>
+                                            </a>
+                                        </li>
+                                    {%- endfor -%}
+                                </ul>
+                            {% endif %}
                         {% endif %}
                     </div>
                 {%- endfor -%}
