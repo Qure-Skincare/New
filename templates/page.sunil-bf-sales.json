@@ -568,6 +568,17 @@
             "recommended": 0,
             "recommended_code": ""
           }
+        },
+        "product_FjAVNE": {
+          "type": "product",
+          "settings": {
+            "product": "exclusive-amazon-prime-bundle",
+            "comment_ammount": 100,
+            "percent": 34,
+            "ppl_choise": 0,
+            "recommended": 0,
+            "recommended_code": ""
+          }
         }
       },
       "block_order": [
@@ -578,7 +589,8 @@
         "product_EQ6HJY",
         "product_zF9wP9",
         "product_aKUc4N",
-        "product_CnMwyU"
+        "product_CnMwyU",
+        "product_FjAVNE"
       ],
       "settings": {
         "heading": "Choose your bundle.",
