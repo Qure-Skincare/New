@@ -108,7 +108,7 @@
         {% if link.links.size > 0 %}
             <div class="dropdown_menu_links d-block">
                 {%- for childlink in link.links -%}
-                    <div class="dm_list">
+                    <div class="dm_list {% if childlink.title == 'Shop' %}menu_product{% endif %}">
                         <div class="dm_list_heading">{{ childlink.title | escape }}</div>
                         {% if childlink.links.size > 0 %}
                             <ul>
