@@ -78,6 +78,15 @@
     "pdm_product_landing_sales_F9Dn8a": {
       "type": "pdm_product-landing-sales",
       "blocks": {
+        "product_MAY97j": {
+          "type": "product",
+          "settings": {
+            "product": "exclusive-amazon-prime-bundle",
+            "announcement_id": "",
+            "button_url_id": "#amazon-prime",
+            "button_text_id": "Get yours"
+          }
+        },
         "product_UQdbaG": {
           "type": "product",
           "settings": {
@@ -159,18 +168,10 @@
             "button_url_id": "#hydra-glow",
             "button_text_id": "Get yours"
           }
-        },
-        "product_MAY97j": {
-          "type": "product",
-          "settings": {
-            "product": "exclusive-amazon-prime-bundle",
-            "announcement_id": "",
-            "button_url_id": "#amazon-prime",
-            "button_text_id": "Get yours"
-          }
         }
       },
       "block_order": [
+        "product_MAY97j",
         "product_UQdbaG",
         "product_ncYWKA",
         "product_ahkGAV",
@@ -179,8 +180,7 @@
         "product_Pmff3V",
         "product_mmM6Jm",
         "product_MpViyV",
-        "product_Mhxq4H",
-        "product_MAY97j"
+        "product_Mhxq4H"
       ],
       "settings": {
         "text_banner": "EXCLUSIVE HOLIDAY BUNDLES",
@@ -491,6 +491,17 @@
     "bundle_list_LdzHxV": {
       "type": "bundle-list",
       "blocks": {
+        "product_FjAVNE": {
+          "type": "product",
+          "settings": {
+            "product": "exclusive-amazon-prime-bundle",
+            "comment_ammount": 100,
+            "percent": 34,
+            "ppl_choise": 0,
+            "recommended": 0,
+            "recommended_code": ""
+          }
+        },
         "product_3Frmww": {
           "type": "product",
           "settings": {
@@ -578,20 +589,10 @@
             "recommended": 0,
             "recommended_code": ""
           }
-        },
-        "product_FjAVNE": {
-          "type": "product",
-          "settings": {
-            "product": "exclusive-amazon-prime-bundle",
-            "comment_ammount": 100,
-            "percent": 34,
-            "ppl_choise": 0,
-            "recommended": 0,
-            "recommended_code": ""
-          }
         }
       },
       "block_order": [
+        "product_FjAVNE",
         "product_3Frmww",
         "product_JVJkGj",
         "product_DgMQiP",
@@ -599,8 +600,7 @@
         "product_EQ6HJY",
         "product_zF9wP9",
         "product_aKUc4N",
-        "product_CnMwyU",
-        "product_FjAVNE"
+        "product_CnMwyU"
       ],
       "settings": {
         "heading": "Choose your bundle.",
