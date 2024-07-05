@@ -584,7 +584,7 @@
           "type": "product",
           "disabled": true,
           "settings": {
-            "product": "exclusive-amazon-prime",
+            "product": "exclusive-amazon-prime-bundle",
             "comment_ammount": 100,
             "percent": 34,
             "ppl_choise": 0,
