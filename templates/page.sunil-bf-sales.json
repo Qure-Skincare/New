@@ -164,7 +164,7 @@
           "type": "product",
           "disabled": true,
           "settings": {
-            "product": "exclusive-amazon-prime",
+            "product": "exclusive-amazon-prime-bundle",
             "announcement_id": "",
             "button_url_id": "#amazon-prime",
             "button_text_id": "Get yours"
