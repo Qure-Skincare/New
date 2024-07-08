@@ -85,7 +85,7 @@
             "product": "exclusive-amazon-prime-bundle",
             "announcement_id": "",
             "button_text_id": "Get yours",
-            "show_save_price": false
+            "show_save_price": true
           }
         },
         "product_UQdbaG": {
@@ -591,6 +591,17 @@
             "recommended": 0,
             "recommended_code": ""
           }
+        },
+        "product_XJMrHf": {
+          "type": "product",
+          "settings": {
+            "product": "all-in-one-face-serum-bundle-1",
+            "comment_ammount": 100,
+            "percent": 34,
+            "ppl_choise": 0,
+            "recommended": 0,
+            "recommended_code": ""
+          }
         }
       },
       "block_order": [
@@ -602,7 +613,8 @@
         "product_EQ6HJY",
         "product_zF9wP9",
         "product_aKUc4N",
-        "product_CnMwyU"
+        "product_CnMwyU",
+        "product_XJMrHf"
       ],
       "settings": {
         "heading": "Choose your bundle.",
