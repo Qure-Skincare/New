@@ -40,23 +40,15 @@
           "announcement_TPxBgi": {
             "type": "announcement",
             "settings": {
-              "heading": "<p>4th July Sale  🇺🇸 💫  <strong>Q-Rejuvalight Pro<\/strong><\/p>",
-              "button_label": "SAVE $50",
-              "button_url": "shopify:\/\/products\/q-rejuvalight-pro-facewear"
+              "heading": "<p><strong>FREE World-Wide Shipping <\/strong>All Orders Above $100<\/p>",
+              "button_label": "SHOP NOW",
+              "button_url": "shopify:\/\/collections\/best-sellers"
             }
           },
           "tab_3Wyyea": {
             "type": "tab",
             "settings": {
               "heading": "🤍 Rediscover The Qure"
-            }
-          },
-          "banner_BeVKei": {
-            "type": "banner",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/header_drop1.webp",
-              "button_label": "Shop [Micro-Infusion]: reduce look of wrinkles",
-              "button_url": "https:\/\/www.qureskincare.com\/pages\/microinfusion"
             }
           },
           "banner_jrcxU4": {
@@ -103,7 +95,6 @@
         "block_order": [
           "announcement_TPxBgi",
           "tab_3Wyyea",
-          "banner_BeVKei",
           "banner_jrcxU4",
           "banner_CiNYWN",
           "banner_9fKdQK",
