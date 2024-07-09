@@ -16,6 +16,16 @@
     },
     "17115385750c73305f": {
       "type": "apps",
+      "blocks": {
+        "pdq_checkout_fulfill_ship_tracking_page_hrknFb": {
+          "type": "shopify:\/\/apps\/pdq-checkout-fulfill-ship\/blocks\/tracking-page\/a668eab0-b569-4206-8f4c-a0f244820a6b",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "pdq_checkout_fulfill_ship_tracking_page_hrknFb"
+      ],
       "settings": {
       }
     }
