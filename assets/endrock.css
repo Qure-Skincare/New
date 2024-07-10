@@ -1476,7 +1476,7 @@ body[class~="page.sunil-mi-landing"] .product-price{
 }
 
 @media screen and (max-width: 768px) {
-  #new-dermatolgist .new_trusted_left{
+  .homepage #new-dermatolgist .new_trusted_left{
     width: 100%;
   }
 }
