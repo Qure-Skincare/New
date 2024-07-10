@@ -32,7 +32,7 @@
             {% endif %}
             {% if template == 'index' %}
                 <div id="new-dermatolgist">
-                    {% render 'pdm_new_dermatologist' %}
+                    {% render 'pdm_new_dermatologist' settings: section.settings %}
                 </div>
             {% endif %}
             <div class="row {% if template == 'index' %} original-dermatologist {% endif %}">
@@ -236,8 +236,8 @@
             },
             {
                 "type": "header",
-                "content": "Dermatologist ab test",
-                "info": "This is a test for dermatologist ab test"
+                "content": "Dermatologist home page",
+                "info": "This is the dermatologist section for the home page."
             },
             {
                 "type": "header",
