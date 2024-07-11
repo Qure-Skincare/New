@@ -172,7 +172,7 @@
       "custom_css": [
         ".row {align-items: center !important;}",
         ".code_mobile {margin-top: -10px; padding-bottom: 10px;}",
-        ".wistia_responsive_padding{padding: unset !important;}"
+        ".d-md-block .wistia_responsive_padding {padding: 150px !important;}"
       ],
       "settings": {
         "classname": "main_banner section",
