@@ -46,6 +46,11 @@ button[data-state="active"] [data-price="reg"]{
 <script>
 document.querySelectorAll('[data-tab="mainbtn"] [role="tablist"] button[type="button"]').forEach(button => {
   button.addEventListener('click', function() {
+
+    document.querySelector('div[data-tab="menu-1"] button[role="tab"]:nth-child(2) > div').click();
+    document.querySelector('div[data-tab="menu-2"] button[role="tab"]:nth-child(2) > div').click();
+    document.querySelector('div[data-tab="menu-3"] button[role="tab"]:nth-child(2) > div').click();
+
     var vals = this.querySelector("div").getAttribute("data-tab");
     console.log(vals);
 
