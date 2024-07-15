@@ -66,21 +66,23 @@ document.querySelectorAll('[data-tab="mainbtn"] [role="tablist"] button[type="bu
     });
 
   
+    // Manage aria-selected and data-state attributes
     document.querySelectorAll('div[data-tab] button[role="tab"]').forEach(button => {
       // Check if the button should be set to inactive
-      if (button.getAttribute("aria-selected") === "true") {
-        button.setAttribute("aria-selected", "false");
-        button.setAttribute("data-state", "inactive");
-        button.classList.remove("tabactive");
+      if (this.getAttribute("aria-selected") === "true") {
+        this.setAttribute("aria-selected", "false");
+        this.setAttribute("data-state", "inactive");
+        this.classList.remove("tabactive");
       }
     });
 
-    document.querySelectorAll('div[data-tab="menu-' + vals + '"] button[role="tab"]:nth-child(2) > div').forEach(div => { 
-      div.parentNode.click();
-      div.parentNode.setAttribute("aria-selected", "true");
-      div.parentNode.setAttribute("data-state", "active");
-      div.parentNode.classList.add("tabactive");
+    document.querySelectorAll('div[data-tab="menu-' + vals + '"] button[role="tab"]:nth-child(2) > div').forEach(button => { 
+      this.click();
+       this.parentNode.setAttribute("aria-selected", "true");
+       this.parentNode.setAttribute("data-state", "active");
+       this.parentNode.classList.add("tabactive");
     });
+
   });
 });
 
