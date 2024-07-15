@@ -54,7 +54,7 @@ document.querySelectorAll('button[type="button"]').forEach(button => {
     document.querySelectorAll('div[data-tab="menu-' + vals + '"] button[role="tab"]:nth-of-type(2)').forEach(button => {
       button.click();
     });
-    document.querySelectorAll('div button[role="tab"]').forEach(button => {
+    document.querySelectorAll('div[data-tab] button[role="tab"]').forEach(button => {
       button.setAttribute("aria-selected", "false");
       button.setAttribute("data-state", "inactive");
       button.classList.remove("tabactive");
