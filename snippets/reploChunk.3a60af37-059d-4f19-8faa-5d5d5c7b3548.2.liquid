@@ -70,7 +70,9 @@ document.querySelectorAll('[data-tab="mainbtn"] [role="tablist"] button[type="bu
     });
 
     document.querySelectorAll('div[data-tab="menu-' + vals + '"] button[role="tab"]:nth-of-type(2)').forEach(button => {
-      button.click(); // Trigger click event on the second tab button
+      setTimeout(function(){
+       button.click(); // Trigger click event on the second tab button
+      }, 1000);
       // Set the second tab button to active state
       button.setAttribute("aria-selected", "true");
       button.setAttribute("data-state", "active");
