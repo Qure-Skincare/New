@@ -44,7 +44,7 @@ button[data-state="active"] [data-price="reg"]{
 }
 </style>
 <script>
-document.querySelectorAll('[data-tab="mainbtn"] [role="tablist"] button[type="button"][aria-selected="false"]').forEach(button => {
+document.querySelectorAll('[data-tab="mainbtn"] [role="tablist"] button[type="button"]').forEach(button => {
   button.addEventListener('click', function() {
     console.log("aaaa");
     // Perform click actions on the corresponding buttons in menu-1, menu-2, and menu-3
@@ -65,7 +65,7 @@ document.querySelectorAll('[data-tab="mainbtn"] [role="tablist"] button[type="bu
       div.classList.add("active");
     });
 
-    // Manage aria-selected and data-state attributes
+  
     document.querySelectorAll('div[data-tab] button[role="tab"]').forEach(button => {
       // Check if the button should be set to inactive
       if (button.getAttribute("aria-selected") === "true") {
@@ -75,11 +75,11 @@ document.querySelectorAll('[data-tab="mainbtn"] [role="tablist"] button[type="bu
       }
     });
 
-    document.querySelectorAll('div[data-tab="menu-' + vals + '"] button[role="tab"]:nth-child(2) > div').forEach(button => { 
-      button.click();
-       button.parentNode.setAttribute("aria-selected", "true");
-       button.parentNode.setAttribute("data-state", "active");
-       button.parentNode.classList.add("tabactive");
+    document.querySelectorAll('div[data-tab="menu-' + vals + '"] button[role="tab"]:nth-child(2) > div').forEach(div => { 
+      div.parentNode.click();
+      div.parentNode.setAttribute("aria-selected", "true");
+      div.parentNode.setAttribute("data-state", "active");
+      div.parentNode.classList.add("tabactive");
     });
   });
 });
