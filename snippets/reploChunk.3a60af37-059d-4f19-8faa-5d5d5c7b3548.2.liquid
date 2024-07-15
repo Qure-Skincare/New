@@ -47,8 +47,10 @@ button[data-state="active"] [data-price="reg"]{
 document.querySelectorAll('[data-tab="mainbtn"] [role="tablist"] button[type="button"]').forEach(button => {
   button.addEventListener('click', function() {
     console.log("aaaa");
-    const menuButtons = document.querySelectorAll('[data-tab^="menu-"] button[role="tab"]:nth-child(2) > div');
-    menuButtons.forEach(menuButton => menuButton.click());
+    // Perform click actions on the corresponding buttons in menu-1, menu-2, and menu-3
+    document.querySelector('div[data-tab="menu-1"] button[role="tab"]:nth-child(2)').click();
+    document.querySelector('div[data-tab="menu-2"] button[role="tab"]:nth-child(2)').click();
+    document.querySelector('div[data-tab="menu-3"] button[role="tab"]:nth-child(2)').click();
 
     var vals = this.querySelector("div").getAttribute("data-tab");
     console.log(vals);
