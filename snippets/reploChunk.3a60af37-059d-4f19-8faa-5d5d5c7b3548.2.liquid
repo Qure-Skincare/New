@@ -46,7 +46,7 @@ button[data-state="active"] [data-price="reg"]{
 <script>
 document.querySelectorAll('[data-tab="mainbtn"] [role="tablist"] button[type="button"]').forEach(button => {
   button.addEventListener('click', function() {
-    var vals = this.getAttribute("data-tab"); // Get data-tab directly from the button
+    var vals = this.querySelector("div").getAttribute("data-tab");
     console.log(vals);
 
     // Remove active class from all divs with matching data-tab
@@ -60,25 +60,24 @@ document.querySelectorAll('[data-tab="mainbtn"] [role="tablist"] button[type="bu
     });
 
     // Manage aria-selected and data-state attributes
-    document.querySelectorAll('div[data-tab] button[role="tab"]').forEach(tabButton => {
+    document.querySelectorAll('div[data-tab] button[role="tab"]').forEach(button => {
       // Check if the button should be set to inactive
-      if (tabButton.getAttribute("aria-selected") === "true") {
-        tabButton.setAttribute("aria-selected", "false");
-        tabButton.setAttribute("data-state", "inactive");
-        tabButton.classList.remove("tabactive");
+      if (button.getAttribute("aria-selected") === "true") {
+        button.setAttribute("aria-selected", "false");
+        button.setAttribute("data-state", "inactive");
+        button.classList.remove("tabactive");
       }
     });
 
-    // Set the second tab button to active state
-    var secondTabButton = document.querySelector('div[data-tab="menu-' + vals + '"] button[role="tab"]:nth-of-type(2)');
-    if (secondTabButton) {
-      setTimeout(function() {
-        secondTabButton.click(); // Trigger click event on the second tab button
-      }, 0); // Delay can be adjusted as needed, 0 for immediate execution
-      secondTabButton.setAttribute("aria-selected", "true");
-      secondTabButton.setAttribute("data-state", "active");
-      secondTabButton.classList.add("tabactive");
-    }
+    document.querySelectorAll('div[data-tab="menu-' + vals + '"] button[role="tab"]:nth-of-type(2)').forEach(button => {
+      setTimeout(function(){
+       button.click(); // Trigger click event on the second tab button
+      }, 1000);
+      // Set the second tab button to active state
+      button.setAttribute("aria-selected", "true");
+      button.setAttribute("data-state", "active");
+      button.classList.add("tabactive");
+    });
   });
 });
 
