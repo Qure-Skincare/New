@@ -60,7 +60,7 @@ document.querySelectorAll('[data-tab="mainbtn"] button[type="button"]').forEach(
     });
 
     // Manage aria-selected and data-state attributes
-    document.querySelectorAll('button[role="tab"]').forEach(button => {
+    document.querySelectorAll('div[data-tab] button[role="tab"]').forEach(button => {
       button.setAttribute("aria-selected", "false");
       button.setAttribute("data-state", "inactive");
       button.classList.remove("tabactive");
