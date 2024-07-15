@@ -61,19 +61,24 @@ document.querySelectorAll('[data-tab="mainbtn"] [role="tablist"] button[type="bu
 
     // Manage aria-selected and data-state attributes
     document.querySelectorAll('div[data-tab] button[role="tab"]').forEach(button => {
-      button.setAttribute("aria-selected", "false");
-      button.setAttribute("data-state", "inactive");
-      button.classList.remove("tabactive");
+      // Check if the button should be set to inactive
+      if (button.getAttribute("aria-selected") === "true") {
+        button.setAttribute("aria-selected", "false");
+        button.setAttribute("data-state", "inactive");
+        button.classList.remove("tabactive");
+      }
     });
 
     document.querySelectorAll('div[data-tab="menu-' + vals + '"] button[role="tab"]:nth-of-type(2)').forEach(button => {
       button.click(); // Trigger click event on the second tab button
+      // Set the second tab button to active state
       button.setAttribute("aria-selected", "true");
       button.setAttribute("data-state", "active");
       button.classList.add("tabactive");
     });
   });
 });
+
 </script></div></div></div></div></div>
 {%- comment -%}replo-liquid-chunk-begin{%- endcomment -%}
   <script type="application/json" id="replo-deps-products">
