@@ -48,18 +48,26 @@ document.querySelectorAll('[data-tab="mainbtn"] button[type="button"]').forEach(
   button.addEventListener('click', function() {
     var vals = this.querySelector("div").getAttribute("data-tab");
     console.log(vals);
+
+    // Remove active class from all divs with matching data-tab
+    document.querySelectorAll('div[data-tab^="menu-"]').forEach(div => {
+      div.classList.remove("active");
+    });
+
+    // Add active class to the specific div
     document.querySelectorAll('div[data-tab="menu-' + vals + '"]').forEach(div => {
       div.classList.add("active");
     });
-    document.querySelectorAll('div[data-tab="menu-' + vals + '"] button[role="tab"]:nth-of-type(2)').forEach(button => {
-      button.click();
-    });
+
+    // Manage aria-selected and data-state attributes
     document.querySelectorAll('button[role="tab"]').forEach(button => {
       button.setAttribute("aria-selected", "false");
       button.setAttribute("data-state", "inactive");
       button.classList.remove("tabactive");
     });
+
     document.querySelectorAll('div[data-tab="menu-' + vals + '"] button[role="tab"]:nth-of-type(2)').forEach(button => {
+      button.click(); // Trigger click event on the second tab button
       button.setAttribute("aria-selected", "true");
       button.setAttribute("data-state", "active");
       button.classList.add("tabactive");
