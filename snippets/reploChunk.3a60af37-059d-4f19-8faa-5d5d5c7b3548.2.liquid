@@ -75,11 +75,9 @@ document.querySelectorAll('[data-tab="mainbtn"] [role="tablist"] button[type="bu
 
     document.querySelectorAll('div[data-tab="menu-' + vals + '"] button[role="tab"]:nth-child(2) > div').forEach(button => { 
       button.click();
-      //button.onclick();
-
-      button.setAttribute("aria-selected", "true");
-      button.setAttribute("data-state", "active");
-      button.classList.add("tabactive");
+       button.parentNode.setAttribute("aria-selected", "true");
+       button.parentNode.setAttribute("data-state", "active");
+       button.parentNode.classList.add("tabactive");
     });
   });
 });
