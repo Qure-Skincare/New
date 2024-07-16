@@ -47,12 +47,12 @@ document.addEventListener("DOMContentLoaded", function() {
   document.querySelectorAll('[data-tab="mainbtn"] [role="tablist"] [role="tab"]').forEach(function(tab) {
     tab.addEventListener("click", function() {
       document.querySelectorAll('div[data-mtab="comman-data"] > div').forEach(function(div) {
-        div.classList.remove("mmm");
+        div.classList.remove("tab_selected");
       });
       document.querySelectorAll('div[data-mtab="comman-data"]').forEach(function(div) {
-        div.parentNode.parentNode.classList.add("mmm");
+        div.parentNode.parentNode.classList.add("tab_selected");
       });
-      document.querySelectorAll('div.mmm').forEach(function(div) {
+      document.querySelectorAll('div.tab_selected').forEach(function(div) {
         div.click();
       });
     });
