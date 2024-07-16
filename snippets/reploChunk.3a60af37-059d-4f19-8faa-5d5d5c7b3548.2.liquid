@@ -81,6 +81,7 @@ document.querySelectorAll('[data-tab="mainbtn"] [role="tablist"] button[type="bu
 
     // Set attributes for the specific button
     var specificButton = document.querySelector('div[data-tab="menu-' + vals + '"] button[role="tab"]:nth-child(2)');
+    specificButton.click();
     specificButton.setAttribute("aria-selected", "true");
     specificButton.setAttribute("data-state", "active");
     specificButton.classList.add("tabactive");
