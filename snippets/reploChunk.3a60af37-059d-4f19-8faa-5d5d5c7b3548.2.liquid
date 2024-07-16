@@ -47,13 +47,15 @@ button[data-state="active"] [data-price="reg"]{
 document.querySelectorAll('[data-tab="mainbtn"] [role="tablist"] button[type="button"]').forEach(button => {
   button.addEventListener('click', function() {
     console.log("aaaa");
+
+    // Assuming this is the correct logic you want to achieve
+    var vals = this.parentNode.getAttribute("data-tab");
+    console.log(vals);
+
     // Perform click actions on the corresponding buttons in menu-1, menu-2, and menu-3
     document.querySelector('div[data-tab="menu-1"] button[role="tab"]:nth-child(2)').click();
     document.querySelector('div[data-tab="menu-2"] button[role="tab"]:nth-child(2)').click();
     document.querySelector('div[data-tab="menu-3"] button[role="tab"]:nth-child(2)').click();
-
-    var vals = this.querySelector("div").getAttribute("data-tab");
-    console.log(vals);
 
     // Remove active class from all divs with matching data-tab
     document.querySelectorAll('div[data-tab^="menu-"]').forEach(div => {
@@ -65,27 +67,21 @@ document.querySelectorAll('[data-tab="mainbtn"] [role="tablist"] button[type="bu
       div.classList.add("active");
     });
 
-  
     // Manage aria-selected and data-state attributes
-    document.querySelectorAll('div[data-tab] button[role="tab"]').forEach(button => {
-      // Check if the button should be set to inactive
-      if (this.getAttribute("aria-selected") === "true") {
-        this.setAttribute("aria-selected", "false");
-        this.setAttribute("data-state", "inactive");
-        this.classList.remove("tabactive");
-      }
+    document.querySelectorAll('div[data-tab="menu-' + vals + '"] button[role="tab"]').forEach(button => {
+      // Reset all buttons
+      button.setAttribute("aria-selected", "false");
+      button.setAttribute("data-state", "inactive");
+      button.classList.remove("tabactive");
     });
 
-    document.querySelectorAll('div[data-tab="menu-' + vals + '"] button[role="tab"]:nth-child(2) > div').forEach(button => { 
-      this.click();
-       this.parentNode.setAttribute("aria-selected", "true");
-       this.parentNode.setAttribute("data-state", "active");
-       this.parentNode.classList.add("tabactive");
-    });
-
+    // Set attributes for the specific button
+    var specificButton = document.querySelector('div[data-tab="menu-' + vals + '"] button[role="tab"]:nth-child(2)');
+    specificButton.setAttribute("aria-selected", "true");
+    specificButton.setAttribute("data-state", "active");
+    specificButton.classList.add("tabactive");
   });
 });
-
 </script></div></div></div></div></div>
 {%- comment -%}replo-liquid-chunk-begin{%- endcomment -%}
   <script type="application/json" id="replo-deps-products">
