@@ -517,7 +517,6 @@
         },
         "video_kmVPyX": {
           "type": "video",
-          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/trusted_davim.webp",
             "video_url": "https:\/\/www.youtube.com\/watch?v=0Lxofv19620",
