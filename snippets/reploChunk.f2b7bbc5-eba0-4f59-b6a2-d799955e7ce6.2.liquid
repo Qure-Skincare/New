@@ -54,31 +54,7 @@ document.querySelectorAll('[data-tab="mainbtn"] [role="tablist"] button[type="bu
     document.querySelector('div[data-tab="menu-1"] button[role="tab"]:nth-child(2)').click();
     document.querySelector('div[data-tab="menu-2"] button[role="tab"]:nth-child(2)').click();
     document.querySelector('div[data-tab="menu-3"] button[role="tab"]:nth-child(2)').click();
-
-    // Remove active class from all divs with matching data-tab
-    document.querySelectorAll('div[data-tab^="menu-"]').forEach(div => {
-      div.classList.remove("active");
-    });
-
-    // Add active class to the specific div
-    document.querySelectorAll('div[data-tab="menu-' + vals + '"]').forEach(div => {
-      div.classList.add("active");
-    });
-
-    // Manage aria-selected and data-state attributes
-    document.querySelectorAll('div[data-tab="menu-' + vals + '"] button[role="tab"]').forEach(button => {
-      // Reset all buttons
-      button.setAttribute("aria-selected", "false");
-      button.setAttribute("data-state", "inactive");
-      button.classList.remove("tabactive");
-    });
-
-    // Set attributes for the specific button
-    var specificButton = document.querySelector('div[data-tab="menu-' + vals + '"] button[role="tab"]:nth-child(2)');
-    specificButton.setAttribute("aria-selected", "true");
-    specificButton.setAttribute("data-state", "active");
-    specificButton.classList.add("tabactive");
-  });
+    
 });
 </script></div></div></div></div></div>
 {%- comment -%}replo-liquid-chunk-begin{%- endcomment -%}
