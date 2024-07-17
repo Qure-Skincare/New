@@ -559,7 +559,7 @@
         "image_hzfcxa": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/chest_pdp_ftr.webp",
+            "image": "shopify:\/\/shop_images\/mask_n_d.png",
             "classname": "mw-mob-100"
           }
         },
@@ -595,7 +595,7 @@
         "object_fjj7Pi": {
           "type": "object",
           "settings": {
-            "image": "shopify:\/\/shop_images\/chest_beauty_1.webp",
+            "image": "shopify:\/\/shop_images\/n_d_vs.png",
             "heading": "Qure Neck & Décolletage LED",
             "text": "<p><strong>one time-cost<\/strong><\/p>",
             "price": "$299",
