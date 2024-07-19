@@ -81,6 +81,11 @@
       "settings": {
       }
     },
+    "temp": {
+      "type": "temp-index",
+      "settings": {
+      }
+    },
     "promotion_main_banner_48gkNr": {
       "type": "promotion-main-banner",
       "blocks": {
@@ -712,6 +717,7 @@
   "order": [
     "main",
     "promotion_main_banner_48gkNr",
+    "temp",
     "featuredin_extended_h8hWKY",
     "uses_gjAiWF",
     "icons_list_aYq7xP",
