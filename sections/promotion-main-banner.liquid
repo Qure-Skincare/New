@@ -1,7 +1,7 @@
 <link rel="stylesheet" href="{{ 'homepage_promo.css' | asset_url }}">
 
 <style>
-    p.text-md-start strong {
+    p.text-md-start span {
         font-weight: 400 !important;
     }
 </style>
@@ -29,7 +29,7 @@
                     <h1 class="title-xl paddingB text-center text-md-start">{{ section.settings.heading |  replace: '\n', '<br />' }}</h1>
                 </div>
 
-                {{ section.settings.text |  replace:  '<p>', '<p class="pb-4 text-center text-md-start">' }}
+                {{ section.settings.text |  replace:  '<p>', '<p class="pb-4 text-center text-md-start">' |  replace: '<strong>', '<span>' |  replace: '</strong>', '</span>'  }}
 
                 {%- for block in section.blocks -%}
                     <div class="btn-auto text-center text-md-start">
