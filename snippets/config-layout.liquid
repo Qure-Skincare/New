@@ -3,6 +3,9 @@
 {% case template %}
     {% when 'index' %}
         {% assign main_class = 'homepage' %}
+        <link rel="stylesheet" href="https://qureskincaredns.com/new/assets/product-homepage.css">
+        <link rel="stylesheet" href="https://qureskincaredns.com/new/assets/contact-us.css">
+        <link rel="stylesheet" href="https://qureskincaredns.com/new/assets/qure-skincare-app.css">
     {% when 'collection' %}
         {% assign main_class = 'collection_page' %}
         <link rel="stylesheet" href="{{ 'collections.css' | asset_url }}">
@@ -136,6 +139,14 @@
         <link rel="stylesheet" href="https://qureskincaredns.com/new/assets/qurify-filter-lp.css">
         <link rel="stylesheet" href="https://qureskincaredns.com/new/assets/product-offers.css">
         <link rel="stylesheet" href="https://qureskincaredns.com/new/assets/why_qurify.css">
+    {% when 'page.why-qurify' %}
+        {% assign main_class = 'why_qurify qurify_lp1' %}
+        <link rel="stylesheet" href="https://qureskincaredns.com/new/assets/qurify-filter-lp.css">
+        <link rel="stylesheet" href="https://qureskincaredns.com/new/assets/product-offers.css">
+        <link rel="stylesheet" href="https://qureskincaredns.com/new/assets/why_qurify.css">
+    {% when 'page.return-policy' %}
+        {% assign main_class = 'return_exchanges' %}
+        <link rel="stylesheet" href="{{ 'return.css' | asset_url }}">
     {% when 'blog' %}
         {% assign main_class = 'blogs' %}
         <link rel="stylesheet" href="{{ 'blogs.css' | asset_url }}">
