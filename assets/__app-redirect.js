@@ -38,7 +38,14 @@ async function main() {
     //console.log('countryCode [' + countryCode + ']');
 
     if (['US'].includes(countryCode)) {
-        window.location = 'https://www.qureskincare.com/collections/best-sellers';
+        if(window.location.href == 'https://www.qureskincare.com/pages/exclusive-holiday-bundle-deal')
+        {
+            window.location = 'https://www.qureskincare.com/pages/exclusive-holiday-bundle-deal-for-us';
+        }
+        else
+        {
+            window.location = 'https://www.qureskincare.com/collections/best-sellers';
+        }
     }
 }
 
