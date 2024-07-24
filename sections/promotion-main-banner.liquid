@@ -32,7 +32,7 @@
                 <div class="section_header pb-0">
                     <h1 class="title-xl paddingB text-center text-md-start">{{ section.settings.heading }}</h1>
                 </div>
-                {{ section.settings.text |  replace:  '<p>', '<p class="pb-4 text-center text-md-start">' }}
+                {{ section.settings.text |  replace:  '<p>', '<p class="pb-3 text-center text-md-start">' }}
                 {%- for block in section.blocks -%}
                     <div class="btn-auto text-center text-md-start">
                         <a href="{{ block.settings.link_url }}" class="btn_black" aria-label="{{ block.settings.link_label | escape }}">{{ block.settings.link_label }}</a>
