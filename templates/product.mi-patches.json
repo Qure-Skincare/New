@@ -340,6 +340,7 @@
         },
         "result_EGPDqD": {
           "type": "result",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/results_tanya.webp",
             "heading": "What a big difference!",
