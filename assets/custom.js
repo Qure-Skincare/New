@@ -248,6 +248,11 @@ function getCookie(name) {
     return null;
 }
 
+function testabc()
+{
+    console.log('abc test');
+}
+
 function openChat() {
     var iframe = document.getElementById('launcher');
   
