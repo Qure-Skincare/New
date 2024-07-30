@@ -1,14 +1,5 @@
 <link rel="stylesheet" href="{{ 'homepage_promo.css' | asset_url }}">
 
-<style>
-    p.text-md-start {
-        font-weight:300 !important;
-    }
-    p.text-md-start strong {
-        font-weight: 400 !important;
-    }
-</style>
-
 <!-- -- main banner start -- -->
 <div class="main_banner">
     {% if section.settings.image %}
@@ -28,17 +19,19 @@
     <div class="main_b_wrapper">
         <div class="container">
             <div class="m_b_content">
-                <div class="section_header pb-0">
-                    <h1 class="title-xl paddingB text-center text-md-start">{{ section.settings.heading |  replace: '\n', '<br />' }}</h1>
-                </div>
-
-                {{ section.settings.text |  replace:  '<p>', '<p class="pb-4 text-center text-md-start">' }}
+                {% if section.settings.heading != blank %}
+                    <div class="section_header pb-0">
+                        <h2 class="title-xl paddingB text-center text-md-start">{{ section.settings.heading }}</h2>
+                    </div>
+                {% endif %}
 
                 {%- for block in section.blocks -%}
                     <div class="btn-auto text-center text-md-start">
                         <a href="{{ block.settings.link_url }}" class="btn_black" aria-label="{{ block.settings.link_label | escape }}">{{ block.settings.link_label }}</a>
                     </div>
                 {%- endfor -%}
+
+                {{ section.settings.text |  replace:  '<p>', '<p class="pt-2 d-none d-md-block">' }}
             </div>
         </div>
     </div>
