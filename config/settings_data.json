@@ -184,6 +184,9 @@
           "gift_ccQgi4"
         ],
         "settings": {
+          "enable_product_gift": true,
+          "product_gift_threshold": 349,
+          "product_free_gift": "face-serum"
         }
       },
       "footer-landing": {

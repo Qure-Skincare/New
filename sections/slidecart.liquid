@@ -226,7 +226,7 @@
 								</div>
 
 									<div class="drawer__cart-price-quantity">
-
+                    {% unless item.properties['_required_validation'] %} {% comment %} validation for free gift test {% endcomment %}
 											{% if free_gift %}
 												<div class="drawer__cart-quantity">
 													<a href="javascript:;" style="color:#e4e0e0">
@@ -277,6 +277,11 @@
 												{%- endif -%}
 											</div>
 										{% endif %}
+                  {% endunless %}
+                    {% if item.properties['_required_validation'] %}
+                      {% render 'free_gift_pdm_cart', itemCart: item %}
+                    {% endif %}
+
 									</div>									
 							</div>
 
@@ -589,14 +594,37 @@
 	{% endfor %}
 {% endif %}
 
-{% render 'slidecart-insert', giftProduct: giftProduct, giftPriceLimit: giftPriceLimit, giftQuantity: giftQuantity, giftDiscount: giftDiscount %}
+{% assign enableProductGift = section.settings.enable_product_gift %}
+{% assign giftTresholdPdm = section.settings.product_gift_threshold |  times: 100 | money_without_currency %}
+{% assign productGiftPdm = section.settings.product_free_gift %}
+
+{% render 'slidecart-insert', giftProduct: giftProduct, giftPriceLimit: giftPriceLimit, giftQuantity: giftQuantity, giftDiscount: giftDiscount, 
+enableProductGift: enableProductGift,
+giftTresholdPdm: giftTresholdPdm,
+productGiftPdm: productGiftPdm %}
 
 {% schema %}
 	{
 		"name": "t:sections.slidecart.name",
 		"class": "section-slidecart",
 		"settings": [
-	
+      {
+        "type": "checkbox",
+        "id": "enable_product_gift",
+        "label": "Enable Product Gift",
+        "default": false
+      },
+      {
+        "type": "number",
+        "id": "product_gift_threshold",
+        "label": "Threshold Product Free - Dollars",
+        "default": 0
+      },
+      {
+        "type": "product",
+        "id": "product_free_gift",
+        "label": "Product free"
+      }
 		],
 		"blocks": [
 			{
