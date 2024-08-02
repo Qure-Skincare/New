@@ -62,7 +62,18 @@ document.addEventListener('DOMContentLoaded', function() {
 
     if(Shopify.currency.active != 'USD')
     {
-        const classesToReplace = ['sale_p', 'fav_pdt_price', 'regular_price'];
+        const classesToReplace = 
+        [
+            'announcement_bar',
+            'fp_icon_text',
+            's_bx',
+            'compare_list_Block', 
+            'tmtFtr_des', 
+            'cycle-save',
+            'sale_p', 
+            'fav_pdt_price', 
+            'regular_price'
+        ];
 
         classesToReplace.forEach(className => {
             const elements = document.querySelectorAll(`.${className}`);
