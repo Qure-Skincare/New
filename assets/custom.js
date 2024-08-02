@@ -60,6 +60,11 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
 
+    if(Shopify.currency.active != 'USD')
+    {
+        document.body.innerHTML = document.body.innerHTML.replace(/\$/g, currency);
+    }
+
     //set "no-subscription variant" for all pdp pages as default
     setTimeout(() => {
         var selector = '.subscriptionType[data-subscription="no-subscription"]';
