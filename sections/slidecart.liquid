@@ -116,7 +116,8 @@
 						</div>
 					</div>
 				</div>
-        {% render 'pdm_cart-gamification', price_check:price_check, progress_percentage:progress_percentage  %}
+
+        {% render 'pdm_cart-gamification', settingsGamification: section.settings, cartTotal: cart.items_subtotal_price %}
 			</div>
 
 			{% render 'slidecart-timer' %}
@@ -611,20 +612,34 @@ productGiftPdm: productGiftPdm %}
 		"settings": [
       {
         "type": "checkbox",
+        "id": "enable_free_shipping_treshold",
+        "label": "t:sections.slidecart.settings.enable_free_shipping.label",
+        "default": false
+      },
+      {
+        "type": "number",
+        "id": "product_free_shipping_threshold",
+        "label": "t:sections.slidecart.settings.free_shipping_treshold.label",
+        "info": "t:sections.slidecart.settings.free_shipping_treshold.info",
+        "default": 0
+      },
+      {
+        "type": "checkbox",
         "id": "enable_product_gift",
-        "label": "Enable Product Gift",
+        "label": "t:sections.slidecart.settings.enable_product_gift.label",
         "default": false
       },
       {
         "type": "number",
         "id": "product_gift_threshold",
-        "label": "Threshold Product Free - Dollars",
+        "label": "t:sections.slidecart.settings.product_gift_treshold.label",
+        "info": "t:sections.slidecart.settings.product_gift_treshold.info",
         "default": 0
       },
       {
         "type": "product",
         "id": "product_free_gift",
-        "label": "Product free"
+        "label": "t:sections.slidecart.settings.product_gift.label",
       }
 		],
 		"blocks": [
