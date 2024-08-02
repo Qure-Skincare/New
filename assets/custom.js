@@ -62,7 +62,17 @@ document.addEventListener('DOMContentLoaded', function() {
 
     if(Shopify.currency.active != 'USD')
     {
-        document.body.innerHTML = document.body.innerHTML.replace(/\$/g, currency);
+        const classesToReplace = ['sale_p', 'fav_pdt_price', 'regular_price'];
+
+        classesToReplace.forEach(className => {
+            const elements = document.querySelectorAll(`.${className}`);
+            elements.forEach(element => {
+                element.innerHTML = element.innerHTML.replace(/\$\d+/g, function(match) {
+                    return currency + match.slice(1);
+                });
+
+            });
+        });
     }
 
     //set "no-subscription variant" for all pdp pages as default
