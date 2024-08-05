@@ -32,7 +32,7 @@
           "type": "navigation-link",
           "settings": {
             "link_label": "GOOD EXAMPLES",
-            "link_url": "#mob_item3",
+            "link_url": "#tabsAccordion",
             "image": "shopify:\/\/shop_images\/header_cs3.webp"
           }
         }
