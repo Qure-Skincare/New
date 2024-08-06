@@ -169,6 +169,16 @@
             "button_text_id": "Get yours",
             "show_save_price": true
           }
+        },
+        "product_cRJKBk": {
+          "type": "product",
+          "disabled": true,
+          "settings": {
+            "product": "exclusive-labor-day-bundle",
+            "announcement_id": "",
+            "button_text_id": "Get yours",
+            "show_save_price": true
+          }
         }
       },
       "block_order": [
@@ -181,7 +191,8 @@
         "product_Pmff3V",
         "product_mmM6Jm",
         "product_MpViyV",
-        "product_Mhxq4H"
+        "product_Mhxq4H",
+        "product_cRJKBk"
       ],
       "settings": {
         "text_banner": "EXCLUSIVE HOLIDAY BUNDLES",
