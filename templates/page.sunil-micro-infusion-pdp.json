@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "main": {
@@ -169,7 +178,9 @@
       }
     },
     "second": {
-      "type": "temp-sunil-micro-infusion-pdp"
+      "type": "temp-sunil-micro-infusion-pdp",
+      "settings": {
+      }
     },
     "liquid_JJikgW": {
       "type": "liquid",
@@ -228,14 +239,6 @@
             "code": ""
           }
         },
-        "object_9NRV36": {
-          "type": "object",
-          "settings": {
-            "heading": "Is this treatment suitable for sensitive and rosacea skin?",
-            "text": "<p>We recommend avoiding Micro-Infusion treatments if you have sensitive skin, or active rosacea flare-ups. <\/p>",
-            "code": ""
-          }
-        },
         "object_UFGfFB": {
           "type": "object",
           "settings": {
@@ -254,7 +257,6 @@
         },
         "object_Gf8DdA": {
           "type": "object",
-          "disabled": true,
           "settings": {
             "heading": "What are the benefits of Micro-Infusion?",
             "text": "<p>The needles of the Micro-Infusion device and the stamping action triggers the body’s natural healing process and in turn boosts the production of collage, making your skin look firmer and fine lines look softer.<\/p><p>The serum booster that you choose to infuse during your Micro-Infusion will determine the major benefits of your treatment. Very fine needles infuse micro-droplets of concentrated serum at a specific depth into the dermis (top layer) of your skin precisely where they are needed to accelerate absorption of active ingredients that target specific skin concerns.<\/p><p>You can switch up your treatments and even mix the two serums together!<\/p><p>A few more benefits:<\/p><ul><li>More even skin tone and texture<\/li><li>Glowing, fresh complexion<\/li><li>Softer fine lines<\/li><li>Firmer, rejuvenated skin<\/li><\/ul>",
@@ -295,7 +297,6 @@
         },
         "object_AmtYTe": {
           "type": "object",
-          "disabled": true,
           "settings": {
             "heading": "How does the 90-day money back guarantee work?",
             "text": "<p>You have 90 days to try Qure’s Micro Infusion System and see the results for yourself. If you don’t see any difference in your skin— if you do not experience firmer, brighter, younger-looking skin, simply contact us and we will gladly refund your money. This guarantee applies to the 3 month supply bundle. You’ll just need to provide before and after photos after each 2 week treatment to qualify.<\/p>",
@@ -317,7 +318,6 @@
         "object_eNwFNH",
         "object_AemyD4",
         "object_CTEVqW",
-        "object_9NRV36",
         "object_UFGfFB",
         "object_tCEdpR",
         "object_Gf8DdA",
