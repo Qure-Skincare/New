@@ -74,7 +74,7 @@
             "image": "shopify:\/\/shop_images\/return.svg",
             "text": "<p>See how you can easily return<br\/>your Q-Rejuvalight Pro.<\/p>",
             "button_label": "Hassle-Free Returns",
-            "button_url": "https:\/\/www.qureskincare.com\/pages\/returns-exchanges",
+            "button_url": "shopify:\/\/pages\/returns-exchanges",
             "button_label_second": "Button label",
             "button_url_second": ""
           }
