@@ -16,7 +16,8 @@
           "type": "rating",
           "settings": {
             "image": "shopify:\/\/shop_images\/star-half_fill.svg",
-            "text": "<p>97% customer satisfaction rate<\/p>"
+            "text": "<p>97% customer satisfaction rate<\/p>",
+            "product": "micro-infusion-3-month-bundle-3x-b-g-serum-3x-e-g-f-serum"
           }
         },
         "list_FatCgk": {
@@ -139,7 +140,7 @@
         "video_before_and_after_ww3Xa3": {
           "type": "video_before_and_after",
           "settings": {
-            "video_new_section": "shopify:\/\/files\/videos\/Micro infusion edit.mov"
+            "video_new_section": "shopify:\/\/files\/videos\/dr_tripathi.mov"
           }
         }
       },
@@ -173,7 +174,7 @@
         "selected_design": "new",
         "text_label_real_result_1": "Product",
         "text_label_real_result_2": "Real Results",
-        "text_label_real_result_3": "Plastic Surgeon"
+        "text_label_real_result_3": "Dermatologist"
       }
     },
     "featuredin_kYtKUr": {
