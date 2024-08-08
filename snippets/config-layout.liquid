@@ -3,13 +3,14 @@
 {% case template %}
     {% when 'index' %}
         {% assign main_class = 'homepage' %}
-        <link rel="stylesheet" href="https://qureskincaredns.com/new/assets/product-homepage.css">
-        <link rel="stylesheet" href="https://qureskincaredns.com/new/assets/contact-us.css">
         <link rel="stylesheet" href="https://qureskincaredns.com/new/assets/qure-skincare-app.css">
     {% when 'collection' %}
         {% assign main_class = 'collection_page' %}
         <link rel="stylesheet" href="{{ 'collections.css' | asset_url }}">
     {% when 'product.sunil-led-mask' %}
+        {% assign main_class = 'led_mask' %}
+        <link rel="stylesheet" href="{{ 'product-led-mask.css' | asset_url }}">
+    {% when 'product.sunil-led-mask-onyx' %}
         {% assign main_class = 'led_mask' %}
         <link rel="stylesheet" href="{{ 'product-led-mask.css' | asset_url }}">
     {% when 'product.mi-patches' %}
@@ -23,6 +24,7 @@
     {% when 'product.sunil-chest-pdp' %}
         {% assign main_class = 'chest_pdp' %}
         <link rel="stylesheet" href="{{ 'product-chest-pdp.css' | asset_url }}">
+        <link rel="stylesheet" href="{{ 'qure-skincare-app.css' | asset_url }}">
     {% when 'product.sunil-all-in-one' %}
         {% assign main_class = 'all_in_one' %}
         <link rel="stylesheet" href="{{ 'product-serum-pdp.css' | asset_url }}">
@@ -61,6 +63,10 @@
         {% assign main_class = 'qurify_lp' %}
         <link rel="stylesheet" href="{{ 'qurify-offer.css' | asset_url }}">
     {% when 'page.sunil-mi-landing' %}
+        {% assign main_class = 'mi_landing' %}
+        <link rel="stylesheet" href="{{ 'product-mi-landing.css' | asset_url }}">
+        <link rel="stylesheet" href="{{ 'affiliate.css' | asset_url }}">
+    {% when 'page.anti-creams-microinfusion' %}
         {% assign main_class = 'mi_landing' %}
         <link rel="stylesheet" href="{{ 'product-mi-landing.css' | asset_url }}">
         <link rel="stylesheet" href="{{ 'affiliate.css' | asset_url }}">
@@ -130,7 +136,6 @@
     {% when 'page.contact' %}
         {% assign main_class = 'contact_us' %}
         <link rel="stylesheet" href="{{ 'qure_form.css' | asset_url }}">
-        <link rel="stylesheet" href="{{ 'contact-us.css' | asset_url }}">
     {% when 'page.custom-form' %}
         {% assign main_class = 'stocklist' %}
         <link rel="stylesheet" href="{{ 'qure_form.css' | asset_url }}">
