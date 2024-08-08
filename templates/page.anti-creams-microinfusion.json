@@ -50,6 +50,9 @@
         "navigation_link_CmRG9V",
         "navigation_link_wMtKmt"
       ],
+      "custom_css": [
+        ".header_gift_btn {display:none;}"
+      ],
       "settings": {
         "button_label": "SAVE UP TO 43%",
         "button_url": "#productSubscription"
@@ -62,7 +65,8 @@
           "type": "rating",
           "settings": {
             "image": "shopify:\/\/shop_images\/star-half_fill.svg",
-            "text": "<p>4.8\/5 Based on 43,893 Users<\/p>"
+            "text": "<p>4.8\/5 Based on 43,893 Users<\/p>",
+            "product": ""
           }
         },
         "button_L9q6wE": {
