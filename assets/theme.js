@@ -1557,7 +1557,7 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 //How to use section js start
-document.addEventListener('DOM1ContentLoaded', function () {
+document.addEventListener('DOMContentLoaded', function () {
     const tabs = document.querySelectorAll('#pills-tab-skin .nav-link');
 
     tabs.forEach(tab => {
