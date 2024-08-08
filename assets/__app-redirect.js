@@ -45,6 +45,18 @@ async function main() {
             document.getElementById('confidence-booster-bundle').style.display = 'none';
             document.getElementById('youthify-or-glow-set').style.display = 'none';
         }
+        else if(window.location.href.includes('best-sellers'))
+        {
+            document.getElementById('q-urify-water-filter').style.display = 'none';
+        }
+        else if(window.location.href.includes('acne-breakouts'))
+        {
+            document.getElementById('q-urify-water-filter').style.display = 'none';
+        }
+        else if(window.location.href.includes('fine-line-wrinkles'))
+        {
+            document.getElementById('q-urify-water-filter').style.display = 'none';
+        }
         else
         {
             window.location = 'https://www.qureskincare.com/collections/best-sellers';
