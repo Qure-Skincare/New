@@ -40,9 +40,9 @@
           "announcement_TPxBgi": {
             "type": "announcement",
             "settings": {
-              "heading": "<p><strong>LABOR DAY SALE<\/strong> Exclusive<strong> <\/strong>Bundle<\/p>",
-              "button_label": "SAVED 51%",
-              "button_url": "https:\/\/www.qureskincare.com\/pages\/exclusive-holiday-bundle-deal"
+              "heading": "<p><strong>FREE <\/strong>World-Wide Shipping Order $100+<\/p>",
+              "button_label": "SHOP NOW",
+              "button_url": "shopify:\/\/collections\/best-sellers"
             }
           },
           "tab_3Wyyea": {
