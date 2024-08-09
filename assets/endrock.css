@@ -1856,3 +1856,170 @@ body[class~="page.sunil-mi-landing"] .product-price{
 }
 
 /* end MI LP Science Section */
+
+/* LP Science section Mens */
+.mi_landing.mi_landing_men .science-section-container {
+  display: none;
+}
+
+/* reduced-copy pro led mask */
+.reduced-copy {
+  display: none !important;
+}
+[data-reduced-copy] .original-copy {
+  display: none !important;
+}
+[data-reduced-copy] .reduced-copy {
+  display: block !important;
+}
+
+[data-reduced-copy] .led-light-container .reduced-copy {
+  padding-left: 58px;
+}
+
+[data-reduced-copy] .clinical-grade-container .reduced-copy { 
+  padding-left: 38px;
+  display: flex !important;
+  flex-direction: column;
+  justify-content: center;
+}
+[data-reduced-copy] .clinical-grade-container .reduced-copy .title { 
+  margin-bottom: 12px !important;
+}
+[data-reduced-copy] .clinical-grade-container .reduced-copy .sub-title,
+[data-reduced-copy] .qure-mobile-app-container .reduced-copy .sub-title { 
+  color: #000;
+  font-family: "Canela Web", sans-serif;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 32px;
+  letter-spacing: 0.28px;
+}
+[data-reduced-copy] .clinical-grade-container .reduced-copy .accordion-item {  
+  width: 472px;
+}
+[data-reduced-copy] .qure-mobile-app-container .reduced-copy {  
+  order: -1;
+  padding-right: 36px;
+  display: flex !important;
+  flex-direction: column;
+  justify-content: center;
+} 
+[data-reduced-copy] .qure-mobile-app-container .reduced-copy .ss_list {
+  padding: 0; 
+}
+[data-reduced-copy] .section-easy-guide .reduced-copy .see_item_info ol li { 
+  opacity: 0.8;
+  color: #000;
+  font-family: 'Poppins', sans-serif;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.3px;
+}
+[data-reduced-copy] .section-product-box .subtitle.reduced-copy p { 
+  max-width: unset;
+} 
+@media screen and (min-width: 768px) { 
+  [data-reduced-copy] .section-trusted .trusted_cl .section_header.reduced-copy:not(.d-lg-block) {  
+    display: none !important;
+  }
+  [data-reduced-copy] .section-compare .title-lg.reduced-copy { 
+    width: 700px;
+  } 
+  [data-reduced-copy] .section-compare .subtitle.reduced-copy { 
+    width: 670px;
+    margin-left: auto;
+    margin-right: auto;
+  } 
+}
+@media screen and (max-width: 768px) {
+  [data-reduced-copy] .section-trusted .trusted_cl { 
+    padding-top: 20px !important;
+  } 
+  [data-reduced-copy] .section-trusted .trusted_cl .section_header.reduced-copy .title-lg { 
+    padding: 0 50px;
+    text-align: center;
+  } 
+  [data-reduced-copy] .section-trusted .trusted_left .title-lg { 
+    display: none;
+  }
+  [data-reduced-copy] .section-trusted .trusted_left .section_header.reduced-copy {
+    padding: 0 !important;
+  }
+  [data-reduced-copy] .section-results .section_header { 
+    display: flex;
+    justify-content: center;
+  } 
+  [data-reduced-copy] .section-results .section_header .title-lg.reduced-copy { 
+    width: 293px;
+    text-align: center;
+  } 
+  [data-reduced-copy] .section-two-column-box .led-light-container .reduced-copy { 
+    padding-left: 24px;
+  }
+  [data-reduced-copy] .section-two-column-box .led-light-container .reduced-copy .title { 
+    margin-top: 30px !important;
+    margin-bottom: 50px !important;
+  } 
+
+  [data-reduced-copy] .section-two-column-box .led-light-container .reduced-copy .ss_list { 
+    padding-top: 30px;
+  } 
+  [data-reduced-copy] .section-two-column-box .clinical-grade-container .reduced-copy { 
+    padding-left: 12px;
+  }
+  [data-reduced-copy] .section-two-column-box .clinical-grade-container .reduced-copy .it_info .sub-title { 
+    font-family: "Canela Light",sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 28px; 
+    letter-spacing: 0.22px;
+    position: relative;
+    padding-bottom: 310px;
+    padding-right: 67px;
+  } 
+  [data-reduced-copy] .section-two-column-box .clinical-grade-container .reduced-copy .it_info .sub-title img { 
+    padding-top: 20px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    padding-left: 0;
+    padding-right: 0;
+    height: 320px !important;
+  } 
+  [data-reduced-copy] .section-two-column-box .clinical-grade-container .reduced-copy .accordion-item { 
+    width: auto;
+  } 
+  [data-reduced-copy] .section-two-column-box .qure-mobile-app-container .reduced-copy .sub-title {
+    font-family: "Canela Light",sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 28px;
+    letter-spacing: 0.22px;
+  } 
+  [data-reduced-copy] .section-two-column-box .qure-mobile-app-container .reduced-copy .it_info img { 
+    padding-left: 24px;
+  } 
+  [data-reduced-copy] .section-easy-guide .reduced-copy .container .title-lg { 
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+  [data-reduced-copy] .section-compare .section_header { 
+    margin-left: 0;
+    max-width: unset;
+  } 
+  [data-reduced-copy] .section-compare .title-lg.reduced-copy { 
+    text-align: start;
+    padding-right: 100px;
+  } 
+  [data-reduced-copy] .section-compare .subtitle.reduced-copy { 
+    text-align: start;
+    width: 100%;
+    padding-right: 40px;
+  } 
+}
