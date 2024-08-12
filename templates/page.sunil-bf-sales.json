@@ -80,7 +80,6 @@
       "blocks": {
         "product_cRJKBk": {
           "type": "product",
-          "disabled": true,
           "settings": {
             "product": "exclusive-labor-day-bundle",
             "announcement_id": "",
@@ -374,6 +373,7 @@
       "settings": {
         "classname": "mi_landing_result",
         "heading": "Confidence changing results, from people just like you",
+        "heading_reduced": "",
         "text_verified_customer": "Verified customer",
         "text_reviewed": "Reviewed in"
       }
@@ -757,6 +757,7 @@
       "settings": {
         "classname": "trusted_bl",
         "heading": "Trusted and recommended by world leading Dermatologists",
+        "heading_reduced": "",
         "likes": "2.4K",
         "views": "1.4M views",
         "image": "shopify:\/\/shop_images\/trusted_3.webp",
@@ -805,7 +806,9 @@
       "settings": {
         "classname": "beauty_skincare section",
         "heading": "Hello make up free days, goodbye clinical costs",
-        "text": "<p>Are you ready to enjoy the same technology used in clinics, without the price tag or hassle?<\/p><p>Get clinic-level results with consistent treatments from the comfort of your own home – for a fraction of the clinical cost.<\/p>"
+        "heading_reduced": "",
+        "text": "<p>Are you ready to enjoy the same technology used in clinics, without the price tag or hassle?<\/p><p>Get clinic-level results with consistent treatments from the comfort of your own home – for a fraction of the clinical cost.<\/p>",
+        "text_reduced": ""
       }
     },
     "details_sliders_BwedTq": {
