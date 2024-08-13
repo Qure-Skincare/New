@@ -572,6 +572,7 @@
         },
         "product_aKUc4N": {
           "type": "product",
+          "disabled": true,
           "settings": {
             "product": "confidence-booster-bundle",
             "comment_ammount": 242,
@@ -583,6 +584,7 @@
         },
         "product_CnMwyU": {
           "type": "product",
+          "disabled": true,
           "settings": {
             "product": "youthify-or-glow-set",
             "comment_ammount": 514,
