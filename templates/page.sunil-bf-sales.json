@@ -552,6 +552,7 @@
         },
         "product_EQ6HJY": {
           "type": "product",
+          "disabled": true,
           "settings": {
             "product": "skin-ssentials-set-doctorly-choice",
             "comment_ammount": 202,
