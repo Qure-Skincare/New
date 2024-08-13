@@ -80,7 +80,6 @@
       "blocks": {
         "product_cRJKBk": {
           "type": "product",
-          "disabled": true,
           "settings": {
             "product": "exclusive-labor-day-bundle",
             "announcement_id": "",
