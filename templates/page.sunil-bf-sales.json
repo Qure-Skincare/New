@@ -125,6 +125,7 @@
         },
         "product_3gJLGX": {
           "type": "product",
+          "disabled": true,
           "settings": {
             "product": "confidence-booster-bundle",
             "announcement_id": "",
