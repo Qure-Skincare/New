@@ -60,11 +60,7 @@
 
     <link rel="preload" href="{{ 'liquid-ajax-cart-v1.11.1.js' | asset_url }}" as="script" fetchpriority="high">
 
-    <!--== CSS ==-->
-    <link rel="stylesheet" href="{{ 'style.css' | asset_url }}">
-    <link rel="stylesheet" href="{{ 'product.css' | asset_url }}">
-    <link rel="stylesheet" href="{{ 'header_new.css' | asset_url }}">
-    <link rel="stylesheet" href="{{ 'custom.css' | asset_url }}">
+    
 
     {{ content_for_header }}
 
@@ -86,6 +82,12 @@
     {{ 'endrock-sidecart.css' | asset_url | stylesheet_tag }}
     
     <!-- end styles endrock -->
+
+    <!--== CSS ==-->
+    <link rel="stylesheet" href="{{ 'style.css' | asset_url }}">
+    <link rel="stylesheet" href="{{ 'product.css' | asset_url }}">
+    <link rel="stylesheet" href="{{ 'header_new.css' | asset_url }}">
+    <link rel="stylesheet" href="{{ 'custom.css' | asset_url }}">
 
     {% render 'header-scripts' %}
 
@@ -269,5 +271,4 @@
     {% render 'gdpr' %} 
   
 </body>
-{% comment %} Forked {% endcomment %}
 </html>
