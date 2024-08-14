@@ -2043,13 +2043,6 @@ body[data-bundle-test] .holiday-bundles-concern {
   padding-bottom: 42px;
 }
 
-@media screen and (min-width: 1000px) {
-  .holiday-bundles-concern-container .holiday-bundles-concern-header{
-    gap: 20px;
-    padding-bottom: 80px;
-  }
-}
-
 .holiday-bundles-concern-container .holiday-bundles-concern-header .holiday-bundles-concern-header--title{
   font-family: 'Canela Web', sans-serif;
   font-size: 28px;
@@ -2060,26 +2053,9 @@ body[data-bundle-test] .holiday-bundles-concern {
   margin: 0;
 }
 
-@media screen and (min-width: 1000px) {
-  .holiday-bundles-concern-container .holiday-bundles-concern-header .holiday-bundles-concern-header--title{
-    font-size: 45px;
-    font-weight: 500;
-    line-height: 57.4px;
-    letter-spacing: 0.01em;
-    text-align: center;
-  }
-}
-
 .holiday-bundles-concern-container .holiday-bundles-concern-header .holiday-bundles-concern-header--image{
   width: 208px;
   height: 28px;
-}
-
-@media screen and (min-width: 1000px) {
-  .holiday-bundles-concern-container .holiday-bundles-concern-header .holiday-bundles-concern-header--image{
-    width: 416px;
-    height: 55px;
-  }
 }
 
 .holiday-bundles-concern-container .holiday-bundles-concern-header .holiday-bundles-concern-header--image img{
@@ -2097,26 +2073,12 @@ body[data-bundle-test] .holiday-bundles-concern {
   padding-bottom: 2.5rem;
 }
 
-@media screen and (min-width: 1000px) {
-  .holiday-bundles-concern-wrapper-card{
-    gap: 80px;
-    flex-direction: row;
-    align-items: baseline;
-  }
-}
-
 .holiday-bundles-concern-wrapper-card .holiday-bundles-concern-card{
   display: block;
   width: 100%;
   max-width: 500px;
   border-radius: 16px;
   padding: 20px 12px;
-}
-
-@media screen and (min-width: 1000px) {
-  .holiday-bundles-concern-wrapper-card .holiday-bundles-concern-card{
-    padding: 20px 38px;
-  }
 }
 
 .holiday-bundles-concern-wrapper-card .holiday-bundles-concern-card .holiday-bundles-concern-card--title{
@@ -2138,16 +2100,6 @@ body[data-bundle-test] .holiday-bundles-concern {
   margin: 0;
 }
 
-@media screen and (min-width: 1000px) {
-  .holiday-bundles-concern-wrapper-card .holiday-bundles-concern-card .holiday-bundles-concern-card--title h3{
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 13.13px; /* 93.789% */
-    letter-spacing: 0.14px;
-  }
-}
-
-
 .holiday-bundles-concern-wrapper-card .holiday-bundles-concern-card .holiday-bundles-concern-card--title h2{
   font-family: 'Canela Web', sans-serif;
   font-size: 28px;
@@ -2158,28 +2110,12 @@ body[data-bundle-test] .holiday-bundles-concern {
   margin: 0;
 }
 
-@media screen and (min-width: 1000px) {
-  .holiday-bundles-concern-wrapper-card .holiday-bundles-concern-card .holiday-bundles-concern-card--title h2{
-    font-size: 36px;
-    font-weight: 500;
-    line-height: 55px;
-    letter-spacing: 0.01em;
-  }
-}
-
 .holiday-bundles-concern-card-inside{
   display: flex;
   flex-direction: column;
   border-radius: 8px;
   gap: 9px;
   align-items: center;
-}
-
-@media screen and (min-width: 1000px) {
-  .holiday-bundles-concern-card-inside{
-    position: relative;
-    gap: 12px;
-  }
 }
 
 .holiday-bundles-concern-card-inside .holiday-bundles-concern-card-inside-blacktab-mobile{
@@ -2205,36 +2141,6 @@ body[data-bundle-test] .holiday-bundles-concern {
   display: none;
 }
 
-@media screen and (min-width: 1000px) {
-  .holiday-bundles-concern-card-inside .holiday-bundles-concern-card-inside-blacktab-mobile{
-    display: none;
-  }
-
-  .holiday-bundles-concern-card-inside .holiday-bundles-concern-card-inside-blacktab-desktop{
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 20px 20px 0 0;
-    transform: translateX(20%);
-    top: -19px;
-    left: 0;
-    right: 0;
-    width: 304px;
-    height: 19px;
-    color: white;
-    background-color: #000;
-    z-index: 2;
-    font-family: 'Poppins', sans-serif;
-    font-size: 11px;
-    font-weight: 500;
-    line-height: 13.13px;
-    letter-spacing: 0.01em;
-    text-align: center;
-
-  }
-}
-
 .holiday-bundles-concern-card-inside .holiday-bundles-concern-card-inside--image{
   display: flex;
   justify-content: center;
@@ -2247,13 +2153,6 @@ body[data-bundle-test] .holiday-bundles-concern {
   object-fit: cover;
 }
 
-@media screen and (min-width: 1000px) {
-  .holiday-bundles-concern-card-inside .holiday-bundles-concern-card-inside--image img{
-    width: 345px;
-    height: 240px;
-  }
-}
-
 .holiday-bundles-concern-card-inside h3{
   font-family: 'Canela Web';
   font-size: 20px;
@@ -2263,14 +2162,6 @@ body[data-bundle-test] .holiday-bundles-concern {
   text-align: center;
   margin: 0;
 }
-
-@media screen and (min-width: 1000px) {
-  .holiday-bundles-concern-card-inside h3{
-    font-size: 22px;
-    line-height: 32px;
-  }
-}
-
 
 .holiday-bundles-concern-card-inside .holiday-bundles-concern-card-inside-price-container{
   display: flex;
@@ -2356,12 +2247,6 @@ body[data-bundle-test] .holiday-bundles-concern {
   letter-spacing: 0.12px;
 }
 
-@media screen and (min-width: 1000px) {
-  .holiday-bundles-concern-card-inside .holiday-bundles-concern-card-inside-dropdown{
-    max-width: 365px;
-  }
-}
-
 .holiday-bundles-concern-card-inside .holiday-bundles-concern-card-inside-dropdown--image{
   width: 14px;
   height: 14px;
@@ -2376,13 +2261,6 @@ body[data-bundle-test] .holiday-bundles-concern {
   flex-direction: column;
   gap: 8px;
   max-width: 246px;
-}
-
-@media screen and (min-width: 1000px) {
-  .holiday-bundles-concern-card-inside-dropdown-container{
-    width: 100%;
-    max-width: 310px;
-  }
 }
 
 .holiday-bundles-concern-card-inside-dropdown-container.active{
@@ -2403,12 +2281,6 @@ body[data-bundle-test] .holiday-bundles-concern {
   width: 92%;
   height: 65px;
   padding-bottom: 15px;
-}
-
-@media screen and (min-width: 1000px) {
-  .holiday-bundles-concern-card-inside-footer{
-    margin-top: 4px;
-  }
 }
 
 .holiday-bundles-concern-card-inside-footer-availability{
@@ -2441,24 +2313,6 @@ body[data-bundle-test] .holiday-bundles-concern {
   letter-spacing: 0.093px;
 }
 
-@media screen and (min-width: 1000px) {
-  .holiday-bundles-concern-card-inside-footer-availability--number{
-    font-size: 15px;
-    font-weight: 700;
-    line-height: 19.12px;
-    letter-spacing: 0.2889908254146576px;
-  }
-
-  .holiday-bundles-concern-card-inside-footer-availability--text{
-    font-size: 10px;
-    font-weight: 400;
-    line-height: 15.41px;
-    letter-spacing: 0.09633027762174606px;
-    text-align: left;
-
-  }
-}
-
 .holiday-bundles-concern-card-inside-footer a{
   flex: 1;
   background-color: #000;
@@ -2473,13 +2327,6 @@ body[data-bundle-test] .holiday-bundles-concern {
   font-weight: 600;
   line-height: 19.375px; /* 107.639% */
   letter-spacing: 0.18px;
-}
-
-@media screen and (min-width: 1000px) {
-  .holiday-bundles-concern-card-inside-footer a{
-    font-size: 20px;
-    line-height: 20px;
-  }
 }
 
 .holiday-bundles-concern-footer{
@@ -2501,7 +2348,155 @@ body[data-bundle-test] .holiday-bundles-concern {
   color: white;
 }
 
+.holiday-bundles-concern-footer-payment{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #F0F0F080;
+  border-radius: 20px;
+  gap: 8px;
+  padding: 8px 20px 8px 20px;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 16px; /* 145.455% */
+}
+
+.holiday-bundles-concern-footer-payment--image{
+  width: 253px;
+  height: 18px;
+}
+
+
+.holiday-bundles-concern-footer-payment--image img{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
 @media screen and (min-width: 1000px) {
+  .holiday-bundles-concern-container .holiday-bundles-concern-header{
+    gap: 20px;
+    padding-bottom: 80px;
+  }
+
+  .holiday-bundles-concern-container .holiday-bundles-concern-header .holiday-bundles-concern-header--title{
+    font-size: 45px;
+    font-weight: 500;
+    line-height: 57.4px;
+    letter-spacing: 0.01em;
+    text-align: center;
+  }
+
+  .holiday-bundles-concern-container .holiday-bundles-concern-header .holiday-bundles-concern-header--image{
+    width: 416px;
+    height: 55px;
+  }
+
+  .holiday-bundles-concern-wrapper-card{
+    gap: 80px;
+    flex-direction: row;
+    align-items: baseline;
+  }
+
+  .holiday-bundles-concern-wrapper-card .holiday-bundles-concern-card{
+    padding: 20px 38px;
+  }
+
+  .holiday-bundles-concern-wrapper-card .holiday-bundles-concern-card .holiday-bundles-concern-card--title h3{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 13.13px; /* 93.789% */
+    letter-spacing: 0.14px;
+  }
+
+  .holiday-bundles-concern-wrapper-card .holiday-bundles-concern-card .holiday-bundles-concern-card--title h2{
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 55px;
+    letter-spacing: 0.01em;
+  }
+
+  .holiday-bundles-concern-card-inside{
+    position: relative;
+    gap: 12px;
+  }
+
+  .holiday-bundles-concern-card-inside .holiday-bundles-concern-card-inside-blacktab-mobile{
+    display: none;
+  }
+
+  .holiday-bundles-concern-card-inside .holiday-bundles-concern-card-inside-blacktab-desktop{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px 20px 0 0;
+    transform: translateX(20%);
+    top: -19px;
+    left: 0;
+    right: 0;
+    width: 304px;
+    height: 19px;
+    color: white;
+    background-color: #000;
+    z-index: 2;
+    font-family: 'Poppins', sans-serif;
+    font-size: 11px;
+    font-weight: 500;
+    line-height: 13.13px;
+    letter-spacing: 0.01em;
+    text-align: center;
+
+  }
+
+  .holiday-bundles-concern-card-inside .holiday-bundles-concern-card-inside--image img{
+    width: 345px;
+    height: 240px;
+  }
+
+  .holiday-bundles-concern-card-inside h3{
+    font-size: 22px;
+    line-height: 32px;
+  }
+
+  .holiday-bundles-concern-card-inside .holiday-bundles-concern-card-inside-dropdown{
+    max-width: 365px;
+  }
+
+  .holiday-bundles-concern-card-inside-dropdown-container{
+    width: 100%;
+    max-width: 310px;
+  }
+
+  .holiday-bundles-concern-card-inside-footer{
+    margin-top: 4px;
+  }
+
+  .holiday-bundles-concern-card-inside-footer-availability--number{
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 19.12px;
+    letter-spacing: 0.2889908254146576px;
+  }
+
+  .holiday-bundles-concern-card-inside-footer-availability--text{
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 15.41px;
+    letter-spacing: 0.09633027762174606px;
+    text-align: left;
+
+  }
+
+  .holiday-bundles-concern-card-inside-footer a{
+    font-size: 20px;
+    line-height: 20px;
+  }
+
   .holiday-bundles-concern-footer a{
     width: 373px;
     height: 60px;
@@ -2514,37 +2509,21 @@ body[data-bundle-test] .holiday-bundles-concern {
     line-height: 20px;
     letter-spacing: 0.01em;
   }
-}
 
-.holiday-bundles-concern-footer-payment{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-color: #F0F0F080;
-  border-radius: 20px;
-  gap: 8px;
-  padding: 8px 20px 8px 20px;
-}
-
-@media screen and (min-width: 1000px) {
   .holiday-bundles-concern-footer-payment{
     flex-direction: row;
     height: 33.96px;
     padding: 8px 20px 8px 20px;
     gap: 20px;
     border-radius: 20px 0px 0px 0px;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 16px;
+  }
+
+  .holiday-bundles-concern-footer-payment--image{
+    display: flex;
   }
 }
 
-.holiday-bundles-concern-footer-payment--image{
-  width: 253px;
-  height: 18px;
-}
-
-.holiday-bundles-concern-footer-payment--image img{
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-}
 /* end holiday-bundles-concern */
