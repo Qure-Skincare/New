@@ -2204,6 +2204,7 @@ body[data-bundle-test] .holiday-bundles-concern {
 .holiday-bundles-concern-card-inside .holiday-bundles-concern-card-inside-blacktab-desktop{
   display: none;
 }
+
 @media screen and (min-width: 1000px) {
   .holiday-bundles-concern-card-inside .holiday-bundles-concern-card-inside-blacktab-mobile{
     display: none;
@@ -2212,12 +2213,25 @@ body[data-bundle-test] .holiday-bundles-concern {
   .holiday-bundles-concern-card-inside .holiday-bundles-concern-card-inside-blacktab-desktop{
     position: absolute;
     display: flex;
-    top: -19px; /* Ajusta este valor según la altura de tu tab y la posición deseada */
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px 20px 0 0;
+    transform: translateX(20%);
+    top: -19px;
     left: 0;
     right: 0;
+    width: 304px;
+    height: 19px;
     color: white;
     background-color: #000;
     z-index: 2;
+    font-family: 'Poppins', sans-serif;
+    font-size: 11px;
+    font-weight: 500;
+    line-height: 13.13px;
+    letter-spacing: 0.01em;
+    text-align: center;
+
   }
 }
 
@@ -2233,6 +2247,13 @@ body[data-bundle-test] .holiday-bundles-concern {
   object-fit: cover;
 }
 
+@media screen and (min-width: 1000px) {
+  .holiday-bundles-concern-card-inside .holiday-bundles-concern-card-inside--image img{
+    width: 345px;
+    height: 240px;
+  }
+}
+
 .holiday-bundles-concern-card-inside h3{
   font-family: 'Canela Web';
   font-size: 20px;
@@ -2242,6 +2263,14 @@ body[data-bundle-test] .holiday-bundles-concern {
   text-align: center;
   margin: 0;
 }
+
+@media screen and (min-width: 1000px) {
+  .holiday-bundles-concern-card-inside h3{
+    font-size: 22px;
+    line-height: 32px;
+  }
+}
+
 
 .holiday-bundles-concern-card-inside .holiday-bundles-concern-card-inside-price-container{
   display: flex;
@@ -2327,6 +2356,12 @@ body[data-bundle-test] .holiday-bundles-concern {
   letter-spacing: 0.12px;
 }
 
+@media screen and (min-width: 1000px) {
+  .holiday-bundles-concern-card-inside .holiday-bundles-concern-card-inside-dropdown{
+    max-width: 365px;
+  }
+}
+
 .holiday-bundles-concern-card-inside .holiday-bundles-concern-card-inside-dropdown--image{
   width: 14px;
   height: 14px;
@@ -2342,6 +2377,14 @@ body[data-bundle-test] .holiday-bundles-concern {
   gap: 8px;
   max-width: 246px;
 }
+
+@media screen and (min-width: 1000px) {
+  .holiday-bundles-concern-card-inside-dropdown-container{
+    width: 100%;
+    max-width: 310px;
+  }
+}
+
 .holiday-bundles-concern-card-inside-dropdown-container.active{
   display: flex;
 }
@@ -2360,6 +2403,12 @@ body[data-bundle-test] .holiday-bundles-concern {
   width: 92%;
   height: 65px;
   padding-bottom: 15px;
+}
+
+@media screen and (min-width: 1000px) {
+  .holiday-bundles-concern-card-inside-footer{
+    margin-top: 4px;
+  }
 }
 
 .holiday-bundles-concern-card-inside-footer-availability{
@@ -2392,6 +2441,24 @@ body[data-bundle-test] .holiday-bundles-concern {
   letter-spacing: 0.093px;
 }
 
+@media screen and (min-width: 1000px) {
+  .holiday-bundles-concern-card-inside-footer-availability--number{
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 19.12px;
+    letter-spacing: 0.2889908254146576px;
+  }
+
+  .holiday-bundles-concern-card-inside-footer-availability--text{
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 15.41px;
+    letter-spacing: 0.09633027762174606px;
+    text-align: left;
+
+  }
+}
+
 .holiday-bundles-concern-card-inside-footer a{
   flex: 1;
   background-color: #000;
@@ -2400,6 +2467,19 @@ body[data-bundle-test] .holiday-bundles-concern {
   justify-content: center;
   align-items: center;
   border-radius: 0 25px 25px 0;
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 19.375px; /* 107.639% */
+  letter-spacing: 0.18px;
+}
+
+@media screen and (min-width: 1000px) {
+  .holiday-bundles-concern-card-inside-footer a{
+    font-size: 20px;
+    line-height: 20px;
+  }
 }
 
 .holiday-bundles-concern-footer{
@@ -2421,6 +2501,21 @@ body[data-bundle-test] .holiday-bundles-concern {
   color: white;
 }
 
+@media screen and (min-width: 1000px) {
+  .holiday-bundles-concern-footer a{
+    width: 373px;
+    height: 60px;
+    padding: 16px 0px 16px 0px;
+    gap: 0px;
+    border-radius: 100px;
+    opacity: 0px;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0.01em;
+  }
+}
+
 .holiday-bundles-concern-footer-payment{
   display: flex;
   flex-direction: column;
@@ -2430,6 +2525,16 @@ body[data-bundle-test] .holiday-bundles-concern {
   border-radius: 20px;
   gap: 8px;
   padding: 8px 20px 8px 20px;
+}
+
+@media screen and (min-width: 1000px) {
+  .holiday-bundles-concern-footer-payment{
+    flex-direction: row;
+    height: 33.96px;
+    padding: 8px 20px 8px 20px;
+    gap: 20px;
+    border-radius: 20px 0px 0px 0px;
+  }
 }
 
 .holiday-bundles-concern-footer-payment--image{
