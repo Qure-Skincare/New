@@ -46,7 +46,7 @@
       }
     },
     "main": {
-      "type": "temp-content-instructions",
+      "type": "temp-page-patches-content-guide",
       "settings": {
       }
     }
