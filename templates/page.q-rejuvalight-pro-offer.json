@@ -25,7 +25,7 @@
         "image_y9ECwQ": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/LED.png"
+            "image": "shopify:\/\/shop_images\/Untitled-2.jpg"
           }
         },
         "image_8dkCnP": {
@@ -34,28 +34,10 @@
             "image": "shopify:\/\/shop_images\/led-lp-product-2.webp"
           }
         },
-        "image_AqtB8d": {
+        "image_rf7wYb": {
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/Lola.png"
-          }
-        },
-        "image_HXiTTt": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/2x-hydra-soothing-rejuv-05.png"
-          }
-        },
-        "image_j8CeDz": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/2x-hydra-soothing-refill-05.png"
-          }
-        },
-        "image_Bdm9GQ": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/MI_b_a_1_treatment.png"
           }
         }
       },
@@ -63,10 +45,7 @@
         "button_PkNnCF",
         "image_y9ECwQ",
         "image_8dkCnP",
-        "image_AqtB8d",
-        "image_HXiTTt",
-        "image_j8CeDz",
-        "image_Bdm9GQ"
+        "image_rf7wYb"
       ],
       "settings": {
         "top_heading": "",
@@ -74,7 +53,7 @@
         "text": "<ul><li>FDA-cleared at-home LED mask<\/li><li>Treat acne, fine lines, wrinkles & more<\/li><li>Customize, track & schedule treatments with app<\/li><li>Quick & convenient 3-minute wireless treatments<\/li><\/ul>",
         "rating_text": "43,893+ Happy Customers",
         "rating_image": "shopify:\/\/shop_images\/star-half_fill_d51f6801-2e35-487c-89d0-130f978da1e8.svg",
-        "product_images_limit": 3,
+        "product_images_limit": 4,
         "product_button_label": "Product",
         "before_after_images_limit": 2,
         "before_after_button_label": "Real results"
