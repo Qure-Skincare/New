@@ -1,5 +1,11 @@
 <!DOCTYPE html>
-<html {% if request.path contains 'qure-microinfusion-offer-ar' %}lang="ar" dir="rtl"{% else %}lang="{{ shop.locale }}"{% endif %}>
+
+{% if request.path contains 'qure-microinfusion-offer-ar' %}
+<html lang="ar" dir="rtl"></html>
+{% else %}
+<html lang="{{ shop.locale }}">
+{% endif %}
+
 <head>
     {% render 'replo-head' %}
     <meta charset="utf-8">

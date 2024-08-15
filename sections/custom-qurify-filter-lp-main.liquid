@@ -7,7 +7,7 @@
 </style>
 
 <!-- -- main banner start -- -->
-<div class="refill_bl py-3 py-md-4 tabSlider {% if section.settings.ctm_check %}my_class{% endif %}">
+<div class="refill_bl py-3 py-md-4 tabSlider">
     <div class="container">
         <div class="row">
             <div class="col-md-6">
@@ -31,25 +31,19 @@
                     <div class="ss_list mw-452 pt-2 pb-4 d-none d-md-block">
                         {{ section.settings.text }}
                     </div>
-                    <div class="get_clearer_wrapper text-center">
-                        {%- for block in section.blocks -%}
-                            {% case block.type %}
-                                {% when 'button_after_before_text' %}
-                                    <p>{% if block.settings.icon != blank %}<span><img src="{{ block.settings.icon | img_url:'15x'}}" alt=""></span>{% endif %} {{ block.settings.text_first }}</p>
-                                 {% when 'button' %}   
-                                 <a class="btn btn-lg btn-primary btn_green" href="{{ block.settings.button_url }}">{{ block.settings.button_label }}</a>
-                            {% endcase %}
-                            {% comment %} {% if block.type == 'button' %}
-                                {% if block.settings.button_label != blank %}
-                                    
-                                        <p><span><img src="https://qureskincaredns.com/new/assets/derma-sm.svg" alt=""></span>{{ block.settings.text_first }}</p>
-                                        <a class="btn btn-lg btn-primary btn_green" href="{{ block.settings.button_url }}">{{ block.settings.button_label }}</span>
-                                        </a>
-                                        <p><span> <img src="https://qureskincaredns.com/new/assets/money-sm.svg" alt=""></span>{{ block.settings.text_second }}</p>
-                                {% endif %}
-                            {% endif %} {% endcomment %}
-                        {%- endfor -%}
-                    </div>
+
+                    {%- for block in section.blocks -%}
+                        {% if block.type == 'button' %}
+                            {% if block.settings.button_label != blank %}
+                                <div class="get_clearer_wrapper text-center ms-0">
+                                    <p><span><img src=" {{ block.settings.btn1_icon | img_url: '16x' }} " alt=""></span>{{ block.settings.text_first }}</p>
+                                    <a class="btn btn-lg btn-primary btn_green" href="{{ block.settings.button_url }}">{{ block.settings.button_label }}</span>
+                                    </a>
+                                    <p><span> <img src=" {{ block.settings.btn2_icon | img_url: '16x' }} " alt=""></span>{{ block.settings.text_second }}</p>
+                                </div>
+                            {% endif %}
+                        {% endif %}
+                    {%- endfor -%}
                 </div>
             </div>
             <div class="col-md-6  order-1 order-md-2">
@@ -115,17 +109,15 @@
                             <li class="nav-item" role="presentation">
                                 <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill"
                                     data-bs-target="#pills-home" type="button" role="tab"
-                                    aria-controls="pills-home" aria-selected="true">Product</button>
+                                    aria-controls="pills-home" aria-selected="true">{{ section.settings.product_button_label }}</button>
                             </li>
                             <li class="nav-item" role="presentation">
                                 <button class="nav-link d-none d-md-block" id="pills-profile-tab"
                                     data-bs-toggle="pill" data-bs-target="#pills-profile" type="button"
-                                    role="tab" aria-controls="pills-profile" aria-selected="false">Real
-                                    Results</button>
+                                    role="tab" aria-controls="pills-profile" aria-selected="false">{{ section.settings.before_after_button_label }}</button>
                                 <button class="nav-link d-block d-md-none" id="pills-profile-tab"
                                     data-bs-toggle="pill" data-bs-target="#pills-profile" type="button"
-                                    role="tab" aria-controls="pills-profile" aria-selected="false">Before &
-                                    After</button>
+                                    role="tab" aria-controls="pills-profile" aria-selected="false"></button>
                             </li>
                         </ul>
                     </div>
@@ -197,15 +189,9 @@
             {
                 "type": "text",
                 "id": "before_after_button_label",
-                "default": "Before & After",
+                "default": "Real results",
                 "label": "t:common.button.label",
                 "info": "t:common.button.info"
-            },
-            {
-                "type":"checkbox",
-                "id":"ctm_check",
-                "default":false,
-                "label": "Custom check"
             }
         ],
         "blocks": [
@@ -237,31 +223,36 @@
                         "type": "url",
                         "id": "button_url",
                         "label": "t:common.button.url.label"
-                    }
-                ]
-		    },
-            {
-                "type":"button_after_before_text",
-                "name":"Button after before text",
-                "settings":[
-                    {
-                        "type":"image_picker",
-                        "id":"icon",
-                        "label":"Icon"
                     },
                     {
                         "type": "text",
                         "id": "text_first",
                         "label": "t:common.text.label",
                         "default": "Dermatologist-Reviewed"
+                    },
+                    {
+                        "type": "image_picker",
+                        "id": "btn2_icon",
+                        "label": "Icon"
+                    },
+                    {
+                        "type": "image_picker",
+                        "id": "btn1_icon",
+                        "label": "Icon"
+                    },
+                    {
+                        "type": "text",
+                        "id": "text_second",
+                        "label": "t:common.text.label",
+                        "default": "30-Day Money-Back Guarantee"
                     }
                 ]
-            }
+		    }
         ],
         "presets":[
             {
-                "name":"Main"
-            }
+            "name": "Main",
+        }
         ]
     }
 {% endschema %}

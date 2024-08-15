@@ -1,0 +1,18 @@
+{
+  "sections": {
+    "main": {
+      "type": "page",
+      "settings": {
+      }
+    },
+    "17115385750c73305f": {
+      "type": "apps",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "main",
+    "17115385750c73305f"
+  ]
+}

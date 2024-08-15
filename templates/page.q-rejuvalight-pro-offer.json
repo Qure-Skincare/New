@@ -1,14 +1,135 @@
-/*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
 {
   "sections": {
+    "custom_qurify_filter_lp_main_dxwYq4": {
+      "type": "custom-qurify-filter-lp-main",
+      "blocks": {
+        "button_PkNnCF": {
+          "type": "button",
+          "settings": {
+            "button_label": "Transform My  Skin",
+            "button_url": "",
+            "text_first": "",
+            "btn2_icon": "shopify:\/\/shop_images\/derma-sm.svg",
+            "text_second": "Dermatologist-Reviewed"
+          }
+        },
+        "image_y9ECwQ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/oldwoman.png"
+          }
+        },
+        "image_8dkCnP": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/led-lp-product-2.webp"
+          }
+        },
+        "image_rf7wYb": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Lola.png"
+          }
+        },
+        "image_PLzCaj": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/results_michelle.webp"
+          }
+        },
+        "image_gYyPFn": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/led-result-2.webp"
+          }
+        }
+      },
+      "block_order": [
+        "button_PkNnCF",
+        "image_y9ECwQ",
+        "image_8dkCnP",
+        "image_rf7wYb",
+        "image_PLzCaj",
+        "image_gYyPFn"
+      ],
+      "settings": {
+        "top_heading": "",
+        "heading": "Feel Confident Makeup-Free with Q-Rejuvalight Pro",
+        "text": "<ul><li>FDA-cleared at-home LED mask<\/li><li>Treat acne, fine lines, wrinkles & more<\/li><li>Customize, track & schedule treatments with app<\/li><li>Quick & convenient 3-minute wireless treatments<\/li><\/ul>",
+        "rating_text": "43,893+ Happy Customers",
+        "rating_image": "shopify:\/\/shop_images\/star-half_fill_d51f6801-2e35-487c-89d0-130f978da1e8.svg",
+        "product_images_limit": 4,
+        "product_button_label": "Product",
+        "before_after_images_limit": 3,
+        "before_after_button_label": "Real results"
+      }
+    },
+    "featuredin_extended_kPLtYV": {
+      "type": "featuredin_extended",
+      "blocks": {
+        "image_7bGTBH": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/vogue-black.svg"
+          }
+        },
+        "text_rVCJHJ": {
+          "type": "text",
+          "settings": {
+            "text": "<p>“The professional grade is the perfect addition to any at-home skincare routine.”<\/p>"
+          }
+        },
+        "image_6FJ6tX": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/womenshealth.svg"
+          }
+        },
+        "text_NqidyF": {
+          "type": "text",
+          "settings": {
+            "text": "<p> “If you're on the hunt for a red light therapy tool that checks all of the boxes (who isn't?!), Qure's Light Therapy Mask is your answer.”<\/p>"
+          }
+        },
+        "image_7jwEXX": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/elle-black.svg"
+          }
+        },
+        "text_8bYXt8": {
+          "type": "text",
+          "settings": {
+            "text": "<p>“If you're unsure of what your skin needs, you can get the right treatment  out of your LED face mask. That way, you can mask in total confidence.”<\/p>"
+          }
+        },
+        "image_ezT6pQ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/si_showcase.svg"
+          }
+        },
+        "text_HCBmhc": {
+          "type": "text",
+          "settings": {
+            "text": "<p>“Qure Light Therapy Mask features five different types of light.... You can customize and track your progress using Qure’s app.”<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "image_7bGTBH",
+        "text_rVCJHJ",
+        "image_6FJ6tX",
+        "text_NqidyF",
+        "image_7jwEXX",
+        "text_8bYXt8",
+        "image_ezT6pQ",
+        "text_HCBmhc"
+      ],
+      "settings": {
+        "heading": "FEATURED IN"
+      }
+    },
     "main": {
       "type": "temp-q-rejuvalight-pro-offer",
       "settings": {
@@ -16,6 +137,8 @@
     }
   },
   "order": [
+    "custom_qurify_filter_lp_main_dxwYq4",
+    "featuredin_extended_kPLtYV",
     "main"
   ]
 }
