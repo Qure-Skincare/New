@@ -36,7 +36,7 @@
                         {% if block.type == 'button' %}
                             {% if block.settings.button_label != blank %}
                                 <div class="get_clearer_wrapper text-center">
-                                    <p><span><img src="https://qureskincaredns.com/new/assets/derma-sm.svg" alt=""></span>{{ block.settings.text_first }}</p>
+                                    <p><span><img src=" {{ block.settings.btn1_icon | img_url: '16x' }} " alt=""></span>{{ block.settings.text_first }}</p>
                                     <a class="btn btn-lg btn-primary btn_green" href="{{ block.settings.button_url }}">{{ block.settings.button_label }}</span>
                                     </a>
                                     <p><span> <img src=" {{ block.settings.btn2_icon | img_url: '16x' }} " alt=""></span>{{ block.settings.text_second }}</p>
@@ -235,6 +235,11 @@
                     {
                         "type": "image_picker",
                         "id": "btn2_icon",
+                        "label": "Icon"
+                    },
+                    {
+                        "type": "image_picker",
+                        "id": "btn1_icon",
                         "label": "Icon"
                     },
                     {
