@@ -18,24 +18,10 @@
             "button_label": "Transform My Skin",
             "button_url": ""
           }
-        },
-        "tab_3aKpy9": {
-          "type": "tab",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/2x-hydra-soothing-rejuv-04.png"
-          }
-        },
-        "tab_Hxt3E6": {
-          "type": "tab",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/2x-hydra-soothing-rejuv-05.png"
-          }
         }
       },
       "block_order": [
-        "button_8ewihH",
-        "tab_3aKpy9",
-        "tab_Hxt3E6"
+        "button_8ewihH"
       ],
       "settings": {
         "top_heading": "",
