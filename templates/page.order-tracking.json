@@ -10,12 +10,18 @@
 {
   "sections": {
     "main": {
-      "type": "temp-q-rejuvalight-pro-offer",
+      "type": "page",
+      "settings": {
+      }
+    },
+    "17115385750c73305f": {
+      "type": "apps",
       "settings": {
       }
     }
   },
   "order": [
-    "main"
+    "main",
+    "17115385750c73305f"
   ]
 }

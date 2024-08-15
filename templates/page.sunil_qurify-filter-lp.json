@@ -62,7 +62,9 @@
           "type": "button",
           "settings": {
             "button_label": "Get Clearer Skin",
-            "button_url": "#shop"
+            "button_url": "#shop",
+            "text_first": "Dermatologist-Reviewed",
+            "text_second": "30-Day Money-Back Guarantee"
           }
         },
         "image_emn73m": {
@@ -119,7 +121,6 @@
         "image_rHFhJm"
       ],
       "settings": {
-        "top_heading": "",
         "heading": "Wash Your Way To Clearer, Hydrated Skin with Q-urify Water Filter",
         "text": "<ul><li>Filters out skin irritants from tap water<\/li><li>Reduces appearance of wrinkles and prevents premature ageing <\/li><li>Decreases breakouts and redness<\/li><li>Clinically proven to improve hydration<\/li><\/ul>",
         "rating_text": "43,893+ Happy Customers",
@@ -127,8 +128,7 @@
         "product_images_limit": 6,
         "product_button_label": "Product",
         "before_after_images_limit": 2,
-        "before_after_button_label": "Real results",
-        "ctm_check": true
+        "before_after_button_label": "Real results"
       }
     },
     "featuredin_tFi6Ki": {
