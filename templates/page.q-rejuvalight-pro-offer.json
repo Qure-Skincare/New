@@ -17,10 +17,20 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/LED.png"
           }
+        },
+        "button_hazWQU": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_url": "",
+            "text_first": "Dermatologist-Reviewed",
+            "text_second": "30-Day Money-Back Guarantee"
+          }
         }
       },
       "block_order": [
-        "image_69Dyhx"
+        "image_69Dyhx",
+        "button_hazWQU"
       ],
       "settings": {
         "top_heading": "",
