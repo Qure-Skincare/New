@@ -56,36 +56,34 @@
                 <div class="refill_slider mw-mob-100">
                     <div class="refill_s_tab_content">
                         <div class="tab-content" id="pills-tabContent">
-                            {% if section.blocks.size > 0 %} {%- assign i = 1 -%} {% for block in section.blocks %}
-                                <div class="tab-pane fade show {% if forloop.first %}show active{% endif %}" id="a{{i}}" role="tabpanel"
-                                    aria-labelledby="pills-home-tab">
-                                    <div class="swiper twa__swiper productSlider dot_pagination"
-                                        id="twa__swiper-productSlider" data-section-id="productSlider"
-                                        data-autoplay="false" data-loop="false" data-centerslide="false"
-                                        data-mobile="1.1" data-tablet="1" data-desktop="1" data-spacing="10"
-                                        data-arrowleft="productSlider-swiper-prev"
-                                        data-arrowright="productSlider-swiper-next">
-                                        <div class="swiper-wrapper">
-                                            {%- for block in section.blocks limit:section.settings.product_images_limit -%}
-                                                {% if block.type == 'image' %}
-                                                    <div class="swiper-slide">
-                                                        <a class="banner-popup-link" id="popup-link">
-                                                            <picture id="image-id">
-                                                                <source media="(min-width:1100px)" srcset="{{ block.settings.image | img_url: '1100x' }}">
-                                                                <source media="(min-width:720px)" srcset="{{ block.settings.image | img_url: '720x' }}">
-                                                                <source media="(min-width:540px)" srcset="{{ block.settings.image | img_url: '540x' }}">
-                                                                <img src="{{ block.settings.image | img_url: '340x' }}" alt="" class="img-fluid tab_img" width="100" height="100">
-                                                            </picture>
-                                                        </a>
-                                                    </div>
-                                                {% endif %}
-                                            {%- endfor -%}
-                                        </div>
-                                        <div class="swiper-pagination"></div>
+                            <div class="tab-pane fade show active" id="pills-home" role="tabpanel"
+                                aria-labelledby="pills-home-tab">
+                                <div class="swiper twa__swiper productSlider dot_pagination"
+                                    id="twa__swiper-productSlider" data-section-id="productSlider"
+                                    data-autoplay="false" data-loop="false" data-centerslide="false"
+                                    data-mobile="1.1" data-tablet="1" data-desktop="1" data-spacing="10"
+                                    data-arrowleft="productSlider-swiper-prev"
+                                    data-arrowright="productSlider-swiper-next">
+                                    <div class="swiper-wrapper">
+                                        {%- for block in section.blocks limit:section.settings.product_images_limit -%}
+                                            {% if block.type == 'image' %}
+                                                <div class="swiper-slide">
+                                                    <a class="banner-popup-link" id="popup-link">
+                                                        <picture id="image-id">
+                                                            <source media="(min-width:1100px)" srcset="{{ block.settings.image | img_url: '1100x' }}">
+                                                            <source media="(min-width:720px)" srcset="{{ block.settings.image | img_url: '720x' }}">
+                                                            <source media="(min-width:540px)" srcset="{{ block.settings.image | img_url: '540x' }}">
+                                                            <img src="{{ block.settings.image | img_url: '340x' }}" alt="" class="img-fluid tab_img" width="100" height="100">
+                                                        </picture>
+                                                    </a>
+                                                </div>
+                                            {% endif %}
+                                        {%- endfor -%}
                                     </div>
+                                    <div class="swiper-pagination"></div>
                                 </div>
-                            {%- assign i = i | plus : 1 -%} {% endfor %} {% endif %}
-                            {% comment %} <div class="tab-pane fade" id="pills-profile" role="tabpanel"
+                            </div>
+                            <div class="tab-pane fade" id="pills-profile" role="tabpanel"
                                 aria-labelledby="pills-profile-tab">
                                 <div class="swiper twa__swiper realResultSlider dot_pagination"
                                     id="twa__swiper-realResultSlider" data-section-id="realResultSlider"
@@ -109,7 +107,7 @@
                                     </div>
                                     <div class="swiper-pagination"></div>
                                 </div>
-                            </div> {% endcomment %}
+                            </div>
                         </div>
                     </div>
                     <div class="refill_s_tab">
@@ -211,7 +209,18 @@
             }
         ],
         "blocks": [
-            
+            {
+                "type": "image",
+                "name": "t:common.image.label",
+                "limit": 12,
+                "settings": [
+                    {
+                        "type": "image_picker",
+                        "id": "image",
+                        "label": "t:common.image.label"
+                    }
+                ]
+		    },
             {
                 "type": "button",
                 "name": "t:common.button.name",
@@ -248,17 +257,6 @@
                     }
                 ]
             },
-            {
-                "type": "tab",
-                "name": "Tab",
-                "settings":[
-                    {
-                        "type":"image_picker",
-                        "id": "image",
-                        "label": "t:common.image.label"
-                    }
-                ]   
-            }
         ],
         "presets":[
             {
