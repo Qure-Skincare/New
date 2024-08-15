@@ -7,7 +7,7 @@
 </style>
 
 <!-- -- main banner start -- -->
-<div class="refill_bl py-3 py-md-4 tabSlider">
+<div class="refill_bl py-3 py-md-4 tabSlider {% if section.settings.ctm_check %}my_class{% endif %}">
     <div class="container">
         <div class="row">
             <div class="col-md-6">
@@ -200,6 +200,12 @@
                 "default": "Before & After",
                 "label": "t:common.button.label",
                 "info": "t:common.button.info"
+            },
+            {
+                "type":"checkbox",
+                "id":"ctm_check",
+                "default":false,
+                "label": "Custom check"
             }
         ],
         "blocks": [

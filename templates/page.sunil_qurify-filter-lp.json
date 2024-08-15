@@ -53,9 +53,7 @@
           "type": "button",
           "settings": {
             "button_label": "Get Clearer Skin",
-            "button_url": "#shop",
-            "text_first": "Dermatologist-Reviewed",
-            "text_second": "30-Day Money-Back Guarantee"
+            "button_url": "#shop"
           }
         },
         "image_emn73m": {
