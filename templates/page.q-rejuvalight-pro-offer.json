@@ -24,11 +24,18 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/2x-hydra-soothing-rejuv-04.png"
           }
+        },
+        "tab_Hxt3E6": {
+          "type": "tab",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2x-hydra-soothing-rejuv-05.png"
+          }
         }
       },
       "block_order": [
         "button_8ewihH",
-        "tab_3aKpy9"
+        "tab_3aKpy9",
+        "tab_Hxt3E6"
       ],
       "settings": {
         "top_heading": "",
