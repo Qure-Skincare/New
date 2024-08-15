@@ -111,6 +111,18 @@
           "settings": {
             "text": "<p>“If you're unsure of what your skin needs, you can get the right treatment  out of your LED face mask. That way, you can mask in total confidence.”<\/p>"
           }
+        },
+        "image_ezT6pQ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/si_showcase.svg"
+          }
+        },
+        "text_HCBmhc": {
+          "type": "text",
+          "settings": {
+            "text": "<p>“Qure Light Therapy Mask features five different types of light.... You can customize and track your progress using Qure’s app.”<\/p>"
+          }
         }
       },
       "block_order": [
@@ -119,7 +131,9 @@
         "image_6FJ6tX",
         "text_NqidyF",
         "image_7jwEXX",
-        "text_8bYXt8"
+        "text_8bYXt8",
+        "image_ezT6pQ",
+        "text_HCBmhc"
       ],
       "settings": {
         "heading": "FEATURED IN"
