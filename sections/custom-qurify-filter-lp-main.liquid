@@ -31,60 +31,52 @@
                     <div class="ss_list mw-452 pt-2 pb-4 d-none d-md-block">
                         {{ section.settings.text }}
                     </div>
-                    <div class="get_clearer_wrapper text-center ms-0"> 
-                        {%- for block in section.blocks -%}
-                            {% case block.type %}
-                                {% when 'button_after_before_text' %}
-                                    <p>{% if block.settings.icon != blank %}<span><img src="{{ block.settings.icon | img_url:'15x'}}" alt=""></span>{% endif %} {{ block.settings.text_first }}</p>
-                                 {% when 'button' %}   
-                                 <a class="btn btn-lg btn-primary btn_green" href="{{ block.settings.button_url }}">{{ block.settings.button_label }}</a>
-                            {% endcase %}
-                            {% comment %} {% if block.type == 'button' %}
-                                {% if block.settings.button_label != blank %}
-                                    
-                                        <p><span><img src="https://qureskincaredns.com/new/assets/derma-sm.svg" alt=""></span>{{ block.settings.text_first }}</p>
-                                        <a class="btn btn-lg btn-primary btn_green" href="{{ block.settings.button_url }}">{{ block.settings.button_label }}</span>
-                                        </a>
-                                        <p><span> <img src="https://qureskincaredns.com/new/assets/money-sm.svg" alt=""></span>{{ block.settings.text_second }}</p>
-                                {% endif %}
-                            {% endif %} {% endcomment %}
-                        {%- endfor -%}
-                    </div>
+
+                    {%- for block in section.blocks -%}
+                        {% if block.type == 'button' %}
+                            {% if block.settings.button_label != blank %}
+                                <div class="get_clearer_wrapper text-center">
+                                    <p><span><img src="https://qureskincaredns.com/new/assets/derma-sm.svg" alt=""></span>{{ block.settings.text_first }}</p>
+                                    <a class="btn btn-lg btn-primary btn_green" href="{{ block.settings.button_url }}">{{ block.settings.button_label }}</span>
+                                    </a>
+                                    <p><span> <img src="https://qureskincaredns.com/new/assets/money-sm.svg" alt=""></span>{{ block.settings.text_second }}</p>
+                                </div>
+                            {% endif %}
+                        {% endif %}
+                    {%- endfor -%}
                 </div>
             </div>
             <div class="col-md-6  order-1 order-md-2">
                 <div class="refill_slider mw-mob-100">
                     <div class="refill_s_tab_content">
                         <div class="tab-content" id="pills-tabContent">
-                            {%- for block in section.blocks -%}
-                                <div class="tab-pane fade show active" id="pills-home" role="tabpanel"
-                                    aria-labelledby="pills-home-tab">
-                                    <div class="swiper twa__swiper productSlider dot_pagination"
-                                        id="twa__swiper-productSlider" data-section-id="productSlider"
-                                        data-autoplay="false" data-loop="false" data-centerslide="false"
-                                        data-mobile="1.1" data-tablet="1" data-desktop="1" data-spacing="10"
-                                        data-arrowleft="productSlider-swiper-prev"
-                                        data-arrowright="productSlider-swiper-next">
-                                        <div class="swiper-wrapper">
-                                            {%- for block in section.blocks limit:section.settings.product_images_limit -%}
-                                                {% if block.type == 'image' %}
-                                                    <div class="swiper-slide">
-                                                        <a class="banner-popup-link" id="popup-link">
-                                                            <picture id="image-id">
-                                                                <source media="(min-width:1100px)" srcset="{{ block.settings.image | img_url: '1100x' }}">
-                                                                <source media="(min-width:720px)" srcset="{{ block.settings.image | img_url: '720x' }}">
-                                                                <source media="(min-width:540px)" srcset="{{ block.settings.image | img_url: '540x' }}">
-                                                                <img src="{{ block.settings.image | img_url: '340x' }}" alt="" class="img-fluid tab_img" width="100" height="100">
-                                                            </picture>
-                                                        </a>
-                                                    </div>
-                                                {% endif %}
-                                            {%- endfor -%}
-                                        </div>
-                                        <div class="swiper-pagination"></div>
+                            <div class="tab-pane fade show active" id="pills-home" role="tabpanel"
+                                aria-labelledby="pills-home-tab">
+                                <div class="swiper twa__swiper productSlider dot_pagination"
+                                    id="twa__swiper-productSlider" data-section-id="productSlider"
+                                    data-autoplay="false" data-loop="false" data-centerslide="false"
+                                    data-mobile="1.1" data-tablet="1" data-desktop="1" data-spacing="10"
+                                    data-arrowleft="productSlider-swiper-prev"
+                                    data-arrowright="productSlider-swiper-next">
+                                    <div class="swiper-wrapper">
+                                        {%- for block in section.blocks limit:section.settings.product_images_limit -%}
+                                            {% if block.type == 'image' %}
+                                                <div class="swiper-slide">
+                                                    <a class="banner-popup-link" id="popup-link">
+                                                        <picture id="image-id">
+                                                            <source media="(min-width:1100px)" srcset="{{ block.settings.image | img_url: '1100x' }}">
+                                                            <source media="(min-width:720px)" srcset="{{ block.settings.image | img_url: '720x' }}">
+                                                            <source media="(min-width:540px)" srcset="{{ block.settings.image | img_url: '540x' }}">
+                                                            <img src="{{ block.settings.image | img_url: '340x' }}" alt="" class="img-fluid tab_img" width="100" height="100">
+                                                        </picture>
+                                                    </a>
+                                                </div>
+                                            {% endif %}
+                                        {%- endfor -%}
                                     </div>
+                                    <div class="swiper-pagination"></div>
                                 </div>
-                             {%- endfor -%}
+                            </div>
                             <div class="tab-pane fade" id="pills-profile" role="tabpanel"
                                 aria-labelledby="pills-profile-tab">
                                 <div class="swiper twa__swiper realResultSlider dot_pagination"
@@ -206,6 +198,18 @@
         ],
         "blocks": [
             {
+                "type": "image",
+                "name": "t:common.image.label",
+                "limit": 12,
+                "settings": [
+                    {
+                        "type": "image_picker",
+                        "id": "image",
+                        "label": "t:common.image.label"
+                    }
+                ]
+		    },
+            {
                 "type": "button",
                 "name": "t:common.button.name",
                 "limit": 1,
@@ -221,48 +225,21 @@
                         "type": "url",
                         "id": "button_url",
                         "label": "t:common.button.url.label"
-                    }
-                ]
-		    },
-            {
-                "type":"button_after_before_text",
-                "name":"Button after before text",
-                "settings":[
-                    {
-                        "type":"image_picker",
-                        "id":"icon",
-                        "label":"Icon"
                     },
                     {
                         "type": "text",
                         "id": "text_first",
                         "label": "t:common.text.label",
                         "default": "Dermatologist-Reviewed"
-                    }
-                ]
-            },
-            {
-                "type":"tab_item",
-                "name":"Tab item",
-                "settings":[
-                    {
-                        "type": "image_picker",
-                        "id": "image",
-                        "label": "t:common.image.label"
                     },
                     {
                         "type": "text",
-                        "id": "text_first",
+                        "id": "text_second",
                         "label": "t:common.text.label",
-                        "default": "Dermatologist-Reviewed"
+                        "default": "30-Day Money-Back Guarantee"
                     }
                 ]
-            }
-        ],
-        "presets":[
-            {
-                "name":"Main"
-            }
+		    }
         ]
     }
 {% endschema %}
