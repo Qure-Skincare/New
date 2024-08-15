@@ -35,7 +35,7 @@
                     {%- for block in section.blocks -%}
                         {% if block.type == 'button' %}
                             {% if block.settings.button_label != blank %}
-                                <div class="get_clearer_wrapper text-center">
+                                <div class="get_clearer_wrapper text-center ms-0">
                                     <p><span><img src=" {{ block.settings.btn1_icon | img_url: '16x' }} " alt=""></span>{{ block.settings.text_first }}</p>
                                     <a class="btn btn-lg btn-primary btn_green" href="{{ block.settings.button_url }}">{{ block.settings.button_label }}</span>
                                     </a>
