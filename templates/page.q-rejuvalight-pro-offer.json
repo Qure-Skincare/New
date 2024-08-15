@@ -33,12 +33,26 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/led-result-2.webp"
           }
+        },
+        "image_AqtB8d": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_1299mi-pdp-RAMANDEEPresults_3a8f2a8e-90d4-405f-ad18-5ed9a1a2b702.png"
+          }
+        },
+        "image_HXiTTt": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2x-hydra-soothing-rejuv-05.png"
+          }
         }
       },
       "block_order": [
         "button_PkNnCF",
         "image_y9ECwQ",
-        "image_8dkCnP"
+        "image_8dkCnP",
+        "image_AqtB8d",
+        "image_HXiTTt"
       ],
       "settings": {
         "top_heading": "",
