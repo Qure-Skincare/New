@@ -73,6 +73,58 @@
         "before_after_button_label": "Real results"
       }
     },
+    "featuredin_extended_kPLtYV": {
+      "type": "featuredin_extended",
+      "blocks": {
+        "image_7bGTBH": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/vogue-black.svg"
+          }
+        },
+        "text_rVCJHJ": {
+          "type": "text",
+          "settings": {
+            "text": "<p>“The professional grade is the perfect addition to any at-home skincare routine.”<\/p>"
+          }
+        },
+        "image_6FJ6tX": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/womenshealth.svg"
+          }
+        },
+        "text_NqidyF": {
+          "type": "text",
+          "settings": {
+            "text": "<p> “If you're on the hunt for a red light therapy tool that checks all of the boxes (who isn't?!), Qure's Light Therapy Mask is your answer.”<\/p>"
+          }
+        },
+        "image_7jwEXX": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/elle-black.svg"
+          }
+        },
+        "text_8bYXt8": {
+          "type": "text",
+          "settings": {
+            "text": "<p>“If you're unsure of what your skin needs, you can get the right treatment  out of your LED face mask. That way, you can mask in total confidence.”<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "image_7bGTBH",
+        "text_rVCJHJ",
+        "image_6FJ6tX",
+        "text_NqidyF",
+        "image_7jwEXX",
+        "text_8bYXt8"
+      ],
+      "settings": {
+        "heading": "FEATURED IN"
+      }
+    },
     "main": {
       "type": "temp-q-rejuvalight-pro-offer",
       "settings": {
@@ -81,6 +133,7 @@
   },
   "order": [
     "custom_qurify_filter_lp_main_dxwYq4",
+    "featuredin_extended_kPLtYV",
     "main"
   ]
 }
