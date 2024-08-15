@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "current": {
     "favicon": "shopify:\/\/shop_images\/qure_favicon.png",
@@ -178,10 +187,10 @@
           "gift_ccQgi4"
         ],
         "settings": {
-          "sidecart_enable": true,
-          "start_date": "08-12-2024 00:00",
-          "finish_date": "09-03-2024 00:00",
-          "label_ends": "Labor Day Sales Ends In:",
+          "sidecart_enable": false,
+          "start_date": "08-16-2024 04:00",
+          "finish_date": "09-04-2024 16:59",
+          "label_ends": "Sales Ends In:",
           "label_days": "DAYS",
           "label_hours": "HOURS",
           "label_minutes": "MINUTES",
