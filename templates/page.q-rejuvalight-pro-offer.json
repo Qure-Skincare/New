@@ -9,6 +9,33 @@
 */
 {
   "sections": {
+    "custom_qurify_filter_lp_main_jNy4Rh": {
+      "type": "custom-qurify-filter-lp-main",
+      "blocks": {
+        "button_8ewihH": {
+          "type": "button",
+          "settings": {
+            "button_label": "Transform My Skin",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "button_8ewihH"
+      ],
+      "settings": {
+        "top_heading": "",
+        "heading": "Feel Confident Makeup-Free with Q-Rejuvalight Pro",
+        "text": "<ul><li>FDA-cleared at-home LED mask<\/li><li>Treat acne, fine lines, wrinkles & more<\/li><li>Customize, track & schedule treatments with app<\/li><li>Quick & convenient 3-minute wireless treatments<\/li><\/ul>",
+        "rating_text": "43,893+ Happy Customers",
+        "rating_image": "shopify:\/\/shop_images\/star-half_fill_d51f6801-2e35-487c-89d0-130f978da1e8.svg",
+        "product_images_limit": 0,
+        "product_button_label": "Product",
+        "before_after_images_limit": 0,
+        "before_after_button_label": "Before & After",
+        "ctm_check": false
+      }
+    },
     "main": {
       "type": "temp-q-rejuvalight-pro-offer",
       "settings": {
@@ -16,6 +43,7 @@
     }
   },
   "order": [
+    "custom_qurify_filter_lp_main_jNy4Rh",
     "main"
   ]
 }
