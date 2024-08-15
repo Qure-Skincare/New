@@ -119,6 +119,7 @@
 			</div>
 
 			{% render 'slidecart-timer' %}
+			{% render 'sidecart-timer-new', settings: section.settings %}
 
 			<div class="my-cart__info">
 				<div  class ="my-cart__items {% if cart.item_count == 0 %} cart__empty-items {% endif %}">
@@ -596,7 +597,54 @@
 		"name": "t:sections.slidecart.name",
 		"class": "section-slidecart",
 		"settings": [
-	
+			{
+        "type": "checkbox",
+        "id": "sidecart_enable",
+        "label": "Enable Sidecart Timer",
+        "default": false
+      },
+			{
+        "type": "text",
+        "id": "start_date",
+        "label": "Start Date",
+        "info": "Required format: 'MM-DD-YYYY HH:MM, Example: 12-31-2024 24:00"
+      },
+			{
+        "type": "text",
+        "id": "finish_date",
+        "label": "Finish Date",
+        "info": "Required format: 'MM-DD-YYYY HH:MM, Example: 12-31-2024 24:00"
+      },
+			{
+        "type": "text",
+        "id": "label_ends",
+        "label": "Label Ends in",
+        "default": "Sales Ends In:"
+      },
+			{
+        "type": "text",
+        "id": "label_days",
+        "label": "Label Days",
+        "default": "DAYS"
+      },
+			{
+        "type": "text",
+        "id": "label_hours",
+        "label": "Label Hours",
+        "default": "HOURS"
+      },
+			{
+        "type": "text",
+        "id": "label_minutes",
+        "label": "Label Minutes",
+        "default": "MINUTES"
+      },
+			{
+        "type": "text",
+        "id": "label_seconds",
+        "label": "Label Seconds",
+        "default": "SECONDS"
+      }
 		],
 		"blocks": [
 			{
