@@ -186,25 +186,6 @@
         "subheading": "<p>Here are 4 reasons why:<\/p>"
       }
     },
-    "progress_blocks_JcHBdK": {
-      "type": "progress-blocks",
-      "blocks": {
-        "column_pzKTwC": {
-          "type": "column",
-          "settings": {
-            "percent_text": "50",
-            "percent_bar": 50
-          }
-        }
-      },
-      "block_order": [
-        "column_pzKTwC"
-      ],
-      "settings": {
-        "section_heading": "Proof In Numbers",
-        "subheading": ""
-      }
-    },
     "main": {
       "type": "temp-q-rejuvalight-pro-offer",
       "settings": {
@@ -215,7 +196,6 @@
     "custom_qurify_filter_lp_main_dxwYq4",
     "featuredin_extended_kPLtYV",
     "uses_w3CMA7",
-    "progress_blocks_JcHBdK",
     "main"
   ]
 }
