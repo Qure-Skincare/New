@@ -10,13 +10,13 @@
 <!-- -- qure uses start -- -->
 <div class="q_uses_bl section bg_gradient_yellow_bt{% if videos_count == 0 %} pt-5{% endif %}">
     <div class="container">
-        {%- if section.settings.section_heading -%}
-        <div class="section_header mb-3 text-center">
-            <h2 class="title-lg paddingB">{{ section.settings.section_heading }}</h2>
-            {%- if section.settings.subheading -%}
-            <p>{{ section.settings.subheading }}</p>
-            {%- endif -%}
-        </div>
+        {%- if section.settings.section_heading != blank -%}
+            <div class="section_header mb-3 text-center">
+                <h2 class="title-lg paddingB">{{ section.settings.section_heading }}</h2>
+                {%- if section.settings.subheading -%}
+                <p>{{ section.settings.subheading }}</p>
+                {%- endif -%}
+            </div>
         {%- endif -%}
         {%- for block in section.blocks -%}
             {% if block.type == 'video' %}
@@ -66,7 +66,7 @@
     </div>
 </div>
 <!-- -- qure uses end -- -->
-<script>
+{% comment %} <script>
     const accordionHeaders = document.querySelectorAll('.q_uses_header');
     accordionHeaders.forEach(header => {
         header.addEventListener('click', () => {
@@ -81,7 +81,7 @@
             }
         });
     });
-</script>
+</script> {% endcomment %}
 {% schema %}
     {
         "name": "t:sections.uses.name",
