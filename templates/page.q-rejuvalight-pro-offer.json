@@ -130,6 +130,108 @@
         "heading": "FEATURED IN"
       }
     },
+    "uses_w3CMA7": {
+      "type": "uses",
+      "blocks": {
+        "column_7B3jgk": {
+          "type": "column",
+          "settings": {
+            "heading": "Trusted by world-leading dermatologists",
+            "text": "<p>Dr. Shah, an MD Board Certified Dermatologist, reviewed that it’s \"the best LED mask the market, in my opinion.”<\/p>",
+            "image": "shopify:\/\/shop_images\/cus_acc_1.webp"
+          }
+        },
+        "column_ThhqcA": {
+          "type": "column",
+          "settings": {
+            "heading": "Proven results in less than 12 weeks",
+            "text": "<p>Customers have reported reduced redness, diminished fine lines & wrinkles, and a glowing, younger-looking complexion after several weeks of consistent use.<\/p>",
+            "image": "shopify:\/\/shop_images\/cus_acc_2.webp"
+          }
+        },
+        "column_KXDayz": {
+          "type": "column",
+          "settings": {
+            "heading": "Alleviates many different skin concerns",
+            "text": "<p>Choose between an anti-aging treatment, an anti-breakout treatment, or customized treatment modes for each facial area.<\/p>",
+            "image": "shopify:\/\/shop_images\/cus_acc_3.webp"
+          }
+        },
+        "column_JATQdF": {
+          "type": "column",
+          "settings": {
+            "heading": "Track your treatments with Qure mobile app",
+            "text": "<p>Seamlessly pairs with our mobile app (iPhone and Android) for easy treatment planning, tracking, and scheduling. Never miss a treatment with in-app phone reminders, too.<\/p>",
+            "image": "shopify:\/\/shop_images\/cus_acc_4.webp"
+          }
+        }
+      },
+      "block_order": [
+        "column_7B3jgk",
+        "column_ThhqcA",
+        "column_KXDayz",
+        "column_JATQdF"
+      ],
+      "settings": {
+        "section_heading": "Customers call The Q-Rejuvalight Pro LED Mask “Game-Changing”",
+        "subheading": "<p>Here are 4 reasons why:<\/p>"
+      }
+    },
+    "progress_blocks_d8f7qn": {
+      "type": "progress-blocks",
+      "blocks": {
+        "column_E9DM7G": {
+          "type": "column",
+          "settings": {
+            "percent_text": "87",
+            "percent_bar": 87,
+            "toolip_hed": "<p>smoother facial <strong>wrinkles <\/strong>and <strong>fine lines<\/strong><\/p>",
+            "toolip_desc": "<p>*About the clinical trial: Clinical trial was conducted and investigated the potential of light-emitting diode (LED) treatments with a 660 nm. LED effects were then assessed in aged\/photoaged individuals in a split-face single-blinded study.<\/p>",
+            "font_size": 12
+          }
+        },
+        "column_QYVDHR": {
+          "type": "column",
+          "settings": {
+            "percent_text": "91",
+            "percent_bar": 91,
+            "toolip_hed": "<p>improved <strong>skin tone<\/strong> and enhanced <strong>smoothness<\/strong> <\/p>",
+            "toolip_desc": "<p>*About the clinical trial: Clinical trial was conducted to assess reduction in sun damage signs following 12 weeks of LED therapy with combined wavelengths of 633 and 830 nm. Sun-damage reduction was assessed at 6, 9, and 12 weeks by clinical photography and patient satisfaction scores.<\/p>",
+            "font_size": 12
+          }
+        },
+        "column_XmhPid": {
+          "type": "column",
+          "settings": {
+            "percent_text": "83",
+            "percent_bar": 83,
+            "toolip_hed": "<p>reduction of <strong>acne breakouts<\/strong><\/p>",
+            "toolip_desc": "<p>*About the clinical trial: Clinical trial was conducted with male and female subjects with acne grades at baseline ranging from Burton grade 1 to 5. Subjects were treated with LED therapy, alternating between the blue (415 nm) and near-IR (830 nm) heads. No other treatment was allowed. Results were assessed and compared with the baseline values at 1, 4 and 8 weeks post-treatment.<\/p>",
+            "font_size": 12
+          }
+        }
+      },
+      "block_order": [
+        "column_E9DM7G",
+        "column_QYVDHR",
+        "column_XmhPid"
+      ],
+      "settings": {
+        "section_heading": "Proof In Numbers test",
+        "subheading": "<p>During clinical studies on LED light therapy, users reported numerous benefits:<\/p>"
+      }
+    },
+    "featured_product_pEjkiL": {
+      "type": "featured-product",
+      "settings": {
+        "product_name": "Q-Rejuvalight Pro LED Mask",
+        "abt_product": "<p>Repair and rejuvenate your skin—and boost your self-esteem—with our FDA-cleared LED mask that treats acne, fine lines, wrinkles and dark spots.<\/p>",
+        "product_amt": "$349",
+        "pd_benefits": "<ul><li>Customizable treatment on 5 facial areas for your specific skin concerns<\/li><li>3-minute daily treatments with convenient, hands-free operation<\/li><li>Compatible app to track, plan and schedule your treatments<\/li><\/ul>",
+        "pd_rating": "97% customer satisfaction rate",
+        "btn_text": "Buy Now"
+      }
+    },
     "main": {
       "type": "temp-q-rejuvalight-pro-offer",
       "settings": {
@@ -139,6 +241,9 @@
   "order": [
     "custom_qurify_filter_lp_main_dxwYq4",
     "featuredin_extended_kPLtYV",
+    "uses_w3CMA7",
+    "progress_blocks_d8f7qn",
+    "featured_product_pEjkiL",
     "main"
   ]
 }

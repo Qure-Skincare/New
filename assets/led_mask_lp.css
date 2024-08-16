@@ -78,7 +78,9 @@
     letter-spacing: 0.11px;
     position: relative;
 }
-
+.tootltip_text * {
+    font-size: var(--heading-font-size);
+}
 .tootltip_text img {
     margin-left: 5px;
     cursor: pointer;

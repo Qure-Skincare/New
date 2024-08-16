@@ -1,0 +1,137 @@
+<!-- -- qurify water filter thumbnail start -- -->
+<div class="thumbnail_qurify section" id="shop">
+    <div class="container">
+        <div class="row gx-5">
+            <div class="col-md-6">
+                <div class="tq_info mw-100">
+                    <div class="refill_review justify-content-start">
+                        <div class="green_tag">
+                            <p>IN A STUDY...</p>
+                        </div>
+                        <p class="text-sm fw-normal">{{ section.settings.pd_rating }}</p>
+                    </div>
+                    {%- if section.settings.product_name != blank -%}
+                        <div class="section_header ps-0 pb-0 pt-3 ms-0">
+                            <h2 class="title-lg">{{ section.settings.product_name }}</h2>
+                            {%- if section.settings.abt_product != blank -%}
+                                {{ section.settings.abt_product }}
+                            {% endif %}
+                        </div>
+                    {% endif %}
+                    <div class="price">{{ section.settings.product_amt }}</div>
+                    <div class="tq_list ss_list">
+                        {{ section.settings.pd_benefits }}
+                    </div>
+                    <div class="tq_img_wrap d-block d-md-none mt-4">
+                        <div class="tq_img">
+                            <img class="largeImage img-fluid" src="https://qureskincaredns.com/new/assets/led_large_1.webp" alt="Default Image">
+                        </div>
+                        <div class="thumbs">
+                            <img src="https://qureskincaredns.com/new/assets/led_thumb_1.webp" class="img-fluid current"
+                                alt="1st image description" />
+                            <img src="https://qureskincaredns.com/new/assets/led_thumb_2.webp" class="img-fluid" alt="2nd image description" />
+                            <img src="https://qureskincaredns.com/new/assets/led_thumb_3.webp" class="img-fluid" alt="3rd image description" />
+                            <img src="https://qureskincaredns.com/new/assets/led_thumb_4.webp" class="img-fluid" alt="4th image description" />
+                        </div>
+                        <a class="see_action d-flex justify-content-center popup-youtube"
+                            href="https://www.youtube.com/watch?v=X9KXJPv6rno">
+                            <p><span>
+                                    <img src="https://qureskincaredns.com/new/assets/see_it_btn.svg" alt="" class="img-fluid">See
+                                    it in action
+                            </span>
+                                </p>
+                        </a>
+                    </div>
+                </div>
+                <div class="get_clearer_wrapper text-center mw-100 mt-3 mt-md-5">
+                    <div class="d-flex justify-content-evenly mw-mob-100">
+                        <p><span> <img src="https://qureskincaredns.com/new/assets/free_warranty.svg" alt=""></span>FREE 1-Year Warranty</p>
+                        <p><span><img src="https://qureskincaredns.com/new/assets/derma-sm.svg" alt=""></span>Dermatologist-Recommended
+                        </p>
+                    </div>
+                    <a class="btn btn-lg btn-primary btn_green mw-100" href="{{ routes.cart_add_url }}?id={{ product.variants.first.id }}&quantity=1" data-ajax-cart-request-button>
+                       {{ section.settings.btn_text }}
+                    </a>
+                    <div class="payment_method p-0">
+                        <p>OR pay 4 monthly payments of {{ divided_price }} with</p>
+                        <div class="pmt_img ps-2">
+                            <img src="https://qureskincaredns.com/new/assets/klarna.svg" alt="">
+                            <img src="https://qureskincaredns.com/new/assets/sezzle.svg" alt="">
+                            <img src="https://qureskincaredns.com/new/assets/afterpay.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="tq_img_wrap d-none d-md-block">
+                    <div class="tq_img">
+                        <img class="largeImage img-fluid" src="https://qureskincaredns.com/new/assets/led_large_1.webp" alt="Default Image">
+                    </div>
+                    <div class="thumbs">
+                        <img src="https://qureskincaredns.com/new/assets/led_thumb_1.webp" class="img-fluid current"
+                            alt="1st image description" />
+                        <img src="https://qureskincaredns.com/new/assets/led_thumb_2.webp" class="img-fluid" alt="2nd image description" />
+                        <img src="https://qureskincaredns.com/new/assets/led_thumb_3.webp" class="img-fluid" alt="3rd image description" />
+                        <img src="https://qureskincaredns.com/new/assets/led_thumb_4.webp" class="img-fluid" alt="4th image description" />
+                    </div>
+                    <a class="see_action d-flex justify-content-center popup-youtube"
+                        href="https://www.youtube.com/watch?v=X9KXJPv6rno">
+                        <p><span style="text-decoration: underline;">
+                                <img src="https://qureskincaredns.com/new/assets/see_it_btn.svg" alt="" class="img-fluid me-2">See
+                                it in action
+                        </span>
+                            </p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- -- qurify water filter thumbnail end -- -->
+
+{% schema %}
+    {
+        "name": "featured-product",
+        "settings": [
+            {
+                "type": "text",
+                "id": "product_name",
+                "default": "Q-Rejuvalight Pro LED Mask",
+                "label": "Product Name"
+            },
+            {
+                "type": "richtext",
+                "id": "abt_product",
+                "label": "About Product"
+            },
+            {
+                "type": "text",
+                "id": "product_amt",
+                "label": "Price"
+            },
+            {
+                "type": "richtext",
+                "id": "pd_benefits",
+                "label": "Product Benefits"
+            },
+            {
+                "type": "text",
+                "id": "pd_rating",
+                "default": "97% customer satisfaction rate",
+                "label": "Rating"
+            },
+            {
+                "type": "text",
+                "id": "btn_text",
+                "default": "Buy Now",
+                "label": "Button Label"
+            }
+        ],
+        
+        "presets": [
+            {
+                "name": "Featured Product"
+            }
+        ]
+    }
+{% endschema %}
