@@ -193,21 +193,27 @@
           "type": "column",
           "settings": {
             "percent_text": "87",
-            "percent_bar": 87
+            "percent_bar": 87,
+            "toolip_hed": "<p>smoother facial <strong>wrinkles <\/strong>and <strong>fine lines<\/strong><\/p>",
+            "toolip_desc": "<p>*About the clinical trial: Clinical trial was conducted and investigated the potential of light-emitting diode (LED) treatments with a 660 nm. LED effects were then assessed in aged\/photoaged individuals in a split-face single-blinded study.<\/p>"
           }
         },
         "column_QYVDHR": {
           "type": "column",
           "settings": {
             "percent_text": "91",
-            "percent_bar": 91
+            "percent_bar": 91,
+            "toolip_hed": "<p>improved <strong>skin tone<\/strong> and enhanced <strong>smoothness<\/strong> <\/p>",
+            "toolip_desc": "<p><em>*About the clinical trial: Clinical trial was conducted to assess reduction in sun damage signs following 12 weeks of LED therapy with combined wavelengths of 633 and 830 nm. Sun-damage reduction was assessed at 6, 9, and 12 weeks by clinical photography and patient satisfaction scores.<\/em><\/p>"
           }
         },
         "column_XmhPid": {
           "type": "column",
           "settings": {
             "percent_text": "83",
-            "percent_bar": 83
+            "percent_bar": 83,
+            "toolip_hed": "<p>reduction of <strong>acne breakouts<\/strong><\/p>",
+            "toolip_desc": "<p><em>*About the clinical trial: Clinical trial was conducted with male and female subjects with acne grades at baseline ranging from Burton grade 1 to 5. Subjects were treated with LED therapy, alternating between the blue (415 nm) and near-IR (830 nm) heads. No other treatment was allowed. Results were assessed and compared with the baseline values at 1, 4 and 8 weeks post-treatment.<\/em><\/p>"
           }
         }
       },
