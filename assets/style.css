@@ -31787,8 +31787,8 @@ p {
 
 @media(max-width:767px) {
     .announcement_bar p {
-        font-size: 10px !important;
-        line-height: 15px !important;
+        font-size: 12px !important;
+        line-height: 17px !important;
         letter-spacing: 0.3px !important;
     }
 
