@@ -199,8 +199,8 @@
         "column_tM9KM3": {
           "type": "column",
           "settings": {
-            "percent_text": "",
-            "percent_bar": 50
+            "percent_text": "80",
+            "percent_bar": 17
           }
         },
         "column_FaNYdf": {
