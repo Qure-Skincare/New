@@ -31797,6 +31797,11 @@ p {
         font-size: 12px;
     }
 }
+@media(max-width: 410px){
+    .announcement_bar p {
+        font-size: 11px !important;
+    }
+}
 
 /* -------------------- Announcement Bar End ------------------- */
 /* ====== featured promotion start  ===== */
