@@ -139,6 +139,41 @@
         "heading": "FEATURED IN"
       }
     },
+    "progress_blocks_eJtigC": {
+      "type": "progress-blocks",
+      "blocks": {
+        "column_F8hyKB": {
+          "type": "column",
+          "settings": {
+            "percent_text": "80",
+            "percent_bar": 60
+          }
+        },
+        "column_p8YM4D": {
+          "type": "column",
+          "settings": {
+            "percent_text": "20",
+            "percent_bar": 80
+          }
+        },
+        "column_qMPtEd": {
+          "type": "column",
+          "settings": {
+            "percent_text": "80",
+            "percent_bar": 20
+          }
+        }
+      },
+      "block_order": [
+        "column_F8hyKB",
+        "column_p8YM4D",
+        "column_qMPtEd"
+      ],
+      "settings": {
+        "section_heading": "Proof In Numbers",
+        "subheading": ""
+      }
+    },
     "uses_w3CMA7": {
       "type": "uses",
       "blocks": {
@@ -195,6 +230,7 @@
   "order": [
     "custom_qurify_filter_lp_main_dxwYq4",
     "featuredin_extended_kPLtYV",
+    "progress_blocks_eJtigC",
     "uses_w3CMA7",
     "main"
   ]
