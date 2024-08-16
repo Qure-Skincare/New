@@ -186,6 +186,41 @@
         "subheading": "<p>Here are 4 reasons why:<\/p>"
       }
     },
+    "progress_blocks_Q4kxyU": {
+      "type": "progress-blocks",
+      "blocks": {
+        "column_PF4PMa": {
+          "type": "column",
+          "settings": {
+            "percent_text": "87",
+            "percent_bar": 87
+          }
+        },
+        "column_gJkLfm": {
+          "type": "column",
+          "settings": {
+            "percent_text": "10",
+            "percent_bar": 10
+          }
+        },
+        "column_pQAb9w": {
+          "type": "column",
+          "settings": {
+            "percent_text": "30",
+            "percent_bar": 30
+          }
+        }
+      },
+      "block_order": [
+        "column_PF4PMa",
+        "column_gJkLfm",
+        "column_pQAb9w"
+      ],
+      "settings": {
+        "section_heading": "Proof In Numbers",
+        "subheading": ""
+      }
+    },
     "main": {
       "type": "temp-q-rejuvalight-pro-offer",
       "settings": {
@@ -196,6 +231,7 @@
     "custom_qurify_filter_lp_main_dxwYq4",
     "featuredin_extended_kPLtYV",
     "uses_w3CMA7",
+    "progress_blocks_Q4kxyU",
     "main"
   ]
 }
