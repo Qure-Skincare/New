@@ -139,17 +139,6 @@
         "heading": "FEATURED IN"
       }
     },
-    "uses_dropdown_MDcjeh": {
-      "type": "uses-dropdown",
-      "settings": {
-        "top_heading": "<p>Here are 4 reasons why:<\/p>",
-        "heading": "Customers call The Q-Rejuvalight Pro LED Mask “Game-Changing”",
-        "img1": "shopify:\/\/shop_images\/trusted_2.jpg",
-        "img2": "shopify:\/\/shop_images\/cus_acc_2.webp",
-        "img3": "shopify:\/\/shop_images\/cus_acc_3.webp",
-        "img4": "shopify:\/\/shop_images\/cus_acc_4.webp"
-      }
-    },
     "main": {
       "type": "temp-q-rejuvalight-pro-offer",
       "settings": {
@@ -159,7 +148,6 @@
   "order": [
     "custom_qurify_filter_lp_main_dxwYq4",
     "featuredin_extended_kPLtYV",
-    "uses_dropdown_MDcjeh",
     "main"
   ]
 }
