@@ -29,17 +29,10 @@
                         </span>
                         <div class="tooltip_wrap">
                             <div class="tooltip_btn">
-                                <div class="tootltip_text">smoother facial <strong>wrinkles</strong> and
-                                    <strong>fine lines</strong> <img src="https://qureskincaredns.com/new/assets/info_lg.svg" alt="">
+                                <div class="tootltip_text">{{ block.settings.toolip_hed }}<img src="https://qureskincaredns.com/new/assets/info_lg.svg" alt="">
                                     <div class="tooltip_info">
                                         <img src="https://qureskincaredns.com/new/assets/tooltip_triangle.svg" alt="">
-                                        <p>*About the clinical trial: Clinical trial was conducted and investigated
-                                            the
-                                            potential of light-emitting diode (LED) treatments with a 660 nm. LED
-                                            effects
-                                            were then assessed in aged/photoaged individuals in a split-face
-                                            single-blinded
-                                            study.</p>
+                                        <p>{{ block.settings.toolip_desc }}</p>
                                     </div>
                                 </div>
                             </div>
@@ -87,6 +80,16 @@
                         "default": 10,
                         "step": 1,
                         "label": "Percentage Bar"
+                    },
+                    {
+                        "type": "richtext",
+                        "id": "toolip_hed",
+                        "label": "Info Heading"
+                    },
+                    {
+                        "type": "richtext",
+                        "id": "toolip_desc",
+                        "label": "Info Description"
                     }
                 ]
 		    }
