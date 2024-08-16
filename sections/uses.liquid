@@ -58,7 +58,22 @@
     </div>
 </div>
 <!-- -- qure uses end -- -->
-
+<script>
+    const accordionHeaders = document.querySelectorAll('.q_uses_header');
+    accordionHeaders.forEach(header => {
+        header.addEventListener('click', () => {
+            header.classList.toggle('active');
+            const content = header.parentNode.nextElementSibling;
+            content.classList.toggle('active');
+            if (content.style.maxHeight) {
+                content.style.maxHeight = null;
+            } else {
+                content.style.maxHeight = content.scrollHeight + "px";
+    
+            }
+        });
+    });
+</script>
 {% schema %}
     {
         "name": "t:sections.uses.name",
