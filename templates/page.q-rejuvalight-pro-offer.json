@@ -139,62 +139,55 @@
         "heading": "FEATURED IN"
       }
     },
-    "main": {
-      "type": "temp-q-rejuvalight-pro-offer",
-      "settings": {
-      }
-    },
     "uses_w3CMA7": {
       "type": "uses",
       "blocks": {
-        "video_8xeDbr": {
-          "type": "video",
-          "settings": {
-            "heading": "Why Qure?",
-            "image": "shopify:\/\/shop_images\/why_qure.webp",
-            "video_url": "https:\/\/www.youtube.com\/watch?v=X9KXJPv6rno"
-          }
-        },
         "column_7B3jgk": {
           "type": "column",
           "settings": {
-            "heading": "Science-Backed, Dermatologist Approved",
-            "text": "<p>Backed by the most respected peer-reviewed <strong>Dermatologist Journals <\/strong>and <strong>scientific studies <\/strong>that <strong>prove <\/strong>Qure’s skincare <strong>works.<\/strong><\/p>",
-            "image": "shopify:\/\/shop_images\/q_uses_1.webp"
+            "heading": "Trusted by world-leading dermatologists",
+            "text": "<p>Dr. Shah, an MD Board Certified Dermatologist, reviewed that it’s \"the best LED mask the market, in my opinion.”<\/p>",
+            "image": "shopify:\/\/shop_images\/cus_acc_1.webp"
           }
         },
         "column_ThhqcA": {
           "type": "column",
           "settings": {
-            "heading": "Safe and Easy To Use",
-            "text": "<p>Perform <strong>safely <\/strong>from home for quick and <strong>easy <\/strong>regular <strong>DIY therapies <\/strong>so you can maintain long term smooth and healthy skin.<\/p>",
-            "image": "shopify:\/\/shop_images\/q_uses_2.webp"
+            "heading": "Proven results in less than 12 weeks",
+            "text": "<p>Customers have reported reduced redness, diminished fine lines & wrinkles, and a glowing, younger-looking complexion after several weeks of consistent use.<\/p>",
+            "image": "shopify:\/\/shop_images\/cus_acc_2.webp"
           }
         },
         "column_KXDayz": {
           "type": "column",
           "settings": {
-            "heading": "Saves You Time, and Money",
-            "text": "<p>No one has the time, or the money, to attend regular in-clinic treatments in order to see long lasting results. With Qure, it’s like going to the clinic 5x a week - Minus the cost and the time commitment.<\/p>",
-            "image": "shopify:\/\/shop_images\/q_uses_3.webp"
+            "heading": "Alleviates many different skin concerns",
+            "text": "<p>Choose between an anti-aging treatment, an anti-breakout treatment, or customized treatment modes for each facial area.<\/p>",
+            "image": "shopify:\/\/shop_images\/cus_acc_3.webp"
           }
         },
         "column_JATQdF": {
           "type": "column",
           "settings": {
-            "heading": "Clinically Proven Results",
-            "text": "<p>Keep your skin looking like you for longer. We put <strong>clinically proven <\/strong>technology and skincare that’s backed by science in your hands, so you can <strong>achieve in-clinic results without the guess work<\/strong><\/p>",
-            "image": "shopify:\/\/shop_images\/q_uses_4.webp"
+            "heading": "Track your treatments with Qure mobile app",
+            "text": "<p>Seamlessly pairs with our mobile app (iPhone and Android) for easy treatment planning, tracking, and scheduling. Never miss a treatment with in-app phone reminders, too.<\/p>",
+            "image": "shopify:\/\/shop_images\/cus_acc_4.webp"
           }
         }
       },
       "block_order": [
-        "video_8xeDbr",
         "column_7B3jgk",
         "column_ThhqcA",
         "column_KXDayz",
         "column_JATQdF"
       ],
+      "settings": {
+        "section_heading": "Customers call The Q-Rejuvalight Pro LED Mask “Game-Changing”",
+        "subheading": "<p>Here are 4 reasons why:<\/p>"
+      }
+    },
+    "main": {
+      "type": "temp-q-rejuvalight-pro-offer",
       "settings": {
       }
     }
@@ -202,7 +195,7 @@
   "order": [
     "custom_qurify_filter_lp_main_dxwYq4",
     "featuredin_extended_kPLtYV",
-    "main",
-    "uses_w3CMA7"
+    "uses_w3CMA7",
+    "main"
   ]
 }
