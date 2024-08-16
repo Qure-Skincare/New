@@ -73,6 +73,41 @@
         "before_after_button_label": "Real results"
       }
     },
+    "progress_blocks_D6d4Be": {
+      "type": "progress-blocks",
+      "blocks": {
+        "column_WncygP": {
+          "type": "column",
+          "settings": {
+            "percent_text": "50",
+            "percent_bar": 90
+          }
+        },
+        "column_jyCGf9": {
+          "type": "column",
+          "settings": {
+            "percent_text": "",
+            "percent_bar": 50
+          }
+        },
+        "column_8XqcdA": {
+          "type": "column",
+          "settings": {
+            "percent_text": "",
+            "percent_bar": 50
+          }
+        }
+      },
+      "block_order": [
+        "column_WncygP",
+        "column_jyCGf9",
+        "column_8XqcdA"
+      ],
+      "settings": {
+        "section_heading": "Proof In Numbers",
+        "subheading": ""
+      }
+    },
     "featuredin_extended_kPLtYV": {
       "type": "featuredin_extended",
       "blocks": {
@@ -194,6 +229,7 @@
   },
   "order": [
     "custom_qurify_filter_lp_main_dxwYq4",
+    "progress_blocks_D6d4Be",
     "featuredin_extended_kPLtYV",
     "uses_w3CMA7",
     "main"
