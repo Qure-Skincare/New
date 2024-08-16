@@ -192,25 +192,33 @@
         "column_E9DM7G": {
           "type": "column",
           "settings": {
-            "percent_text": "80",
-            "percent_bar": 80
+            "percent_text": "87",
+            "percent_bar": 87
           }
         },
         "column_QYVDHR": {
           "type": "column",
           "settings": {
-            "percent_text": "25",
-            "percent_bar": 25
+            "percent_text": "91",
+            "percent_bar": 91
+          }
+        },
+        "column_XmhPid": {
+          "type": "column",
+          "settings": {
+            "percent_text": "83",
+            "percent_bar": 83
           }
         }
       },
       "block_order": [
         "column_E9DM7G",
-        "column_QYVDHR"
+        "column_QYVDHR",
+        "column_XmhPid"
       ],
       "settings": {
         "section_heading": "Proof In Numbers",
-        "subheading": ""
+        "subheading": "<p>During clinical studies on LED light therapy, users reported numerous benefits:<\/p>"
       }
     },
     "main": {
