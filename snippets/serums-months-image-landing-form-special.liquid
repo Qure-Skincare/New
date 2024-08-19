@@ -2,16 +2,22 @@
     <p>Please provide section_id property to use this snippet</p>
 {% else %}
 
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            selectProduct('{{ section_id }}_');
-        });
-    </script>
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        selectProduct('{{ section_id }}_');
 
-    <!-- -- choose serum section start -- -->
-    <div class="available_bar">
-        <p>AVAILABLE UNTIL STOCK LASTS</p>
-    </div>
+        setTimeout(() => {
+            document.getElementById('2_month').click();
+        }, 500);
+    });
+
+
+</script>
+
+<!-- -- choose serum section start -- -->
+<div class="available_bar">
+    <p>BUY ONE 2 MONTH SUPPLY BUNDLE & <strong> GET ONE FREE</strong></p>
+</div>
 
 <div class="section productSubscription choose_serum" id="productSubscription">
         <div class="container">
@@ -21,26 +27,26 @@
                         <div class="text-start order-2 order-md-1">
                             <div class="section__header d-none d-md-block">
                                 <h2 class="title-lg">Choose your treatment options</h2>
+                                <div class="pt-3">
+                                    <img src="{{ 'special_offer.svg' | asset_url }}" alt="">
+                                </div>
                                 <div class="des">
-                                    <p>Rest assured that all orders are one-time purchases.</p>
-                                    <p> <strong>You will not be charged again</strong> in the subsequent months, and
-                                        there are no hidden charges.</p>
-                                    <p>When you are ready to reorder your treatment, you can purchase needle heads
-                                        and
-                                        serum of choice.</p>
+                                    <p>For a limited time, purchase any Micro-Infusion 2 Month Bundle and 
+                                        receive another one FREE! Save $149 on a total of 8 treatments.</p>
+                                    <p><i>Offer valid  while stocks last*</i></p>
                                 </div>
                             </div>
                         </div>
                         <div class="tmtFtrs_image order-1 order-md-2">
                             <div class="section__header d-block d-md-none">
                                 <h2 class="title-lg">Choose your treatment options</h2>
+                                <div class="pt-3">
+                                    <img src="{{ 'special_offer.svg' | asset_url }}" alt="">
+                                </div>
                                 <div class="des">
-                                    <p>Rest assured that all orders are one-time purchases. <strong>You will not be
-                                            charged again</strong> in the subsequent months, and
-                                        there are no hidden charges.</p><br>
-                                    <p>When you are ready to reorder your treatment, you can purchase needle heads
-                                        and
-                                        serum of choice.</p>
+                                    <p>For a limited time, purchase any Micro-Infusion 2 Month Bundle and 
+                                        receive another one FREE! Save $149 on a total of 8 treatments.</p>
+                                    <p><i>Offer valid  while stocks last*</i></p>
                                 </div>
                             </div>
                             <img src="{{ 'MI6x-mixed.webp' | asset_url }}" class="img-fluid" alt="" id="choosen_image" />
@@ -76,56 +82,9 @@
                             MicroInfusion? <a href="#">Chat with us!</a>
                         </div>
                     </div>
-                
-                    {% comment %} <div class="qure__treatments">
-                        <div class="section__header text-start order-2 order-md-1">
-                            <h2 class="heading">Choose your treatment options</h2>
-                            <div class="des">
-                                <p>Rest assured that all orders are one-time purchases.</p>
-                                <p> <strong>You will not be charged again</strong> in the subsequent months, and
-                                    there are no hidden charges.</p>
-                                <p>When you are ready to reorder your treatment, you can purchase needle heads
-                                    and
-                                    serum of choice.</p>
-                            </div>
-                        </div>
-                        <div class="tmtFtrs_image order-1 order-md-2 mw-mob-100">
-                            <img src="{{ 'MI6x-mixed.webp' | asset_url }}" class="img-fluid" alt="" id="choosen_image" />
-                        </div>
-                        <div class="tmtFtrs d-none d-md-flex justify-content-between mb-4 mt-5">
-                            <div class="tmtFtrs_block text-center">
-                                <div class="tmtFtr_icon">
-                                    <img src="{{ 'dermatologist.svg' | asset_url }}" alt="">
-                                </div>
-                                <div class="tmtFtr_des">
-                                    Dermatologist<br> Reviewed
-                                </div>
-                            </div>
-                            <div class="tmtFtrs_block text-center">
-                                <div class="tmtFtr_icon">
-                                    <img src="{{ 'free-shipping-ftr.svg' | asset_url }}" alt="">
-                                </div>
-                                <div class="tmtFtr_des">
-                                    Free World-Wide<br> Shipping over $100
-                                </div>
-                            </div>
-                            <div class="tmtFtrs_block text-center">
-                                <div class="tmtFtr_icon">
-                                    <img src="{{ 'science-ftr.svg' | asset_url }}" alt="">
-                                </div>
-                                <div class="tmtFtr_des">
-                                    Backed by<br> Science
-                                </div>
-                            </div>
-                        </div>
-                        <div class="qst_box text-center d-none d-md-block">
-                            <img src="{{ 'question_mark.svg' | asset_url }}" alt="" class="me-2"> Have questions about
-                            MicroInfusion? <a href="#">Chat with us!</a>
-                        </div>
-                    </div> {% endcomment %}
                 </div>
-                <div class="col-md-6">
-                    <div class="supply-detail">
+                <div class="col-md-6 p-0">
+                    <div id="special-detail-container" class="supply-detail">
                         <div class="supply_steps">
                             <div class="step_counter active"><span>1</span></div>
                             <div class="step_block">
@@ -152,18 +111,18 @@
                                                 data-month3-image="{{ 'MI6x-rejuv.webp' | asset_url }}">
                                                 <img src="{{ 'mc_2.webp' | asset_url }}" alt="" class="img-fluid" />
                                             </div>
-                                            <h4 class="serum_ttl">Rejuvenating</h4>
+                                            <h4 class="serum_ttl">Rejuvenating<span>for dark spots</span></h4>
                                         </label>
                                     </div>
                                     <div class="serumBlock {{ section_id }}_productTypeObject">
-                                        <input type="radio" class="" name="serum" id="hydra-soothing" checked />
+                                        <input type="radio" class="active" name="serum" id="hydra-soothing" checked />
                                         <label class="serum_prd bg-grey" for="hydra-soothing">
                                             <div class="serum_img product_type" data-product-type="3" data-month1-image="{{ 'MI2x-hydra.webp' | asset_url }}"
                                                 data-month2-image="{{ 'MI4x-hydra.webp' | asset_url }}"
                                                 data-month3-image="{{ 'MI6x-hydra.webp' | asset_url }}">
                                                 <img src="{{ 'mc_1.webp' | asset_url }}" alt="" class="img-fluid" />
                                             </div>
-                                            <h4 class="serum_ttl">Hydra-Soothing</h4>
+                                            <h4 class="serum_ttl">Hydra-Soothing<span>for wrinkles</span></h4>
                                         </label>
                                     </div>
 
@@ -185,9 +144,6 @@
                                         
                                         <a class="planBlock active {{ section_id }}_productPeriodObject" href="month_3" data-tab="month_3"
                                             data-per="& SAVE 43%" data-pay="${{ divided_price | money_without_currency }}" data-image="{{ 'MI2x-mixed-1.jpg' | asset_url }}">
-                                            <div class="plan_choosed">
-                                                <span>Over 5,000 people chose this supply</span>
-                                            </div>
                                             <input type="radio" name="monthlyPlan" id="3_month" checked data-product-period="3">
                                             <label class="monthly_plans" for="3_month" payment-price="{{ divided_price | money_without_trailing_zeros }}">
                                                 <div class="plan_des">
@@ -207,8 +163,12 @@
                                         {% assign product = all_products['micro-infusion-2-month-bundle-2x-b-g-serum-2x-e-g-f-serum'] %}
                                         {% assign divided_price = product.price | divided_by: 4 %}
                                         
-                                        <a class="planBlock {{ section_id }}_productPeriodObject new_block active" href="month_2" data-tab="month_2"
-                                            data-per="& SAVE 25%" data-pay="${{ divided_price | money_without_currency }}" data-image="{{ 'MI4x-mixed.jpg' | asset_url }}">
+                                        <a class="planBlock {{ section_id }}_productPeriodObject new_block" href="month_2" data-tab="month_2"
+                                            data-per="& GET ONE FREE" data-pay="${{ divided_price | money_without_currency }}" data-image="{{ 'MI4x-mixed.jpg' | asset_url }}">
+                                            <div class="plan_choosed text-center mw-100">
+                                                <span class="px-3 d-md-inline d-none">BUY ONE 2 MONTH SUPPLY BUNDLE & GET ONE <strong>FREE</strong></span>
+                                                <span class="d-md-none d-md-inline">BUY ONE 2 MONTH REJUVENATING BUNDLE & GET ONE <strong>FREE</strong></span>
+                                            </div>
                                             <input type="radio" name="monthlyPlan" id="2_month" data-product-period="2">
                                             <label class="monthly_plans" for="2_month" payment-price="{{ divided_price | money_without_trailing_zeros }}">
                                                 <div class="plan_des">
@@ -269,6 +229,21 @@
                                     </div>
                                     <div class="tab_content content" id="month_2">
                                         <div class="plan_bundle_detail">
+                                            <h6 class="cs_item__accordion">Buy one 2 month supply and get:<span><img src="{{ 'arrow-up.png' | asset_url }}" alt=""></span></h6>
+                                            <div class="u_item__hidden-div" style="display: none;">
+                                                <p><span><img src="{{ 'tick.png' | asset_url }}" alt=""></span>
+                                                    2 Micro-Infusion Devices (valued at $160)</p>
+                                                <p><span><img src="{{ 'tick.png' | asset_url }}" alt=""></span>6 Clinical-Grade Micro-Needling Heads (valued at $60)</p>
+                                                <p><span><img src="{{ 'tick.png' | asset_url }}" alt=""></span>8 clinically-formulated 4ml serums of choice to treat your specific skin concerns (valued at $160)</p>
+                                                <p><span><img src="{{ 'tick.png' | asset_url }}" alt=""></span>World-wide
+                                                    shipping (valued at $25)</p>
+                                                <p><span><img src="{{ 'tick.png' | asset_url }}" alt=""></span>24/7
+                                                    customer support access</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    {% comment %} <div class="tab_content content" id="month_2">
+                                        <div class="plan_bundle_detail">
                                             <h6 class="cs_item__accordion">What is in the 2 Month Supply
                                                 bundle:<span><img src="{{ 'arrow-up.png' | asset_url }}" alt=""></span></h6>
                                             <div class="u_item__hidden-div" style="display: none;">
@@ -283,7 +258,7 @@
                                                     shipping (valued at $25)</p>
                                             </div>
                                         </div>
-                                    </div>
+                                    </div> {% endcomment %}
                                     <div class="tab_content" id="month_1">
                                         <div class="plan_bundle_detail">
                                             <h6 class="cs_item__accordion">What is in the 1 Month Supply
