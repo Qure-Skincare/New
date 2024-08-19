@@ -620,6 +620,16 @@
             "text": "<p>\"Brighter looking, more even skin, minimum pain, and little downtime, just a few reasons why this is my favorite at-home treatment.\"<\/p><h6><strong>Dr Maxfield, MD,<\/strong> Certified Dermatologist<\/h6>"
           }
         },
+        "video_C6tFxe": {
+          "type": "video",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/trusted_dylan.webp",
+            "video_url": "https:\/\/www.youtube.com\/watch?v=mVdncsTAXiA",
+            "video_label": "Watch Video",
+            "wistia_id": "",
+            "text": "<p>\"The Qure micro-infusion system takes it a step further by not only increasing hydration but also delivering growth factors right where they need to be.”<\/p><h6><strong>Dr Dylan Greeney<\/strong> Board-Certified Dermatologist<\/h6>"
+          }
+        },
         "video_pEM9DL": {
           "type": "video",
           "disabled": true,
@@ -650,16 +660,6 @@
             "video_label": "Watch Video",
             "wistia_id": "",
             "text": "<p>\"I have liked this in between my in-office treatments. It’s convenient, great before events, and safe even for beginners.\"<\/p><h6><strong>Dr Aleksandra Brown, <\/strong>Board-Certified Dermatologist<\/h6>"
-          }
-        },
-        "video_C6tFxe": {
-          "type": "video",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/trusted_dylan.webp",
-            "video_url": "https:\/\/www.youtube.com\/watch?v=mVdncsTAXiA",
-            "video_label": "Watch Video",
-            "wistia_id": "",
-            "text": "<p>\"The Qure micro-infusion system takes it a step further by not only increasing hydration but also delivering growth factors right where they need to be.”<\/p><h6><strong>Dr Dylan Greeney<\/strong> Board-Certified Dermatologist<\/h6>"
           }
         },
         "video_PECKPL": {
@@ -707,10 +707,10 @@
       "block_order": [
         "feedback_9Aa4j6",
         "feedback_NVbkWM",
+        "video_C6tFxe",
         "video_pEM9DL",
         "video_XF3pgt",
         "video_cBVzEm",
-        "video_C6tFxe",
         "video_PECKPL",
         "video_dyArxL",
         "video_BMBJXV",
