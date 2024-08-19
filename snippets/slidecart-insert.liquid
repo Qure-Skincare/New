@@ -131,7 +131,7 @@
     fetch('/cart.js')
     .then(response => response.json())
     .then(cart => { 
-      if(window.__discount_applied == false) {
+      if(window['__discount_applied' + productId] === undefined) {
         if (cart.items.some(item => item.id === +(productId)))
         {
           fetch('/discount/' + discountCode).then(async () => {
@@ -147,7 +147,7 @@
               ]  
             }, {
               firstComplete: ( requestState ) => {
-                window.__discount_applied = true;
+                window['__discount_applied' + productId] = true;
               }
             } )
           });                  
