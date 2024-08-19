@@ -640,6 +640,16 @@
             "text": "<p>\"Unlike using harsh micro needles or Derma rollers, this one is super safe...\"<\/p><h6><strong>Dr Davin Lim<\/strong> Board-Certified Dermatologist<\/h6>"
           }
         },
+        "video_PECKPL": {
+          "type": "video",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/trusted_mona.webp",
+            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/71857fdec6b0497294117ed84cab480e.mp4",
+            "video_label": "Watch Video",
+            "wistia_id": "",
+            "text": "<p>\"You'll see a kind of dewy glowy look after you use it but within a couple of days your skin really looks quite amazing.\"<\/p><h6><strong>Dr Mona Patel<\/strong> Internal Medicine<\/h6>"
+          }
+        },
         "video_pEM9DL": {
           "type": "video",
           "disabled": true,
@@ -672,16 +682,6 @@
             "text": "<p>\"I have liked this in between my in-office treatments. It’s convenient, great before events, and safe even for beginners.\"<\/p><h6><strong>Dr Aleksandra Brown, <\/strong>Board-Certified Dermatologist<\/h6>"
           }
         },
-        "video_PECKPL": {
-          "type": "video",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/trusted_mona.webp",
-            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/71857fdec6b0497294117ed84cab480e.mp4",
-            "video_label": "Watch Video",
-            "wistia_id": "",
-            "text": "<p>\"You'll see a kind of dewy glowy look after you use it but within a couple of days your skin really looks quite amazing.\"<\/p><h6><strong>Dr Mona Patel<\/strong> Internal Medicine<\/h6>"
-          }
-        },
         "video_dyArxL": {
           "type": "video",
           "disabled": true,
@@ -709,10 +709,10 @@
         "feedback_NVbkWM",
         "video_C6tFxe",
         "video_jPYhQi",
+        "video_PECKPL",
         "video_pEM9DL",
         "video_XF3pgt",
         "video_cBVzEm",
-        "video_PECKPL",
         "video_dyArxL",
         "video_BMBJXV"
       ],
