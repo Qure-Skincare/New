@@ -1241,6 +1241,14 @@
             "code": ""
           }
         },
+        "object_bNBnKJ": {
+          "type": "object",
+          "settings": {
+            "heading": "What’s the difference between home micro-needling derma roller and microinfusion?",
+            "text": "<p>Micro-needling focuses on stimulating your body's own collagen by creating micro-injuries. But it doesn’t deliver any ingredients directly into your skin. The reuse of needles can cause unnecessary damage to the skin and has a higher risk of infection as using alcohol does disinfect the tool, but it is difficult to sterilize it completely and the needles also become blunt when reused, which severely compromises technique.<\/p><p>With microinfusion, you not only reap the benefits of micro-needling, but also deliver active ingredient solutions to target your specific skin concerns - This makes it work quicker and more effectively.<\/p><p>Qure’s microinfusion system has single-use needle heads which are disposed of after each to ensure that any risk of infection is minimal - unlike at-home microneedling rollers multiple times.<\/p>",
+            "code": ""
+          }
+        },
         "object_yjEtVU": {
           "type": "object",
           "settings": {
@@ -1293,6 +1301,7 @@
         "object_iNjJHr",
         "object_jh9h8Y",
         "object_n7R7ar",
+        "object_bNBnKJ",
         "object_yjEtVU",
         "object_R4mRcJ",
         "object_hkgHBN",
