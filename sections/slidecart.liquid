@@ -121,6 +121,7 @@
 			</div>
 
 			{% render 'slidecart-timer' %}
+			{% render 'sidecart-timer-new', settings: section.settings %}
 
 			<div class="my-cart__info">
 				<div  class ="my-cart__items {% if cart.item_count == 0 %} cart__empty-items {% endif %}">
@@ -308,19 +309,19 @@
 								<div class="empty-title dekstop-empty">
 									<h4>Micro-Infusion Facial System </h4>
 										<div class="empty-review">
-											<img src="https://qureskincaredns.com/assets/images/svg/bundle_r_3.svg" alt="" class="mr-2">
+											<img src="https://qureskincaredns.com/new/assets/bundle_r_3.svg" alt="" class="mr-2">
 											&nbsp;&nbsp;&nbsp;&nbsp;
 											<a href="/pages/microinfusion">98% of customers loved their skin after one treatment</a>
 										</div>
 								</div>
 								<div class="empty-main">
 									<div class="empty-img">
-										<img src="https://qureskincaredns.com/assets/images/cart/cart_micro.webp" style="max-width: 160px;">
+										<img src="https://qureskincaredns.com/new/assets/cart_micro.webp" style="max-width: 160px;">
 										<div class="empty-mobile">
 											<div class="empty-title">
 												<h4>Micro-Infusion Facial System </h4>
 												<div class="empty-review">
-													<img src="https://qureskincaredns.com/assets/images/svg/bundle_r_3.svg" alt="">
+													<img src="https://qureskincaredns.com/new/assets/bundle_r_3.svg" alt="">
 													<a href="/pages/microinfusion"> 98% of customers loved their skin after one treatment</a>
 												</div>
 											</div>
@@ -330,25 +331,25 @@
 										<ul>
 											<li>
 												<span>
-													<img src="https://qureskincaredns.com/assets/images/svg/dark-spots.svg" alt="">
+													<img src="https://qureskincaredns.com/new/assets/dark-spots.svg" alt="">
 												</span>
 												Reduce appearance of fine lines, pores and dark spots. 
 											</li>
 											<li>
 												<span>
-													<img src="https://qureskincaredns.com/assets/images/svg/skin.svg" alt="">
+													<img src="https://qureskincaredns.com/new/assets/skin.svg" alt="">
 												</span>
 												Infuse active ingredients into your skin. 
 											</li>
 											<li>
 												<span>
-													<img src="https://qureskincaredns.com/assets/images/svg/downtime.svg" alt="">
+													<img src="https://qureskincaredns.com/new/assets/downtime.svg" alt="">
 												</span> 
 												Immediately visible results, minimal downtime!
 											</li>
 											<li>
 												<span>
-													<img src="https://qureskincaredns.com/assets/images/svg/plus.svg" alt="">
+													<img src="https://qureskincaredns.com/new/assets/plus.svg" alt="">
 												</span> 
 												Virtually painless, and performed safely from home.
 											</li>
@@ -612,6 +613,54 @@ productGiftPdm: productGiftPdm %}
 		"name": "t:sections.slidecart.name",
 		"class": "section-slidecart",
 		"settings": [
+			{
+        "type": "checkbox",
+        "id": "sidecart_enable",
+        "label": "Enable Sidecart Timer",
+        "default": false
+      },
+			{
+        "type": "text",
+        "id": "start_date",
+        "label": "Start Date",
+        "info": "Required format: 'MM-DD-YYYY HH:MM, Example: 12-31-2024 24:00"
+      },
+			{
+        "type": "text",
+        "id": "finish_date",
+        "label": "Finish Date",
+        "info": "Required format: 'MM-DD-YYYY HH:MM, Example: 12-31-2024 24:00"
+      },
+			{
+        "type": "text",
+        "id": "label_ends",
+        "label": "Label Ends in",
+        "default": "Sales Ends In:"
+      },
+			{
+        "type": "text",
+        "id": "label_days",
+        "label": "Label Days",
+        "default": "DAYS"
+      },
+			{
+        "type": "text",
+        "id": "label_hours",
+        "label": "Label Hours",
+        "default": "HOURS"
+      },
+			{
+        "type": "text",
+        "id": "label_minutes",
+        "label": "Label Minutes",
+        "default": "MINUTES"
+      },
+			{
+        "type": "text",
+        "id": "label_seconds",
+        "label": "Label Seconds",
+        "default": "SECONDS"
+      }
       {
         "type": "checkbox",
         "id": "enable_free_shipping_treshold",

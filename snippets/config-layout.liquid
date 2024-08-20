@@ -24,6 +24,7 @@
     {% when 'product.sunil-chest-pdp' %}
         {% assign main_class = 'chest_pdp' %}
         <link rel="stylesheet" href="{{ 'product-chest-pdp.css' | asset_url }}">
+        <link rel="stylesheet" href="{{ 'qure-skincare-app.css' | asset_url }}">
     {% when 'product.sunil-all-in-one' %}
         {% assign main_class = 'all_in_one' %}
         <link rel="stylesheet" href="{{ 'product-serum-pdp.css' | asset_url }}">
@@ -65,6 +66,14 @@
         {% assign main_class = 'mi_landing' %}
         <link rel="stylesheet" href="{{ 'product-mi-landing.css' | asset_url }}">
         <link rel="stylesheet" href="{{ 'affiliate.css' | asset_url }}">
+    {% when 'page.sunil-mi-landing-special' %}
+        {% assign main_class = 'mi_landing mi_lp' %}
+        <link rel="stylesheet" href="{{ 'product-mi-landing.css' | asset_url }}">
+        <link rel="stylesheet" href="{{ 'affiliate.css' | asset_url }}">
+    {% when 'page.anti-creams-microinfusion' %}
+        {% assign main_class = 'anti-creams-microinfusion' %}
+        <link rel="stylesheet" href="https://qureskincaredns.com/new/assets/custom-treatment.css">
+        <link rel="stylesheet" href="https://qureskincaredns.com/new/assets/anti-creams-microinfusion-page.css">
     {% when 'page.sunil-mi-landing-de' %}
         {% assign main_class = 'mi_landing mi_landing_de' %}
         <link rel="stylesheet" href="{{ 'product-mi-landing.css' | asset_url }}">
@@ -118,6 +127,15 @@
         {% assign main_class = 'content_instructions' %}
         <link rel="stylesheet" href="{{ 'content-instructions.css' | asset_url }}">
         <link rel="stylesheet" href="{{ 'affiliate.css' | asset_url }}">
+    {% when 'page.patches-content-guide' %}
+        {% assign main_class = 'content_instructions content_instructions_patches' %}
+        <link rel="stylesheet" href="{{ 'content-instructions.css' | asset_url }}">
+        <link rel="stylesheet" href="{{ 'affiliate.css' | asset_url }}">
+    {% when 'page.q-rejuvalight-pro-guide' %}
+        {% assign main_class = 'content_instructions content_instructions_pro' %}
+        <link rel="stylesheet" href="{{ 'affiliate.css' | asset_url }}">
+        <link rel="stylesheet" href="{{ 'content-instructions.css' | asset_url }}">
+        <link rel="stylesheet" href="{{ 'content-instructions-q-rejuvalight-pro.css' | asset_url }}">
     {% when 'page.q-rejuvalight-pro-offer' %}
         {% assign main_class = 'qurify_lp led_lp' %}
         <link rel="stylesheet" href="{{ 'qurify-filter-lp.css' | asset_url }}">

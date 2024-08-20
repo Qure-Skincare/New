@@ -9,6 +9,7 @@
 {%- assign supply_count = 0 -%}
 {%- assign subscribe_count = 0 -%}
 {%- assign timer = blank -%}
+{%- assign list_count_reduced = 0 -%}
 
 {%- for block in section.blocks -%}
 	{%- case block.type -%}
@@ -16,6 +17,8 @@
             {%- assign rating_count = rating_count | plus: 1 -%}    
         {%- when 'list' -%}
             {%- assign list_count = list_count | plus: 1 -%}
+        {%- when 'list_reduced' -%}
+            {%- assign list_count_reduced = list_count_reduced | plus: 1 -%}
         {%- when 'supply' -%}
             {%- assign supply_count = supply_count | plus: 1 -%}
         {%- when 'subscribe' -%}
@@ -72,21 +75,38 @@
                         {% endif %}
                     </div>
 
-                    {% render 'product-led-mask' %}
-
                     {% unless page.handle == 'qure-micro-infusion-landing-page-affiliate' %}
-                        
-                        <div class="product-price">
-                            {% render 'pdm_product-price' subscribe_count: subscribe_count, section: section %}
+                        <div class="price_wrap">
+                            <div class="price">
+                                <div class="new_price">
+                                    {% render 'pdm_product-price' subscribe_count: subscribe_count, section: section %}
+                                </div>
                             </div>
+                        </div>
                     {% endunless %}
+
+                    {% render 'product-led-mask' %}
 
                     <div class="mw-452">
                         {% if list_count > 0 %}
-                            <div class="ss_list py-4">
+                            <div class="ss_list py-4 original-copy">
                                 <ul>
                                 {%- for block in section.blocks -%}
                                     {% if block.type == 'list' %}
+                                        {% if block.settings.text %}
+                                            {{ block.settings.text }}
+                                        {% endif %}
+                                    {% endif %}
+                                {%- endfor -%} 
+                                </ul>
+                            </div>
+                        {% endif %}
+
+                        {% if list_count_reduced > 0 %}
+                            <div class="ss_list py-4 reduced-copy">
+                                <ul>
+                                {%- for block in section.blocks -%}
+                                    {% if block.type == 'list_reduced' %}
                                         {% if block.settings.text %}
                                             {{ block.settings.text }}
                                         {% endif %}
@@ -171,9 +191,12 @@
                                             {% unless supply_count > 0 %}
                                                 {% render 'pdm_orderby' %}
                                             {% endunless %}
-                                            <a class="btn btn-lg btn-primary without_subscription buy_btn" href="{{ routes.cart_add_url }}?id={{ product.variants.first.id }}&quantity=1" data-ajax-cart-request-button>
-                                            {% if section.settings.reserve == true %}Reserve now{% else %}Buy Now{% endif %}
-                                            </a>
+
+                                            {% if product.variants.first.available %}
+                                                <a class="btn btn-lg btn-primary without_subscription buy_btn" href="{{ routes.cart_add_url }}?id={{ product.variants.first.id }}&quantity=1" data-ajax-cart-request-button>{% if section.settings.reserve == true %}Reserve now{% else %}Buy Now{% endif %}</a>
+                                            {% else %}
+                                                <a class="btn btn-lg btn-primary without_subscription buy_btn" href="#">{% if section.settings.reserve == true %}Reserve now{% else %}Sold Out{% endif %}</a>
+                                            {% endif %}
 
                                             {% capture sticky-button-classname %}without_subscription{% endcapture %}
 
@@ -577,6 +600,18 @@
             {
                 "type": "list",
                 "name": "t:common.list.label",
+                "limit": 1,
+                "settings": [
+                    {
+                        "type": "richtext",
+                        "id": "text",
+                        "label": "t:common.text.label"
+                    }
+                ]
+		    },
+            {
+                "type": "list_reduced",
+                "name": "list_reduced",
                 "limit": 1,
                 "settings": [
                     {

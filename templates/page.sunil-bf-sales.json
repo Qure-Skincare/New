@@ -16,7 +16,7 @@
           "type": "announcement",
           "settings": {
             "heading": "Limited Time Only:",
-            "timer": "2024-08-11T23:59:59",
+            "timer": "2024-08-18T23:59:59",
             "timer_next": 7
           }
         },
@@ -78,11 +78,10 @@
     "pdm_product_landing_sales_F9Dn8a": {
       "type": "pdm_product-landing-sales",
       "blocks": {
-        "product_MAY97j": {
+        "product_cRJKBk": {
           "type": "product",
-          "disabled": true,
           "settings": {
-            "product": "exclusive-amazon-prime-bundle",
+            "product": "exclusive-labor-day-bundle",
             "announcement_id": "",
             "button_text_id": "Get yours",
             "show_save_price": false
@@ -126,6 +125,7 @@
         },
         "product_3gJLGX": {
           "type": "product",
+          "disabled": true,
           "settings": {
             "product": "confidence-booster-bundle",
             "announcement_id": "",
@@ -144,6 +144,7 @@
         },
         "product_mmM6Jm": {
           "type": "product",
+          "disabled": true,
           "settings": {
             "product": "skin-ssentials-set-doctorly-choice",
             "announcement_id": "Doctorly recommended",
@@ -153,6 +154,7 @@
         },
         "product_MpViyV": {
           "type": "product",
+          "disabled": true,
           "settings": {
             "product": "youthify-or-glow-set",
             "announcement_id": "",
@@ -172,7 +174,7 @@
         }
       },
       "block_order": [
-        "product_MAY97j",
+        "product_cRJKBk",
         "product_UQdbaG",
         "product_ncYWKA",
         "product_ahkGAV",
@@ -374,6 +376,7 @@
       "settings": {
         "classname": "mi_landing_result",
         "heading": "Confidence changing results, from people just like you",
+        "heading_reduced": "",
         "text_verified_customer": "Verified customer",
         "text_reviewed": "Reviewed in"
       }
@@ -492,11 +495,10 @@
     "bundle_list_LdzHxV": {
       "type": "bundle-list",
       "blocks": {
-        "product_FjAVNE": {
+        "product_9rPLGX": {
           "type": "product",
-          "disabled": true,
           "settings": {
-            "product": "exclusive-amazon-prime-bundle",
+            "product": "exclusive-labor-day-bundle",
             "comment_ammount": 100,
             "percent": 34,
             "ppl_choise": 0,
@@ -550,6 +552,7 @@
         },
         "product_EQ6HJY": {
           "type": "product",
+          "disabled": true,
           "settings": {
             "product": "skin-ssentials-set-doctorly-choice",
             "comment_ammount": 202,
@@ -572,6 +575,7 @@
         },
         "product_aKUc4N": {
           "type": "product",
+          "disabled": true,
           "settings": {
             "product": "confidence-booster-bundle",
             "comment_ammount": 242,
@@ -583,6 +587,7 @@
         },
         "product_CnMwyU": {
           "type": "product",
+          "disabled": true,
           "settings": {
             "product": "youthify-or-glow-set",
             "comment_ammount": 514,
@@ -594,7 +599,7 @@
         }
       },
       "block_order": [
-        "product_FjAVNE",
+        "product_9rPLGX",
         "product_3Frmww",
         "product_JVJkGj",
         "product_DgMQiP",
@@ -757,6 +762,7 @@
       "settings": {
         "classname": "trusted_bl",
         "heading": "Trusted and recommended by world leading Dermatologists",
+        "heading_reduced": "",
         "likes": "2.4K",
         "views": "1.4M views",
         "image": "shopify:\/\/shop_images\/trusted_3.webp",
@@ -805,7 +811,9 @@
       "settings": {
         "classname": "beauty_skincare section",
         "heading": "Hello make up free days, goodbye clinical costs",
-        "text": "<p>Are you ready to enjoy the same technology used in clinics, without the price tag or hassle?<\/p><p>Get clinic-level results with consistent treatments from the comfort of your own home – for a fraction of the clinical cost.<\/p>"
+        "heading_reduced": "",
+        "text": "<p>Are you ready to enjoy the same technology used in clinics, without the price tag or hassle?<\/p><p>Get clinic-level results with consistent treatments from the comfort of your own home – for a fraction of the clinical cost.<\/p>",
+        "text_reduced": ""
       }
     },
     "details_sliders_BwedTq": {

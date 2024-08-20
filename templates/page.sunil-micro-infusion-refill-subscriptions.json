@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "main": {
@@ -108,15 +117,16 @@
         "before_and_after_jmNTNh": {
           "type": "before_and_after",
           "settings": {
-            "image_new_section_1": "shopify:\/\/shop_images\/before_and_after_-_m1.png",
-            "image_new_section_text_1": "real resul",
+            "image_new_section_1": "shopify:\/\/shop_images\/before_and_after_-_D_0ea487be-8e7f-4a8b-a6f7-950b0e530ac6.png",
+            "image_new_section_text_1": "real result",
             "image_new_section_2": "shopify:\/\/shop_images\/before_and_after_-_m3.png",
             "image_new_section_text_2": "testimonail two",
             "image_new_section_3": "shopify:\/\/shop_images\/before_and_after_-_m2.png",
             "image_new_section_text_3": "",
             "image_new_section_4": "shopify:\/\/shop_images\/before_and_after_-_m4.png",
             "image_new_section_text_4": "",
-            "image_new_section_text_5": "",
+            "image_new_section_5": "shopify:\/\/shop_images\/before_and_after_-_m1_d489fd6a-0d41-4ef1-8531-ff2925a28c60.png",
+            "image_new_section_text_5": "Result",
             "image_new_section_text_6": ""
           }
         },
@@ -473,6 +483,7 @@
       "settings": {
         "classname": "mi_landing_result",
         "heading": "Results you‘ll see with your own eyes",
+        "heading_reduced": "",
         "text_verified_customer": "Verified customer",
         "text_reviewed": "Reviewed in"
       }
@@ -530,6 +541,12 @@
         "classname": "replacement section",
         "column_image": 5,
         "column_content": 7
+      }
+    },
+    "liquid_C6P8Fm": {
+      "type": "liquid",
+      "settings": {
+        "code": "<div class=\"affect_skin section affect_howToUse\">\n            <div class=\"dsn-right-container\">\n                <div class=\"section_header ms-0 d-block d-md-none\">\n                    <h2 class=\"title-lg paddingB\">How to use<\/h2>\n                <\/div>\n                <div class=\"video_with_slide justify-content-end\">\n                    <div class=\"actVideo_block\">\n                        <div class=\"ctmVideo__block\">\n                            <div class=\"player\">\n                                <video poster=\"https:\/\/qureskincaredns.com\/new\/assets\/demo.png\" width=\"640\" height=\"264\" class=\"player__video viewer video-js ctmVideo-js\" src=\"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/ceec5349f67d4c0787fe34201dfe5300.mp4\"><\/video>\n                                <div class=\"player__controls\">\n                                    <div class=\"progress\">\n                                        <div class=\"progress__filled\"><\/div>\n                                    <\/div>\n                                    <button class=\"player__button toggle\" title=\"Toggle Play\">►<\/button>\n                                    <input type=\"range\" name=\"volume\" class=\"player__slider\" min=\"0\" max=\"1\" step=\"0.05\" value=\"1\">\n                                    <input type=\"range\" name=\"playbackRate\" class=\"player__slider\" min=\"0.5\" max=\"2\" step=\"0.1\" value=\"1\">\n                                    <button data-skip=\"-10\" class=\"player__button\">« 10s<\/button>\n                                    <button data-skip=\"25\" class=\"player__button\">25s »<\/button>\n                                    <button class=\"player__button player__fullscreen\">⧉<\/button>\n                                <\/div>\n                            <\/div>\n                        <\/div>\n                    <\/div>\n\n                    <div class=\"affect_skinContent\">\n                        <div class=\"section_header ms-0 d-none d-md-block\">\n                            <h2 class=\"title-lg paddingB\">How to use<\/h2>\n                        <\/div>\n                        <div class=\"get_compliment_wrap\">\n                            <div class=\"tab-content\" id=\"pills-tabContent1\">\n                                <div class=\"tab-pane fade active show\" id=\"pills-specs\" role=\"tabpanel\" aria-labelledby=\"pills-specs-tab\">\n                                    <div class=\"gc_img_wrap\">\n                                        <div class=\"gc_img\">\n                                            <img src=\"https:\/\/qureskincaredns.com\/new\/assets\/howUse_pdp1.webp\">\n                                        <\/div>\n                                        <div class=\"gc_img\">\n                                            <img src=\"https:\/\/qureskincaredns.com\/new\/assets\/howUse_pdp2.webp\">\n                                        <\/div>\n                                        <div class=\"gc_img\">\n                                            <img src=\"https:\/\/qureskincaredns.com\/new\/assets\/howUse_pdp3.webp\">\n                                        <\/div>\n                                    <\/div>\n                                <\/div>\n                                <div class=\"tab-pane fade\" id=\"pills-quick\" role=\"tabpanel\" aria-labelledby=\"pills-profile-tab\">\n                                    <div class=\"gc_img_wrap\">\n                                        <div class=\"gc_img\">\n                                            <img src=\"https:\/\/qureskincaredns.com\/new\/assets\/howUse_pdp2.webp\">\n                                        <\/div>\n                                        <div class=\"gc_img\">\n                                            <img src=\"https:\/\/qureskincaredns.com\/new\/assets\/howUse_pdp3.webp\">\n                                        <\/div>\n                                        <div class=\"gc_img\">\n                                            <img src=\"https:\/\/qureskincaredns.com\/new\/assets\/howUse_pdp1.webp\">\n                                        <\/div>\n                                    <\/div>\n                                <\/div>\n                                <div class=\"tab-pane fade\" id=\"pills-customize\" role=\"tabpanel\" aria-labelledby=\"pills-customize-tab\">\n                                    <div class=\"gc_img_wrap\">\n                                        <div class=\"gc_img\">\n                                            <img src=\"https:\/\/qureskincaredns.com\/new\/assets\/howUse_pdp3.webp\">\n                                        <\/div>\n                                        <div class=\"gc_img\">\n                                            <img src=\"https:\/\/qureskincaredns.com\/new\/assets\/howUse_pdp1.webp\">\n                                        <\/div>\n                                        <div class=\"gc_img\">\n                                            <img src=\"https:\/\/qureskincaredns.com\/new\/assets\/howUse_pdp2.webp\">\n                                        <\/div>\n                                    <\/div>\n                                <\/div>\n                            <\/div>\n                            <ul class=\"nav nav-pills\" id=\"pills-tab-skin\" role=\"tablist\">\n                                <li class=\"nav-item\" role=\"presentation\">\n                                    <button class=\"nav-link active\" id=\"pills-specs-tab\" data-bs-toggle=\"pill\" data-bs-target=\"#pills-specs\" type=\"button\" role=\"tab\" aria-controls=\"pills-specs\" aria-selected=\"true\">Prepare<\/button>\n                                <\/li>\n                                <li class=\"nav-item\" role=\"presentation\">\n                                    <button class=\"nav-link\" id=\"pills-quick-tab\" data-bs-toggle=\"pill\" data-bs-target=\"#pills-quick\" type=\"button\" role=\"tab\" aria-controls=\"pills-quick\" aria-selected=\"false\">Treatment<\/button>\n                                <\/li>\n                                <li class=\"nav-item\" role=\"presentation\">\n                                    <button class=\"nav-link\" id=\"pills-customize-tab\" data-bs-toggle=\"pill\" data-bs-target=\"#pills-customize\" type=\"button\" role=\"tab\" aria-controls=\"pills-customize\" aria-selected=\"false\">Aftercare<\/button>\n                                <\/li>\n                            <\/ul>\n                            <div class=\"tab-content\" id=\"pills-tabContent2\">\n                                <div class=\"tab-pane fade show active\" id=\"pills-specs\" role=\"tabpanel\" aria-labelledby=\"pills-specs-tab\">\n                                    <p>Twist open the chamber of the device and fill with one ampule of serum. <br>Twist\n                                        on needle head with lid to close it tight.\n                                    <\/p>\n                                    <p>Leave the device upside down for 1-2 minutes. <br>During this time, wash your\n                                        face and make sure your hands are clean.<\/p>\n                                <\/div>\n                                <div class=\"tab-pane fade\" id=\"pills-quick\" role=\"tabpanel\" aria-labelledby=\"pills-quick-tab\">\n                                    <p>Once the serum has had enough time to make its way into the needles, you can take\n                                        off the lid and start micro-infusing!<\/p>\n                                    <p>Start at the centre of the face and work your way outward to cover the full face.\n                                        Perform 2\/3 passes. Take any leftover serum from the device and pat it onto your\n                                        face and neck to leave on overnight.<\/p>\n                                <\/div>\n                                <div class=\"tab-pane fade\" id=\"pills-customize\" role=\"tabpanel\" aria-labelledby=\"pills-customize-tab\">\n                                    <p>Once treatment is completed, place lid back on the needle head. <\/p>\n                                    <p>Twist the lid off and dispose safely.<\/p>\n                                    <p>Open a new sterile needle head and put it on the device ready for your next\n                                        treatment.<\/p>\n                                <\/div>\n                            <\/div>\n                        <\/div>\n                    <\/div>\n                <\/div>\n            <\/div>\n        <\/div>"
       }
     },
     "guide_PGAAdt": {
@@ -591,6 +608,7 @@
         "object_EqFqa8",
         "object_TQWcYD"
       ],
+      "disabled": true,
       "settings": {
         "classname": "",
         "heading": "See it in action — an instant, effortless glow that looks as good as it feels",
@@ -713,6 +731,7 @@
       "settings": {
         "classname": "trusted_bl",
         "heading": "Loved by world leading Dermatologists",
+        "heading_reduced": "",
         "likes": "23K",
         "views": "1.3M views",
         "image": "shopify:\/\/shop_images\/trusted_3.webp",
@@ -873,6 +892,7 @@
     "results_RAwjmJ",
     "liquid_KHpx4x",
     "two_column_box_PWXFYi",
+    "liquid_C6P8Fm",
     "guide_PGAAdt",
     "trusted_3LYymW",
     "liquid_yCpGbf",

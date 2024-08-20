@@ -9,7 +9,7 @@
 */
 {
   "current": {
-    "favicon": "shopify:\/\/shop_images\/qure_favicon.png",
+    "favicon": "shopify:\/\/shop_images\/qure.png",
     "social_instagram_link": "https:\/\/www.instagram.com\/qureskincare\/",
     "social_facebook_link": "https:\/\/www.facebook.com\/Qureskincare\/",
     "social_tiktok_link": "https:\/\/www.tiktok.com\/@qureskincare",
@@ -32,6 +32,9 @@
     ],
     "show_order_by_receive_by": true,
     "today_text": "Order today",
+    "custom_trustpilot_name": "shopify:\/\/shop_images\/reviews_name.svg",
+    "custom_trustpilot_stars": "shopify:\/\/shop_images\/stars.svg",
+    "custom_trustpilot_score": "shopify:\/\/shop_images\/score.svg",
     "promotion": "promotion",
     "sections": {
       "header": {
@@ -40,9 +43,9 @@
           "announcement_TPxBgi": {
             "type": "announcement",
             "settings": {
-              "heading": "<p><strong>FREE World-Wide Shipping <\/strong>All Orders Above $100<\/p>",
-              "button_label": "SHOP NOW",
-              "button_url": "shopify:\/\/collections\/best-sellers"
+              "heading": "<p>🇺🇲 <strong>LABOR DAY SALE<\/strong> Exclusive Bundle <\/p>",
+              "button_label": "SAVE 51%",
+              "button_url": "https:\/\/www.qureskincare.com\/pages\/exclusive-holiday-bundle-deal#exclusive-labor-day-bundle"
             }
           },
           "tab_3Wyyea": {
@@ -184,6 +187,14 @@
           "gift_ccQgi4"
         ],
         "settings": {
+          "sidecart_enable": true,
+          "start_date": "08-15-2024 12:00",
+          "finish_date": "09-03-2024 23:59",
+          "label_ends": "Labor Day Sales Ends In:",
+          "label_days": "DAYS",
+          "label_hours": "HOURS",
+          "label_minutes": "MINUTES",
+          "label_seconds": "SECONDS"
           "enable_free_shipping_treshold": true,
           "enable_product_gift": true,
           "product_free_gift": "face-serum",
