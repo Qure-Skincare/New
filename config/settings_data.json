@@ -9,7 +9,7 @@
 */
 {
   "current": {
-    "favicon": "shopify:\/\/shop_images\/qure_favicon.png",
+    "favicon": "shopify:\/\/shop_images\/qure.png",
     "social_instagram_link": "https:\/\/www.instagram.com\/qureskincare\/",
     "social_facebook_link": "https:\/\/www.facebook.com\/Qureskincare\/",
     "social_tiktok_link": "https:\/\/www.tiktok.com\/@qureskincare",
@@ -43,9 +43,9 @@
           "announcement_TPxBgi": {
             "type": "announcement",
             "settings": {
-              "heading": "<p><strong>FREE <\/strong>World-Wide Shipping Orders $100+<\/p>",
-              "button_label": "SHOP NOW",
-              "button_url": "shopify:\/\/collections\/best-sellers"
+              "heading": "<p>🇺🇲 <strong>LABOR DAY SALE<\/strong> Exclusive Bundle <\/p>",
+              "button_label": "SAVE 51%",
+              "button_url": "https:\/\/www.qureskincare.com\/pages\/exclusive-holiday-bundle-deal#exclusive-labor-day-bundle"
             }
           },
           "tab_3Wyyea": {
@@ -187,6 +187,14 @@
           "gift_ccQgi4"
         ],
         "settings": {
+          "sidecart_enable": true,
+          "start_date": "08-15-2024 12:00",
+          "finish_date": "09-03-2024 23:59",
+          "label_ends": "Labor Day Sales Ends In:",
+          "label_days": "DAYS",
+          "label_hours": "HOURS",
+          "label_minutes": "MINUTES",
+          "label_seconds": "SECONDS"
         }
       },
       "footer-landing": {
