@@ -40,9 +40,9 @@
       }
     }
   },
-  "progressBlock":{
-    "column":{
-      "percent_text":"Percentage Text"
+  "progressBlock": {
+    "column": {
+      "percent_text": "Percentage Text"
     }
   },
   "common": {
