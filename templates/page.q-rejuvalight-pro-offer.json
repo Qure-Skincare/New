@@ -1,12 +1,3 @@
-/*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
 {
   "sections": {
     "custom_qurify_filter_lp_main_dxwYq4": {
@@ -232,13 +223,65 @@
     },
     "featured_product_pEjkiL": {
       "type": "featured-product",
+      "blocks": {
+        "product_images_mBWBRf": {
+          "type": "product_images",
+          "settings": {
+            "pd_image_1": "shopify:\/\/shop_images\/led_large_1.webp",
+            "pd_image_2": "shopify:\/\/shop_images\/led_large_2.webp",
+            "pd_image_3": "shopify:\/\/shop_images\/led_large_3.webp",
+            "pd_image_4": "shopify:\/\/shop_images\/led_large_4.webp"
+          }
+        },
+        "subheading_PeqaGP": {
+          "type": "subheading",
+          "settings": {
+            "badge_text": "IN A STUDY...",
+            "text": "97% customer satisfaction rate"
+          }
+        },
+        "heading_i8NCVD": {
+          "type": "heading",
+          "settings": {
+            "heading": "Q-Rejuvalight Pro LED Mask",
+            "des": "<p>Repair and rejuvenate your skin—and boost your self-esteem—with our FDA-cleared LED mask that treats acne, fine lines, wrinkles and dark spots.<\/p>"
+          }
+        },
+        "price_mrf7mW": {
+          "type": "price",
+          "settings": {
+            "price": "$349"
+          }
+        },
+        "product_benefits_jpWz4R": {
+          "type": "product_benefits",
+          "settings": {
+            "benefits": "<ul><li>Customizable treatment on 5 facial areas for your specific skin concerns<\/li><li>3-minute daily treatments with convenient, hands-free operation<\/li><li>Compatible app to track, plan and schedule your treatments<\/li><\/ul>"
+          }
+        },
+        "button_mxBJWm": {
+          "type": "button",
+          "settings": {
+            "btn_text": "Buy Now",
+            "w_icon": "shopify:\/\/shop_images\/money-sm.svg",
+            "warranty": "FREE 1-Year Warranty",
+            "payment_1": "shopify:\/\/shop_images\/klarna_054e202f-ce52-442b-aae1-b5a683e1e822.svg"
+          }
+        }
+      },
+      "block_order": [
+        "product_images_mBWBRf",
+        "subheading_PeqaGP",
+        "heading_i8NCVD",
+        "price_mrf7mW",
+        "product_benefits_jpWz4R",
+        "button_mxBJWm"
+      ],
       "settings": {
         "product_name": "Q-Rejuvalight Pro LED Mask",
         "abt_product": "<p>Repair and rejuvenate your skin—and boost your self-esteem—with our FDA-cleared LED mask that treats acne, fine lines, wrinkles and dark spots.<\/p>",
-        "product_amt": "$349",
-        "pd_benefits": "<ul><li>Customizable treatment on 5 facial areas for your specific skin concerns<\/li><li>3-minute daily treatments with convenient, hands-free operation<\/li><li>Compatible app to track, plan and schedule your treatments<\/li><\/ul>",
         "pd_rating": "97% customer satisfaction rate",
-        "btn_text": "Buy Now"
+        "before_rating": "IN A STUDY..."
       }
     },
     "main": {
