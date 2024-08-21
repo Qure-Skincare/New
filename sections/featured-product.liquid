@@ -1,12 +1,15 @@
-{% assign product = all_products['q-rejuvalight-pro-facewear'] %}
-{% assign divided_price = product.price | divided_by: 4 | money_without_trailing_zeros %}
 <!-- -- qurify water filter thumbnail start -- -->
+{% assign product = section.settings.product %}
 <div class="thumbnail_qurify section" id="shop">
   <div class="container">
     <div class="row gx-5">
       <div class="col-md-6">
         <div class="tq_info mw-100">
           {%- for block in section.blocks %}
+            {% assign divided_price = product.price
+              | divided_by: block.settings.instalment
+              | money_without_trailing_zeros
+            %}
             {% assign bs = block.settings %}
             {% case block.type %}
               {%- when 'subheading' -%}
@@ -32,7 +35,6 @@
               {% when 'product_images' %}
                 <div class="tq_img_wrap d-block d-md-none mt-4">
                   <div class="tq_img">
-                    {% comment %} <img class="largeImage img-fluid" src="https://qureskincaredns.com/new/assets/led_large_1.webp" alt="Default Image"> {% endcomment %}
                     <img
                       src="{{ bs.pd_image_1 | img_url: 'original' }}"
                       class="largeImage img-fluid"
@@ -58,7 +60,7 @@
                   >
                     <p>
                       <span>
-                        <img src="https://qureskincaredns.com/new/assets/see_it_btn.svg" alt="" class="img-fluid">See it
+                        <img src="{{ 'see_it_btn.svg' | asset_url }}" alt="" class="img-fluid">See it
                         in action
                       </span>
                     </p>
@@ -73,8 +75,8 @@
                         {{- block.settings.warranty }}
                       </p>
                       <p>
-                        <span><img src="{{ block.settings.d_icon | image_url: width: 16 }}" alt=""></span
-                        >{{ block.settings.recomand }}
+                        <span><img src="{{ block.settings.d_icon | image_url: width: 16 }}" alt=""></span>
+                        {{- block.settings.recomand }}
                       </p>
                     </div>
                     <a
@@ -92,21 +94,13 @@
                           {% if bs[pmt_img] != blank %}
                             <img src="{{ bs[pmt_img] | img_url: 'original' }}" alt="{{ bs[pmt_img].alt }}">
                           {% endif %}
-                          {% comment %}
-                            <img src="https://qureskincaredns.com/new/assets/klarna.svg" alt="">
-                            <img src="https://qureskincaredns.com/new/assets/sezzle.svg" alt="">
-                            <img src="https://qureskincaredns.com/new/assets/afterpay.svg" alt="">
-                          {% endcomment %}
                         {% endfor %}
                       </div>
                     </div>
                   {%- endif -%}
                 </div>
-              {%- when 'price' -%}
-                {% if bs.price != blank %}
-                  <div class="price">{{ bs.price }}</div>
-                {% endif %}
               {%- when 'product_benefits' -%}
+                <div class="price">{{ product.price | money_without_trailing_zeros }}</div>
                 <div class="tq_list ss_list">
                   {{ bs.benefits }}
                 </div>
@@ -134,17 +128,20 @@
               >
             {%- endfor -%}
           </div>
-          <a
-            class="see_action d-flex justify-content-center popup-youtube"
-            href="https://www.youtube.com/watch?v=X9KXJPv6rno"
-          >
-            <p>
-              <span style="text-decoration: underline;">
-                <img src="https://qureskincaredns.com/new/assets/see_it_btn.svg" alt="" class="img-fluid me-2">See it in
-                action
-              </span>
-            </p>
-          </a>
+           
+            <a
+              class="see_action d-flex justify-content-center popup-youtube"
+              href="{{ section.settings.pd_video }}"
+            >
+            
+              <p>
+                <span style="text-decoration: underline;">
+                  <img src="{{ 'see_it_btn.svg' | asset_url }}" alt="" class="me-2">See it in
+                  action
+                </span>
+              </p>
+            </a>
+          
         </div>
       </div>
     </div>
@@ -157,27 +154,14 @@
   "name": "featured-product",
   "settings": [
     {
-      "type": "text",
-      "id": "product_name",
-      "default": "Q-Rejuvalight Pro LED Mask",
-      "label": "Product Name"
+      "type": "product",
+      "id": "product",
+      "label": "Product"
     },
     {
-      "type": "richtext",
-      "id": "abt_product",
-      "label": "About Product"
-    },
-
-    {
-      "type": "text",
-      "id": "pd_rating",
-      "default": "97% customer satisfaction rate",
-      "label": "Rating"
-    },
-    {
-      "type": "text",
-      "id": "before_rating",
-      "label": "Rating Before"
+      "type": "url",
+       "id": "pd_video",
+      "label": "Product Video"
     }
   ],
   "blocks": [
@@ -241,17 +225,6 @@
       ]
     },
     {
-      "type": "price",
-      "name": "Price",
-      "settings": [
-        {
-          "type": "text",
-          "id": "price",
-          "label": "Price"
-        }
-      ]
-    },
-    {
       "type": "product_benefits",
       "name": "Product benefits",
       "settings": [
@@ -298,13 +271,13 @@
           "content": "Payment"
         },
         {
-            "type": "range",
-            "default": 4,
-            "min": 2,
-            "max": 10,
-            "step": 1,
-            "id": "instalment",
-            "label": "Instalments"
+          "type": "range",
+          "default": 4,
+          "min": 2,
+          "max": 10,
+          "step": 1,
+          "id": "instalment",
+          "label": "Instalments"
         },
         {
           "type": "image_picker",

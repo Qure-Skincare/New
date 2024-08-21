@@ -1,0 +1,107 @@
+{% assign product = section.settings.product %}
+{% assign discount = product.price | times: 0.33333 | divided_by: 100.0 | ceil | times: 100 %}
+{% assign product_price = product.price %}
+{% assign final_price = product_price |  minus: discount %}
+<!-- -- led device bundle start -- -->
+<div class="neck_led_bundle main_banner" id="special_offer">
+    <picture>
+        <source media="(min-width:1920px)" srcset="https://qureskincaredns.com/new/assets/led_neck_bundle.webp" class="img-fluid" width="240"
+            height="89">
+        <source media="(min-width:1600px)" srcset="https://qureskincaredns.com/new/assets/led_neck_bundle.webp" class="img-fluid" width="240"
+            height="89">
+        <source media="(min-width:1100px)" srcset="https://qureskincaredns.com/new/assets/led_neck_bundle.webp" class="img-fluid" width="240"
+            height="89">
+        <source media="(min-width:720px)" srcset="https://qureskincaredns.com/new/assets/led_neck_bundle_mob.webp" class="img-fluid" width="240"
+            height="89">
+        <source media="(min-width:540px)" srcset="https://qureskincaredns.com/new/assets/led_neck_bundle_mob.webp" class="img-fluid" width="240"
+            height="89">
+        <img src="https://qureskincaredns.com/new/assets/led_neck_bundle_mob.webp" width="240" height="89" alt="" class="img-fluid">
+    </picture>
+    <div class="main_b_wrapper text-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-7 offset-md-5">
+                    <div class="neck_bundle_wrap">
+                        <div class="bundle_outer">
+                            <p>Bundle & SAVE {{ discount | money_without_trailing_zeros }}</p>
+                        </div>
+                        <div class="banner_content mw-100 position-relative">
+                            <div class="refill_review justify-content-start">
+                                <div class="star_gp">
+                                    <img src="https://qureskincaredns.com/new/assets/star4.8.svg" alt="">
+                                </div>
+                                <p class="text-sm fw-normal text-decoration-none">97% customer satisfaction rate
+                                </p>
+                            </div>
+                            <div class="section_header ps-0 pb-0 pt-2 ms-0">
+                                <h2 class="title-lg">{{ section.settings.product_name }}</h2>
+                            </div>
+                            <div class="price_wrap">
+                                <div class="price">
+                                    <div class="old_price">{{ product_price | money_without_trailing_zeros }}</div>
+                                    <div class="new_price">{{ final_price | money_without_trailing_zeros }}</div>
+                                </div>
+                                <div class="green_tag">
+                                    <p>YOU SAVE <span>{{ discount | money_without_trailing_zeros }}</span></p>
+                                </div>
+                            </div>
+                            <p>{{ section.settings.abt_product }}</p>
+
+                            <div class="tq_list my-3 ss_list d-none d-md-block">
+                                <ul>
+                                    <li>Treat beyond the face for an all-over
+                                        youthful appearance</li>
+                                    <li>Smooth fine lines, reduce appearance of
+                                        wrinkles and boost firmness</li>
+                                    <li>Fade dark spots and repair sun-damaged skin
+                                        for an even-toned complexion</li>
+                                </ul>
+                            </div>
+                            <div class="tq_list my-3 ss_list d-block d-md-none">
+                                <ul>
+                                    <li>Treat beyond the face for an all-over youthful appearance</li>
+                                    <li>Smooth fine lines & wrinkles</li>
+                                    <li>Evens skin tone & smooths texture</li>
+                                </ul>
+                            </div>
+                            <div class="get_clearer_wrapper ms-0">
+                                <a class="btn btn-lg btn-primary btn_green mw-100" href="{{ routes.cart_add_url }}?id={{ product.variants.first.id }}&quantity=1" data-ajax-cart-request-button>Bundle & SAVE - {{ discount | money_without_trailing_zeros }}</a>
+                                <a id="cart-reload" style="display:none" class="btn btn-lg btn-primary btn_green mw-100" href="{{ routes.cart_add_url }}?id={{ product.variants.first.id }}&quantity=0" data-ajax-cart-request-button>Bundle & SAVE - {{ discount | money_without_trailing_zeros }}</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- -- led device bundle start -- -->
+
+{% schema %}
+{
+  "name": "featured-product 2",
+  "settings": [
+    {
+        "type": "product",
+        "id": "product",
+        "label": "Product"
+    },
+    {
+      "type": "text",
+      "id": "product_name",
+      "label": "t:product.name.label"
+    },
+    {
+      "type": "richtext",
+      "id": "abt_product",
+      "label": "t:product.about.label"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Featured Product 2"
+    }
+  ]
+}
+{% endschema %}

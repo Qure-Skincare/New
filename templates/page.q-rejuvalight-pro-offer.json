@@ -247,12 +247,6 @@
             "des": "<p>Repair and rejuvenate your skin—and boost your self-esteem—with our FDA-cleared LED mask that treats acne, fine lines, wrinkles and dark spots.<\/p>"
           }
         },
-        "price_mrf7mW": {
-          "type": "price",
-          "settings": {
-            "price": "$349"
-          }
-        },
         "product_benefits_jpWz4R": {
           "type": "product_benefits",
           "settings": {
@@ -265,7 +259,12 @@
             "btn_text": "Buy Now",
             "w_icon": "shopify:\/\/shop_images\/money-sm.svg",
             "warranty": "FREE 1-Year Warranty",
-            "payment_1": "shopify:\/\/shop_images\/klarna_054e202f-ce52-442b-aae1-b5a683e1e822.svg"
+            "d_icon": "shopify:\/\/shop_images\/derma-sm.svg",
+            "recomand": "Dermatologist-Recommended",
+            "instalment": 4,
+            "payment_1": "shopify:\/\/shop_images\/klarna_054e202f-ce52-442b-aae1-b5a683e1e822.svg",
+            "payment_2": "shopify:\/\/shop_images\/Group_1000004080.svg",
+            "payment_3": "shopify:\/\/shop_images\/Afterpay_1.svg"
           }
         }
       },
@@ -273,15 +272,20 @@
         "product_images_mBWBRf",
         "subheading_PeqaGP",
         "heading_i8NCVD",
-        "price_mrf7mW",
         "product_benefits_jpWz4R",
         "button_mxBJWm"
       ],
       "settings": {
-        "product_name": "Q-Rejuvalight Pro LED Mask",
-        "abt_product": "<p>Repair and rejuvenate your skin—and boost your self-esteem—with our FDA-cleared LED mask that treats acne, fine lines, wrinkles and dark spots.<\/p>",
-        "pd_rating": "97% customer satisfaction rate",
-        "before_rating": "IN A STUDY..."
+        "product": "q-rejuvalight-pro-facewear",
+        "pd_video": "https:\/\/www.youtube.com\/watch?v=X9KXJPv6rno"
+      }
+    },
+    "featured_product_2_YjNQXn": {
+      "type": "featured-product-2",
+      "settings": {
+        "product": "neck-decolletage-led",
+        "product_name": "Neck & Decolletage LED Device",
+        "abt_product": "<p>Perfect combination to the Q-Rejuvalight Pro LED mask for the ultimate skin rejuvenation experience.<\/p>"
       }
     },
     "main": {
@@ -296,6 +300,7 @@
     "uses_w3CMA7",
     "progress_blocks_d8f7qn",
     "featured_product_pEjkiL",
+    "featured_product_2_YjNQXn",
     "main"
   ]
 }
