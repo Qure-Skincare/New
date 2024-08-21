@@ -20,7 +20,7 @@
   %} 
 {% endcomment %}
 
-{% assign product2_discount = productData2.price | times: 0.80 %}
+{% assign product2_discount = productData2.price | times: 0.70 %}
 
 <div class="step4-purchase-card-container">
   {% if productInfo.popular_text != blank %}
@@ -33,7 +33,7 @@
   <div class="step4-card-title-container">
     {% if cardTypeInfo == 'meta' %}
       <h3>
-        {{ productInfo.title }}
+        {{ productInfo.title |  replace: '20%', '30%'  }}
       </h3>
     {% else %}
       <h3>
