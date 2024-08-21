@@ -22,8 +22,7 @@
 
 {% assign product2_discount = productData2.price | times: 0.70 %}
 
-{% capture block %}
-  <div class="step4-purchase-card-container">
+<div class="step4-purchase-card-container">
   {% if productInfo.popular_text != blank %}
     <div class="step4-card-choise-container">
       <p>
@@ -99,7 +98,3 @@
     {% endif %}
   </div>
 </div>
-{% endcapture %}
-
-{% comment %} aaaaqqqq {% endcomment %}
-{{ block |  replace: '20%', '30%' }}
