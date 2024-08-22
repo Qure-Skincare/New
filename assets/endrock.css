@@ -2024,8 +2024,8 @@ body[class~="page.sunil-mi-landing"] .product-price{
   } 
 }
 
-
 /* end reduced-copy pro led mask */
+
 /* holiday-bundles-concern */
 
 .holiday-bundles-concern {
@@ -2546,5 +2546,6 @@ body[data-bundle-test] .holiday-bundles-concern {
 .text-header-test{
   display: none;
 }
+
 /* end product header test */
 
