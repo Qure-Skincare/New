@@ -1,12 +1,3 @@
-/*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
 {
   "sections": {
     "custom_qurify_filter_lp_main_dxwYq4": {
@@ -292,9 +283,14 @@
     "featured_product_2_YjNQXn": {
       "type": "featured-product-2",
       "settings": {
+        "bg_image": "shopify:\/\/shop_images\/led_neck_bundle.webp",
         "product": "neck-decolletage-led",
         "product_name": "Neck & Decolletage LED Device",
-        "abt_product": "<p>Perfect combination to the Q-Rejuvalight Pro LED mask for the ultimate skin rejuvenation experience.<\/p>"
+        "abt_product": "<p>Perfect combination to the Q-Rejuvalight Pro LED mask for the ultimate skin rejuvenation experience.<\/p>",
+        "benefits": "<ul><li>Treat beyond the face for an all-over youthful appearance<\/li><li>Smooth fine lines, reduce appearance of wrinkles and boost firmness<\/li><li>Fade dark spots and repair sun-damaged skin for an even-toned complexion<\/li><\/ul>",
+        "rating_text": "97% customer satisfaction rate",
+        "m_benefits": "<ul><li>Treat beyond the face for an all-over youthful appearance<\/li><li>Smooth fine lines & wrinkles<\/li><li>Evens skin tone & smooths texture<\/li><\/ul>",
+        "image_mobile": "shopify:\/\/shop_images\/led_neck_bundle_mob.webp"
       }
     },
     "main": {

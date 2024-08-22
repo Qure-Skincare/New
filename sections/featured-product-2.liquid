@@ -4,19 +4,18 @@
 {% assign final_price = product_price |  minus: discount %}
 <!-- -- led device bundle start -- -->
 <div class="neck_led_bundle main_banner" id="special_offer">
+    
     <picture>
-        <source media="(min-width:1920px)" srcset="https://qureskincaredns.com/new/assets/led_neck_bundle.webp" class="img-fluid" width="240"
-            height="89">
-        <source media="(min-width:1600px)" srcset="https://qureskincaredns.com/new/assets/led_neck_bundle.webp" class="img-fluid" width="240"
-            height="89">
-        <source media="(min-width:1100px)" srcset="https://qureskincaredns.com/new/assets/led_neck_bundle.webp" class="img-fluid" width="240"
-            height="89">
-        <source media="(min-width:720px)" srcset="https://qureskincaredns.com/new/assets/led_neck_bundle_mob.webp" class="img-fluid" width="240"
-            height="89">
-        <source media="(min-width:540px)" srcset="https://qureskincaredns.com/new/assets/led_neck_bundle_mob.webp" class="img-fluid" width="240"
-            height="89">
-        <img src="https://qureskincaredns.com/new/assets/led_neck_bundle_mob.webp" width="240" height="89" alt="" class="img-fluid">
+        <source media="(min-width:1920px)" srcset="{{ section.settings.bg_image | img_url: 'master' }}">
+        <source media="(min-width:1600px)" srcset="{{ section.settings.bg_image | img_url: 'master' }}">
+        <source media="(min-width:1100px)" srcset="{{ section.settings.bg_image | img_url: 'master' }}">
+         
+        <source media="(min-width:720px)" srcset="{{ section.settings.image_mobile | img_url: '720x' }}">
+        <source media="(min-width:540px)" srcset="{{ section.settings.image_mobile | img_url: '540x' }}">
+        <img src="{{ section.settings.image_mobile | img_url: '540x' }}" width="240" height="89" alt="" class="img-fluid">
+        
     </picture>
+     
     <div class="main_b_wrapper text-light">
         <div class="container">
             <div class="row">
@@ -30,8 +29,7 @@
                                 <div class="star_gp">
                                     <img src="https://qureskincaredns.com/new/assets/star4.8.svg" alt="">
                                 </div>
-                                <p class="text-sm fw-normal text-decoration-none">97% customer satisfaction rate
-                                </p>
+                                <p class="text-sm fw-normal text-decoration-none">{{ section.settings.rating_text }}</p>
                             </div>
                             <div class="section_header ps-0 pb-0 pt-2 ms-0">
                                 <h2 class="title-lg">{{ section.settings.product_name }}</h2>
@@ -47,23 +45,17 @@
                             </div>
                             <p>{{ section.settings.abt_product }}</p>
 
+                            {%- if section.settings.benefits -%}
                             <div class="tq_list my-3 ss_list d-none d-md-block">
-                                <ul>
-                                    <li>Treat beyond the face for an all-over
-                                        youthful appearance</li>
-                                    <li>Smooth fine lines, reduce appearance of
-                                        wrinkles and boost firmness</li>
-                                    <li>Fade dark spots and repair sun-damaged skin
-                                        for an even-toned complexion</li>
-                                </ul>
+                                {{ section.settings.benefits }}
                             </div>
+                            {%- endif -%}
+
+                            {%- if section.settings.m_benefits -%}
                             <div class="tq_list my-3 ss_list d-block d-md-none">
-                                <ul>
-                                    <li>Treat beyond the face for an all-over youthful appearance</li>
-                                    <li>Smooth fine lines & wrinkles</li>
-                                    <li>Evens skin tone & smooths texture</li>
-                                </ul>
+                                {{ section.settings.m_benefits }}
                             </div>
+                             {%- endif -%}
                             <div class="get_clearer_wrapper ms-0">
                                 <a class="btn btn-lg btn-primary btn_green mw-100" href="{{ routes.cart_add_url }}?id={{ product.variants.first.id }}&quantity=1" data-ajax-cart-request-button>Bundle & SAVE - {{ discount | money_without_trailing_zeros }}</a>
                                 <a id="cart-reload" style="display:none" class="btn btn-lg btn-primary btn_green mw-100" href="{{ routes.cart_add_url }}?id={{ product.variants.first.id }}&quantity=0" data-ajax-cart-request-button>Bundle & SAVE - {{ discount | money_without_trailing_zeros }}</a>
@@ -83,6 +75,11 @@
   "name": "featured-product 2",
   "settings": [
     {
+        "type": "image_picker",
+        "id": "bg_image",
+        "label": "t:common.image.label"
+    },
+    {
         "type": "product",
         "id": "product",
         "label": "Product"
@@ -96,6 +93,30 @@
       "type": "richtext",
       "id": "abt_product",
       "label": "t:product.about.label"
+    },
+    {
+        "type": "richtext",
+        "id": "benefits",
+        "label": "t:product.benefits.label"
+    },
+    {
+        "type": "text",
+        "id": "rating_text",
+        "label": "t:product.badge.label"
+    },
+    {
+        "type": "header",
+        "content": "t:commonMob.header.label"
+    },
+    {
+        "type": "richtext",
+        "id": "m_benefits",
+        "label": "t:commonMob.benefits.label"
+    },
+    {
+        "type": "image_picker",
+        "id": "image_mobile",
+        "label": "t:common.image_mobile.label"
     }
   ],
   "presets": [

@@ -21,7 +21,7 @@
             <div class="m_b_content">
                 <div class="section_header pb-4 text-light">
                     {% if section.settings.heading != blank %}
-                        <h2 class="title-xl">{{ section.settings.heading }}</h1>
+                        <h2 class="title-xl">{{ section.settings.{{ section.settings.heading }} }}</h1>
                     {% endif %}
                 </div>
                 <div class="progressCont text-center text-md-left">

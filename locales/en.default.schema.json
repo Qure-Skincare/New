@@ -43,8 +43,24 @@
     "about": {
       "label": "About Product"
     },
-    "rating": {
-      "label": "Rating"
+    "badge": {
+      "label": "Rating text"
+    },
+    "benefits":{
+      "label": "Benefits List"
+    }
+  },
+  "commonMob":{
+    "header":{
+      "label": "Mobile Content"
+    },
+    "benefits":{
+      "label": "Benefits List"
+    }
+  },
+  "review": {
+    "heading": {
+      "label": "Reviews"
     }
   },
   "common": {
