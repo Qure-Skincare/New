@@ -2023,3 +2023,10 @@ body[class~="page.sunil-mi-landing"] .product-price{
     padding-right: 40px;
   } 
 }
+
+/* product header test */
+
+.text-header-test{
+  display: none;
+}
+/* end product header test */
