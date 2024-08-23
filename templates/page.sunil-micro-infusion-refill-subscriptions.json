@@ -474,6 +474,18 @@
             "client": "Petrina Yokay",
             "code": ""
           }
+        },
+        "result_nkNAL3": {
+          "type": "result",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/B_A-Linda-MI.jpg",
+            "heading": "Great “At Home” Treatment",
+            "text": "<p><em>I have read extensively on the positive effects of micro needling and have been wanting to try it. The Qure Micro-Infusion (Hydra-Soothing) option is an excellent at home way to get the benefits of micro needling without having to leave home! I have been doing a treatment about every 2 - 3 weeks for a few months and am gradually noticing an improvement in the overall appearance of my skiing, reduction in fine lines as well as a softening with the vertical wrinkles around my mouth. I love it!!<\/em><\/p>",
+            "image_country": "shopify:\/\/shop_images\/usa_189ccd4e-add5-48f9-8078-c50c3e29332f.png",
+            "text_country": "United States",
+            "client": "Linda Longhouse",
+            "code": ""
+          }
         }
       },
       "block_order": [
@@ -491,7 +503,8 @@
         "result_g6zQgr",
         "result_zHPFqU",
         "result_djxhNa",
-        "result_gDzAyP"
+        "result_gDzAyP",
+        "result_nkNAL3"
       ],
       "settings": {
         "classname": "mi_landing_result",
