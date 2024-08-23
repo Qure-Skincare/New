@@ -291,6 +291,9 @@
       "plan": {
         "label": "Subscribe plan"
       }
+    },
+    "desc":{
+      "label": "Description"
     }
   },
   "sections": {

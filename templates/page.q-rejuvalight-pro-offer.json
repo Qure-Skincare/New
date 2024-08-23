@@ -293,8 +293,199 @@
         "image_mobile": "shopify:\/\/shop_images\/led_neck_bundle_mob.webp"
       }
     },
+    "how_to_use_tmBGpa": {
+      "type": "how-to-use",
+      "blocks": {
+        "tab_AwmhHK": {
+          "type": "Tab",
+          "settings": {
+            "tab_txt": "Specs",
+            "tab_desc": "<ul><li>TREATMENT TIME: 3 minutes<\/li><li>CERTIFICATIONS: FDA, TGA, CE, UKCA<\/li><li>OPERATION: Wireless, hands-free<\/li><li>WAVELENGTH: 415nm (Blue), 605nm (Amber), 630nm (Red), 660nm (Deep Red), 880nm (Infrared)<\/li><li>CHARGING TIME: 2 hours<\/li><li>LEDs: 160 dual core<\/li><\/ul>",
+            "image1": "shopify:\/\/shop_images\/get_specs.webp",
+            "image2": "shopify:\/\/shop_images\/get_quickstart.webp",
+            "image3": "shopify:\/\/shop_images\/get_customize.webp",
+            "image4": "shopify:\/\/shop_images\/get_aftercare.webp"
+          }
+        },
+        "tab_yTEcfK": {
+          "type": "Tab",
+          "settings": {
+            "tab_txt": "Quick start",
+            "tab_desc": "<ul><li>Cleanse & dry your skin thoroughly before use.<\/li><li>Hold the button for 2-3 seconds to power ON.<\/li><li>Adjust the mask to fit your face comfortably.<\/li><li>For Anti-Aging treatment: Press button once.<\/li><li>For Anti-Breakout treatment: Press button twice.<\/li><li>After three minutes, the device will shut off automatically.<\/li><\/ul>",
+            "image1": "shopify:\/\/shop_images\/get_quickstart.webp",
+            "image2": "shopify:\/\/shop_images\/get_customize.webp",
+            "image3": "shopify:\/\/shop_images\/get_aftercare.webp",
+            "image4": "shopify:\/\/shop_images\/get_specs.webp"
+          }
+        },
+        "tab_QqVtHE": {
+          "type": "Tab",
+          "settings": {
+            "tab_txt": "Customize treatment",
+            "tab_desc": "<p>Download the Qure Skincare app and pair your Q-Rejuvalight Pro.Choose either Anti-aging or Anti-breakout treatment on 5 different facial areas.Set reminders and never miss your treatment!<\/p>",
+            "image1": "shopify:\/\/shop_images\/get_customize.webp",
+            "image2": "shopify:\/\/shop_images\/get_aftercare.webp",
+            "image3": "shopify:\/\/shop_images\/get_specs.webp",
+            "image4": "shopify:\/\/shop_images\/get_quickstart.webp"
+          }
+        },
+        "tab_gUbBCP": {
+          "type": "Tab",
+          "settings": {
+            "tab_txt": "Aftercare",
+            "tab_desc": "<p>Remember to wipe the mask down after each treatment.<\/p><p>When not in use, place your Q-Rejuvalight Pro in the luxury bag provided and store in a cool, moisture-free environment.<\/p>",
+            "image1": "shopify:\/\/shop_images\/get_aftercare.webp",
+            "image2": "shopify:\/\/shop_images\/get_specs.webp",
+            "image3": "shopify:\/\/shop_images\/get_quickstart.webp",
+            "image4": "shopify:\/\/shop_images\/get_customize.webp"
+          }
+        },
+        "wistia_HJKH8h": {
+          "type": "wistia",
+          "settings": {
+            "wistia_id": "j7op01weqs"
+          }
+        }
+      },
+      "block_order": [
+        "tab_AwmhHK",
+        "tab_yTEcfK",
+        "tab_QqVtHE",
+        "tab_gUbBCP",
+        "wistia_HJKH8h"
+      ],
+      "settings": {
+        "heading": "Get Compliment-Worthy Skin"
+      }
+    },
+    "services_slider_ctkatz": {
+      "type": "services-slider",
+      "settings": {
+        "slide1": "shopify:\/\/shop_images\/dermatologist_bce828c0-1c92-4425-a2aa-f88f5ead7aba.svg",
+        "text1": "Dermatologist Tested & Approved",
+        "slide2": "shopify:\/\/shop_images\/hp_icon4.svg",
+        "text2": "Proven Results, Backed by Science",
+        "slide3": "shopify:\/\/shop_images\/free-shipping-ftr.svg",
+        "text3": "FREE World-Wide Shipping",
+        "slide4": "shopify:\/\/shop_images\/buy-now-ftr.svg",
+        "text4": "Buy Now, Pay Later"
+      }
+    },
+    "videos_list_niD9zY": {
+      "type": "videos-list",
+      "blocks": {
+        "wistia_Kj6tir": {
+          "type": "wistia",
+          "settings": {
+            "wistia_id": "j0mvc1o853",
+            "dr_name": "Dr Maxfield",
+            "board": "Double Board-Certified Dermatologists",
+            "desc": "<p>\"This is one of my faves from @qureskincare. It’s a high quality mask and personalizable\"<\/p>"
+          }
+        },
+        "wistia_hGAhbA": {
+          "type": "wistia",
+          "settings": {
+            "wistia_id": "ltv3wi7ayy",
+            "dr_name": "Dr Zeitany",
+            "board": "Board-Certified Dermatologists",
+            "desc": "<p>“It’s the only LED mask on the market that pairs with an app and is customizable”<\/p>"
+          }
+        },
+        "wistia_zenznC": {
+          "type": "wistia",
+          "settings": {
+            "wistia_id": "lwu2n3u6uc",
+            "dr_name": "Dr Prem",
+            "board": "Board-Certified Dermatologists",
+            "desc": "<p>\"Qure has a fully customized mask which has 5 clinical-grade wavelength for anti-ageing, hyperpigmentation and acne...\"<\/p>"
+          }
+        },
+        "wistia_Ni4zAL": {
+          "type": "wistia",
+          "settings": {
+            "wistia_id": "3aru3yqv0d",
+            "dr_name": "Dr Henry",
+            "board": "Medical Doctor",
+            "desc": "<p>\"I like this one because it allows you to customize your treatment... This is a great skin care investment\"<\/p>"
+          }
+        },
+        "wistia_DNpHDQ": {
+          "type": "wistia",
+          "settings": {
+            "wistia_id": "clfa0z9apd",
+            "dr_name": "Dr Too",
+            "board": "Medical Doctor",
+            "desc": "<p>“Qure’s LED mask combines red lights and blue lights, meaning it can benefit EVERYONE”<\/p>"
+          }
+        },
+        "wistia_b3CVhx": {
+          "type": "wistia",
+          "settings": {
+            "wistia_id": "wumkizwy48",
+            "dr_name": "Dr Hunter",
+            "board": "NHS & Aesthetics Doctor",
+            "desc": "<p>“The Qure mask is FDA cleared... This means you can reap the benefits of light therapy at home. Previously, this was something only offered in clinics.”<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "wistia_Kj6tir",
+        "wistia_hGAhbA",
+        "wistia_zenznC",
+        "wistia_Ni4zAL",
+        "wistia_DNpHDQ",
+        "wistia_b3CVhx"
+      ],
+      "settings": {
+        "heading": "Dermatologist Tried, Tested, & Approved",
+        "classname": "section videosQure",
+        "btn": "Transform My Skin",
+        "btn_url": "shopify:\/\/collections\/shop-all"
+      }
+    },
+    "compare_8hnCcH": {
+      "type": "compare",
+      "blocks": {
+        "object_CrXkqc": {
+          "type": "object",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/beauty_ledmask.webp",
+            "heading": "Q-Rejuvalight Pro LED Mask",
+            "text": "<p><strong>One-time cost investment<\/strong><\/p>",
+            "price": "$329",
+            "style": "correctCircle",
+            "list": "<ul><li>saves you time<\/li><li>comfort and privacy of your own home<\/li><li><strong>unlimited treatments<\/strong><\/li><li><strong>only 3 minutes daily<\/strong><\/li><li>no ongoing payments<\/li><\/ul>"
+          }
+        },
+        "object_ci4nep": {
+          "type": "object",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/beauty_derma.webp",
+            "heading": "Derm\/ Clinic Treatments",
+            "text": "<p><strong>per 6 session treatment cost<\/strong><\/p>",
+            "price": "$300 - $900",
+            "style": "incorrectCircle",
+            "list": "<ul><li><strong>time-consuming<\/strong> commute to clinic <\/li><li>when (if) you get an appointment<\/li><li><strong>limited treatments<\/strong><\/li><li>requires <strong>regular visits<\/strong><\/li><li>ongoing payments required<\/li><\/ul>"
+          }
+        }
+      },
+      "block_order": [
+        "object_CrXkqc",
+        "object_ci4nep"
+      ],
+      "disabled": true,
+      "settings": {
+        "classname": "beauty_skincare section bg-white",
+        "heading": "Clinical Results Without The Clinical Price Tag",
+        "heading_reduced": "",
+        "text": "<p>Buy it once, reap the benefits forever.<\/p>",
+        "text_reduced": ""
+      }
+    },
     "main": {
       "type": "temp-q-rejuvalight-pro-offer",
+      "disabled": true,
       "settings": {
       }
     }
@@ -306,6 +497,10 @@
     "progress_blocks_d8f7qn",
     "featured_product_pEjkiL",
     "featured_product_2_YjNQXn",
+    "how_to_use_tmBGpa",
+    "services_slider_ctkatz",
+    "videos_list_niD9zY",
+    "compare_8hnCcH",
     "main"
   ]
 }

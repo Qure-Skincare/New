@@ -6,25 +6,64 @@
         </div>
         <div class="video_with_slide">
             <div class="actVideo_block">
-                <div class="ctmVideo__block">
-                    <div class="player">
-                        <div class="wistia_responsive_padding" style="padding:177.78% 0 0 0;position:relative;">
-                            <div class="wistia_responsive_wrapper"
-                                style="height:100%;left:0;position:absolute;top:0;width:100%;">
-                                <div class="wistia_embed wistia_async_j7op01weqs seo=false videoFoam=true"
-                                    style="height:100%;position:relative;width:100%">
-                                    <div class="wistia_swatch"
-                                        style="height:100%;left:0;opacity:0;overflow:hidden;position:absolute;top:0;transition:opacity 200ms;width:100%;">
-                                        <img src="https://fast.wistia.com/embed/medias/j7op01weqs/swatch"
-                                            style="filter:blur(5px);height:100%;object-fit:contain;width:100%;"
-                                            alt="" aria-hidden="true"
-                                            onload="this.parentNode.style.opacity=1;" />
+                {%- for block in section.blocks -%}
+                    {% case block.type %}
+                        {% when 'wistia' %}
+                            <div class="actVideo_block">
+                                <div class="ctmVideo__block">
+                                    <div class="player">
+                                        <div class="wistia_responsive_padding" style="padding:177.78% 0 0 0;position:relative;">
+                                            <div class="wistia_responsive_wrapper"
+                                                style="height:100%;left:0;position:absolute;top:0;width:100%;">
+                                                <div class="wistia_embed wistia_async_{{ block.settings.wistia_id }} seo=false videoFoam=true"
+                                                    style="height:100%;position:relative;width:100%">
+                                                    <div class="wistia_swatch"
+                                                        style="height:100%;left:0;opacity:0;overflow:hidden;position:absolute;top:0;transition:opacity 200ms;width:100%;">
+                                                        <img src="https://fast.wistia.com/embed/medias/{{ block.settings.wistia_id }}/swatch"
+                                                            style="filter:blur(5px);height:100%;object-fit:contain;width:100%;"
+                                                            alt="" aria-hidden="true"
+                                                            onload="this.parentNode.style.opacity=1;" />
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> 
+                        {% when 'video' %}
+                            {% if block.settings.video.sources[1].url != blank %}
+                                {% assign video_source_url = block.settings.video.sources[1].url %}
+                            {% else %}
+                                {% assign video_source_url = block.settings.video.sources[0].url %}
+                            {% endif %}
+                            <div class="actVideo_block">
+                                <div class="ctmVideo__block">
+                                    <div class="player">
+                                        {% if block.settings.image != blank %}
+                                            <video poster="{{ block.settings.image | img_url: '500x' }}" class="player__video viewer video-js ctmVideo-js" src="{{ video_source_url }}"></video>
+                                        {% else %}
+                                            <video poster="{{ block.settings.video.preview_image | img_url: '500x' }}" class="player__video viewer video-js ctmVideo-js" src="{{ video_source_url }}"></video>
+                                        {% endif %}
+                                        {%- if block.settings.video != blank -%}
+                                        <div class="player__controls">
+                                            <div class="progress">
+                                                <div class="progress__filled"></div>
+                                            </div>
+                                            <button class="player__button toggle" title="Toggle Play">►</button>
+                                            <input type="range" name="volume" class="player__slider" min="0" max="1" step="0.05"
+                                                value="1">
+                                            <input type="range" name="playbackRate" class="player__slider" min="0.5" max="2"
+                                                step="0.1" value="1">
+                                            <button data-skip="-10" class="player__button">« 10s</button>
+                                            <button data-skip="25" class="player__button">25s »</button>
+                                            <button class="player__button player__fullscreen">⧉</button>
+                                        </div>
+                                    {%- endif -%}
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                </div>
+                    {% endcase %}
+                {%- endfor -%}
             </div>
 
            
@@ -35,7 +74,7 @@
                 <div class="get_compliment_wrap">
                     <div class="tab-content" id="pills-tabContent1">
                         {%- for block in section.blocks -%}
-                            <div class="tab-pane fade show  {% if forloop.first %} active {%endif %}" id="{{ block.id }}" role="tabpanel"
+                            <div class="tab-pane fade show  {% if forloop.first %} active {% endif %}" id="{{ block.id }}" role="tabpanel"
                                 aria-labelledby="pills-specs-tab">
                                 <div class="gc_img_wrap">
                                     <div class="gc_img">
@@ -57,7 +96,7 @@
                     <ul class="nav nav-pills mb-3" id="pills-tab-skin" role="tablist">
                         {%- for block in section.blocks -%}
                         <li class="nav-item" role="presentation">
-                            <button class="nav-link {% if forloop.first %} active {%endif %}"  id="{{ block.id }}-tab" data-bs-toggle="pill"
+                            <button class="nav-link {% if forloop.first %} active {% endif %}"  id="{{ block.id }}-tab" data-bs-toggle="pill"
                                 data-bs-target="#{{ block.id }}" type="button" role="tab"
                                 aria-controls="{{ block.id }}" aria-selected="true">{{ block.settings.tab_txt }}</button>
                         </li>
@@ -65,7 +104,7 @@
                     </ul>
                     <div class="tab-content" id="pills-tabContent2">
                         {%- for block in section.blocks -%}
-                        <div class="tab-pane fade show {% if forloop.first %} active {%endif %}" id="pills-specs" role="tabpanel"
+                        <div class="tab-pane fade {% if forloop.first %} show active {% endif %}" id="{{ block.id }}" role="tabpanel"
                             aria-labelledby="pills-specs-tab">
                             {{ block.settings.tab_desc }}
                         </div>
@@ -91,6 +130,35 @@
         }
     ],
     "blocks": [
+        {
+            "type": "wistia",
+            "name": "t:common.wistia.label",
+            "limit": 1,
+            "settings": [
+                {
+                    "type": "text",
+                    "id": "wistia_id",
+                    "label": "t:common.wistia.id.label"
+                }
+            ]
+        },
+        {
+            "type": "video",
+            "name": "t:common.video.label",
+            "limit": 1,
+            "settings": [
+                {
+                    "type": "image_picker",
+                    "id": "image",
+                    "label": "t:common.image.label"
+                },
+                {
+                    "type": "video",
+                    "id": "video",
+                    "label": "t:common.video.label"
+                }
+            ]
+        },
         {
             "type": "Tab",
             "name": "Tab",
