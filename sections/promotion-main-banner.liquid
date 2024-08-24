@@ -68,7 +68,11 @@
                         <a href="https://www.qureskincare.com/products/exclusive-labor-day-bundle?variant=45668461674735">Shop now <span><img src="https://qureskincaredns.com/new/assets/shop-top-arrow.svg" alt=""></span></a>
                     </div>
                 </div>
-                <p class="text-white pt-2 fs-11 fw-normal d-md-none d-block text-center"><i>A deal so good, it’s limited to one per order.</i></p>
+
+                {% if section.settings.text != blank %}
+                    {{ section.settings.text |  replace:  '<p>', '<p class="text-white pt-2 fs-11 fw-normal d-md-none d-block text-center">' }}
+                {% endif %}
+
             </div>
            </div>
         </div>
