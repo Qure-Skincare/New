@@ -21,18 +21,31 @@
            <div class="bfBundle_inner-content">
             <div class="bfBundle__content  bfBundle__content-mob pb-md-5 pb-0">
                 <div class="bfBundle_bnr_hdr">
-                    <h2 class="bfHeading d-none d-md-block">Labor Day Sale Save 51%</span></h2>
-                    <h2 class="bfHeading d-block d-md-none">Labor Day Sale</h2>
+                    {% if section.settings.heading != blank %}
+                        <h2 class="bfHeading d-none d-md-block">{{ section.settings.heading }}</h2>
+                    {% endif %}
+                    {% if section.settings.heading_mobile != blank %}
+                        <h2 class="bfHeading d-block d-md-none">{{ section.settings.heading_mobile }}</h2>
+                    {% endif %}
 
-                    <h3 class="bfSub_heading d-none d-md-block">on Exclusive <strong>Limited Edition</strong> Micro-Infusion Bundle</h3>
-                    <h3 class="bfSub_heading d-block d-md-none">Exclusive <strong>Limited Edition</strong> Micro-Infusion Bundle</h3>
+                    {% if section.settings.subheading != blank %}
+                        <h3 class="bfSub_heading d-none d-md-block">{{ section.settings.subheading }}</h3>
+                    {% endif %}
 
-                    <a href="https://www.qureskincare.com/products/exclusive-labor-day-bundle?variant=45668461674735" class="btn btn-bfBundle">
-                        <span class="d-none d-md-block">Shop Labor Day Sale</span>
-                        <span class="d-block d-md-none">Shop & Save 51%</span>
-                    </a>
+                    {% if section.settings.subheading_mobile != blank %}
+                        <h3 class="bfSub_heading d-block d-md-none">{{ section.settings.subheading_mobile }}</h3>
+                    {% endif %}
 
-                    <p class="d-none d-md-block fs-12"><i>A deal so good, it’s limited to one per order.</i></p>
+                    {%- for block in section.blocks -%}
+                        <a href="{{ block.settings.link_url }}" class="btn btn-bfBundle" aria-label="{{ block.settings.link_label | escape }}">
+                            <span class="d-none d-md-block">{{ block.settings.link_label }}</span>
+                            <span class="d-block d-md-none">{{ block.settings.link_label_mobile }}</span>
+                        </a>
+                    {%- endfor -%}
+
+                    {% if section.settings.text != blank %}
+                        {{ section.settings.text |  replace:  '<p>', '<p class="d-none d-md-block fs-12">' }}
+                    {% endif %}
                 </div>
             </div>
             <div>
