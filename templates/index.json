@@ -88,6 +88,7 @@
           "type": "link",
           "settings": {
             "link_label": "Shop Labor Day Sale",
+            "link_label_mobile": "Link label mobile",
             "link_url": "https:\/\/www.qureskincare.com\/products\/exclusive-labor-day-bundle?variant=45668461674735"
           }
         }
@@ -97,7 +98,10 @@
       ],
       "settings": {
         "heading": "Labor Day Sale Save 51%",
+        "heading_mobile": "Labor Day Sale",
         "heading_tag": "h2",
+        "subheading": "",
+        "subheading_mobile": "",
         "text": "<p>on Exclusive Limited Edition Micro-Infusion Bundle<\/p>",
         "image": "shopify:\/\/shop_images\/labourday_sale_desk_g.webp",
         "image_mobile": "shopify:\/\/shop_images\/labourday_sale_mob_g.webp"
