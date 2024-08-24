@@ -97,9 +97,10 @@
       ],
       "settings": {
         "heading": "Get clinic-level results from home- minus the ‘clinical’ costs.",
+        "heading_tag": "h2",
         "text": "<p><strong>50,000+<\/strong>customers feel more confident in their own skin.<\/p>",
-        "image": "shopify:\/\/shop_images\/homepage_banner_desk_5a394355-a35f-4911-ad68-df2ef1c021df.webp",
-        "image_mobile": "shopify:\/\/shop_images\/homepage_banner_mob_098b63eb-bcc4-4cd1-9cf1-30c41a61fb0a.webp"
+        "image": "shopify:\/\/shop_images\/labourday_sale_desk_g.webp",
+        "image_mobile": "shopify:\/\/shop_images\/labourday_sale_mob_g.webp"
       }
     },
     "temp": {
@@ -488,6 +489,7 @@
       "settings": {
         "classname": "trusted_bl",
         "heading": "Trusted and recommended by world leading Dermatologists",
+        "heading_reduced": "",
         "likes": "7.1K",
         "views": "351K views",
         "image": "shopify:\/\/shop_images\/trusted_2.jpg",
@@ -648,7 +650,9 @@
       "settings": {
         "classname": "beauty_skincare section bg_yellow",
         "heading": "The beauty of clinical results from home - without the ‘clinical’ costs",
-        "text": "<p>It’s like going to a clinic, minus the on-going costs, the time commitment, the overpromises, <br\/>the upselling and the hassle.<\/p>"
+        "heading_reduced": "",
+        "text": "<p>It’s like going to a clinic, minus the on-going costs, the time commitment, the overpromises, <br\/>the upselling and the hassle.<\/p>",
+        "text_reduced": ""
       }
     },
     "tile_JERe9p": {
