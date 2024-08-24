@@ -74,7 +74,10 @@
       "label": "Name"
     },
     "subheading": {
-      "label": "Subheading"
+      "label": "Subheading",
+      "mobile": {
+        "label": "Subheading for mobile"
+      }
     },
     "recommended": {
       "label": "Recommended"
