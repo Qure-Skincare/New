@@ -64,6 +64,12 @@
     }
   },
   "common": {
+    "background":{
+      "label": "Background"
+    },
+    "Section":{
+      "label": "Section Heading"
+    },
     "timer": {
       "label": "Timer",
       "info": "Valid until this time",
@@ -489,7 +495,7 @@
       }
     },
     "featuredin-extended": {
-      "name": "FeaturedIn extended",
+      "name": "Featured In extended",
       "settings": {
       },
       "blocks": {

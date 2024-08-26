@@ -1,5 +1,5 @@
 <!-- -- faq start -- -->
-<div class="faq py-75 {{ section.settings.classname }}" id="faq_section">
+<div class="faq py-75 {{ section.settings.background }}" id="faq_section">
     <div class="container">
         <div class="section_header text-center mb-3">
             {% if section.settings.heading != blank %}
@@ -82,10 +82,17 @@
                         {%- endfor -%}
                     </div>
                     <div class="faq__accordion faq_ques" data-show="{{ section.settings.button_label }}" data-hide="{{ section.settings.button_hide_label }}">{{ section.settings.button_label }}</div>
+                    
                 </div>
             </div>
         {% endif %}
-
+            {%- for block in section.blocks -%}
+                {%- if block.settings.ext_btn != blank -%}
+                    <div class="get_clearer_wrapper text-center mt-5">
+                    <a class="btn btn-lg btn-primary btn_green" href="{{ block.settings.ext_url }}">{{ block.settings.ext_btn }}</a>
+                    </div>
+                {%- endif -%}
+                {%- endfor -%}
         {% endif %}
     </div>
 </div>
@@ -96,6 +103,22 @@
         "name": "t:sections.faq.name",
         "class": "section-faq",
         "settings": [
+            {
+                "type": "select",
+                "id": "background",
+                "label": "Background",
+                "options": [
+                    {
+                        "value": "bg_yellow",
+                        "label": "Yellow"
+                    },
+                    {
+                        "value": "bg-lightGrey",
+                        "label": "Grey"
+                    }
+                ],
+                "default": "bg_yellow"
+            },
             {
                 "type": "text",
                 "id": "classname",
@@ -149,7 +172,7 @@
                 ]
 		    },
             {
-                "type": "button",
+                "type": "Ext_button",
                 "name": "t:common.button.name",
                 "limit": 1,
                 "settings": [
@@ -163,6 +186,24 @@
                     {
                         "type": "url",
                         "id": "button_url",
+                        "label": "t:common.button.url.label"
+                    }
+                ]
+		    },
+            {
+                "type": "button",
+                "name": "External Button",
+                "limit": 1,
+                "settings": [
+                    {
+                        "type": "text",
+                        "id": "ext_btn",
+                        "label": "t:common.button.label",
+                        "info": "t:common.button.info"
+                    },
+                    {
+                        "type": "url",
+                        "id": "ext_url",
                         "label": "t:common.button.url.label"
                     }
                 ]

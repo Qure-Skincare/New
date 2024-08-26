@@ -1,12 +1,3 @@
-/*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
 {
   "sections": {
     "main": {
@@ -97,9 +88,138 @@
       ],
       "settings": {
         "heading": "Get clinic-level results from home- minus the ‘clinical’ costs.",
+        "heading_tag": "h2",
         "text": "<p><strong>50,000+<\/strong>customers feel more confident in their own skin.<\/p>",
         "image": "shopify:\/\/shop_images\/homepage_banner_desk_5a394355-a35f-4911-ad68-df2ef1c021df.webp",
         "image_mobile": "shopify:\/\/shop_images\/homepage_banner_mob_098b63eb-bcc4-4cd1-9cf1-30c41a61fb0a.webp"
+      }
+    },
+    "featuredin_extended_P7BNDN": {
+      "type": "featuredin_extended",
+      "blocks": {
+        "image_n99dk9": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/vogue-black.svg"
+          }
+        },
+        "text_hjVp7i": {
+          "type": "text",
+          "settings": {
+            "text": "<p>“The professional grade is the perfect addition to any at-home skincare routine.”<\/p>"
+          }
+        },
+        "image_XrzjQ3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/womenshealth_e1cfba2e-29da-4232-9235-69184bd9d1a3.svg"
+          }
+        },
+        "text_t9tnXK": {
+          "type": "text",
+          "settings": {
+            "text": "<p> “If you're on the hunt for a red light therapy tool that checks all of the boxes (who isn't?!), Qure's Light Therapy Mask is your answer.”<\/p>"
+          }
+        },
+        "image_PmUxLt": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/elle-black_af7c0fb6-1535-4d44-b64c-b96b7d90bf08.svg"
+          }
+        },
+        "text_bxTn4H": {
+          "type": "text",
+          "settings": {
+            "text": "<p>“If you're unsure of what your skin needs, you can get the right treatment  out of your LED face mask. That way, you can mask in total confidence.”<\/p>"
+          }
+        },
+        "image_hNLLqX": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/cosmopolitan-black.svg"
+          }
+        },
+        "text_k6KEBE": {
+          "type": "text",
+          "settings": {
+            "text": "<p>“The combination of colors allows you to customize which lights are used, maximizing its benefits to help your skin...”<br\/>                            <\/p>"
+          }
+        },
+        "image_ebp8NW": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/grazia_black.svg"
+          }
+        },
+        "text_Mnmb4P": {
+          "type": "text",
+          "settings": {
+            "text": "<p>“The Qure mask is the FIRST mask in the world that adapts to your skin!...There is an app that reminds you of the treatments too.”<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "image_n99dk9",
+        "text_hjVp7i",
+        "image_XrzjQ3",
+        "text_t9tnXK",
+        "image_PmUxLt",
+        "text_bxTn4H",
+        "image_hNLLqX",
+        "text_k6KEBE",
+        "image_ebp8NW",
+        "text_Mnmb4P"
+      ],
+      "settings": {
+        "heading": "FEATURED IN"
+      }
+    },
+    "box_slider_HRHeRA": {
+      "type": "box-slider",
+      "blocks": {
+        "box_eiWUqF": {
+          "type": "Box",
+          "settings": {
+            "heading": "1",
+            "text": "<p>1<\/p>",
+            "btn_text": "<p>Science-Backed, Dermatologist Approved<\/p>",
+            "btn_img": "shopify:\/\/shop_images\/science-ftr.svg"
+          }
+        },
+        "box_kKUckK": {
+          "type": "Box",
+          "settings": {
+            "heading": "2",
+            "text": "<p>2<\/p>",
+            "btn_text": "<p>Safe & Easy To Use Devices<\/p>",
+            "btn_img": "shopify:\/\/shop_images\/derma-ft-lg.svg"
+          }
+        },
+        "box_ideJJP": {
+          "type": "Box",
+          "settings": {
+            "heading": "3",
+            "text": "<p>3<\/p>",
+            "btn_text": "<p>3<\/p>"
+          }
+        },
+        "box_tkGFdT": {
+          "type": "Box",
+          "settings": {
+            "heading": "4",
+            "text": "<p>4<\/p>",
+            "btn_text": "<p>4<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "box_eiWUqF",
+        "box_kKUckK",
+        "box_ideJJP",
+        "box_tkGFdT"
+      ],
+      "settings": {
+        "background": "bg_clr_transparent"
       }
     },
     "temp": {
@@ -241,6 +361,8 @@
       ],
       "disabled": true,
       "settings": {
+        "section_heading": "",
+        "subheading": ""
       }
     },
     "icons_list_aYq7xP": {
@@ -488,6 +610,7 @@
       "settings": {
         "classname": "trusted_bl",
         "heading": "Trusted and recommended by world leading Dermatologists",
+        "heading_reduced": "",
         "likes": "7.1K",
         "views": "351K views",
         "image": "shopify:\/\/shop_images\/trusted_2.jpg",
@@ -648,7 +771,9 @@
       "settings": {
         "classname": "beauty_skincare section bg_yellow",
         "heading": "The beauty of clinical results from home - without the ‘clinical’ costs",
-        "text": "<p>It’s like going to a clinic, minus the on-going costs, the time commitment, the overpromises, <br\/>the upselling and the hassle.<\/p>"
+        "heading_reduced": "",
+        "text": "<p>It’s like going to a clinic, minus the on-going costs, the time commitment, the overpromises, <br\/>the upselling and the hassle.<\/p>",
+        "text_reduced": ""
       }
     },
     "tile_JERe9p": {
@@ -716,6 +841,8 @@
   "order": [
     "main",
     "promotion_main_banner_48gkNr",
+    "featuredin_extended_P7BNDN",
+    "box_slider_HRHeRA",
     "temp",
     "featuredin_extended_h8hWKY",
     "uses_gjAiWF",
