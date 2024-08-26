@@ -2552,6 +2552,7 @@ body[data-bundle-test] .holiday-bundles-concern {
 /* end product header test */
 
 /* Holiday LP Hero Banner Copy  */
+
 .bfBundle__bannerBlock .bfBundle__content{
   max-width: 750px;
 }
@@ -2578,6 +2579,5 @@ body[data-bundle-test] .holiday-bundles-concern {
   text-transform: uppercase;
   text-align: left;
 }
-
 
 /* end Holiday LP Hero Banner Copy  */
