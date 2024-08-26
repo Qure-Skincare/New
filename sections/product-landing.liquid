@@ -63,7 +63,7 @@
                         {%- endfor -%}
                     {% endif %}
 
-                    <div class="section_header text-start ms-0">
+                    <div class="section_header text-start ms-0 {% if request.path == '/pages/microinfusion' or request.path == '/pages/micro-infusion-refill' or request.path == '/products/micro-infusion-targeted-patches' %} text-header-original {% endif %}">
                         {% if section.settings.heading != blank %}
                             <h1 id="page-{{ page.handle | escape }}" class="title-xl d-none d-md-block">{{ section.settings.heading | replace: '\n', '<br />' }}</h1>
                         {% endif %}
@@ -74,13 +74,11 @@
                         {% endif %}
                     </div>
 
-                    {%- if page.handle == "qure-microinfusion-offer" or page.handle == "qure-micro-infusion-landing-page-affiliate" -%}
-                        <div class="custom-review-container">
-                            {{ settings.custom_trustpilot_name | image_url: width: 80 | image_tag: alt:"custom-name"  }}
-                            {{ settings.custom_trustpilot_stars | image_url: width: 80 | image_tag: alt:"custom-stars"  }}
-                            {{ settings.custom_trustpilot_score | image_url: width: 80 | image_tag: alt:"custom-score"  }}
+                    {% if request.path == '/pages/microinfusion' or request.path == '/pages/micro-infusion-refill' or request.path == '/products/micro-infusion-targeted-patches' %}
+                        <div class="section_header text-start ms-0 text-header-test">
+                            <h1>{{ section.settings.test_product_name }}</h1>
                         </div>
-                    {%- endif -%}
+                    {% endif %}
 
                     {% unless 
                         page.handle == 'microinfusion' 
@@ -469,6 +467,15 @@
                 "type": "text",
                 "id": "heading_mobile",
                 "label": "t:common.heading.mobile.label"
+            },
+            {
+                "type": "paragraph",
+                "content": "header test"
+            },
+            {
+                "type": "text",
+                "id": "test_product_name",
+                "label": "Product Name"
             },
             {
                 "type": "product",
