@@ -774,6 +774,7 @@
         },
         "video_RFQncL": {
           "type": "video",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/trusted_anthony.webp",
             "video_url": "https:\/\/www.youtube.com\/watch?v=gGVKgTHloXw",
