@@ -69,7 +69,7 @@
         "button_L9q6wE": {
           "type": "button",
           "settings": {
-            "button_label": "GET SMOOTHER, GLOWING SKIN NOW",
+            "button_label": "BUY NOW & SAVE UP TO 50%",
             "button_url": "#productSubscription"
           }
         },
@@ -168,8 +168,9 @@
         "video_GAjMEW"
       ],
       "settings": {
-        "heading": "Transform dull looking skin with Micro-Infusion System",
-        "heading_mobile": "Transform dull looking skin with Micro-Infusion System",
+        "heading": "Ditch The Make-up: Embrace a New Level of Confidence with Micro-Infusion",
+        "heading_mobile": "Ditch The Make-up: Embrace a New Level of Confidence with Micro-Infusion",
+        "test_product_name": "",
         "product": "",
         "product_images_offset": 0,
         "product_images_limit": 6,
@@ -737,18 +738,6 @@
     "results_3LEkF7": {
       "type": "results",
       "blocks": {
-        "result_DckD68": {
-          "type": "result",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/results_glorija.webp",
-            "heading": "The best natural glow",
-            "text": "<p>“I was hesitant at first as I didn’t know how much it would hurt but to my surprise it was pretty painless. The 2nd day after the treatment, my skin has the best natural glow!<\/p><p>I was also happy to to see how much my pigmentation had lightened after 3rd treatment :) I switch between the serums depending on how my skin is before the treatment.”<\/p>",
-            "image_country": "shopify:\/\/shop_images\/australia_f.webp",
-            "text_country": "Australia",
-            "client": "Glorija",
-            "code": ""
-          }
-        },
         "result_VCJwgD": {
           "type": "result",
           "settings": {
@@ -758,6 +747,18 @@
             "image_country": "shopify:\/\/shop_images\/usa_89e25711-f730-4521-8931-83b3307204af.png",
             "text_country": "United States",
             "client": "Ellie V.",
+            "code": ""
+          }
+        },
+        "result_DckD68": {
+          "type": "result",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/results_glorija.webp",
+            "heading": "The best natural glow",
+            "text": "<p>“I was hesitant at first as I didn’t know how much it would hurt but to my surprise it was pretty painless. The 2nd day after the treatment, my skin has the best natural glow!<\/p><p>I was also happy to to see how much my pigmentation had lightened after 3rd treatment :) I switch between the serums depending on how my skin is before the treatment.”<\/p>",
+            "image_country": "shopify:\/\/shop_images\/australia_f.webp",
+            "text_country": "Australia",
+            "client": "Glorija",
             "code": ""
           }
         },
@@ -916,11 +917,35 @@
             "client": "Jessica K.",
             "code": ""
           }
+        },
+        "result_Wj9mKr": {
+          "type": "result",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/B_A_Linda.png",
+            "heading": "Great “At Home” Treatment",
+            "text": "<p><em>I have read extensively on the positive effects of micro needling and have been wanting to try it. The Qure Micro-Infusion (Hydra-Soothing) option is an excellent at home way to get the benefits of micro needling without having to leave home! I have been doing a treatment about every 2 - 3 weeks for a few months and am gradually noticing an improvement in the overall appearance of my skiing, reduction in fine lines as well as a softening with the vertical wrinkles around my mouth. I love it!!<\/em><\/p>",
+            "image_country": "shopify:\/\/shop_images\/usa_189ccd4e-add5-48f9-8078-c50c3e29332f.png",
+            "text_country": "United States",
+            "client": "Linda L.",
+            "code": ""
+          }
+        },
+        "result_Nz6N9D": {
+          "type": "result",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/b_a_petrina.png",
+            "heading": "Rejuvenating Micro Infusion System",
+            "text": "<p><em>I’m thrilled with the Qure Rejuvenating Micro Infusion System! After just three months of use, I’ve seen a noticeable reduction in fine lines on my forehead and a significant improvement in the depth of a deep scar on my face. The results have been so impressive that I’ve already purchased a refill to continue the treatment for another three months. Highly recommend this product for anyone looking to enhance their skin’s appearance.<\/em><\/p>",
+            "image_country": "shopify:\/\/shop_images\/usa_189ccd4e-add5-48f9-8078-c50c3e29332f.png",
+            "text_country": "United States",
+            "client": "Petrina Y.",
+            "code": ""
+          }
         }
       },
       "block_order": [
-        "result_DckD68",
         "result_VCJwgD",
+        "result_DckD68",
         "result_YbRNi7",
         "result_ThnNPK",
         "result_JjTHyx",
@@ -933,7 +958,9 @@
         "result_Eb4G8W",
         "result_h4ehch",
         "result_xtFHnk",
-        "result_UVLAG4"
+        "result_UVLAG4",
+        "result_Wj9mKr",
+        "result_Nz6N9D"
       ],
       "settings": {
         "classname": "mi_landing_result",
