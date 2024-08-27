@@ -34,17 +34,17 @@
                             <img class="img-fluid beauty_img" src="{{ block.settings.image | img_url: '600x' }}" alt="">
                         </div>
                         <div class="bs_content">
+                            <h4 class="d-block d-md-none">{{ title | replace: '\n', '<br>' }}</h4>
+                            <h4 class="d-none d-md-block">{{ title | replace: '\n', '&nbsp;' }}</h4>
                             {% if price != blank %}
-                                <div class="bs_price">
+                                <div class="bs_price pb-0">
                                     <h3>
                                         <span class="sale_p">{{ price }}</span>
                                     </h3>
                                 </div>                               
                             {% endif %}
-                            <h4 class="d-block d-md-none">{{ title | replace: '\n', '<br>' }}</h4>
-                            <h4 class="d-none d-md-block">{{ title | replace: '\n', '&nbsp;' }}</h4>
                             {% if block.settings.text != blank %}
-                                {{ block.settings.text |  replace:  '<p>', '<p class="price__label">'  }}
+                                {{ block.settings.text |  replace:  '<p>', '<p class="price__label mt-0">'  }}
                             {% endif %}
                         </div>
                         {% comment %} <div class="bs_content d-none d-md-block">

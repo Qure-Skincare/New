@@ -1,5 +1,138 @@
 {
   "sections": {
+    "custom_qurify_filter_lp_product_Mjcjbn": {
+      "type": "custom-qurify-filter-lp-product",
+      "blocks": {
+        "rating_AyYNEU": {
+          "type": "rating",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/star-half_fill.svg",
+            "text": "<p><span style=\"text-decoration:underline\">43,893+ Happy Customers<\/span><\/p>"
+          }
+        },
+        "list_d7rDEm": {
+          "type": "list",
+          "settings": {
+            "text": "<ul><li>FDA-cleared at-home LED mask<\/li><li>Treat acne, fine lines, wrinkles & more<\/li><li>Customize, track & schedule treatments with app<\/li><li>Quick & convenient 3-minute wireless treatments<\/li><\/ul>"
+          }
+        },
+        "button_t4k4mP": {
+          "type": "button",
+          "settings": {
+            "button_label": "Transform my skin",
+            "button_url": "",
+            "text_first": "",
+            "text_second": "Dermatologist-Reviewed",
+            "icon2": "shopify:\/\/shop_images\/derma-sm.svg"
+          }
+        },
+        "product_in_page_zBm6nD": {
+          "type": "product_in_page",
+          "settings": {
+            "image_product_1": "shopify:\/\/shop_images\/led-lp-product-1.webp",
+            "image_product_text_1": "test",
+            "video_wistia_id_1": "",
+            "image_product_2": "shopify:\/\/shop_images\/led_large_3.webp",
+            "image_product_text_2": "",
+            "video_wistia_id_2": "",
+            "image_product_3": "shopify:\/\/shop_images\/led_large_4.webp",
+            "image_product_text_3": "",
+            "video_wistia_id_3": "",
+            "image_product_text_4": "",
+            "video_wistia_id_4": "",
+            "image_product_text_5": "",
+            "video_wistia_id_5": "",
+            "image_product_text_6": "",
+            "video_wistia_id_6": "",
+            "image_product_text_7": "",
+            "video_wistia_id_7": "",
+            "image_product_text_8": "",
+            "video_wistia_id_8": ""
+          }
+        },
+        "before_and_after_M3cGyK": {
+          "type": "before_and_after",
+          "settings": {
+            "image_new_section_1": "shopify:\/\/shop_images\/led-lp-result-1.webp",
+            "image_new_section_text_1": "",
+            "image_new_section_2": "shopify:\/\/shop_images\/led-lp-result-2.webp",
+            "image_new_section_text_2": "",
+            "image_new_section_text_3": "",
+            "image_new_section_text_4": "",
+            "image_new_section_text_5": "",
+            "image_new_section_text_6": ""
+          }
+        },
+        "video_before_and_after_cJDkYG": {
+          "type": "video_before_and_after",
+          "settings": {
+            "video_wistia_id": "pdqr8phbrl"
+          }
+        }
+      },
+      "block_order": [
+        "rating_AyYNEU",
+        "list_d7rDEm",
+        "button_t4k4mP",
+        "product_in_page_zBm6nD",
+        "before_and_after_M3cGyK",
+        "video_before_and_after_cJDkYG"
+      ],
+      "disabled": true,
+      "settings": {
+        "top_heading": "",
+        "heading": "Feel Confident Makeup-Free with Q-Rejuvalight Pro",
+        "heading_mobile": "",
+        "text_label_real_result_1": "Product",
+        "text_label_real_result_2": "Real Results",
+        "text_label_real_result_3": "Dermatologist"
+      }
+    },
+    "banner_tab_slider_dMVdHQ": {
+      "type": "banner-tab-slider",
+      "blocks": {
+        "tab_ehmdjn": {
+          "type": "Tab",
+          "settings": {
+            "btn_text": "Product",
+            "image": "shopify:\/\/shop_images\/led-lp-product-1.webp",
+            "image2": "shopify:\/\/shop_images\/led_large_3.webp",
+            "image3": "shopify:\/\/shop_images\/led_large_4.webp",
+            "wistia": ""
+          }
+        },
+        "tab_iyUgHm": {
+          "type": "Tab",
+          "settings": {
+            "btn_text": "Real Results",
+            "image": "shopify:\/\/shop_images\/led-lp-result-1.webp",
+            "image2": "shopify:\/\/shop_images\/led-lp-result-2.webp",
+            "wistia": ""
+          }
+        },
+        "tab_nUG7QA": {
+          "type": "Tab",
+          "settings": {
+            "btn_text": "Dermatologist",
+            "wistia": "pdqr8phbrl"
+          }
+        }
+      },
+      "block_order": [
+        "tab_ehmdjn",
+        "tab_iyUgHm",
+        "tab_nUG7QA"
+      ],
+      "settings": {
+        "heading": "Feel Confident Makeup-Free with Q-Rejuvalight Pro",
+        "desc": "<ul><li>FDA-cleared at-home LED mask<\/li><li>Treat acne, fine lines, wrinkles & more<\/li><li>Customize, track & schedule treatments with app<\/li><li>Quick & convenient 3-minute wireless treatments<\/li><\/ul>",
+        "rating_text": "43,893+ Happy Customers",
+        "stars": "shopify:\/\/shop_images\/star-half_fill_d51f6801-2e35-487c-89d0-130f978da1e8.svg",
+        "btn_txt": "Transform My Skin",
+        "d_icon": "shopify:\/\/shop_images\/derma-sm.svg",
+        "recomand": "Dermatologist-Reviewed"
+      }
+    },
     "custom_qurify_filter_lp_main_dxwYq4": {
       "type": "custom-qurify-filter-lp-main",
       "blocks": {
@@ -16,7 +149,7 @@
         "image_y9ECwQ": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/oldwoman.png"
+            "image": "shopify:\/\/shop_images\/led-lp-product-1.webp"
           }
         },
         "image_8dkCnP": {
@@ -34,13 +167,13 @@
         "image_PLzCaj": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/results_michelle.webp"
+            "image": "shopify:\/\/shop_images\/led-lp-result-1.webp"
           }
         },
         "image_gYyPFn": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/led-result-2.webp"
+            "image": "shopify:\/\/shop_images\/led-lp-result-2.webp"
           }
         }
       },
@@ -52,6 +185,7 @@
         "image_PLzCaj",
         "image_gYyPFn"
       ],
+      "disabled": true,
       "settings": {
         "top_heading": "",
         "heading": "Feel Confident Makeup-Free with Q-Rejuvalight Pro",
@@ -187,7 +321,7 @@
             "percent_bar": 87,
             "toolip_hed": "<p>smoother facial <strong>wrinkles <\/strong>and <strong>fine lines<\/strong><\/p>",
             "toolip_desc": "<p>*About the clinical trial: Clinical trial was conducted and investigated the potential of light-emitting diode (LED) treatments with a 660 nm. LED effects were then assessed in aged\/photoaged individuals in a split-face single-blinded study.<\/p>",
-            "font_size": 12
+            "font_size": 14
           }
         },
         "column_QYVDHR": {
@@ -197,7 +331,7 @@
             "percent_bar": 91,
             "toolip_hed": "<p>improved <strong>skin tone<\/strong> and enhanced <strong>smoothness<\/strong> <\/p>",
             "toolip_desc": "<p>*About the clinical trial: Clinical trial was conducted to assess reduction in sun damage signs following 12 weeks of LED therapy with combined wavelengths of 633 and 830 nm. Sun-damage reduction was assessed at 6, 9, and 12 weeks by clinical photography and patient satisfaction scores.<\/p>",
-            "font_size": 12
+            "font_size": 11
           }
         },
         "column_XmhPid": {
@@ -207,7 +341,7 @@
             "percent_bar": 83,
             "toolip_hed": "<p>reduction of <strong>acne breakouts<\/strong><\/p>",
             "toolip_desc": "<p>*About the clinical trial: Clinical trial was conducted with male and female subjects with acne grades at baseline ranging from Burton grade 1 to 5. Subjects were treated with LED therapy, alternating between the blue (415 nm) and near-IR (830 nm) heads. No other treatment was allowed. Results were assessed and compared with the baseline values at 1, 4 and 8 weeks post-treatment.<\/p>",
-            "font_size": 12
+            "font_size": 11
           }
         }
       },
@@ -217,7 +351,7 @@
         "column_XmhPid"
       ],
       "settings": {
-        "section_heading": "Proof In Numbers test",
+        "section_heading": "Proof In Numbers",
         "subheading": "<p>During clinical studies on LED light therapy, users reported numerous benefits:<\/p>"
       }
     },
@@ -250,7 +384,7 @@
         "product_benefits_jpWz4R": {
           "type": "product_benefits",
           "settings": {
-            "benefits": "<ul><li>Customizable treatment on 5 facial areas for your specific skin concerns<\/li><li>3-minute daily treatments with convenient, hands-free operation<\/li><li>Compatible app to track, plan and schedule your treatments<\/li><\/ul>"
+            "benefits": "<ul><li>Customizable treatment on 5 facial areas for your specific skin concerns<\/li><li>3-minute daily treatments with convenient, hands-free operation<\/li><li>Compatible app to track, plan and schedule your treatmentssss<\/li><\/ul>"
           }
         },
         "button_mxBJWm": {
@@ -289,6 +423,7 @@
         "abt_product": "<p>Perfect combination to the Q-Rejuvalight Pro LED mask for the ultimate skin rejuvenation experience.<\/p>",
         "benefits": "<ul><li>Treat beyond the face for an all-over youthful appearance<\/li><li>Smooth fine lines, reduce appearance of wrinkles and boost firmness<\/li><li>Fade dark spots and repair sun-damaged skin for an even-toned complexion<\/li><\/ul>",
         "rating_text": "97% customer satisfaction rate",
+        "stars": "shopify:\/\/shop_images\/star-half_fill_d51f6801-2e35-487c-89d0-130f978da1e8.svg",
         "m_benefits": "<ul><li>Treat beyond the face for an all-over youthful appearance<\/li><li>Smooth fine lines & wrinkles<\/li><li>Evens skin tone & smooths texture<\/li><\/ul>",
         "image_mobile": "shopify:\/\/shop_images\/led_neck_bundle_mob.webp"
       }
@@ -553,7 +688,9 @@
         "slide_UaaMCL"
       ],
       "settings": {
-        "heading": "Thousands are out-glowing their insecurities"
+        "heading": "Thousands are out-glowing their insecurities",
+        "rating_text": "4.7\/5 Based on 48,847 Users",
+        "stars": "shopify:\/\/shop_images\/star-half_fill_d51f6801-2e35-487c-89d0-130f978da1e8.svg"
       }
     },
     "image_text_jBxiPm": {
@@ -695,9 +832,30 @@
         "button_label": "",
         "button_hide_label": ""
       }
+    },
+    "product_landing_BK7nbi": {
+      "type": "product-landing",
+      "disabled": true,
+      "settings": {
+        "heading": "",
+        "heading_mobile": "",
+        "product": "",
+        "product_images_offset": 0,
+        "product_images_limit": 0,
+        "product_button_label": "Product",
+        "before_after_images_limit": 0,
+        "before_after_button_label": "Before & After",
+        "reserve": false,
+        "selected_design": "old",
+        "text_label_real_result_1": "Product",
+        "text_label_real_result_2": "Real Results",
+        "text_label_real_result_3": "Dermatologist"
+      }
     }
   },
   "order": [
+    "custom_qurify_filter_lp_product_Mjcjbn",
+    "banner_tab_slider_dMVdHQ",
     "custom_qurify_filter_lp_main_dxwYq4",
     "featuredin_extended_kPLtYV",
     "uses_w3CMA7",
@@ -711,6 +869,7 @@
     "results_slider_RTd6ad",
     "image_text_jBxiPm",
     "compare_8hnCcH",
-    "faq_4akixC"
+    "faq_4akixC",
+    "product_landing_BK7nbi"
   ]
 }

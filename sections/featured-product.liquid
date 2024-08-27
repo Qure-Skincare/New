@@ -32,52 +32,17 @@
                     {% endif %}
                   </div>
                 {% endif %}
-              {% when 'product_images' %}
-                <div class="tq_img_wrap d-block d-md-none mt-4">
-                  <div class="tq_img">
-                    <img
-                      src="{{ bs.pd_image_1 | img_url: 'original' }}"
-                      class="largeImage img-fluid"
-                      alt="{{ bs.pd_image_1.alt }}"
-                    >
-                  </div>
-
-                  <div class="thumbs">
-                    {% for i in (1..4) %}
-                      {%- capture image -%}pd_image_{{i}}{%- endcapture -%}
-                      {% if bs[image] != blank %}
-                        <img
-                          src="{{ bs[image] | img_url: 'original' }}"
-                          class="img-fluid current"
-                          alt="{{ bs[image].alt }}"
-                        >
-                      {% endif %}
-                    {% endfor %}
-                  </div>
-                  {% comment %} {% if  %} {% endcomment %}
-                  <a
-                    class="see_action d-flex justify-content-center popup-youtube"
-                    href="{{ section.settings.pd_video }}"
-                  >
-                    <p>
-                      <span>
-                        <img src="{{ 'see_it_btn.svg' | asset_url }}" alt="" class="img-fluid">See it
-                        in action
-                      </span>
-                    </p>
-                  </a>
-                </div>
               {%- when 'button' -%}
                 <div class="get_clearer_wrapper text-center mw-100 mt-3 mt-md-5">
                   {%- if block.settings.btn_text != blank -%}
                     <div class="d-flex justify-content-evenly mw-mob-100">
                       <p>
                         <span> <img src="{{ block.settings.w_icon | image_url: width: 16 }}" alt=""></span>
-                        {{- block.settings.warranty }}
+                        {{ block.settings.warranty }}
                       </p>
                       <p>
                         <span><img src="{{ block.settings.d_icon | image_url: width: 16 }}" alt=""></span>
-                        {{- block.settings.recomand }}
+                        {{ block.settings.recomand }}
                       </p>
                     </div>
                     <a
@@ -105,6 +70,41 @@
                 <div class="tq_list ss_list">
                   {{ bs.benefits }}
                 </div>
+                {% when 'product_images' %}
+                  <div class="tq_img_wrap d-block d-md-none mt-4">
+                    <div class="tq_img">
+                      <img
+                        src="{{ bs.pd_image_1 | img_url: 'original' }}"
+                        class="largeImage img-fluid"
+                        alt="{{ bs.pd_image_1.alt }}"
+                      >
+                    </div>
+  
+                    <div class="thumbs">
+                      {% for i in (1..4) %}
+                        {%- capture image -%}pd_image_{{i}}{%- endcapture -%}
+                        {% if bs[image] != blank %}
+                          <img
+                            src="{{ bs[image] | img_url: 'original' }}"
+                            class="img-fluid current"
+                            alt="{{ bs[image].alt }}"
+                          >
+                        {% endif %}
+                      {% endfor %}
+                    </div>
+                    {% comment %} {% if  %} {% endcomment %}
+                    <a
+                      class="see_action d-flex justify-content-center popup-youtube"
+                      href="{{ section.settings.pd_video }}"
+                    >
+                      <p>
+                        <span>
+                          <img src="{{ 'see_it_btn.svg' | asset_url }}" alt="" class="img-fluid">See it
+                          in action
+                        </span>
+                      </p>
+                    </a>
+                  </div>
             {% endcase %}
           {% endfor %}
         </div>

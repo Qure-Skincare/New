@@ -7,9 +7,9 @@
             </h2>
             <div class="refill_review justify-content-center">
                 <div class="star_gp">
-                    <img src="{{ 'star-review.svg' | asset_url }}" alt="">
+                    <img src="{{ section.settings.stars | img_url: '130px' }}" alt="">
                 </div>
-                <p class="text-sm fw-normal text-decoration-none">{{ section.settings.rating_text }}</p>
+                <p>{{ section.settings.rating_text }}</p>
             </div>
         </div>
         <div class="result_s_wrapper">
@@ -81,6 +81,16 @@
         "id": "heading",
         "label": "t:common.heading.label",
         "default": "Thousands are out-glowing their insecurities"
+    },
+    {
+        "type": "text",
+        "id": "rating_text",
+        "label": "t:common.rating.label"
+    },
+    {
+        "type": "image_picker",
+        "id": "stars",
+        "label": "Stars"
     }
 ],
 "blocks": [

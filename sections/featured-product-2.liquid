@@ -27,7 +27,7 @@
                         <div class="banner_content mw-100 position-relative">
                             <div class="refill_review justify-content-start">
                                 <div class="star_gp">
-                                    <img src="https://qureskincaredns.com/new/assets/star4.8.svg" alt="">
+                                    <img src="{{ section.settings.stars | img_url: '130px' }}" alt="">
                                 </div>
                                 <p class="text-sm fw-normal text-decoration-none">{{ section.settings.rating_text }}</p>
                             </div>
@@ -103,6 +103,11 @@
         "type": "text",
         "id": "rating_text",
         "label": "t:product.badge.label"
+    },
+    {
+        "type": "image_picker",
+        "id": "stars",
+        "label": "Stars"
     },
     {
         "type": "header",

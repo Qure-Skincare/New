@@ -28,15 +28,17 @@
                         <h2 class="title-lg">{{ section.settings.heading }}</h2>
                     </div>
 
-                    <div class="ss_list mw-452 pt-2 pb-4 d-none d-md-block">
+                    <div class="ss_list mw-452 py-4 d-none d-md-block">
                         {{ section.settings.text }}
                     </div>
 
                     {%- for block in section.blocks -%}
                         {% if block.type == 'button' %}
                             {% if block.settings.button_label != blank %}
-                                <div class="get_clearer_wrapper text-center ms-0">
+                                <div class="get_clearer_wrapper text-center ms-0 mt-md-3">
+                                    {% if block.settings.text_first != blank %}
                                     <p><span><img src=" {{ block.settings.btn1_icon | img_url: '16x' }} " alt=""></span>{{ block.settings.text_first }}</p>
+                                    {% endif %}
                                     <a class="btn btn-lg btn-primary btn_green" href="{{ block.settings.button_url }}">{{ block.settings.button_label }}</span>
                                     </a>
                                     <p><span> <img src=" {{ block.settings.btn2_icon | img_url: '16x' }} " alt=""></span>{{ block.settings.text_second }}</p>
