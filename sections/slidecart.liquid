@@ -531,15 +531,15 @@
 						{% comment %} <span class="cart_items_subtotal_price money" id="cart_items_subtotal_price" data-value="{{ subtotal_price }}">{{ subtotal_price }}</span> {% endcomment %}
 						
 						{% if price_check < 100 and price_check > 0 %}
-							{% assign shipping_charge = 1000 %}
+							{% assign shipping_charging = 1000 %}
 						{% else %}
-							{% assign shipping_charge = 0 %}
+							{% assign shipping_charging = 0 %}
 						{% endif %}
 						
 						{% if savings > 0 %}
-							<span class="cart_items_subtotal_price money" id="cart_items_subtotal_price">{{ cart.items_subtotal_price |  minus: savings | money_without_trailing_zeros }}</span>
+							<span class="cart_items_subtotal_price money" id="cart_items_subtotal_price">{{ cart.items_subtotal_price |  plus: shipping_charging |  minus: savings | money_without_trailing_zeros }}</span>
 						{% else %}
-							<span class="cart_items_subtotal_price money" id="cart_items_subtotal_price">{{ cart.items_subtotal_price | money_without_trailing_zeros }}</span>
+							<span class="cart_items_subtotal_price money" id="cart_items_subtotal_price">{{ cart.items_subtotal_price |  plus: shipping_charging | money_without_trailing_zeros }}</span>
 						{% endif %}
 					
 					</p>
