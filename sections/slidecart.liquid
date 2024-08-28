@@ -526,8 +526,22 @@
 				<div class="drawer__cart-total">
 					<p class="cart_items_subtotal_price">Your Total</p>
 					<p class="drawer__cart-total-price">
-						<span class="old_price-cart" data-compare-price="{{ total_cart_compare_price | money_without_currency }}">{% if total_cart_compare_price > cart.items_subtotal_price %}{{ total_cart_compare_price | money_without_trailing_zeros }}{% endif %}</span>
-						<span class="cart_items_subtotal_price money" id="cart_items_subtotal_price" data-value="{{ subtotal_price }}">{{ subtotal_price }}</span>
+						{% comment %} aaaaqqqq {% endcomment %}
+						{% comment %} <span class="old_price-cart" data-compare-price="{{ total_cart_compare_price | money_without_currency }}">{% if total_cart_compare_price > cart.items_subtotal_price %}{{ total_cart_compare_price | money_without_trailing_zeros }}{% endif %}</span> {% endcomment %}
+						{% comment %} <span class="cart_items_subtotal_price money" id="cart_items_subtotal_price" data-value="{{ subtotal_price }}">{{ subtotal_price }}</span> {% endcomment %}
+						
+						{% if price_check < 100 and price_check > 0 %}
+							{% assign shipping_charge = 1000 %}
+						{% else %}
+							{% assign shipping_charge = 0 %}
+						{% endif %}
+						
+						{% if savings > 0 %}
+							<span class="cart_items_subtotal_price money" id="cart_items_subtotal_price">{{ cart.items_subtotal_price |  minus: savings | money_without_trailing_zeros }}</span>
+						{% else %}
+							<span class="cart_items_subtotal_price money" id="cart_items_subtotal_price">{{ cart.items_subtotal_price | money_without_trailing_zeros }}</span>
+						{% endif %}
+					
 					</p>
 				</div>
 
