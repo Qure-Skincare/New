@@ -64,6 +64,14 @@
     }
   },
   "common": {
+    "serum":{
+      "label": "Serum For",
+      "type": "Serum Type"
+    },
+    "sale":{
+      "label": "Sale Name",
+      "discount": "Discount"
+    },
     "background":{
       "label": "Background"
     },
@@ -303,6 +311,11 @@
     }
   },
   "sections": {
+    "padding":{
+      "section_padding_heading":"Padding",
+      "padding_top":"Padding top",
+      "padding_bottom":"Padding bottom"
+    },
     "header": {
       "name": "Header",
       "settings": {
@@ -381,6 +394,9 @@
       },
       "blocks": {
       }
+    },
+    "collection":{
+      "label": "Collection Name"
     },
     "collection": {
       "name": "Collection",

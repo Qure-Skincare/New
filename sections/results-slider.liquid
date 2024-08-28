@@ -5,12 +5,14 @@
             <h2 class="title-lg paddingB">
                 {{ section.settings.heading }}
             </h2>
+            {% if section.settings.stars != blank %}
             <div class="refill_review justify-content-center">
                 <div class="star_gp">
                     <img src="{{ section.settings.stars | img_url: '130px' }}" alt="">
                 </div>
                 <p>{{ section.settings.rating_text }}</p>
             </div>
+            {% endif %}
         </div>
         <div class="result_s_wrapper">
             <div class="swiper dot_pagination result_slider">
@@ -24,12 +26,22 @@
                                 {% endif %}
                             </div>
                             <div class="result_c_info">
+                                {% if block.settings.stars_img != blank %}
+                                    <div class="star_gp">
+                                        <img src="{{ block.settings.stars_img | img_url: '98px' }}" width="98px" alt="">
+                                    </div>
+                                {% endif %}
                                 {% if block.settings.heading != blank %}
                                 <div class="star_gp">
                                     <p>{{ block.settings.heading }}</p>
                                 </div>
                                {% endif %}
                             </div>
+                            {% if block.settings.product != blank %}
+                                <div class="result_product_name">
+                                    {{ block.settings.product }}
+                                </div>
+                                {% endif %}
                             <div class="result_item_info">
                                 {% if block.settings.text != blank %}
                                 <div class="result_content">
@@ -42,7 +54,7 @@
                                     <div class="result_c_info">
                                         <div class="r_flag">
                                             <div class="flag_img">
-                                                <img src="{{ block.settings.image_country | img_url: '100x' }}" alt="">
+                                                <img src="{{ block.settings.image_country | img_url: '25x' }}" alt="">
                                             </div>
                                             <p class="r_c_name pe-2">{{ block.settings.client }}</p>
                                         </div>
@@ -52,9 +64,11 @@
                                         </div>
                                     </div>
                                 </div>
+                                {% if block.settings.concerns != blank %}
                                 <div class="skin_concerns">
                                     Skin concerns: {{ block.settings.concerns }}
                                 </div>
+                                {% endif %}
                             </div>
                         </div>
                     </div>
@@ -90,7 +104,7 @@
     {
         "type": "image_picker",
         "id": "stars",
-        "label": "Stars"
+        "label": "t:common.rating.label"
     }
 ],
 "blocks": [
@@ -103,6 +117,16 @@
                 "type": "text",
                 "id": "heading",
                 "label": "t:common.heading.label"
+            },
+            {
+                "type": "text",
+                "id": "product",
+                "label": "t:common.product.label"
+            },
+            {
+                "type": "image_picker",
+                "id": "stars_img",
+                "label": "t:common.rating.label"
             },
             {
                 "type": "richtext",
