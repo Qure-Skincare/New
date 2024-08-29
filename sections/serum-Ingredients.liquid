@@ -46,12 +46,12 @@
                         <div class="accordion-item u_item_question {{ block.settings.background }}">
                             <h2 class="accordion-header u_item_expandable {{ block.settings.background }}">
                                 <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#u_item_question_1" aria-expanded="false"
-                                    aria-controls="u_item_question_1">
+                                    data-bs-target="#u_item_question_1{{ block.id }}" aria-expanded="false"
+                                    aria-controls="u_item_question_1{{ block.id }}">
                                     <div class="containers">{{ block.settings.title1 }}</div>
                                 </button>
                             </h2>
-                            <div id="u_item_question_1" class="accordion-collapse collapse"
+                            <div id="u_item_question_1{{ block.id }}" class="accordion-collapse collapse"
                                 data-bs-parent="#accordionQuesExample">
                                 <div class="accordion-body">
                                     <div class="containers">
@@ -63,12 +63,12 @@
                         <div class="accordion-item u_item_question {{ block.settings.background }}">
                             <h2 class="accordion-header u_item_expandable {{ block.settings.background }}">
                                 <button class="accordion-button collapsed" type="button"
-                                    data-bs-toggle="collapse" data-bs-target="#u_item_question_3"
-                                    aria-expanded="false" aria-controls="u_item_question_3">
+                                    data-bs-toggle="collapse" data-bs-target="#u_item_question_3{{ block.id }}"
+                                    aria-expanded="false" aria-controls="u_item_question_3{{ block.id }}">
                                     <div class="containers">{{ block.settings.title2 }}</div>
                                 </button>
                             </h2>
-                            <div id="u_item_question_3" class="accordion-collapse collapse"
+                            <div id="u_item_question_3{{ block.id }}" class="accordion-collapse collapse"
                                 data-bs-parent="#accordionQuesExample">
                                 <div class="accordion-body">
                                     <div class="containers">
@@ -78,6 +78,20 @@
                             </div>
                         </div>
                     </div>
+                    {% if block.settings.stars != blank %}
+                    <div class="unique_review">
+                        <div class="star-gp">
+                            <img src="{{ block.settings.stars | img_url: '98x' }}" alt="">
+                        </div>
+                        <div class="u_review">
+                            <p>{{ block.settings.review }}</p>
+                        </div>
+                        <div class="u_verified">
+                            <img src="assets/verified.svg" alt="">
+                            <p><strong>{{ block.settings.client }}</strong> - {{ block.settings.place }}</p>
+                        </div>
+                    </div>
+                    {% endif %}
                 </div>
             </div>
             {% when 'or' %}
@@ -237,6 +251,26 @@
                     "type": "richtext",
                     "id": "drop_txt2",
                     "label": "t:common.text.label"
+                },
+                {
+                    "type": "image_picker",
+                    "id": "stars",
+                    "label": "t:common.rating.label"
+                },
+                {
+                    "type": "textarea",
+                    "id": "review",
+                    "label": "t:review.heading.label"
+                },
+                {
+                    "type": "text",
+                    "id": "client",
+                    "label": "t:common.client.label"
+                },
+                {
+                    "type": "text",
+                    "id": "place",
+                    "label": "t:common.client.country.label"
                 }
             ]
         },
