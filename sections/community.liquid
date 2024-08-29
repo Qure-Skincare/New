@@ -38,6 +38,7 @@
                 {% endcase %} 
                 {% endfor %}
             </div>
+            <a target="_blank" href="{{ section.settings.btn_url }}" class="btn_black d-inline-block d-md-none">{{ section.settings.btn_txt }}</a>
         </div>
     </div>
 </div>
@@ -48,6 +49,11 @@
     width: 116px;
     object-fit: cover;
     border-radius: 20px;
+}
+@media(max-width: 767px){
+    #{{ section.id }} .sj_img img{
+        height: 75px;
+    }
 }
 {% endstyle %}
 

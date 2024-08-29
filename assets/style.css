@@ -31809,7 +31809,6 @@ p {
 /* ====== featured promotion start  ===== */
 .featured_promotion {
     padding: 30px 0 34px;
-    background-color: var(--clr-yellow);
 }
 
 .fp-wrapper {

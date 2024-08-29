@@ -168,6 +168,59 @@
         "text_label_real_result_3": "Plastic Surgeon"
       }
     },
+    "serum_ingredients_FTbJif": {
+      "type": "serum-Ingredients",
+      "blocks": {
+        "serum_pVVLFB": {
+          "type": "Serum",
+          "settings": {
+            "background": "bg-yellow",
+            "pd_img": "shopify:\/\/shop_images\/u_serum_1.webp",
+            "name": "Rejuvenating Serum",
+            "serum_type": "Dark Spots & Uneven Skin Tone",
+            "benefit1": "Brightens  discolouration",
+            "benefit2": "Fades  dark spots",
+            "benefit3": "Promotes even  skin tone",
+            "title1": "What can it do for your skin",
+            "drop_txt1": "<p>Reveals a <strong>smoother, brighter looking,<\/strong> and evenly <strong>radiant complexion<\/strong> to generate a glow effect. Renewal properties to help fade the appearance of dark spots and restore even-looking, smoother-feeling skin.<\/p>",
+            "title2": "All Ingredients",
+            "drop_txt2": ""
+          }
+        },
+        "or_Rw8iX6": {
+          "type": "or",
+          "settings": {
+            "or_txt": "Or"
+          }
+        },
+        "serum_BEc6Lf": {
+          "type": "Serum",
+          "settings": {
+            "background": "bg-grey",
+            "pd_img": "shopify:\/\/shop_images\/u_serum_2.webp",
+            "name": "Hydra-Soothing Serum",
+            "serum_type": "Fine Lines & Wrinkles",
+            "benefit1": "Reduces the look of  fine lines & wrinkles",
+            "benefit2": "Helps soothe  redness",
+            "benefit3": "Boosts  hydration",
+            "title1": "What can it do for your skin",
+            "drop_txt1": "<p>Reveals a <strong>smoother, brighter looking,<\/strong> and evenly <strong>radiant complexion<\/strong> to generate a glow effect. Renewal properties to help fade the appearance of dark spots and restore even-looking, smoother-feeling skin.<\/p>",
+            "title2": "All Ingredients",
+            "drop_txt2": ""
+          }
+        }
+      },
+      "block_order": [
+        "serum_pVVLFB",
+        "or_Rw8iX6",
+        "serum_BEc6Lf"
+      ],
+      "settings": {
+        "heading": "Science-backed Micro-Infusion serums",
+        "subheading": "<p><strong>Choose the exact serum to use in your Micro-Infusion<\/strong> treatment, or get both and mix them together to experience a complete set of benefits that <strong>addresses your specific skin concerns.<\/strong><\/p>",
+        "bottom_txt": "Can't decide?"
+      }
+    },
     "second": {
       "type": "temp-sunil-micro-infusion-pdp",
       "settings": {
@@ -462,6 +515,7 @@
   },
   "order": [
     "main",
+    "serum_ingredients_FTbJif",
     "second",
     "liquid_JJikgW",
     "faq_4hnCjw",

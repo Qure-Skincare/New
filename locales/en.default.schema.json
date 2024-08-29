@@ -47,7 +47,8 @@
       "label": "Rating text"
     },
     "benefits":{
-      "label": "Benefits List"
+      "label": "Benefits List",
+      "title": "Benefit"
     }
   },
   "commonMob":{
@@ -64,6 +65,9 @@
     }
   },
   "common": {
+    "title":{
+      "label": "Title"
+    },
     "serum":{
       "label": "Serum For",
       "type": "Serum Type"
@@ -160,6 +164,9 @@
       },
       "url": {
         "label": "Product url"
+      },
+      "type":{
+        "label": "Product Type"
       }
     },
     "object": {
