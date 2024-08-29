@@ -218,7 +218,9 @@
       "settings": {
         "heading": "Science-backed Micro-Infusion serums",
         "subheading": "<p><strong>Choose the exact serum to use in your Micro-Infusion<\/strong> treatment, or get both and mix them together to experience a complete set of benefits that <strong>addresses your specific skin concerns.<\/strong><\/p>",
-        "bottom_txt": "Can't decide?"
+        "bottom_txt": "Can't decide?",
+        "desk_img": "shopify:\/\/shop_images\/cant_d_desk.webp",
+        "mob_img": "shopify:\/\/shop_images\/cant_d_mob.webp"
       }
     },
     "second": {
