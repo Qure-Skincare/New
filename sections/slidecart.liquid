@@ -6,7 +6,7 @@
 {% assign progress_M = 0 %}
 {% assign is_only_gift = false %}
 {% assign price_check=cart.items_subtotal_price | divided_by: 100 %}
-{% assign shipping_charge =  0 %}
+{% assign shipping_charge =  1000 %}
 
 {% render "slidecart-insurance" %}
 
@@ -526,22 +526,8 @@
 				<div class="drawer__cart-total">
 					<p class="cart_items_subtotal_price">Your Total</p>
 					<p class="drawer__cart-total-price">
-						{% comment %} aaaaqqqq {% endcomment %}
 						<span class="old_price-cart" data-compare-price="{{ total_cart_compare_price | money_without_currency }}">{% if total_cart_compare_price > cart.items_subtotal_price %}{{ total_cart_compare_price | money_without_trailing_zeros }}{% endif %}</span>
 						<span class="cart_items_subtotal_price money" id="cart_items_subtotal_price" data-value="{{ subtotal_price }}">{{ subtotal_price }}</span>
-						
-						{% comment %} {% if price_check < 100 and price_check > 0 %}
-							{% assign shipping_charging = 1000 %}
-						{% else %}
-							{% assign shipping_charging = 0 %}
-						{% endif %}
-						
-						{% if savings > 0 %}
-							<span class="cart_items_subtotal_price money" id="cart_items_subtotal_price">{{ cart.items_subtotal_price |  plus: shipping_charging |  minus: savings | money_without_trailing_zeros }}</span>
-						{% else %}
-							<span class="cart_items_subtotal_price money" id="cart_items_subtotal_price">{{ cart.items_subtotal_price |  plus: shipping_charging | money_without_trailing_zeros }}</span>
-						{% endif %} {% endcomment %}
-					
 					</p>
 				</div>
 
