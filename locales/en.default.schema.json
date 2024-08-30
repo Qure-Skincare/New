@@ -49,6 +49,9 @@
     "benefits":{
       "label": "Benefits List",
       "title": "Benefit"
+    },
+    "url":{
+      "label": "Product Url"
     }
   },
   "commonMob":{

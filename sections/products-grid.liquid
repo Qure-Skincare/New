@@ -1,5 +1,5 @@
  <!-- -- customer favourite start -- -->
- <div class="customer_fav section">
+ <div class="customer_fav section 1">
     <div class="container">
         <div class="row">
             {% if section.settings.heading != blank %}
@@ -11,7 +11,7 @@
             {% endif %}
             <div class="customer_fav_grid">
                 {% for block in section.blocks %}
-                <a href="https://www.qureskincare.com/pages/microinfusion" class="fav_pdt best_seller">
+                <a href="{{ block.settings.pd_link }}" class="fav_pdt best_seller">
                     <div class="fav_pdt_img">
                         <img src="{{ block.settings.pd_img | img_url: '265x' }}" alt="" class="img-fluid">
                     </div>
@@ -105,7 +105,12 @@
                     "type": "text",
                     "id": "rating_text",
                     "label": "t:product.badge.label"
-                }
+                },
+                {
+                    "type": "url",
+                    "id": "pd_link",
+                    "label": "t:product.url.label" 
+                } 
             ]
         }
     ],

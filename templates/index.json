@@ -289,7 +289,8 @@
             "price": "$99",
             "bestseller": true,
             "rating": "shopify:\/\/shop_images\/star-half_fill_d51f6801-2e35-487c-89d0-130f978da1e8.svg",
-            "rating_text": "283 Reviews"
+            "rating_text": "283 Reviews",
+            "pd_link": "https:\/\/www.qureskincare.com\/pages\/microinfusion"
           }
         },
         "product_a84cyP": {
@@ -301,7 +302,8 @@
             "price": "$349",
             "bestseller": false,
             "rating": "shopify:\/\/shop_images\/star-half_fill_d51f6801-2e35-487c-89d0-130f978da1e8.svg",
-            "rating_text": "283 Reviews"
+            "rating_text": "283 Reviews",
+            "pd_link": "https:\/\/www.qureskincare.com\/products\/q-rejuvalight-pro-facewear"
           }
         },
         "product_RV8HgT": {
@@ -313,7 +315,8 @@
             "price": "$79",
             "bestseller": false,
             "rating": "shopify:\/\/shop_images\/star-half_fill_d51f6801-2e35-487c-89d0-130f978da1e8.svg",
-            "rating_text": "85 Reviews"
+            "rating_text": "85 Reviews",
+            "pd_link": "https:\/\/www.qureskincare.com\/products\/face-serum"
           }
         },
         "product_3hFb8X": {
@@ -325,7 +328,8 @@
             "price": "$79",
             "bestseller": false,
             "rating": "shopify:\/\/shop_images\/star-half_fill_d51f6801-2e35-487c-89d0-130f978da1e8.svg",
-            "rating_text": "57 Reviews"
+            "rating_text": "57 Reviews",
+            "pd_link": ""
           }
         }
       },
@@ -492,22 +496,15 @@
         "testimonial_FayfUe"
       ],
       "settings": {
-        "classname": "trusted_bl",
-        "heading": "Trusted and recommended by world leading Dermatologists",
-        "heading_reduced": "",
-        "likes": "7.1K",
-        "views": "351K views",
-        "image": "shopify:\/\/shop_images\/trusted_2.jpg",
-        "video_url": "https:\/\/www.youtube.com\/watch?v=I2Fe-kP-2Jg",
-        "video_label": "Watch Review",
-        "dermatoglis_check": "shopify:\/\/shop_images\/Layer_1.svg",
-        "dermatoglist_check_text": "Trusted and recommended by world leading Dermatologists",
-        "dermatoglist_left_subtext": "<p>\"The best LED mask on the market in my opinion at this time, that being said you do need to use this consistently to see results…\"<\/p>",
-        "dermatoglist_right_image": "shopify:\/\/shop_images\/doctor.png",
-        "dermatoglist_right_name": "Dr Shah, MD",
-        "dermatoglist_right_especiality": "Board certified dermatologist",
-        "dermatoglist_right_play": "shopify:\/\/shop_images\/octicon_play-16.svg",
-        "dermatoglist_right_video_url": "https:\/\/www.youtube.com\/watch?v=I2Fe-kP-2Jg"
+        "enable_autoplay": false,
+        "enable_loop": false,
+        "slide_on_desktop": 3,
+        "slide_on_tablet": 2,
+        "slide_on_mobile": 1,
+        "space_between_slides": 20,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": "trusted_bl trustedVerified"
       }
     },
     "compare_pPhPQJ": {
