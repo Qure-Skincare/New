@@ -682,7 +682,14 @@
       "block_order": [
         "stamped_reviews_main_widget_hBTpJD"
       ],
+      "disabled": true,
       "settings": {
+      }
+    },
+    "liquid_mGDf79": {
+      "type": "liquid",
+      "settings": {
+        "code": "<!-- Stamped - Begin main-widget -->\n<div id=\"stamped-main-widget\" class=\"stamped-main-widget\" data-product-id=\"{{ product.id }}\" data-name=\"{{ product.title | escape }}\" data-url=\"{{ shop.url }}{{ product.url }}\" data-image-url=\"{{ product.featured_image | product_img_url: \"large\" |replace: \" ? \", \" % 3F\" | replace: \"& \",\" % 26\"}}\" data-description=\"{{ product.description | escape }}\" data-product-sku=\"{{product.handle}}\" data-product-type=\"{{product.type}}\"><\/div>\n<!-- Stamped - End main-widget -->"
       }
     }
   },
@@ -699,6 +706,7 @@
     "liquid_irWWVT",
     "two_column_box_kCjBfM",
     "faq_Q9aq8V",
-    "17247546178394fcd3"
+    "17247546178394fcd3",
+    "liquid_mGDf79"
   ]
 }
