@@ -68,6 +68,7 @@
       "settings": {
         "heading": "Smooth, firm and plump stubborn areas with Micro- Infusion Targeted Patches",
         "heading_mobile": "Smooth, firm and plump stubborn areas with Micro- Infusion Targeted Patches",
+        "test_product_name": "Micro-Infusion Targeted Patches",
         "product": "micro-infusion-targeted-patches",
         "product_images_offset": 2,
         "product_images_limit": 7,
@@ -370,6 +371,7 @@
       "settings": {
         "classname": "mi_landing_result",
         "heading": "Words directly from the source",
+        "heading_reduced": "",
         "text_verified_customer": "Verified customer",
         "text_reviewed": "Reviewed in"
       }
@@ -528,7 +530,9 @@
       "settings": {
         "classname": "beauty_skincare section bg-white",
         "heading": "These are not your ordinary eye patches",
-        "text": ""
+        "heading_reduced": "",
+        "text": "",
+        "text_reduced": ""
       }
     },
     "liquid_WdMeGQ": {
@@ -657,6 +661,29 @@
         "button_label": "Show More Questions",
         "button_hide_label": "Hide More Questions"
       }
+    },
+    "17247546178394fcd3": {
+      "type": "apps",
+      "blocks": {
+        "stamped_reviews_main_widget_hBTpJD": {
+          "type": "shopify:\/\/apps\/stamped-reviews\/blocks\/main-widget\/a103faaf-2125-4b0e-89fa-de5149736723",
+          "settings": {
+            "take_questions": 2,
+            "animation": true,
+            "tags_exclude": "",
+            "tags_include": "",
+            "search": "",
+            "linkify": true,
+            "use_metafields": false,
+            "sku_tagtype": "sku"
+          }
+        }
+      },
+      "block_order": [
+        "stamped_reviews_main_widget_hBTpJD"
+      ],
+      "settings": {
+      }
     }
   },
   "order": [
@@ -671,6 +698,7 @@
     "liquid_WdMeGQ",
     "liquid_irWWVT",
     "two_column_box_kCjBfM",
-    "faq_Q9aq8V"
+    "faq_Q9aq8V",
+    "17247546178394fcd3"
   ]
 }

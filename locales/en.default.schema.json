@@ -115,7 +115,10 @@
       "label": "Name"
     },
     "subheading": {
-      "label": "Subheading"
+      "label": "Subheading",
+      "mobile": {
+        "label": "Subheading for mobile"
+      }
     },
     "recommended": {
       "label": "Recommended"
@@ -270,6 +273,9 @@
     "link": {
       "label": "Link label",
       "info": "Leave the label blank to hide the link.",
+      "mobile": {
+        "label": "Link label mobile"
+      },
       "url": {
         "label": "Link url"
       }
