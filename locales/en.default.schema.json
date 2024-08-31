@@ -353,6 +353,13 @@
       "blocks": {
       }
     },
+    "trusted-second": {
+      "name": "Trusted second",
+      "settings": {
+      },
+      "blocks": {
+      }
+    },
     "results-simple": {
       "name": "Results simple",
       "settings": {
