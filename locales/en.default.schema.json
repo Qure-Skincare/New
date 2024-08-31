@@ -346,6 +346,13 @@
       "blocks": {
       }
     },
+    "compare-videos": {
+      "name": "Compare videos",
+      "settings": {
+      },
+      "blocks": {
+      }
+    },
     "one-column-box": {
       "name": "One column box",
       "settings": {
