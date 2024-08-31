@@ -1,74 +1,46 @@
+{% assign random_number = 'now' | date: "%s" | modulo: 100 | plus: 1 %}
+
 <!-- -- result start -- -->
+{% if section.blocks.size > 0 %}
 <div class="anti-creams-result">
     <div class="container">
-        <div class="swiper dot_pagination anti_result_slider">
+        <div id="anti_result_slider_{{ random_number }}" class="swiper dot_pagination anti_result_slider">
             <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                    <div class="result_item" style="height: 531.016px;">
-                        <div class="result_img_m">
-                            <img src="https://qureskincaredns.com/new/assets/results_jess1.webp" alt="" class="img-fluid">
-                        </div>
-                        <div class="result_c_info">
-                            <div class="r_flag d-flex">
-                                <div class="flag_img">
-                                    <img src="https://qureskincaredns.com/new/assets/america_f.webp" alt="" class="img-fluid">
+                {%- for block in section.blocks -%}
+                    <div class="swiper-slide">
+                        <div class="result_item" style="height: 531.016px;">
+                            {% if block.settings.image != blank %}
+                                <div class="result_img_m">
+                                    <img src="{{ block.settings.image | img_url: '450x' }}" alt="{{ block.settings.image.alt | escape }}" class="img-fluid">
                                 </div>
-                                <p class="r_c_name pe-2 fw-bold">Jess</p>
-                                <div class="verified_img d-flex">
-                                    <img src="https://qureskincaredns.com/new/assets/verified.svg" alt="" class="pe-2">
-                                    <p>Verified customer</p>
+                            {% endif %}
+
+                            <div class="result_c_info">
+                                <div class="r_flag d-flex">
+                                    {% if block.settings.image_country != blank %}
+                                        <div class="flag_img">
+                                            <img class="img-fluid" src="{{ block.settings.image_country | img_url: '100x' }}" alt="">
+                                        </div>
+                                    {% else %}
+                                        <div class="flag_img">
+                                            <img src="{{ 'america_f.webp' | asset_url }}" alt="" class="img-fluid">
+                                        </div>
+                                    {% endif %}
+                                    {% if block.settings.client != blank %}
+                                        <p class="r_c_name pe-2 fw-bold">{{ block.settings.client }}</p>
+                                    {% endif %}
+                                    <div class="verified_img d-flex">
+                                        <img src="https://qureskincaredns.com/new/assets/verified.svg" alt="" class="pe-2">
+                                        <p>{{ section.settings.text_verified_customer }}</p>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="reviewed">
-                                <p>Reviewed in United States</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="result_item" style="height: 531.016px;">
-                        <div class="result_img_m">
-                            <img src="https://qureskincaredns.com/new/assets/results_ellie.webp" alt="" class="img-fluid">
-                        </div>
-                        <div class="result_c_info">
-                            <div class="r_flag d-flex">
-                                <div class="flag_img">
-                                    <img src="https://qureskincaredns.com/new/assets/america_f.webp" alt="" class="img-fluid">
+                                <div class="reviewed">
+                                    {{ section.settings.text_reviewed | default: 'Reviewed in' }} {{ block.settings.text_country |  default: 'United States' }}
                                 </div>
-                                <p class="r_c_name pe-2 fw-bold">Ellie V.</p>
-                                <div class="verified_img d-flex">
-                                    <img src="https://qureskincaredns.com/new/assets/verified.svg" alt="" class="pe-2">
-                                    <p>Verified customer</p>
-                                </div>
-                            </div>
-                            <div class="reviewed">
-                                <p>Reviewed in United States</p>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="result_item" style="height: 531.016px;">
-                        <div class="result_img_m">
-                            <img src="https://qureskincaredns.com/new/assets/results_ramandeep.webp" alt="" class="img-fluid">
-                        </div>
-                        <div class="result_c_info">
-                            <div class="r_flag d-flex">
-                                <div class="flag_img">
-                                    <img src="https://qureskincaredns.com/new/assets/america_f.webp" alt="" class="img-fluid">
-                                </div>
-                                <p class="r_c_name pe-2 fw-bold">Ramandeep</p>
-                                <div class="verified_img d-flex">
-                                    <img src="https://qureskincaredns.com/new/assets/verified.svg" alt="" class="pe-2">
-                                    <p>Verified customer</p>
-                                </div>
-                            </div>
-                            <div class="reviewed">
-                                <p>Reviewed in Michigan</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                {%- endfor -%}
             </div>
             <div class="pagination_navigation">
                 <div class="swiper-pagination"></div>
@@ -78,12 +50,13 @@
         </div>
     </div>
 </div>
+{% endif %}
 <!-- -- result end -- -->
 
 <script>
     document.addEventListener('DOMContentLoaded', function() {
         //result slider
-        var swiper = new Swiper(".anti_result_slider ", {
+        var swiper = new Swiper("#anti_result_slider_{{ random_number }} ", {
             spaceBetween: 15,
             pagination: {
                 el: ".swiper-pagination",
@@ -106,23 +79,59 @@
                 },
             },
         });
-
-        document.querySelectorAll(".myButton").forEach(button => {
-            button.onclick = function () {
-                let targetDiv = document.querySelector(".parentsteps");
-                if (targetDiv && !targetDiv.classList.contains("mobile_steps")) {
-                    targetDiv.classList.add("mobile_steps");
-                }
-            };
-        });
-
-        $(".landing-next-btn").click(function () {
-            $(window).scrollTop($(".new-landing-purchase").offset().top - 100); // Scroll to the top of the section
-            return false;
-        });
-        $(".landing-back-btn").click(function () {
-            $(window).scrollTop($(".new-landing-purchase").offset().top - 100); // Scroll to the top of the section
-            return false;
-        });
     });
 </script>
+
+
+{% schema %}
+    {
+        "name": "t:sections.results-simple.name",
+        "class": "section-landing-main-banner",
+        "settings": [
+    
+        ],
+        "blocks": [
+            {
+                "type": "result",
+                "name": "t:common.result.label",
+                "settings": [
+                    {
+                        "type": "image_picker",
+                        "id": "image",
+                        "label": "t:common.image.label"
+                    },
+                    {
+                        "type": "text",
+                        "id": "heading",
+                        "label": "t:common.heading.label"
+                    },
+                    {
+                        "type": "richtext",
+                        "id": "text",
+                        "label": "t:common.text.label"
+                    },
+                    {
+                        "type": "image_picker",
+                        "id": "image_country",
+                        "label": "t:common.client.country.label"
+                    },
+                    {
+                        "type": "text",
+                        "id": "text_country",
+                        "label": "t:common.client.country.label"
+                    },
+                    {
+                        "type": "text",
+                        "id": "client",
+                        "label": "t:common.client.label"
+                    }
+                ]
+		    }
+        ],
+        "presets": [
+			{
+				"name": "t:sections.results-simple.name"
+			}
+        ]
+    }
+{% endschema %}

@@ -353,6 +353,13 @@
       "blocks": {
       }
     },
+    "results-simple": {
+      "name": "Results simple",
+      "settings": {
+      },
+      "blocks": {
+      }
+    },
     "one-column-box": {
       "name": "One column box",
       "settings": {
