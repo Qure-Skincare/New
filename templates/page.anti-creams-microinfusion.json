@@ -51,7 +51,7 @@
         "navigation_link_wMtKmt"
       ],
       "custom_css": [
-        ".header_gift_btn {display:none;}"
+        ".header_gift_btn {display: none;}"
       ],
       "settings": {
         "button_label": "SAVE UP TO 43%",
@@ -164,18 +164,6 @@
     "results_3LEkF8": {
       "type": "results",
       "blocks": {
-        "result_VCJwgD": {
-          "type": "result",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/results_ellie.webp",
-            "heading": "my skin RETURNED to LIFE!",
-            "text": "<p>\"I just turned 57 years. My skin was extremely dry and while using this product my skin RETURNED to LIFE! I am so impressed with it! My Coworkers ask me what I use in my skin.. and I tell them. Product easy to use and the needles are better that using a pen for microneedling. This is an amazing product that you will not regret in purchasing it. I really see the change in my skin. Outstanding job QURE!”<\/p>",
-            "image_country": "shopify:\/\/shop_images\/usa_89e25711-f730-4521-8931-83b3307204af.png",
-            "text_country": "United States",
-            "client": "Ellie V.",
-            "code": ""
-          }
-        },
         "result_DckD68": {
           "type": "result",
           "settings": {
@@ -185,6 +173,18 @@
             "image_country": "shopify:\/\/shop_images\/australia_f.webp",
             "text_country": "Australia",
             "client": "Glorija",
+            "code": ""
+          }
+        },
+        "result_VCJwgD": {
+          "type": "result",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/results_ellie.webp",
+            "heading": "my skin RETURNED to LIFE!",
+            "text": "<p>\"I just turned 57 years. My skin was extremely dry and while using this product my skin RETURNED to LIFE! I am so impressed with it! My Coworkers ask me what I use in my skin.. and I tell them. Product easy to use and the needles are better that using a pen for microneedling. This is an amazing product that you will not regret in purchasing it. I really see the change in my skin. Outstanding job QURE!”<\/p>",
+            "image_country": "shopify:\/\/shop_images\/usa_89e25711-f730-4521-8931-83b3307204af.png",
+            "text_country": "United States",
+            "client": "Ellie V.",
             "code": ""
           }
         },
@@ -370,8 +370,8 @@
         }
       },
       "block_order": [
-        "result_VCJwgD",
         "result_DckD68",
+        "result_VCJwgD",
         "result_YbRNi7",
         "result_ThnNPK",
         "result_JjTHyx",
@@ -548,7 +548,7 @@
           "type": "object",
           "settings": {
             "heading": "What is included in the purchase of a Qure Micro-Infusion System?",
-            "text": "<p>You will receive the Micro-Infusion device, sterile 24k gold plated microneedle heads, Qure’s science-backed Rejuvenating Serum, free worldwide shipping over $100, 24/7 customer support, and a 90-day risk-free money-back guarantee.<\/p>",
+            "text": "<p>You will receive the Micro-Infusion device, sterile 24k gold plated microneedle heads, Qure’s science-backed Rejuvenating Serum, free worldwide shipping over $100, 24\/7 customer support, and a 90-day risk-free money-back guarantee.<\/p>",
             "code": ""
           }
         },
