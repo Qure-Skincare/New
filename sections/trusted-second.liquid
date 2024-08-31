@@ -72,7 +72,22 @@
                                                             <img src="{{ 'trusted_play.svg' | asset_url }}" alt="" class="w-auto">
                                                             <h6>Watch Review</h6>
                                                         </span>
-                                                    </a>   
+                                                    </a>  
+                                                {% elsif block.settings.video != blank %}
+
+                                                    {% if block.settings.video.sources[1].url != blank %}
+                                                        {% assign video_source_url = block.settings.video.sources[1].url %}
+                                                    {% else %}
+                                                        {% assign video_source_url = block.settings.video.sources[0].url %}
+                                                    {% endif %}
+
+                                                    <a class="popup-youtube" href="{{ video_source_url }}">
+                                                        <span class="justify-content-center">
+                                                            <img src="{{ 'trusted_play_md.svg' | asset_url }}" alt="" class="w-auto">
+                                                            <h6>Watch Review</h6>
+                                                        </span>
+                                                    </a>
+
                                                 {% endif %}
                                             </div>
                                         </div>
