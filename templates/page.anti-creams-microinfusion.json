@@ -209,8 +209,6 @@
           "type": "result",
           "settings": {
             "image": "shopify:\/\/shop_images\/results_jess1.webp",
-            "heading": "",
-            "text": "",
             "image_country": "shopify:\/\/shop_images\/usa_89e25711-f730-4521-8931-83b3307204af.png",
             "text_country": "United Stated",
             "client": "Jess"
@@ -220,8 +218,6 @@
           "type": "result",
           "settings": {
             "image": "shopify:\/\/shop_images\/results_ellie.webp",
-            "heading": "",
-            "text": "",
             "image_country": "shopify:\/\/shop_images\/usa_89e25711-f730-4521-8931-83b3307204af.png",
             "text_country": "United Stated",
             "client": "Ellie V."
@@ -231,8 +227,6 @@
           "type": "result",
           "settings": {
             "image": "shopify:\/\/shop_images\/results-Ramandeep.png",
-            "heading": "",
-            "text": "",
             "image_country": "shopify:\/\/shop_images\/usa_89e25711-f730-4521-8931-83b3307204af.png",
             "text_country": "United States",
             "client": "Ramandeep"
@@ -245,11 +239,68 @@
         "result_Cg3zJX"
       ],
       "settings": {
+        "text_verified_customer": "Verified customer"
       }
     },
     "trusted-second": {
       "type": "trusted-second",
+      "blocks": {
+        "wistia_gNathA": {
+          "type": "wistia",
+          "settings": {
+            "heading": "Dr Maxfield and Dr Shah",
+            "subheading": "Board-Certified Dermatologists",
+            "text": "\"...[Qure's Micro-Infusion] will help your products penetrate better\"",
+            "image": "shopify:\/\/shop_images\/trusted_dr1.webp",
+            "wistia_id": "9bv0lzoi1d",
+            "likes": "2.8M"
+          }
+        },
+        "video_rXDT36": {
+          "type": "video",
+          "settings": {
+            "heading": "Dr Anthony Youn",
+            "subheading": "Board-Certified Plastic Surgeon",
+            "text": "“Qure’s System is the closest thing that you can get to bringing ...\"",
+            "image": "shopify:\/\/shop_images\/trusted_dr2.webp",
+            "video_url": "https:\/\/www.youtube.com\/watch?v=gGVKgTHloXw",
+            "likes": "5.1M"
+          }
+        },
+        "video_X6AyVt": {
+          "type": "video",
+          "settings": {
+            "heading": "Dr Mona Patel",
+            "subheading": "Internal Medicine Doctor",
+            "text": "\"My skin is brighter, more hydrated, and my products absorb better...\"",
+            "image": "shopify:\/\/shop_images\/trusted_dr3.webp",
+            "video_url": "",
+            "video": "shopify:\/\/files\/videos\/71857fdec6b0497294117ed84cab480e.HD-1080p-2.5Mbps-13573985.mp4",
+            "likes": "2.1M"
+          }
+        },
+        "video_HUH8JC": {
+          "type": "video",
+          "settings": {
+            "heading": "Dr Aleksandra Brown",
+            "subheading": "Board-Certified Dermatologist",
+            "text": "\"I have liked this in between my in-office treatments. It’s convenient...\"",
+            "image": "shopify:\/\/shop_images\/trusted_dr4.webp",
+            "video_url": "",
+            "video": "shopify:\/\/files\/videos\/d5d0c051b43e4117be7b6308e06e8f66.mp4",
+            "likes": "150K"
+          }
+        }
+      },
+      "block_order": [
+        "wistia_gNathA",
+        "video_rXDT36",
+        "video_X6AyVt",
+        "video_HUH8JC"
+      ],
       "settings": {
+        "heading": "Dermatologist's go-to choice for their own skin",
+        "heading_tag": "h1"
       }
     },
     "anti-creams-microinfusion-page-stamping": {
