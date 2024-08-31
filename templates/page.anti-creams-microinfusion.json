@@ -61,6 +61,10 @@
     "landing-main-banner": {
       "type": "landing-main-banner",
       "settings": {
+        "heading": "Fed Up With Creams That Don't Work The Way You Want?",
+        "heading_tag": "h2",
+        "text": "<p>Qure’s Micro-Infusion System stamps your skin and gets <strong>past your skin's <\/strong>defences to deliver active ingredients <strong>exactly where you need them, <\/strong>reducing the appearance of wrinkles and fine lines, and fading the look of dark spots.<\/p>",
+        "wistia_id": "ri7eb8c11y"
       }
     },
     "featuredin_tFi6Ki": {
