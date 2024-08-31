@@ -155,10 +155,42 @@
           "settings": {
             "heading": "Your quest for the “one product that finally works” ends here."
           }
+        },
+        "option_QEaCxV": {
+          "type": "option",
+          "settings": {
+            "text": "<p><strong>2-in-1 system <\/strong>stimulates skin rejuvenation while infusing serum deeper for <strong>faster results.<\/strong><\/p>",
+            "image": "shopify:\/\/shop_images\/deeply-hydrates.svg"
+          }
+        },
+        "option_UKXe3x": {
+          "type": "option",
+          "settings": {
+            "text": "<p>With just one easy, virtually painless, <strong>at-home 5-minute treatment <\/strong>every 2 weeks.<\/p>",
+            "image": "shopify:\/\/shop_images\/TIME_4de7163b-8d89-43a3-b353-636fd21536b4.svg"
+          }
+        },
+        "option_EMzXUb": {
+          "type": "option",
+          "settings": {
+            "text": "<p>At a price up to <strong>30X lower <\/strong>than any professional in-clinc treatment!<\/p>",
+            "image": "shopify:\/\/shop_images\/MONEY_5d92e21e-7f2c-4b8c-b8d3-09315a988e9d.svg"
+          }
+        },
+        "button_dJqtnK": {
+          "type": "button",
+          "settings": {
+            "button_label": "Discover Qure",
+            "button_url": "#new-landing-purchase"
+          }
         }
       },
       "block_order": [
-        "heading_dWVwNp"
+        "heading_dWVwNp",
+        "option_QEaCxV",
+        "option_UKXe3x",
+        "option_EMzXUb",
+        "button_dJqtnK"
       ],
       "settings": {
         "heading": "Qure’s Micro-Infusion System goes where your skin creams can’t…",
