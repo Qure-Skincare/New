@@ -215,10 +215,34 @@
             "text_country": "United Stated",
             "client": "Jess"
           }
+        },
+        "result_QjRfkH": {
+          "type": "result",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/results_ellie.webp",
+            "heading": "",
+            "text": "",
+            "image_country": "shopify:\/\/shop_images\/usa_89e25711-f730-4521-8931-83b3307204af.png",
+            "text_country": "United Stated",
+            "client": "Ellie V."
+          }
+        },
+        "result_Cg3zJX": {
+          "type": "result",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/results-Ramandeep.png",
+            "heading": "",
+            "text": "",
+            "image_country": "shopify:\/\/shop_images\/usa_89e25711-f730-4521-8931-83b3307204af.png",
+            "text_country": "United States",
+            "client": "Ramandeep"
+          }
         }
       },
       "block_order": [
-        "result_ypQjAB"
+        "result_ypQjAB",
+        "result_QjRfkH",
+        "result_Cg3zJX"
       ],
       "settings": {
       }
