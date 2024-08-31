@@ -1,0 +1,128 @@
+<!-- -- result start -- -->
+<div class="anti-creams-result">
+    <div class="container">
+        <div class="swiper dot_pagination anti_result_slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="result_item" style="height: 531.016px;">
+                        <div class="result_img_m">
+                            <img src="https://qureskincaredns.com/new/assets/results_jess1.webp" alt="" class="img-fluid">
+                        </div>
+                        <div class="result_c_info">
+                            <div class="r_flag d-flex">
+                                <div class="flag_img">
+                                    <img src="https://qureskincaredns.com/new/assets/america_f.webp" alt="" class="img-fluid">
+                                </div>
+                                <p class="r_c_name pe-2 fw-bold">Jess</p>
+                                <div class="verified_img d-flex">
+                                    <img src="https://qureskincaredns.com/new/assets/verified.svg" alt="" class="pe-2">
+                                    <p>Verified customer</p>
+                                </div>
+                            </div>
+                            <div class="reviewed">
+                                <p>Reviewed in United States</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="result_item" style="height: 531.016px;">
+                        <div class="result_img_m">
+                            <img src="https://qureskincaredns.com/new/assets/results_ellie.webp" alt="" class="img-fluid">
+                        </div>
+                        <div class="result_c_info">
+                            <div class="r_flag d-flex">
+                                <div class="flag_img">
+                                    <img src="https://qureskincaredns.com/new/assets/america_f.webp" alt="" class="img-fluid">
+                                </div>
+                                <p class="r_c_name pe-2 fw-bold">Ellie V.</p>
+                                <div class="verified_img d-flex">
+                                    <img src="https://qureskincaredns.com/new/assets/verified.svg" alt="" class="pe-2">
+                                    <p>Verified customer</p>
+                                </div>
+                            </div>
+                            <div class="reviewed">
+                                <p>Reviewed in United States</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="result_item" style="height: 531.016px;">
+                        <div class="result_img_m">
+                            <img src="https://qureskincaredns.com/new/assets/results_ramandeep.webp" alt="" class="img-fluid">
+                        </div>
+                        <div class="result_c_info">
+                            <div class="r_flag d-flex">
+                                <div class="flag_img">
+                                    <img src="https://qureskincaredns.com/new/assets/america_f.webp" alt="" class="img-fluid">
+                                </div>
+                                <p class="r_c_name pe-2 fw-bold">Ramandeep</p>
+                                <div class="verified_img d-flex">
+                                    <img src="https://qureskincaredns.com/new/assets/verified.svg" alt="" class="pe-2">
+                                    <p>Verified customer</p>
+                                </div>
+                            </div>
+                            <div class="reviewed">
+                                <p>Reviewed in Michigan</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="pagination_navigation">
+                <div class="swiper-pagination"></div>
+                <div class="antiSlider-swiper-prev swiper-button swiper-button-prev"></div>
+                <div class="antiSlider-swiper-next swiper-button swiper-button-next"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- -- result end -- -->
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        //result slider
+        var swiper = new Swiper(".anti_result_slider ", {
+            spaceBetween: 15,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".antiSlider-swiper-next",
+                prevEl: ".antiSlider-swiper-prev",
+            },
+            slidesPerView: 1.3,
+            breakpoints: {
+                556: {
+                    slidesPerView: 1.3,
+                },
+                768: {
+                    slidesPerView: 2,
+                },
+                1024: {
+                    slidesPerView: 3,
+                },
+            },
+        });
+
+        document.querySelectorAll(".myButton").forEach(button => {
+            button.onclick = function () {
+                let targetDiv = document.querySelector(".parentsteps");
+                if (targetDiv && !targetDiv.classList.contains("mobile_steps")) {
+                    targetDiv.classList.add("mobile_steps");
+                }
+            };
+        });
+
+        $(".landing-next-btn").click(function () {
+            $(window).scrollTop($(".new-landing-purchase").offset().top - 100); // Scroll to the top of the section
+            return false;
+        });
+        $(".landing-back-btn").click(function () {
+            $(window).scrollTop($(".new-landing-purchase").offset().top - 100); // Scroll to the top of the section
+            return false;
+        });
+    });
+</script>
