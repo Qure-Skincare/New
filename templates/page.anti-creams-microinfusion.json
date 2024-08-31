@@ -72,11 +72,26 @@
           "settings": {
             "text": "Only takes 5-minutes every 2 weeks."
           }
+        },
+        "option_dwBXRf": {
+          "type": "option",
+          "settings": {
+            "text": "Virtually painless with minimal downtime."
+          }
+        },
+        "button_qBUjKA": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_url": ""
+          }
         }
       },
       "block_order": [
         "option_WNAxLk",
-        "option_wfkdLK"
+        "option_wfkdLK",
+        "option_dwBXRf",
+        "button_qBUjKA"
       ],
       "settings": {
         "heading": "Fed Up With Creams That Don't Work The Way You Want?",
