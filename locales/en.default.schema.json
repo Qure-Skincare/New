@@ -82,6 +82,10 @@
     "recommended": {
       "label": "Recommended"
     },
+    "option": {
+      "name": "Option",
+      "label": "Option"
+    },
     "menu": {
       "label": "Menu"
     },
@@ -330,6 +334,13 @@
     },
     "banner-two-column": {
       "name": "Banner two column",
+      "settings": {
+      },
+      "blocks": {
+      }
+    },
+    "landing-main-banner": {
+      "name": "Landing-main-banner",
       "settings": {
       },
       "blocks": {
