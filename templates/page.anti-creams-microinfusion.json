@@ -149,6 +149,17 @@
     },
     "compare-videos": {
       "type": "compare-videos",
+      "blocks": {
+        "heading_dWVwNp": {
+          "type": "heading",
+          "settings": {
+            "heading": "Your quest for the “one product that finally works” ends here."
+          }
+        }
+      },
+      "block_order": [
+        "heading_dWVwNp"
+      ],
       "settings": {
         "heading": "Qure’s Micro-Infusion System goes where your skin creams can’t…",
         "heading_tag": "h2",
