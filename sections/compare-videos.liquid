@@ -45,7 +45,7 @@
                     </div>
                     {% if section.settings.wistia_id_label != blank %}
                         <div class="bs_content">
-                            <h4>{{ section.settings.wistia_id_label }}</h4>
+                            <h4>{{ section.settings.wistia_id_label | replace: '\n', '<br>' }}</h4>
                         </div>
                     {% endif %}
                 </div>
@@ -68,7 +68,7 @@
                     </div>
                     {% if section.settings.wistia_id_second_label != blank %}
                         <div class="bs_content">
-                            <h4>{{ section.settings.wistia_id_second_label }}</h4>
+                            <h4>{{ section.settings.wistia_id_second_label | replace: '\n', '<br>' }}</h4>
                         </div>
                     {% endif %}
                 </div>
@@ -159,7 +159,7 @@
             {
                 "type": "text",
                 "id": "wistia_id_label",
-                "label": "t:common.video.label"
+                "label": "t:common.video.cta.label"
             },
             {
                 "type": "text",
@@ -169,7 +169,7 @@
             {
                 "type": "text",
                 "id": "wistia_id_second_label",
-                "label": "t:common.video.label"
+                "label": "t:common.video.cta.label"
             }
         ],
         "blocks": [
