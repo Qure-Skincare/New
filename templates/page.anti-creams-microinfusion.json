@@ -150,6 +150,13 @@
     "compare-videos": {
       "type": "compare-videos",
       "settings": {
+        "heading": "Qure’s Micro-Infusion System goes where your skin creams can’t…",
+        "heading_tag": "h2",
+        "text": "<p>Tired of constantly switching skincare products and still <strong>not seeing results?<\/strong><\/p><p><strong>Topical skincare alone isn't effective <\/strong>because many ingredients in face creams and serums are too large to penetrate deep enough into the skin, where your skin needs them most.<\/p>",
+        "wistia_id": "9gjsppjkja",
+        "wistia_id_label": "Topical creams",
+        "wistia_id_second": "na8z16hdlx",
+        "wistia_id_second_label": "Stamping Your Skin with \\n Micro-Infusion System"
       }
     },
     "results-simple": {
