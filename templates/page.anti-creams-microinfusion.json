@@ -200,42 +200,6 @@
             "code": ""
           }
         },
-        "result_ThnNPK": {
-          "type": "result",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/results_ann.webp",
-            "heading": "How easy it is to use",
-            "text": "<p>\"I heard about micro-infusion in clinics but couldn’t afford to fork out hundreds of dollars for a treatment. So when I saw this online I jumped at buying it instantly. Yes, it doesn’t stamp in botox and filler BUT personally I LOVE the results and how easy it is to use myself at home. It works great for my skin, I have noticed my skin texture is much smoother and brighter.”<\/p>",
-            "image_country": "shopify:\/\/shop_images\/australia_f.webp",
-            "text_country": "Australia",
-            "client": "Ann",
-            "code": ""
-          }
-        },
-        "result_JjTHyx": {
-          "type": "result",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Jenn_Nay_b_a.png",
-            "heading": "Works better then I imagined!",
-            "text": "<p>“I am really stunned by how well this product works. I have had professional micro-needling and I wanted the benefits without the downtime. I did my treatment, went to bed and woke up the next morning and was ready to go. My skin looks better than it has in years.”<\/p>",
-            "image_country": "shopify:\/\/shop_images\/usa_89e25711-f730-4521-8931-83b3307204af.png",
-            "text_country": "United States",
-            "client": "Jennifer Nay",
-            "code": ""
-          }
-        },
-        "result_cGAEkd": {
-          "type": "result",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/results-Ramandeep.png",
-            "heading": "I definitely see a difference",
-            "text": "<p>“I have done 2 treatments - 1 for rejuvenating and 2 for hydration with 3 week gap in between treatments. I definitely see a difference in before and after pictures. I am sure I need 4-8 more treatments but this did make a difference.”<\/p>",
-            "image_country": "shopify:\/\/shop_images\/usa_89e25711-f730-4521-8931-83b3307204af.png",
-            "text_country": "United States",
-            "client": "Ramandeep",
-            "code": ""
-          }
-        },
         "result_BU6egp": {
           "type": "result",
           "settings": {
@@ -248,15 +212,51 @@
             "code": ""
           }
         },
-        "result_URKRDq": {
+        "result_dP4njH": {
+          "type": "result",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/results_ann.webp",
+            "heading": "I LOVE the results",
+            "text": "<p>“I heard about micro-infusion in clinics but couldn’t afford to fork out hundreds of dollars for a treatment. So when I saw this online I jumped at buying it instantly. Yes, it doesn’t stamp in botox and filler BUT personally I LOVE the results and how easy it is to use myself at home. It works great for my skin, I have noticed my skin texture is much smoother and brighter.”<\/p>",
+            "image_country": "shopify:\/\/shop_images\/australia_f.webp",
+            "text_country": "Australia",
+            "client": "Ann",
+            "code": ""
+          }
+        },
+        "result_xgWrGm": {
+          "type": "result",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/results_chelsea.webp",
+            "heading": "Amazing results!",
+            "text": "<p>\"Amazing results. I am just in shock at how great my skin is looking. This stuff has been amazing for hyperpigmentation and also some hormonal cystic acne. I will be continuing to support this business because it has brought the skin I know back. I was at my wits end with a hormonal breakout and bad hyperpigmentation.\"<\/p>",
+            "image_country": "shopify:\/\/shop_images\/usa_89e25711-f730-4521-8931-83b3307204af.png",
+            "text_country": "United States",
+            "client": "Chelsea J.",
+            "code": ""
+          }
+        },
+        "result_HKiNeX": {
           "type": "result",
           "settings": {
             "image": "shopify:\/\/shop_images\/results_jess1.webp",
-            "heading": "Totally worth it!!!",
-            "text": "<p>“I committed to the 3 month saver bundle and after 6 treatments (2 weeks apart) I’m SO happy with the results!!! My pores are smaller and I have mainly noticed a difference in my skin texture.<\/p><p>My skin goes a little red straight after the treatment but that quickly goes away. It’s a little uncomfortable when I do it on my forehead but it’s fine everywhere else. Totally worth it!!!”<\/p>",
+            "heading": "IT REALLY WORKS!!",
+            "text": "<p>“I committed to the 3 month saver bundle and after 6 treatments (2 weeks apart) I’m SO happy with the results!!! My pores are smaller and I have mainly noticed a difference in my skin texture. My skin goes a little red straight after the treatment but that quickly goes away. It’s a little uncomfortable when I do it on my forehead but it’s fine everywhere else. Totally worth it!!!”<\/p>",
             "image_country": "shopify:\/\/shop_images\/usa_89e25711-f730-4521-8931-83b3307204af.png",
             "text_country": "United States",
             "client": "Jess",
+            "code": ""
+          }
+        },
+        "result_zKUVtE": {
+          "type": "result",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/results_akina.webp",
+            "heading": "I love this product",
+            "text": "<p>“I used three time so far. I can see the results from first time I used. I love this product but only thing is it’s take time to apply till used all serum per application. I tried many different way to press to my skin so the serum come out more but then a lot of time not.”<\/p>",
+            "image_country": "shopify:\/\/shop_images\/usa_89e25711-f730-4521-8931-83b3307204af.png",
+            "text_country": "United States",
+            "client": "Akina M.",
             "code": ""
           }
         },
@@ -284,87 +284,39 @@
             "code": ""
           }
         },
-        "result_xgWrGm": {
+        "result_ThnNPK": {
           "type": "result",
           "settings": {
-            "image": "shopify:\/\/shop_images\/results_chelsea.webp",
-            "heading": "Amazing results!",
-            "text": "<p>\"Amazing results. I am just in shock at how great my skin is looking. This stuff has been amazing for hyperpigmentation and also some hormonal cystic acne. I will be continuing to support this business because it has brought the skin I know back. I was at my wits end with a hormonal breakout and bad hyperpigmentation.\"<\/p>",
+            "image": "shopify:\/\/shop_images\/results_ann.webp",
+            "heading": "How easy it is to use",
+            "text": "<p>\"I heard about micro-infusion in clinics but couldn’t afford to fork out hundreds of dollars for a treatment. So when I saw this online I jumped at buying it instantly. Yes, it doesn’t stamp in botox and filler BUT personally I LOVE the results and how easy it is to use myself at home. It works great for my skin, I have noticed my skin texture is much smoother and brighter.”<\/p>",
+            "image_country": "shopify:\/\/shop_images\/australia_f.webp",
+            "text_country": "Australia",
+            "client": "Ann",
+            "code": ""
+          }
+        },
+        "result_MhYCLK": {
+          "type": "result",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/results_andrea-g.webp",
+            "heading": "Definitely be re-ordering",
+            "text": "<p>“Still a newbie but so far so great! I have dermarolled for more than a decade -still do with .25 at least one a week. I’ve avoided getting a pen because there’s so much involved- but the Qure system is just awesome. So easy and user friendly and my skin loves the serum! Doing my third treatment Saturday and will definitely be re-ordering 🤗<\/p>",
             "image_country": "shopify:\/\/shop_images\/usa_89e25711-f730-4521-8931-83b3307204af.png",
             "text_country": "United States",
-            "client": "Chelsea J.",
+            "client": "Andrea G.",
             "code": ""
           }
         },
-        "result_Eb4G8W": {
+        "result_cGAEkd": {
           "type": "result",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Shelby_F.png",
-            "heading": "Wow amazing",
-            "text": "<p>\"Just using this product once my skin looks and feels healthy! I’ve also had acne scars for about 5 years now and this fixed them I couldn’t believe it! Can’t wait to do it again in 2 weeks!\"<\/p>",
-            "image_country": "shopify:\/\/shop_images\/usa_189ccd4e-add5-48f9-8078-c50c3e29332f.png",
+            "image": "shopify:\/\/shop_images\/results-Ramandeep.png",
+            "heading": "I definitely see a difference",
+            "text": "<p>“I have done 2 treatments - 1 for rejuvenating and 2 for hydration with 3 week gap in between treatments. I definitely see a difference in before and after pictures. I am sure I need 4-8 more treatments but this did make a difference.”<\/p>",
+            "image_country": "shopify:\/\/shop_images\/usa_89e25711-f730-4521-8931-83b3307204af.png",
             "text_country": "United States",
-            "client": "Shelby F.",
-            "code": ""
-          }
-        },
-        "result_h4ehch": {
-          "type": "result",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Audrey_M.png",
-            "heading": "Microneedling has been a skin saver!",
-            "text": "<p>\"I bought the refill after I initially ran out of my infusion vials. I am so impressed with the results! As an acne sufferer with minor scarring this has been great in reducing overall texture and making my skin truly glow!\"<\/p>",
-            "image_country": "shopify:\/\/shop_images\/usa_189ccd4e-add5-48f9-8078-c50c3e29332f.png",
-            "text_country": "United States",
-            "client": "Audrey M.",
-            "code": ""
-          }
-        },
-        "result_xtFHnk": {
-          "type": "result",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Shelly_S.png",
-            "heading": "Looking better and better",
-            "text": "<p>\"I have used the Qure Microneedleing system for 3 monthly treatments. The results are clearer, plumper and firmer skin. With further treatments I am looking forward to looking better and better.\"<\/p>",
-            "image_country": "shopify:\/\/shop_images\/usa_189ccd4e-add5-48f9-8078-c50c3e29332f.png",
-            "text_country": "United States",
-            "client": "Shelly S.",
-            "code": ""
-          }
-        },
-        "result_UVLAG4": {
-          "type": "result",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Jessica_K_b_a.png",
-            "heading": "Thrilled with the results!",
-            "text": "<p>\"I have been using the mask & microneedling for 6 weeks & am truly impressed with the results. I have noticed a dramatic reduction in redness, an improvement in my dark spots, scars & overall skin tone & firmness, and a smoothing of fine lines & wrinkles.\"<\/p>",
-            "image_country": "shopify:\/\/shop_images\/usa_189ccd4e-add5-48f9-8078-c50c3e29332f.png",
-            "text_country": "US",
-            "client": "Jessica K.",
-            "code": ""
-          }
-        },
-        "result_Wj9mKr": {
-          "type": "result",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/B_A_Linda.png",
-            "heading": "Great “At Home” Treatment",
-            "text": "<p><em>I have read extensively on the positive effects of micro needling and have been wanting to try it. The Qure Micro-Infusion (Hydra-Soothing) option is an excellent at home way to get the benefits of micro needling without having to leave home! I have been doing a treatment about every 2 - 3 weeks for a few months and am gradually noticing an improvement in the overall appearance of my skiing, reduction in fine lines as well as a softening with the vertical wrinkles around my mouth. I love it!!<\/em><\/p>",
-            "image_country": "shopify:\/\/shop_images\/usa_189ccd4e-add5-48f9-8078-c50c3e29332f.png",
-            "text_country": "United States",
-            "client": "Linda L.",
-            "code": ""
-          }
-        },
-        "result_Nz6N9D": {
-          "type": "result",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/b_a_petrina.png",
-            "heading": "Rejuvenating Micro Infusion System",
-            "text": "<p><em>I’m thrilled with the Qure Rejuvenating Micro Infusion System! After just three months of use, I’ve seen a noticeable reduction in fine lines on my forehead and a significant improvement in the depth of a deep scar on my face. The results have been so impressive that I’ve already purchased a refill to continue the treatment for another three months. Highly recommend this product for anyone looking to enhance their skin’s appearance.<\/em><\/p>",
-            "image_country": "shopify:\/\/shop_images\/usa_189ccd4e-add5-48f9-8078-c50c3e29332f.png",
-            "text_country": "United States",
-            "client": "Petrina Y.",
+            "client": "Ramandeep",
             "code": ""
           }
         }
@@ -373,20 +325,16 @@
         "result_DckD68",
         "result_VCJwgD",
         "result_YbRNi7",
-        "result_ThnNPK",
-        "result_JjTHyx",
-        "result_cGAEkd",
         "result_BU6egp",
-        "result_URKRDq",
+        "result_dP4njH",
+        "result_xgWrGm",
+        "result_HKiNeX",
+        "result_zKUVtE",
         "result_TJXM8n",
         "result_6FrBJW",
-        "result_xgWrGm",
-        "result_Eb4G8W",
-        "result_h4ehch",
-        "result_xtFHnk",
-        "result_UVLAG4",
-        "result_Wj9mKr",
-        "result_Nz6N9D"
+        "result_ThnNPK",
+        "result_MhYCLK",
+        "result_cGAEkd"
       ],
       "settings": {
         "classname": "mi_landing_result",
