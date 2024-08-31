@@ -204,6 +204,22 @@
     },
     "results-simple": {
       "type": "results-simple",
+      "blocks": {
+        "result_ypQjAB": {
+          "type": "result",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/results_jess1.webp",
+            "heading": "",
+            "text": "",
+            "image_country": "shopify:\/\/shop_images\/usa_89e25711-f730-4521-8931-83b3307204af.png",
+            "text_country": "United Stated",
+            "client": "Jess"
+          }
+        }
+      },
+      "block_order": [
+        "result_ypQjAB"
+      ],
       "settings": {
       }
     },
