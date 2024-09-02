@@ -1078,7 +1078,7 @@
         "object_n7R7ar"
       ],
       "settings": {
-        "background": "bg_yellow",
+        "background": "bg-lightGrey",
         "classname": "",
         "heading": "The answers to your questions",
         "text": "",
