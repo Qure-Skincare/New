@@ -306,6 +306,9 @@
       "label": "Client",
       "country": {
         "label": "Country"
+      },
+      "text": {
+        "label": "Client text"
       }
     },
     "progress": {
