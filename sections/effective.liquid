@@ -27,6 +27,7 @@
                         {%- for block in section.blocks -%}
                             {% case block.type %}
                                 {% when 'option' %}
+                                    {% assign dashoffset = 100 | minus: block.settings.percent_bar %}
                                     <div class="progressInfo">
                                         {% if block.settings.heading != blank %}
                                             <div class="light_green_tag">{{ block.settings.heading }}</div>
@@ -46,7 +47,7 @@
                                                         <circle visibility="visible" fill="none" pathLength="100"
                                                             transform="rotate(-90)" class="OKwUu" r="24"
                                                             stroke="url(#gradient)"
-                                                            style="stroke-dasharray: 100; stroke-dashoffset: 17; stroke-width: 5px;">
+                                                            style="stroke-dasharray: 100; stroke-dashoffset: {{ dashoffset }}; stroke-width: 5px;">
                                                         </circle>
                                                     </svg>
                                                 </span>
