@@ -409,10 +409,19 @@
             "heading": "For fine lines and wrinkles",
             "text": "(Hydra-Soothing Serum)"
           }
+        },
+        "option_M4wLjz": {
+          "type": "option",
+          "settings": {
+            "heading": "Beta Glucon",
+            "text": "<p>A hydrating boost for your skin. Improves skin barrier, smooths skin, and is packed with antioxidants.<\/p>",
+            "image": "shopify:\/\/shop_images\/pi_caffeine.webp"
+          }
         }
       },
       "block_order": [
-        "product_FkWhnr"
+        "product_FkWhnr",
+        "option_M4wLjz"
       ],
       "settings": {
         "heading": "Accelerate your results with our scientifically backed serums"
