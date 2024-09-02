@@ -1,10 +1,14 @@
 <!-- -- target specific skin concerns start -- -->
 <div class="skin_concern section">
     <div class="section_header mb-4 mw-100 text-start text-lg-center">
+        {%- if section.settings.heading != blank -%}
         <h2 class="title-lg mx-auto paddingB">
             {{ section.settings.heading }}
         </h2>
+        {%- endif -%}
+        {%- if section.settings.sub_heading != blank -%}
         <h4>{{ section.settings.sub_heading }}</h4>
+        {%- endif -%}
     </div>
     <div class="swiper twa__swiper targetSkin dot_pagination" id="twa__swiper-targetSkin"
         data-section-id="targetSkin" data-autoplay="false" data-loop="false" data-centerslide="false"
@@ -19,8 +23,12 @@
                         <img src="{{ block.settings.c_image | img_url: 'master' }}" alt="{{ block.settings.c_image.alt }}" class="img-fluid">
                         {% endif %}
                         <div class="target_skin_info">
+                            {%- if section.settings.name != blank -%}
                             <h4>{{ block.settings.name }}</h4>
+                            {%- endif -%}
+                            {%- if section.settings.button != blank -%}
                             <a href="{{ block.settings.btn_url }}">{{ section.settings.button }}</a> 
+                            {%- endif -%}
                         </div>
                     </div>
                 </div>
@@ -39,7 +47,7 @@
 
 {% schema %}
 {
-    "name": "featured-collection",
+    "name": "t:sections.f-collection.name",
     "settings": [
         {
             "type": "text",
@@ -83,7 +91,7 @@
     ],
     "presets": [
         {
-            "name": "Featured Collection"
+            "name": "t:sections.f-collection.name"
         }
     ]
 }
