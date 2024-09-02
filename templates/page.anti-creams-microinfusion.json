@@ -1015,7 +1015,39 @@
     },
     "confidence": {
       "type": "confidence",
+      "blocks": {
+        "option_VjtFxb": {
+          "type": "option",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/rg_item_1.webp",
+            "text": "<p>noticed a difference in their skin the day after their first treatment.<\/p>",
+            "percent_bar": 93
+          }
+        },
+        "option_aJEYVL": {
+          "type": "option",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/rg_item_2.webp",
+            "text": "<p>agreed their skin appeared more hydrated and dewy.<\/p>",
+            "percent_bar": 93
+          }
+        },
+        "option_tPPYDt": {
+          "type": "option",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/rg_item_3.webp",
+            "text": "<p>prefer the convenience of Qure’s Micro-Infusion System to in-clinic treatments<\/p>",
+            "percent_bar": 87
+          }
+        }
+      },
+      "block_order": [
+        "option_VjtFxb",
+        "option_aJEYVL",
+        "option_tPPYDt"
+      ],
       "settings": {
+        "heading": "Reveal your glow and renew your confidence."
       }
     },
     "faq_CBfhyg": {
