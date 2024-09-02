@@ -123,6 +123,14 @@
         "label": "Align center"
       }
     },
+    "choose_option": {
+      "first": {
+        "label": "First YES/NO"
+      },
+      "second": {
+        "label": "Second YES/NO"
+      }
+    },
     "heading": {
       "label": "Heading",
       "mobile": {
@@ -463,6 +471,13 @@
     },
     "choice": {
       "name": "Choice",
+      "settings": {
+      },
+      "blocks": {
+      }
+    },
+    "why-choose": {
+      "name": "Why choose",
       "settings": {
       },
       "blocks": {

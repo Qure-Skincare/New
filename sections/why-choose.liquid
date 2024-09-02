@@ -1,12 +1,12 @@
 <!-- Comparison Section table start -->
 <div class="bg-white comparison-section section anti_comparison-section">
-    <div class="section_header text-md-center mb-3 px-4">
-        <h2 class="title-lg d-none d-md-block pb-2">Why choose Qure?</h2>
-        <h2 class="title-lg d-block d-md-none pb-2">
-            Why choose Qure?
-        </h2>
+    {% if section.settings.heading != blank %}
+        <div class="section_header text-md-center mb-3 px-4">
+            <h2 class="title-lg d-none d-md-block pb-2">{{ section.settings.heading }}</h2>
+            <h2 class="title-lg d-block d-md-none pb-2">{{ section.settings.heading }}</h2>
+        </div>   
+    {% endif %}
 
-    </div>
     <div class="container">
         <div class="comparison_row--main">
             <div class="comparison-row border-0">
@@ -16,200 +16,171 @@
                         <div class="row g-0">
                             <div class="col-md-3 col-6">
                                 <div class="comp-col comp_hdr bg-default py-0">
-                                    <div class="comp_mask_img">
-                                        <img src="https://qureskincaredns.com/new/assets/compare_micro.webp" alt="" class="img-fluid">
-                                        <h6>Qure</h6>
-                                    </div>
+                                    {% if section.settings.image_first != blank %}
+                                        <div class="comp_mask_img">
+                                            <img src="{{ section.settings.image_first | img_url: '250x' }}" alt="first image" class="img-fluid">
+                                            {% if section.settings.text_first != blank %}
+                                                <h6>{{ section.settings.text_first }}</h6>
+                                            {% endif %}
+                                        </div>
+                                    {% endif %}
                                 </div>
                             </div>
                             <div class="col-md-9 col-6">
                                 <div class="comp-col comp_hdr py-0">
-                                    <div class="comp_mask_img">
-                                        <img src="https://qureskincaredns.com/new/assets/face_cream.png" alt="" class="img-fluid">
-                                        <h6 class="comp_mask--text">Face Creams</h6>
+                                    {% if section.settings.image_second != blank %}
+                                        <div class="comp_mask_img">
+                                            <img src="{{ section.settings.image_second | img_url: '250x' }}" alt="second image" class="img-fluid">
+                                            {% if section.settings.text_second != blank %}
+                                                <h6>{{ section.settings.text_second }}</h6>
+                                            {% endif %}
+                                        </div>
+                                    {% endif %}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="comparison_row-main">
+            {%- for block in section.blocks -%}
+                {% case block.type %}
+                    {% when 'option' %}
+                        <div class="comparison-row">
+                            <div class="row g-0">
+                                <div class="col-6">
+                                    <div class="comp-col comp-row__text-wrapper">
+                                        <div class="comp-row__title pt-md-4 pt-2">{{ block.settings.text  }}</div>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="row g-0 h-100">
+                                        <div class="col-md-3 col-6">
+                                            <div
+                                                class="comp-col comp_col-check d-flex align-items-center justify-content-center bg-default">
+                                                {% if block.settings.first_option == true %}
+                                                    <span class="g__checkBox"></span>
+                                                {% else %}
+                                                    <span class="cross__checkBox"></span>
+                                                {% endif %}
+                                            </div>
+                                        </div>
+                                        <div class="col-md-9 col-6">
+                                            <div class="comp-col comp_col-check d-flex align-items-center justify-content-center pt-md-4 pt-2">
+                                                {% if block.settings.second_option == true %}
+                                                    <span class="g__checkBox"></span>
+                                                {% else %}
+                                                    <span class="cross__checkBox"></span>
+                                                {% endif %}
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-
-
                         </div>
-                    </div>
-                </div>
-            </div>
+                {% endcase %}
+            {% endfor %}
         </div>
-        <div class="comparison_row-main">
-            <div class="comparison-row">
-                <div class="row g-0">
-                    <div class="col-6">
-                        <div class="comp-col comp-row__text-wrapper">
-                            <div class="comp-row__title pt-md-4 pt-2">More effective than topical treatments
-                            </div>
 
-                        </div>
+        {%- for block in section.blocks -%}
+            {% case block.type %}
+                {% when 'button' %}
+                    <div class="get_confident-btn mw-452 mx-auto">
+                        <a class="btn btn-lg btn-primary buy_btn" href="{{ block.settings.button_url }}" title="{{ block.settings.button_label | escape }}">{{ block.settings.button_label }}</a>
                     </div>
-                    <div class="col-6">
-                        <div class="row g-0 h-100">
-                            <div class="col-md-3 col-6">
-                                <div
-                                    class="comp-col comp_col-check d-flex align-items-center justify-content-center bg-default">
-                                    <span class="g__checkBox"></span>
-                                </div>
-                            </div>
-                            <div class="col-md-9 col-6">
-                                <div
-                                    class="comp-col comp_col-check d-flex align-items-center justify-content-center pt-md-4 pt-2">
-                                    <span class="cross__checkBox"></span>
-                                </div>
-                            </div>
+            {% endcase %}
+        {% endfor %}
 
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="comparison-row">
-                <div class="row g-0">
-                    <div class="col-6">
-                        <div class="comp-col comp-row__text-wrapper">
-                            <div class="comp-row__title">Penetrates the skin barrier</div>
-                        </div>
-                    </div>
-                    <div class="col-6">
-                        <div class="row g-0 h-100">
-                            <div class="col-md-3 col-6">
-                                <div
-                                    class="comp-col comp_col-check d-flex align-items-center justify-content-center bg-default">
-                                    <span class="g__checkBox"></span>
-                                </div>
-                            </div>
-                            <div class="col-md-9 col-6">
-                                <div
-                                    class="comp-col comp_col-check d-flex align-items-center justify-content-center">
-                                    <span class="cross__checkBox"></span>
-                                </div>
-                            </div>
-
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="comparison-row">
-                <div class="row g-0">
-                    <div class="col-6">
-                        <div class="comp-col comp-row__text-wrapper">
-                            <div class="comp-row__title">Deliver ingredients deep into the skin</div>
-
-                        </div>
-                    </div>
-                    <div class="col-6">
-                        <div class="row g-0 h-100">
-                            <div class="col-md-3 col-6">
-                                <div
-                                    class="comp-col comp_col-check d-flex align-items-center justify-content-center bg-default">
-                                    <span class="g__checkBox"></span>
-                                </div>
-                            </div>
-                            <div class="col-md-9 col-6">
-                                <div
-                                    class="comp-col comp_col-check d-flex align-items-center justify-content-center">
-                                    <span class="cross__checkBox"></span>
-                                </div>
-                            </div>
-
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="comparison-row">
-                <div class="row g-0">
-                    <div class="col-6">
-                        <div class="comp-col comp-row__text-wrapper">
-                            <div class="comp-row__title">Visible results after one treatment</div>
-
-                        </div>
-                    </div>
-                    <div class="col-6">
-                        <div class="row g-0 h-100">
-                            <div class="col-md-3 col-6">
-                                <div
-                                    class="comp-col comp_col-check d-flex align-items-center justify-content-center bg-default">
-                                    <span class="g__checkBox"></span>
-                                </div>
-                            </div>
-                            <div class="col-md-9 col-6">
-                                <div
-                                    class="comp-col comp_col-check d-flex align-items-center justify-content-center">
-                                    <span class="cross__checkBox"></span>
-                                </div>
-                            </div>
-
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="comparison-row">
-                <div class="row g-0">
-                    <div class="col-6">
-                        <div class="comp-col comp-row__text-wrapper">
-                            <div class="comp-row__title">Only takes 5 minutes</div>
-                        </div>
-                    </div>
-                    <div class="col-6">
-                        <div class="row g-0 h-100">
-                            <div class="col-md-3 col-6">
-                                <div
-                                    class="comp-col comp_col-check d-flex align-items-center justify-content-center bg-default">
-                                    <span class="g__checkBox"></span>
-                                </div>
-                            </div>
-                            <div class="col-md-9 col-6">
-                                <div
-                                    class="comp-col comp_col-check d-flex align-items-center justify-content-center">
-                                    <span class="cross__checkBox"></span>
-                                </div>
-                            </div>
-
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="comparison-row">
-                <div class="row g-0">
-                    <div class="col-6">
-                        <div class="comp-col comp-row__text-wrapper">
-                            <div class="comp-row__title pb-md-4 pb-2">Reviewed by dermatologists</div>
-
-                        </div>
-                    </div>
-                    <div class="col-6">
-                        <div class="row g-0 h-100">
-                            <div class="col-md-3 col-6">
-                                <div
-                                    class="comp-col comp_col-check d-flex align-items-center justify-content-center bg-default rounded-0">
-                                    <span class="g__checkBox"></span>
-                                </div>
-                            </div>
-                            <div class="col-md-9 col-6">
-                                <div
-                                    class="comp-col comp_col-check d-flex align-items-center justify-content-center pb-md-4 pb-2">
-                                    <span class="g__checkBox"></span>
-                                </div>
-                            </div>
-
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
         <div class="get_confident-btn mw-452 mx-auto">
             <a class="btn btn-lg btn-primary buy_btn" href="#new-landing-purchase">Try It Now</a>
         </div>
     </div>
 </div>
 <!-- Comparison Section table end -->
+
+
+{% schema %}
+    {
+        "name": "t:sections.why-choose.name",
+        "class": "section-why-choose",
+        "settings": [
+            {
+                "type": "text",
+                "id": "heading",
+                "label": "t:common.heading.label"
+            },
+            {
+                "type": "image_picker",
+                "id": "image_first",
+                "label": "t:common.product.label"
+            },
+            {
+                "type": "text",
+                "id": "text_first",
+                "label": "t:common.text.label"
+            },
+            {
+                "type": "image_picker",
+                "id": "image_second",
+                "label": "t:common.product.label"
+            },
+            {
+                "type": "text",
+                "id": "text_second",
+                "label": "t:common.text.label"
+            }
+        ],
+        "blocks": [
+            {
+                "type": "option",
+                "limit": 10,
+                "name": "t:common.option.label",
+                "settings": [
+                    {
+                        "type": "text",
+                        "id": "text",
+                        "label": "t:common.text.label"
+                    },
+                    {
+                        "type": "checkbox",
+                        "id": "first_option",
+                        "label": "t:common.choose_option.first.label",
+                        "default": true
+                    },
+                    {
+                        "type": "checkbox",
+                        "id": "second_option",
+                        "label": "t:common.choose_option.second.label",
+                        "default": false
+                    }
+                ]
+		    },
+            {
+                "type": "button",
+                "name": "t:common.button.name",
+                "limit": 1,
+                "settings": [
+                    {
+                        "type": "text",
+                        "id": "button_label",
+                        "default": "Button label",
+                        "label": "t:common.button.label",
+                        "info": "t:common.button.info"
+                    },
+                    {
+                        "type": "url",
+                        "id": "button_url",
+                        "label": "t:common.button.url.label"
+                    }
+                ]
+		    }
+        ],
+        "presets": [
+			{
+				"name": "t:sections.why-choose.name"
+			}
+        ]
+    }
+{% endschema %}
