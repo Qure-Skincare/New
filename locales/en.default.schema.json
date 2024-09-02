@@ -451,6 +451,13 @@
       "blocks": {
       }
     },
+    "accelerate-results": {
+      "name": "Accelerate results",
+      "settings": {
+      },
+      "blocks": {
+      }
+    },
     "one-column-box": {
       "name": "One column box",
       "settings": {
