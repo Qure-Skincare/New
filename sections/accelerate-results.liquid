@@ -26,6 +26,28 @@
                                     {{ block.settings.text }}
                                 </div>
                             </div>
+                        {% when 'option' %}
+                            <div class="accordion-item pi-item">
+                                <h2 class="accordion-header" id="heading_{{ forloop.index }}">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapse_{{ forloop.index }}" aria-expanded="true" aria-controls="collapse_{{ forloop.index }}">
+                                        <div class="pi_header">
+                                            {% if block.settings.image != blank %}
+                                                <img src="{{ block.settings.image | img_url: '250x' }}" alt="{{ block.settings.image.alt | escape }}" class="img-fluid">
+                                            {% endif %}
+                                            {% if block.settings.heading != blank %}
+                                                <div class="pi_heading">{{ block.settings.heading }}</div>
+                                            {% endif %}
+                                        </div>
+                                    </button>
+                                </h2>
+                                <div id="collapse_{{ forloop.index }}" class="accordion-collapse collapse" aria-labelledby="heading_{{ forloop.index }}"
+                                    data-bs-parent="#accordionExample_pi">
+                                    <div class="accordion-body">
+                                        {{ block.settings.text }}
+                                    </div>
+                                </div>
+                            </div>
                     {% endcase %}
                 {% endfor %}
             </div>
