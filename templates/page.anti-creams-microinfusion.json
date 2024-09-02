@@ -317,7 +317,7 @@
           "settings": {
             "heading": "Minimizing the look of \\n Fine Lines and Wrinkles",
             "text": "<p>Our powerful Hydra-Soothing Serum gets deep into your skin where it can be quickly absorbed, <strong>fading <\/strong>the appearance of wrinkles, <strong>reducing <\/strong>fine lines, and <strong>deeply hydrating <\/strong>for a dewy glow. <\/p>",
-            "image_country": "shopify:\/\/shop_images\/Lines_Wrinkles.svg"
+            "image": "shopify:\/\/shop_images\/Lines_Wrinkles.svg"
           }
         },
         "option_WQWEz3": {
@@ -325,7 +325,7 @@
           "settings": {
             "heading": "Reducing the appearance of Dark Spots \\n and Hyperpigmentation",
             "text": "<p>Our scientifically-backed rejuvenating serum gets deep into your skin where it can be quickly absorbed, <strong>reducing pigmentation <\/strong>and <strong>fading dark spots <\/strong>while <strong>evening the look of the skin <\/strong>and reducing the size appearance of pores. <\/p>",
-            "image_country": "shopify:\/\/shop_images\/dark_spots_1428ac89-c09a-4f7b-bb00-4ff0e67c6b13.svg"
+            "image": "shopify:\/\/shop_images\/dark_spots_1428ac89-c09a-4f7b-bb00-4ff0e67c6b13.svg"
           }
         }
       },

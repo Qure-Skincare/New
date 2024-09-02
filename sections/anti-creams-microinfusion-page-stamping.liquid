@@ -55,7 +55,7 @@
                                                 <img src="{{ block.settings.image | img_url: '250x' }}" alt="{{ block.settings.image.alt | escape }}">
                                             {% endif %}
                                             {% if block.settings.heading != blank %}
-                                                <h5>{{ block.settings.heading }}</h5>
+                                                <h5>{{ block.settings.heading |  replace:  '\n', '<br />' }}</h5>
                                             {% endif %}
                                         </div>
                                         {{ block.settings.text }}
@@ -125,8 +125,8 @@
                     },
                     {
                         "type": "image_picker",
-                        "id": "image_country",
-                        "label": "t:common.client.country.label"
+                        "id": "image",
+                        "label": "t:common.image.label"
                     }
                 ]
 		    },
