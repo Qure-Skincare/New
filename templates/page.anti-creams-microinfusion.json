@@ -858,15 +858,6 @@
             "desc": ""
           }
         },
-        "wistia_dRrx7q": {
-          "type": "wistia",
-          "settings": {
-            "wistia_id": "",
-            "dr_name": "",
-            "board": "",
-            "desc": ""
-          }
-        },
         "video_rFkcBL": {
           "type": "video",
           "settings": {
@@ -895,7 +886,6 @@
         "video_bpgNjp",
         "wistia_8FyVqr",
         "wistia_cVBF6N",
-        "wistia_dRrx7q",
         "video_rFkcBL",
         "video_yYqcmB",
         "wistia_WQehBR"
