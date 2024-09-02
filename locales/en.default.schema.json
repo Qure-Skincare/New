@@ -401,6 +401,13 @@
       "blocks": {
       }
     },
+    "text-block": {
+      "name": "Text block",
+      "settings": {
+      },
+      "blocks": {
+      }
+    },
     "compare-videos": {
       "name": "Compare videos",
       "settings": {
