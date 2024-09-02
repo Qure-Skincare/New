@@ -948,6 +948,16 @@
       },
       "blocks": {
       }
+    },
+    "box-slider":{
+      "name":"Box Slider",
+      "button": "Box Text"
+    },
+    "f-collection": {
+      "name": "Featured Collection"
+    },
+    "banner_tabs":{
+      "name": "Banner Tab Slider"
     }
   }
 }
