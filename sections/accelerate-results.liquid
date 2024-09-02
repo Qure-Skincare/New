@@ -33,7 +33,7 @@
                                         data-bs-target="#collapse_{{ forloop.index }}" aria-expanded="true" aria-controls="collapse_{{ forloop.index }}">
                                         <div class="pi_header">
                                             {% if block.settings.image != blank %}
-                                                <img src="{{ block.settings.image | img_url: '250x' }}" alt="{{ block.settings.image.alt | escape }}" class="img-fluid">
+                                                <img src="{{ block.settings.image | img_url: 'master' }}" alt="{{ block.settings.image.alt | escape }}" class="img-fluid">
                                             {% endif %}
                                             {% if block.settings.heading != blank %}
                                                 <div class="pi_heading">{{ block.settings.heading }}</div>
