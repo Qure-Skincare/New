@@ -565,10 +565,78 @@
     },
     "why_choose_c8nA49": {
       "type": "why-choose",
+      "blocks": {
+        "option_LbQPJe": {
+          "type": "option",
+          "settings": {
+            "text": "More effective than topical treatments",
+            "first_option": true,
+            "second_option": false
+          }
+        },
+        "option_DQ8yMX": {
+          "type": "option",
+          "settings": {
+            "text": "Penetrates the skin barrier",
+            "first_option": true,
+            "second_option": false
+          }
+        },
+        "option_GFHCL3": {
+          "type": "option",
+          "settings": {
+            "text": "Deliver ingredients deep into the skin",
+            "first_option": true,
+            "second_option": false
+          }
+        },
+        "option_NjTEdb": {
+          "type": "option",
+          "settings": {
+            "text": "Visible results after one treatment",
+            "first_option": true,
+            "second_option": false
+          }
+        },
+        "option_U86Ach": {
+          "type": "option",
+          "settings": {
+            "text": "Only takes 5 minutes",
+            "first_option": true,
+            "second_option": false
+          }
+        },
+        "option_CaqPix": {
+          "type": "option",
+          "settings": {
+            "text": "Reviewed by dermatologists",
+            "first_option": true,
+            "second_option": true
+          }
+        },
+        "button_3T9LFx": {
+          "type": "button",
+          "settings": {
+            "button_label": "Try It Now",
+            "button_url": "#new-landing-purchase"
+          }
+        }
+      },
+      "block_order": [
+        "option_LbQPJe",
+        "option_DQ8yMX",
+        "option_GFHCL3",
+        "option_NjTEdb",
+        "option_U86Ach",
+        "option_CaqPix",
+        "button_3T9LFx"
+      ],
       "settings": {
-        "heading": "",
-        "text_first": "",
-        "text_second": ""
+        "heading": "Why choose Qure?",
+        "image_first": "shopify:\/\/shop_images\/compare_micro.webp",
+        "text_first": "Qure",
+        "image_second": "shopify:\/\/shop_images\/face_cream.png",
+        "text_second": "Face Creams"
       }
     },
     "results_3LEkF8": {
