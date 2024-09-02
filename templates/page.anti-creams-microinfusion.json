@@ -797,6 +797,13 @@
             "client": "Ramandeep",
             "code": ""
           }
+        },
+        "button_p7WMyp": {
+          "type": "button",
+          "settings": {
+            "button_label": "Experience The Difference",
+            "button_url": "#new-landing-purchase"
+          }
         }
       },
       "block_order": [
@@ -812,7 +819,8 @@
         "result_6FrBJW",
         "result_ThnNPK",
         "result_MhYCLK",
-        "result_cGAEkd"
+        "result_cGAEkd",
+        "button_p7WMyp"
       ],
       "settings": {
         "classname": "mi_landing_result",
