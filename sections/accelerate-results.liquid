@@ -58,7 +58,7 @@
                             <div class="serum_bl_wrap">
                                 {% if block.settings.image != blank %}
                                     <div class="serum_bl_img">
-                                        <img src="{{ block.settings.image | img_url: '250x' }}" alt="{{ block.settings.image.alt | escape }}" class="img-fluid">
+                                        <img src="{{ block.settings.image | img_url: 'master' }}" alt="{{ block.settings.image.alt | escape }}" class="img-fluid">
                                     </div>
                                 {% endif %}
                                 <div class="serum_bl_info">
