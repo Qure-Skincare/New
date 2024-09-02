@@ -4564,7 +4564,7 @@ input[type=range]::-moz-range-thumb {
     }
 
     .dsn-right-container {
-        padding: 0 24px !important;
+        padding: 0 24px;
     }
 
     .see_item_info {
