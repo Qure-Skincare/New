@@ -903,8 +903,8 @@
         "tab_AwmhHK": {
           "type": "Tab",
           "settings": {
-            "tab_txt": "Specs",
-            "tab_desc": "<ul><li>TREATMENT TIME: 3 minutes<\/li><li>CERTIFICATIONS: FDA, TGA, CE, UKCA<\/li><li>OPERATION: Wireless, hands-free<\/li><li>WAVELENGTH: 415nm (Blue), 605nm (Amber), 630nm (Red), 660nm (Deep Red), 880nm (Infrared)<\/li><li>CHARGING TIME: 2 hours<\/li><li>LEDs: 160 dual core<\/li><\/ul>",
+            "tab_txt": "Prepare",
+            "tab_desc": "<p>Twist open the chamber of the device and fill with one ampule of serum.<br\/>Twist on needle head with lid to close it tight.<\/p><p>Leave the device upside down for 1-2 minutes.<br\/>During this time, wash your face and make sure your hands are clean.<\/p>",
             "image1": "shopify:\/\/shop_images\/get_specs.webp",
             "image2": "shopify:\/\/shop_images\/get_quickstart.webp",
             "image3": "shopify:\/\/shop_images\/get_customize.webp",
@@ -914,8 +914,8 @@
         "tab_yTEcfK": {
           "type": "Tab",
           "settings": {
-            "tab_txt": "Quick start",
-            "tab_desc": "<ul><li>Cleanse & dry your skin thoroughly before use.<\/li><li>Hold the button for 2-3 seconds to power ON.<\/li><li>Adjust the mask to fit your face comfortably.<\/li><li>For Anti-Aging treatment: Press button once.<\/li><li>For Anti-Breakout treatment: Press button twice.<\/li><li>After three minutes, the device will shut off automatically.<\/li><\/ul>",
+            "tab_txt": "Treatment",
+            "tab_desc": "<p>Once the serum has had enough time to make its way into the needles, you can take off the lid and start micro-infusing!<\/p><p>Start at the centre of the face and work your way outward to cover the full face. Perform 2\/3 passes. Take any leftover serum from the device and pat it onto your face and neck to leave on overnight.<\/p>",
             "image1": "shopify:\/\/shop_images\/get_quickstart.webp",
             "image2": "shopify:\/\/shop_images\/get_customize.webp",
             "image3": "shopify:\/\/shop_images\/get_aftercare.webp",
@@ -925,8 +925,8 @@
         "tab_QqVtHE": {
           "type": "Tab",
           "settings": {
-            "tab_txt": "Customize treatment",
-            "tab_desc": "<p>Download the Qure Skincare app and pair your Q-Rejuvalight Pro.Choose either Anti-aging or Anti-breakout treatment on 5 different facial areas.Set reminders and never miss your treatment!<\/p>",
+            "tab_txt": "Aftercare",
+            "tab_desc": "<p>Once treatment is completed, place lid back on the needle head.<\/p><p>Twist the lid off and dispose safely.<\/p><p>Open a new sterile needle head and put it on the device ready for your next treatment.<\/p>",
             "image1": "shopify:\/\/shop_images\/get_customize.webp",
             "image2": "shopify:\/\/shop_images\/get_aftercare.webp",
             "image3": "shopify:\/\/shop_images\/get_specs.webp",
@@ -936,8 +936,8 @@
         "tab_gUbBCP": {
           "type": "Tab",
           "settings": {
-            "tab_txt": "Aftercare",
-            "tab_desc": "<p>Remember to wipe the mask down after each treatment.<\/p><p>When not in use, place your Q-Rejuvalight Pro in the luxury bag provided and store in a cool, moisture-free environment.<\/p>",
+            "tab_txt": "Storage",
+            "tab_desc": "<p>Once treatment is completed, place lid back on the needle head.<\/p><p>Twist the lid off and dispose safely.<\/p><p>Open a new sterile needle head and put it on the device ready for your next treatment.<\/p>",
             "image1": "shopify:\/\/shop_images\/get_aftercare.webp",
             "image2": "shopify:\/\/shop_images\/get_specs.webp",
             "image3": "shopify:\/\/shop_images\/get_quickstart.webp",
@@ -959,7 +959,7 @@
         "wistia_HJKH8h"
       ],
       "settings": {
-        "heading": "Get Compliment-Worthy Skin"
+        "heading": "How to use Qure’s Micro-Infusion System"
       }
     },
     "anti-creams-microinfusion-page-how-to-use": {
