@@ -34,7 +34,7 @@
                                         {% endif %}
                                         <div class="progressCont">
                                             <p><span class="progressWrapper">
-                                                    <span class="progessInfo text-dark">{{ block.settings.percent_text }}%</span>
+                                                    <span class="progessInfo text-dark">{{ block.settings.percent_bar }}%</span>
                                                     <svg class="vMQQx" height="77" width="77" viewBox="-29 -29 58 58">
                                                         <defs>
                                                             <linearGradient id="gradient" x1="0" x2="0" y1="1" y2="0">
@@ -120,8 +120,12 @@
                         "label": "t:common.text.label"
                     },
                     {
-                        "type": "text",
-                        "id": "percent_text",
+                        "type": "range",
+                        "id": "percent_bar",
+                        "min": 0,
+                        "max": 100,
+                        "default": 70,
+                        "step": 1,
                         "label": "t:common.percentage.label"
                     }
                 ]
