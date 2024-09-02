@@ -563,8 +563,8 @@
         "image": "shopify:\/\/shop_images\/safeest_way.webp"
       }
     },
-    "anti-creams-microinfusion-page-why-choose": {
-      "type": "anti-creams-microinfusion-page-why-choose",
+    "why-choose": {
+      "type": "why-choose",
       "settings": {
       }
     },
