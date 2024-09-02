@@ -304,7 +304,7 @@ body[class~="page.sunil-mi-landing-mens"] .header_gift_btn, body[class~="page.su
                 flex-direction: column;
                 gap: 20px;
         }
-        .dsn-right-container {
+        .affect_skin .dsn-right-container {
                 padding: 0 24px !important;
         }
 }
