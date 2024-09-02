@@ -462,6 +462,13 @@
       "blocks": {
       }
     },
+    "confidence": {
+      "name": "Confidence",
+      "settings": {
+      },
+      "blocks": {
+      }
+    },
     "accelerate-results": {
       "name": "Accelerate results",
       "settings": {
