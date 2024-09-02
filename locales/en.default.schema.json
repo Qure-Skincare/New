@@ -458,6 +458,13 @@
       "blocks": {
       }
     },
+    "choice": {
+      "name": "Choice",
+      "settings": {
+      },
+      "blocks": {
+      }
+    },
     "one-column-box": {
       "name": "One column box",
       "settings": {
