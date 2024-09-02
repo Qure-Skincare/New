@@ -519,7 +519,24 @@
     },
     "anti-creams-microinfusion-page-safest-way": {
       "type": "anti-creams-microinfusion-page-safest-way",
+      "blocks": {
+        "result_J6NgEG": {
+          "type": "result",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/cl_doireann.webp",
+            "text": "\"It’s an amazing 5-minute facial with minimal to no downtime! I absolutely love this. Ten out of ten from me.\"",
+            "client": "Dr Doireann O’Leary",
+            "client_text": "Medical Doctor"
+          }
+        }
+      },
+      "block_order": [
+        "result_J6NgEG"
+      ],
       "settings": {
+        "heading": "The safest way to microneedle at home…",
+        "text": "<p>Qure Micro-Infusion system is designed to be as <strong>safe, sterile and, painless as possible.<\/strong> Each 24k gold plated microneedle head is single use, <strong>limiting any risk of infection.<\/strong><\/p><p>Bypass your skin’s outer defensive layer and stamp your way to younger looking skin.<\/p>",
+        "image": "shopify:\/\/shop_images\/safeest_way.webp"
       }
     },
     "anti-creams-microinfusion-page-why-choose": {
