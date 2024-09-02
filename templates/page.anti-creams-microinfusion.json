@@ -962,12 +962,6 @@
         "heading": "How to use Qure’s Micro-Infusion System"
       }
     },
-    "anti-creams-microinfusion-page-how-to-use": {
-      "type": "anti-creams-microinfusion-page-how-to-use",
-      "disabled": true,
-      "settings": {
-      }
-    },
     "anti-creams-microinfusion-page-break": {
       "type": "anti-creams-microinfusion-page-break",
       "settings": {
@@ -1110,7 +1104,6 @@
     "results_3LEkF8",
     "videos_list_rXDbHD",
     "how_to_use_tmBApa",
-    "anti-creams-microinfusion-page-how-to-use",
     "anti-creams-microinfusion-page-break",
     "confidence",
     "faq_CBfhyg"
