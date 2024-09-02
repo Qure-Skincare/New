@@ -417,11 +417,65 @@
             "text": "<p>A hydrating boost for your skin. Improves skin barrier, smooths skin, and is packed with antioxidants.<\/p>",
             "image": "shopify:\/\/shop_images\/pi_caffeine.webp"
           }
+        },
+        "option_mgwdWL": {
+          "type": "option",
+          "settings": {
+            "heading": "Niacinamide",
+            "text": "<p>Helps with most skin concerns from soothing, brightening, hydrating and clarifying, to reducing the look of fine lines and wrinkles.<\/p>",
+            "image": "shopify:\/\/shop_images\/pi_niacinamide.webp"
+          }
+        },
+        "option_WGKQBQ": {
+          "type": "option",
+          "settings": {
+            "heading": "Tripeptide-1 Peptide",
+            "text": "<p>Proven to stimulate the production of dermal protein, slowing the skin's ageing process. Helps the skin retain water and restore elasticity, and reduces appearance of wrinkles<\/p>",
+            "image": "shopify:\/\/shop_images\/pi_acetyl.webp"
+          }
+        },
+        "product_dB9FNL": {
+          "type": "product",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/u_serum_1.webp",
+            "heading": "For dark spots and uneven skintone",
+            "text": "(Rejuvenating Serum)"
+          }
+        },
+        "option_KtDdRN": {
+          "type": "option",
+          "settings": {
+            "heading": "Epidermal Growth Factor",
+            "text": "<p>Works at a cellular level to repair and rejuvenate skin. Reduces appearance of wrinkles, improves hydration, and prevents pigmentation.<\/p>",
+            "image": "shopify:\/\/shop_images\/pi_epidermal.webp"
+          }
+        },
+        "option_9ftefr": {
+          "type": "option",
+          "settings": {
+            "heading": "Niacinamide",
+            "text": "<p>Helps with most skin concerns from soothing, brightening, hydrating and clarifying, to reducing the look of fine lines and wrinkles.<\/p>",
+            "image": "shopify:\/\/shop_images\/pi_niacinamide.webp"
+          }
+        },
+        "option_a7pDtr": {
+          "type": "option",
+          "settings": {
+            "heading": "Tranexamic Acid",
+            "text": "<p>Helps to fade the look of dark spots and discolouration. Assists with brightening and evening skin tone and reducing the appearance of texture.<\/p>",
+            "image": "shopify:\/\/shop_images\/pi_licorice.webp"
+          }
         }
       },
       "block_order": [
         "product_FkWhnr",
-        "option_M4wLjz"
+        "option_M4wLjz",
+        "option_mgwdWL",
+        "option_WGKQBQ",
+        "product_dB9FNL",
+        "option_KtDdRN",
+        "option_9ftefr",
+        "option_a7pDtr"
       ],
       "settings": {
         "heading": "Accelerate your results with our scientifically backed serums"
