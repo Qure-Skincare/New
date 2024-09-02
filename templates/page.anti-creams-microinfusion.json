@@ -361,7 +361,7 @@
           "settings": {
             "heading": "AFTER 1 treatment",
             "text": "<p>reported more hydrated and glowy skin*<\/p>",
-            "percent_text": "93"
+            "percent_bar": 93
           }
         },
         "option_jj4b6n": {
@@ -369,7 +369,7 @@
           "settings": {
             "heading": "AFTER 2 treatments",
             "text": "<p>agreed their fine lines looked smoother*<\/p>",
-            "percent_text": "70"
+            "percent_bar": 70
           }
         },
         "option_kcwiy8": {
@@ -377,7 +377,7 @@
           "settings": {
             "heading": "AFTER 6 treatments",
             "text": "<p>noticed even better results after 6 treatments*<\/p>",
-            "percent_text": "83"
+            "percent_bar": 70
           }
         },
         "before_after_mXCbRp": {
