@@ -528,10 +528,26 @@
             "client": "Dr Doireann O’Leary",
             "client_text": "Medical Doctor"
           }
+        },
+        "option_PMAgRt": {
+          "type": "option",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/sw_1.webp",
+            "text": "<p>Built-in safety mechanism for <strong>safe and even stamping <\/strong>and effortless 5-minute treatments<\/p>"
+          }
+        },
+        "option_pHxCBf": {
+          "type": "option",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/sw_2.webp",
+            "text": "<p>Sterile 24k gold plated <strong>disposable needleheads <\/strong>for better hygiene and safety<\/p>"
+          }
         }
       },
       "block_order": [
-        "result_J6NgEG"
+        "result_J6NgEG",
+        "option_PMAgRt",
+        "option_pHxCBf"
       ],
       "settings": {
         "heading": "The safest way to microneedle at home…",
