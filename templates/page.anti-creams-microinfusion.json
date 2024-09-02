@@ -833,58 +833,72 @@
     "videos_list_rXDbHD": {
       "type": "videos-list",
       "blocks": {
-        "video_UGRi4h": {
+        "video_bpgNjp": {
           "type": "video",
           "settings": {
-            "image": "shopify:\/\/shop_images\/all_serum_img_2.webp",
-            "video": "shopify:\/\/files\/videos\/277712230_353854106689571_8091913010585305511_n.mp4"
+            "image": "shopify:\/\/shop_images\/videosQure_img7.webp",
+            "video": "shopify:\/\/files\/videos\/8eecfa9e425c4fde9e8f70da1a50e313.HD-1080p-2.5Mbps-12316975.mp4"
           }
         },
-        "video_LN3GH9": {
-          "type": "video",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/all_serum_img_3.webp",
-            "video": "shopify:\/\/files\/videos\/245142822_1464846133892679_1038157866952092298_n.mp4"
-          }
-        },
-        "wistia_XYikTK": {
+        "wistia_8FyVqr": {
           "type": "wistia",
           "settings": {
-            "wistia_id": "50s645m3k7",
+            "wistia_id": "0criczgmgg",
             "dr_name": "",
             "board": "",
             "desc": ""
           }
         },
-        "video_ihtJ6A": {
-          "type": "video",
+        "wistia_cVBF6N": {
+          "type": "wistia",
           "settings": {
-            "image": "shopify:\/\/shop_images\/all_serum_img_4.webp",
-            "video": "shopify:\/\/files\/videos\/259127368_111580194673707_6605727160995779272_n.mp4"
+            "wistia_id": "n9cn2onbem",
+            "dr_name": "",
+            "board": "",
+            "desc": ""
           }
         },
-        "video_qBem4N": {
-          "type": "video",
+        "wistia_dRrx7q": {
+          "type": "wistia",
           "settings": {
-            "image": "shopify:\/\/shop_images\/all_serum_img_5.webp",
-            "video": "shopify:\/\/files\/videos\/215284976_139020341670743_5473774696789470222_n.mp4"
+            "wistia_id": "",
+            "dr_name": "",
+            "board": "",
+            "desc": ""
           }
         },
-        "video_7dy6bq": {
+        "video_rFkcBL": {
           "type": "video",
           "settings": {
-            "image": "shopify:\/\/shop_images\/all_serum_img_6.webp",
-            "video": "shopify:\/\/files\/videos\/298983845_400063408937848_3554475537750886670_n.mp4"
+            "image": "shopify:\/\/shop_images\/videosQure_img10.webp",
+            "video": "shopify:\/\/files\/videos\/71857fdec6b0497294117ed84cab480e.HD-1080p-2.5Mbps-13573985.mp4"
+          }
+        },
+        "video_yYqcmB": {
+          "type": "video",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/videosQure_img11.webp",
+            "video": "shopify:\/\/files\/videos\/63d872e61dac42fd9e5ff1c04c1ae1d5.HD-720p-1.6Mbps-12319287.mp4"
+          }
+        },
+        "wistia_WQehBR": {
+          "type": "wistia",
+          "settings": {
+            "wistia_id": "33rxuxyuw4",
+            "dr_name": "",
+            "board": "",
+            "desc": ""
           }
         }
       },
       "block_order": [
-        "video_UGRi4h",
-        "video_LN3GH9",
-        "wistia_XYikTK",
-        "video_ihtJ6A",
-        "video_qBem4N",
-        "video_7dy6bq"
+        "video_bpgNjp",
+        "wistia_8FyVqr",
+        "wistia_cVBF6N",
+        "wistia_dRrx7q",
+        "video_rFkcBL",
+        "video_yYqcmB",
+        "wistia_WQehBR"
       ],
       "settings": {
         "heading": "Confident skin starts here",
