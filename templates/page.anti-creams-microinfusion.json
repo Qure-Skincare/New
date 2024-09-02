@@ -964,7 +964,37 @@
     },
     "anti-creams-microinfusion-page-break": {
       "type": "anti-creams-microinfusion-page-break",
+      "blocks": {
+        "option_YPqW63": {
+          "type": "option",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/q_w_derma.svg",
+            "text": "Real results after your very first treatment."
+          }
+        },
+        "option_LKBaRk": {
+          "type": "option",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/q-w_effective.svg",
+            "text": "More effective than topical creams."
+          }
+        },
+        "option_yRNWRF": {
+          "type": "option",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/q_w_plus.svg",
+            "text": "Clinic-like skincare without clinic prices."
+          }
+        }
+      },
+      "block_order": [
+        "option_YPqW63",
+        "option_LKBaRk",
+        "option_yRNWRF"
+      ],
       "settings": {
+        "heading": "Break through your skin’s barrier and rejuvenate from the inside out.",
+        "image": "shopify:\/\/shop_images\/skin_barrier.webp"
       }
     },
     "confidence": {
