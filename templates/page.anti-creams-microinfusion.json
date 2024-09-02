@@ -542,12 +542,20 @@
             "image": "shopify:\/\/shop_images\/sw_2.webp",
             "text": "<p>Sterile 24k gold plated <strong>disposable needleheads <\/strong>for better hygiene and safety<\/p>"
           }
+        },
+        "option_gUg3qD": {
+          "type": "option",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/sw_3.webp",
+            "text": "<p>Almost painless with <strong>minimal downtime<\/strong><\/p>"
+          }
         }
       },
       "block_order": [
         "result_J6NgEG",
         "option_PMAgRt",
-        "option_pHxCBf"
+        "option_pHxCBf",
+        "option_gUg3qD"
       ],
       "settings": {
         "heading": "The safest way to microneedle at home…",
