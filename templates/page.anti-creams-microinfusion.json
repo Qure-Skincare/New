@@ -897,8 +897,38 @@
         "btn_url": "#new-landing-purchase"
       }
     },
+    "how_to_use_BbzmCg": {
+      "type": "how-to-use",
+      "blocks": {
+        "wistia_b4CKMA": {
+          "type": "wistia",
+          "settings": {
+            "wistia_id": "yy9nv8vwsn"
+          }
+        },
+        "tab_p4f6H6": {
+          "type": "Tab",
+          "settings": {
+            "tab_txt": "Prepare",
+            "tab_desc": "<p>Twist open the chamber of the device and fill with one ampule of serum.<br\/>Twist on needle head with lid to close it tight.<\/p><p>Leave the device upside down for 1-2 minutes.<br\/>During this time, wash your face and make sure your hands are clean.<\/p>",
+            "image1": "shopify:\/\/shop_images\/howUse_pdp1.webp",
+            "image2": "shopify:\/\/shop_images\/howUse_pdp2.webp",
+            "image3": "shopify:\/\/shop_images\/howUse_pdp10.webp",
+            "image4": "shopify:\/\/shop_images\/howUse_pdp3.webp"
+          }
+        }
+      },
+      "block_order": [
+        "wistia_b4CKMA",
+        "tab_p4f6H6"
+      ],
+      "settings": {
+        "heading": "How to use Qure’s Micro-Infusion System"
+      }
+    },
     "anti-creams-microinfusion-page-how-to-use": {
       "type": "anti-creams-microinfusion-page-how-to-use",
+      "disabled": true,
       "settings": {
       }
     },
@@ -1043,6 +1073,7 @@
     "why_choose_c8nA49",
     "results_3LEkF8",
     "videos_list_rXDbHD",
+    "how_to_use_BbzmCg",
     "anti-creams-microinfusion-page-how-to-use",
     "anti-creams-microinfusion-page-break",
     "confidence",
