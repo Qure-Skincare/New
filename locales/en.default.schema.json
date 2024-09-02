@@ -125,10 +125,10 @@
     },
     "choose_option": {
       "first": {
-        "label": "First YES/NO"
+        "label": "First YES\/NO"
       },
       "second": {
-        "label": "Second YES/NO"
+        "label": "Second YES\/NO"
       }
     },
     "heading": {

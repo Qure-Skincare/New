@@ -563,9 +563,12 @@
         "image": "shopify:\/\/shop_images\/safeest_way.webp"
       }
     },
-    "why-choose": {
+    "why_choose_c8nA49": {
       "type": "why-choose",
       "settings": {
+        "heading": "",
+        "text_first": "",
+        "text_second": ""
       }
     },
     "results_3LEkF8": {
@@ -957,7 +960,7 @@
     "liquid_87wfLd",
     "choice",
     "anti-creams-microinfusion-page-safest-way",
-    "why-choose",
+    "why_choose_c8nA49",
     "results_3LEkF8",
     "videos_list_rXDbHD",
     "anti-creams-microinfusion-page-how-to-use",
