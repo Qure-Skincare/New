@@ -294,6 +294,17 @@ body[class~="page.sunil-mi-landing-mens"] .header_gift_btn, body[class~="page.su
         }
 }
 
+@media(max-width:767px) {
+        .ps_wrapperInner {
+                justify-content: space-around;
+                display: flex;
+        }
+
+        .press_bl .ps_wrapper {
+                flex-direction: column;
+                gap: 20px;
+        }
+}
 
 body[class~="page.sunil-mi-landing-special"] {
         .title-xl.d-none {
