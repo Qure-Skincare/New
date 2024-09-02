@@ -349,7 +349,45 @@
     },
     "effective": {
       "type": "effective",
+      "blocks": {
+        "image_aePDNH": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/effective_face_creams.webp"
+          }
+        },
+        "option_FT3hkJ": {
+          "type": "option",
+          "settings": {
+            "heading": "AFTER 1 treatment",
+            "text": "<p>reported more hydrated and glowy skin*<\/p>",
+            "percent_text": "93"
+          }
+        },
+        "option_jj4b6n": {
+          "type": "option",
+          "settings": {
+            "heading": "AFTER 2 treatments",
+            "text": "<p>agreed their fine lines looked smoother*<\/p>",
+            "percent_text": "70"
+          }
+        },
+        "before_after_mXCbRp": {
+          "type": "before_after",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ec_b_a.webp",
+            "text": "Data collected from an independent user study over 6 treatments."
+          }
+        }
+      },
+      "block_order": [
+        "image_aePDNH",
+        "option_FT3hkJ",
+        "option_jj4b6n",
+        "before_after_mXCbRp"
+      ],
       "settings": {
+        "heading": "More effective than face creams.  More affordable than clinics."
       }
     },
     "accelerate-results": {
