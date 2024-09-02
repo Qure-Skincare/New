@@ -41,7 +41,7 @@
                                         </div>
                                     </button>
                                 </h2>
-                                <div id="collapse_second_{{ forloop.index }}" class="accordion-collapse collapse" aria-labelledby="heading_second_{{ forloop.index }}"
+                                <div id="collapse_second_{{ forloop.index }}" class="accordion-collapse collapse {% if forloop.index == 2 %}show{% endif %}" aria-labelledby="heading_second_{{ forloop.index }}"
                                     data-bs-parent="#accordionExample_pi">
                                     <div class="accordion-body">
                                         {{ block.settings.text }}
