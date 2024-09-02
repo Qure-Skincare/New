@@ -717,11 +717,11 @@
         "btn_url": "https:\/\/m.facebook.com\/groups\/140594262121805\/"
       }
     },
-    "temp": {
-      "type": "temp-index",
-      "settings": {
-      }
-    },
+    // "temp": {
+    //   "type": "temp-index",
+    //   "settings": {
+    //   }
+    // },
     "solution_form_wVyepN": {
       "type": "solutionForm",
       "blocks": {
@@ -757,7 +757,7 @@
     "results_slider_w6BARa",
     "tile_JERe9p",
     "community_QPpfkf",
-    "temp",
+    // "temp",
     "solution_form_wVyepN"
   ]
 }

@@ -579,12 +579,6 @@
         "btn_url": "shopify:\/\/collections\/shop-all"
       }
     },
-    "main": {
-      "type": "temp-q-rejuvalight-pro-offer",
-      "disabled": true,
-      "settings": {
-      }
-    },
     "results_slider_RTd6ad": {
       "type": "results-slider",
       "blocks": {
@@ -865,7 +859,6 @@
     "how_to_use_tmBGpa",
     "services_slider_ctkatz",
     "videos_list_niD9zY",
-    "main",
     "results_slider_RTd6ad",
     "image_text_jBxiPm",
     "compare_8hnCcH",

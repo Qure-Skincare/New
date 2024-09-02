@@ -34,18 +34,18 @@
                 </div>
             </div>
             <div class="col-md-6  order-1 order-md-2">
-                <div class="refill_slider mw-mob-100">
+                <div class="refill_slider refill_slider_3 mw-mob-100">
                     <div class="refill_s_tab_content">
                         <div class="tab-content" id="pills-tabContent">
                             {%- for block in section.blocks -%}
                             <div class="tab-pane fade {% if forloop.first %} active show {%endif %}" id="{{ block.id }}" role="tabpanel"
                                 aria-labelledby="pills-{{ block.id }}">
                                 <div class="swiper twa__swiper productSlider dot_pagination"
-                                    id="twa__swiper-productSlider" data-section-id="productSlider"
+                                    id="twa__swiper-{{ block.id }}" data-section-id="{{ block.id }}"
                                     data-autoplay="false" data-loop="false" data-centerslide="false"
                                     data-mobile="1" data-tablet="1" data-desktop="1" data-spacing="10"
-                                    data-arrowleft="productSlider-swiper-prev"
-                                    data-arrowright="productSlider-swiper-next">
+                                    data-arrowleft="{{ block.id }}-swiper-prev"
+                                    data-arrowright="{{ block.id }}-swiper-next">
                                     <div class="swiper-wrapper">
                                          {%- if block.settings.image != blank -%}
                                         <div class="swiper-slide">
@@ -148,17 +148,18 @@
                 </div>
                 <div class="d-block d-md-none">
                     <div class="ss_list mw-452 pt-2 pb-4">
-                        <ul>
-                            <li>FDA-cleared at-home LED mask</li>
-                            <li>Treat acne, fine lines, wrinkles & more</li>
-                            <li>Customize, track & schedule treatments with app</li>
-                            <li>Quick & convenient 3-minute wireless treatments</li>
-                        </ul>
+                        {%- if section.settings.desc != blank -%}
+                            <div class="ss_list mw-452 pt-4 pb-4">
+                                {{ section.settings.desc }}
+                            </div>
+                        {%- endif -%}
                     </div>
-                    <div class="get_clearer_wrapper text-center ms-0 mt-2">
-                        <a class="btn btn-lg btn-primary btn_green" href="#shop">Transform My Skin</span>
+                    <div class="get_clearer_wrapper text-center ms-0 mt-md-3">
+                        {%- if section.settings.btn_txt -%}
+                        <a class="btn btn-lg btn-primary btn_green" href="#shop">{{ section.settings.btn_txt }}</span>
                         </a>
-                        <p><span><img src="https://qureskincaredns.com/new/assets/derma-sm.svg" alt=""></span>Dermatologist-Reviewed
+                        {%- endif -%}
+                        <p><span><img src="{{ section.settings.d_icon | image_url: width: 16 }}" alt=""></span>{{ section.settings.recomand }}
                         </p>
                     </div>
                 </div>

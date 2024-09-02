@@ -1,7 +1,9 @@
 {% assign product = section.settings.product %}
-{% assign discount = product.price | times: 0.33333 | divided_by: 100.0 | ceil | times: 100 %}
+{% assign discount = product.price | plus: 0.50 | divided_by: 100.0 | ceil | times: 50 %}
 {% assign product_price = product.price %}
-{% assign final_price = product_price |  minus: discount %}
+{% assign final_price = product_price | minus: 0.50 |  minus: discount  %}
+
+
 <!-- -- led device bundle start -- -->
 <div class="neck_led_bundle main_banner" id="special_offer">
     
@@ -36,11 +38,11 @@
                             </div>
                             <div class="price_wrap">
                                 <div class="price">
-                                    <div class="old_price">{{ product_price | money_without_trailing_zeros }}</div>
+                                    <div class="old_price">{{ product_price | money_without_trailing_zeros  }}</div>
                                     <div class="new_price">{{ final_price | money_without_trailing_zeros }}</div>
                                 </div>
                                 <div class="green_tag">
-                                    <p>YOU SAVE <span>{{ discount | money_without_trailing_zeros }}</span></p>
+                                    <p>YOU SAVE <span>{{ discount | money_without_trailing_zeros  }}</span></p>
                                 </div>
                             </div>
                             <p>{{ section.settings.abt_product }}</p>
