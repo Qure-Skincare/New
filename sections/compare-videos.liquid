@@ -26,9 +26,7 @@
             {% endif %}
         
             {% if section.settings.text != blank %}
-                <div class="pb-3 pb-md-0">
-                    {{ section.settings.text }}
-                </div>
+                {{ section.settings.text |  replace: '<p>', '<p class="pb-3 pb-md-0">'  }}
             {% endif %}
         </div>
         <div class="bs_grid">
@@ -123,7 +121,7 @@
 {% schema %}
     {
         "name": "t:sections.compare-videos.name",
-        "class": "section-landing-main-banner",
+        "class": "section-compare-videos",
         "settings": [
             {
                 "type": "text",
