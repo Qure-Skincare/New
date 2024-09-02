@@ -6,9 +6,7 @@
                 <h2 class="title-lg paddingB mb-3">{{ section.settings.heading }}</h2>
             {% endif %}
             {% if section.settings.text != blank %}
-                <div class="pb-3">
-                    {{ section.settings.text }}
-                </div> 
+                {{ section.settings.text | replace: '<p>', '<p class="pb-3">' }}
             {% endif %}
         </div>
         <div class="row justify-content-between">
