@@ -897,33 +897,69 @@
         "btn_url": "#new-landing-purchase"
       }
     },
-    "how_to_use_BbzmCg": {
+    "how_to_use_tmBApa": {
       "type": "how-to-use",
       "blocks": {
-        "wistia_b4CKMA": {
-          "type": "wistia",
-          "settings": {
-            "wistia_id": "yy9nv8vwsn"
-          }
-        },
-        "tab_p4f6H6": {
+        "tab_AwmhHK": {
           "type": "Tab",
           "settings": {
-            "tab_txt": "Prepare",
-            "tab_desc": "<p>Twist open the chamber of the device and fill with one ampule of serum.<br\/>Twist on needle head with lid to close it tight.<\/p><p>Leave the device upside down for 1-2 minutes.<br\/>During this time, wash your face and make sure your hands are clean.<\/p>",
-            "image1": "shopify:\/\/shop_images\/howUse_pdp1.webp",
-            "image2": "shopify:\/\/shop_images\/howUse_pdp2.webp",
-            "image3": "shopify:\/\/shop_images\/howUse_pdp10.webp",
-            "image4": "shopify:\/\/shop_images\/howUse_pdp3.webp"
+            "tab_txt": "Specs",
+            "tab_desc": "<ul><li>TREATMENT TIME: 3 minutes<\/li><li>CERTIFICATIONS: FDA, TGA, CE, UKCA<\/li><li>OPERATION: Wireless, hands-free<\/li><li>WAVELENGTH: 415nm (Blue), 605nm (Amber), 630nm (Red), 660nm (Deep Red), 880nm (Infrared)<\/li><li>CHARGING TIME: 2 hours<\/li><li>LEDs: 160 dual core<\/li><\/ul>",
+            "image1": "shopify:\/\/shop_images\/get_specs.webp",
+            "image2": "shopify:\/\/shop_images\/get_quickstart.webp",
+            "image3": "shopify:\/\/shop_images\/get_customize.webp",
+            "image4": "shopify:\/\/shop_images\/get_aftercare.webp"
+          }
+        },
+        "tab_yTEcfK": {
+          "type": "Tab",
+          "settings": {
+            "tab_txt": "Quick start",
+            "tab_desc": "<ul><li>Cleanse & dry your skin thoroughly before use.<\/li><li>Hold the button for 2-3 seconds to power ON.<\/li><li>Adjust the mask to fit your face comfortably.<\/li><li>For Anti-Aging treatment: Press button once.<\/li><li>For Anti-Breakout treatment: Press button twice.<\/li><li>After three minutes, the device will shut off automatically.<\/li><\/ul>",
+            "image1": "shopify:\/\/shop_images\/get_quickstart.webp",
+            "image2": "shopify:\/\/shop_images\/get_customize.webp",
+            "image3": "shopify:\/\/shop_images\/get_aftercare.webp",
+            "image4": "shopify:\/\/shop_images\/get_specs.webp"
+          }
+        },
+        "tab_QqVtHE": {
+          "type": "Tab",
+          "settings": {
+            "tab_txt": "Customize treatment",
+            "tab_desc": "<p>Download the Qure Skincare app and pair your Q-Rejuvalight Pro.Choose either Anti-aging or Anti-breakout treatment on 5 different facial areas.Set reminders and never miss your treatment!<\/p>",
+            "image1": "shopify:\/\/shop_images\/get_customize.webp",
+            "image2": "shopify:\/\/shop_images\/get_aftercare.webp",
+            "image3": "shopify:\/\/shop_images\/get_specs.webp",
+            "image4": "shopify:\/\/shop_images\/get_quickstart.webp"
+          }
+        },
+        "tab_gUbBCP": {
+          "type": "Tab",
+          "settings": {
+            "tab_txt": "Aftercare",
+            "tab_desc": "<p>Remember to wipe the mask down after each treatment.<\/p><p>When not in use, place your Q-Rejuvalight Pro in the luxury bag provided and store in a cool, moisture-free environment.<\/p>",
+            "image1": "shopify:\/\/shop_images\/get_aftercare.webp",
+            "image2": "shopify:\/\/shop_images\/get_specs.webp",
+            "image3": "shopify:\/\/shop_images\/get_quickstart.webp",
+            "image4": "shopify:\/\/shop_images\/get_customize.webp"
+          }
+        },
+        "wistia_HJKH8h": {
+          "type": "wistia",
+          "settings": {
+            "wistia_id": "j7op01weqs"
           }
         }
       },
       "block_order": [
-        "wistia_b4CKMA",
-        "tab_p4f6H6"
+        "tab_AwmhHK",
+        "tab_yTEcfK",
+        "tab_QqVtHE",
+        "tab_gUbBCP",
+        "wistia_HJKH8h"
       ],
       "settings": {
-        "heading": "How to use Qure’s Micro-Infusion System"
+        "heading": "Get Compliment-Worthy Skin"
       }
     },
     "anti-creams-microinfusion-page-how-to-use": {
@@ -1073,7 +1109,7 @@
     "why_choose_c8nA49",
     "results_3LEkF8",
     "videos_list_rXDbHD",
-    "how_to_use_BbzmCg",
+    "how_to_use_tmBApa",
     "anti-creams-microinfusion-page-how-to-use",
     "anti-creams-microinfusion-page-break",
     "confidence",
