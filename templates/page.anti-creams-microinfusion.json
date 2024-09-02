@@ -377,7 +377,7 @@
           "settings": {
             "heading": "AFTER 6 treatments",
             "text": "<p>noticed even better results after 6 treatments*<\/p>",
-            "percent_bar": 70
+            "percent_bar": 83
           }
         },
         "before_after_mXCbRp": {
@@ -401,7 +401,21 @@
     },
     "accelerate-results": {
       "type": "accelerate-results",
+      "blocks": {
+        "product_FkWhnr": {
+          "type": "product",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/u_serum_2.webp",
+            "heading": "For fine lines and wrinkles",
+            "text": "(Hydra-Soothing Serum)"
+          }
+        }
+      },
+      "block_order": [
+        "product_FkWhnr"
+      ],
       "settings": {
+        "heading": "Accelerate your results with our scientifically backed serums"
       }
     },
     "liquid_87wfLd": {
