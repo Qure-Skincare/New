@@ -497,7 +497,24 @@
     },
     "choice": {
       "type": "choice",
+      "blocks": {
+        "result_ypTbFr": {
+          "type": "result",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/cl_anthony.webp",
+            "text": "\"The Qure’s System is the closest thing that you can get to bringing your aesthetician home with you!\"",
+            "client": "Dr Anthony Youn",
+            "client_text": "Board-Certified Plastic Surgeon"
+          }
+        }
+      },
+      "block_order": [
+        "result_ypTbFr"
+      ],
       "settings": {
+        "heading": "The dermatologist's choice for safety and effectiveness…",
+        "image": "shopify:\/\/shop_images\/trusted_anthony_main.webp",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=gGVKgTHloXw"
       }
     },
     "anti-creams-microinfusion-page-safest-way": {
