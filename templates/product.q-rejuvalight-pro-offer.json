@@ -7,15 +7,15 @@
 * made to this file may be overwritten.
 * ------------------------------------------------------------
 */
-{
-  "sections": {
-    "main": {
-      "type": "temp-q-rejuvalight-pro-offer",
-      "settings": {
-      }
-    }
-  },
-  "order": [
-    "main"
-  ]
-}
+// {
+//   "sections": {
+//     "main": {
+//       "type": "temp-q-rejuvalight-pro-offer",
+//       "settings": {
+//       }
+//     }
+//   },
+//   "order": [
+//     "main"
+//   ]
+// }
