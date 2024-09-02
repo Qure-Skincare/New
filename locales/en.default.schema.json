@@ -44,7 +44,8 @@
       "label": "About Product"
     },
     "badge": {
-      "label": "Rating text"
+      "label": "Rating text",
+      "text": "Badge text"
     },
     "benefits":{
       "label": "Benefits List",
@@ -52,6 +53,16 @@
     },
     "url":{
       "label": "Product Url"
+    },
+    "video":{
+      "label": "Product Video"
+    },
+    "video_txt":{
+      "label": "Video Text"
+    },
+    "warranty":{
+      "label": "Warranty Text",
+      "icon": "Warranty Icon"
     }
   },
   "commonMob":{
@@ -68,6 +79,9 @@
     }
   },
   "common": {
+    "blog":{
+      "label": "Blog"
+    },
     "title":{
       "label": "Title"
     },
@@ -958,6 +972,21 @@
     },
     "banner_tabs":{
       "name": "Banner Tab Slider"
+    },
+    "posts":{
+      "name": "Community Posts"
+    },
+    "f_product2":{
+      "name": "Featured Product 2"
+    },
+    "f_product":{
+      "name": "Featured Product"
+    },
+    "img_txt":{
+      "name": "Image & Text"
+    },
+    "how_to_use":{
+      "name": "How to Use"
     }
   }
 }
