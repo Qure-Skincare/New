@@ -327,12 +327,20 @@
             "text": "<p>Our scientifically-backed rejuvenating serum gets deep into your skin where it can be quickly absorbed, <strong>reducing pigmentation <\/strong>and <strong>fading dark spots <\/strong>while <strong>evening the look of the skin <\/strong>and reducing the size appearance of pores. <\/p>",
             "image": "shopify:\/\/shop_images\/dark_spots_1428ac89-c09a-4f7b-bb00-4ff0e67c6b13.svg"
           }
+        },
+        "button_P998T8": {
+          "type": "button",
+          "settings": {
+            "button_label": "Get Confident Skin",
+            "button_url": "#new-landing-purchase"
+          }
         }
       },
       "block_order": [
         "video_e4rgp4",
         "option_RjVYMf",
-        "option_WQWEz3"
+        "option_WQWEz3",
+        "button_P998T8"
       ],
       "settings": {
         "heading": "How does “stamping your skin” work?",
