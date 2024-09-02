@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "custom_qurify_filter_lp_product_Mjcjbn": {
@@ -22,8 +31,7 @@
             "button_label": "Transform my skin",
             "button_url": "",
             "text_first": "",
-            "text_second": "Dermatologist-Reviewed",
-            "icon2": "shopify:\/\/shop_images\/derma-sm.svg"
+            "text_second": "Dermatologist-Reviewed"
           }
         },
         "product_in_page_zBm6nD": {
@@ -66,7 +74,6 @@
         "video_before_and_after_cJDkYG": {
           "type": "video_before_and_after",
           "settings": {
-            "video_wistia_id": "pdqr8phbrl"
           }
         }
       },
@@ -142,7 +149,6 @@
             "button_label": "Transform My  Skin",
             "button_url": "",
             "text_first": "",
-            "btn2_icon": "shopify:\/\/shop_images\/derma-sm.svg",
             "text_second": "Dermatologist-Reviewed"
           }
         },
@@ -307,8 +313,6 @@
         "column_JATQdF"
       ],
       "settings": {
-        "section_heading": "Customers call The Q-Rejuvalight Pro LED Mask “Game-Changing”",
-        "subheading": "<p>Here are 4 reasons why:<\/p>"
       }
     },
     "progress_blocks_d8f7qn": {
@@ -512,55 +516,37 @@
         "wistia_Kj6tir": {
           "type": "wistia",
           "settings": {
-            "wistia_id": "j0mvc1o853",
-            "dr_name": "Dr Maxfield",
-            "board": "Double Board-Certified Dermatologists",
-            "desc": "<p>\"This is one of my faves from @qureskincare. It’s a high quality mask and personalizable\"<\/p>"
+            "wistia_id": "j0mvc1o853"
           }
         },
         "wistia_hGAhbA": {
           "type": "wistia",
           "settings": {
-            "wistia_id": "ltv3wi7ayy",
-            "dr_name": "Dr Zeitany",
-            "board": "Board-Certified Dermatologists",
-            "desc": "<p>“It’s the only LED mask on the market that pairs with an app and is customizable”<\/p>"
+            "wistia_id": "ltv3wi7ayy"
           }
         },
         "wistia_zenznC": {
           "type": "wistia",
           "settings": {
-            "wistia_id": "lwu2n3u6uc",
-            "dr_name": "Dr Prem",
-            "board": "Board-Certified Dermatologists",
-            "desc": "<p>\"Qure has a fully customized mask which has 5 clinical-grade wavelength for anti-ageing, hyperpigmentation and acne...\"<\/p>"
+            "wistia_id": "lwu2n3u6uc"
           }
         },
         "wistia_Ni4zAL": {
           "type": "wistia",
           "settings": {
-            "wistia_id": "3aru3yqv0d",
-            "dr_name": "Dr Henry",
-            "board": "Medical Doctor",
-            "desc": "<p>\"I like this one because it allows you to customize your treatment... This is a great skin care investment\"<\/p>"
+            "wistia_id": "3aru3yqv0d"
           }
         },
         "wistia_DNpHDQ": {
           "type": "wistia",
           "settings": {
-            "wistia_id": "clfa0z9apd",
-            "dr_name": "Dr Too",
-            "board": "Medical Doctor",
-            "desc": "<p>“Qure’s LED mask combines red lights and blue lights, meaning it can benefit EVERYONE”<\/p>"
+            "wistia_id": "clfa0z9apd"
           }
         },
         "wistia_b3CVhx": {
           "type": "wistia",
           "settings": {
-            "wistia_id": "wumkizwy48",
-            "dr_name": "Dr Hunter",
-            "board": "NHS & Aesthetics Doctor",
-            "desc": "<p>“The Qure mask is FDA cleared... This means you can reap the benefits of light therapy at home. Previously, this was something only offered in clinics.”<\/p>"
+            "wistia_id": "wumkizwy48"
           }
         }
       },
@@ -574,9 +560,7 @@
       ],
       "settings": {
         "heading": "Dermatologist Tried, Tested, & Approved",
-        "classname": "section videosQure",
-        "btn": "Transform My Skin",
-        "btn_url": "shopify:\/\/collections\/shop-all"
+        "classname": "section videosQure"
       }
     },
     "results_slider_RTd6ad": {
@@ -802,8 +786,6 @@
         "button_xPybyJ": {
           "type": "button",
           "settings": {
-            "ext_btn": "Transform My Skin",
-            "ext_url": ""
           }
         }
       },
@@ -819,7 +801,6 @@
         "button_xPybyJ"
       ],
       "settings": {
-        "background": "bg-lightGrey",
         "classname": "bg_yellow",
         "heading": "Have questions?",
         "text": "<p>We have answers.<\/p>",

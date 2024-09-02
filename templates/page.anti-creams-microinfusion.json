@@ -305,7 +305,38 @@
     },
     "anti-creams-microinfusion-page-stamping": {
       "type": "anti-creams-microinfusion-page-stamping",
+      "blocks": {
+        "video_e4rgp4": {
+          "type": "video",
+          "settings": {
+            "wistia_id": "womq9t497b"
+          }
+        },
+        "option_RjVYMf": {
+          "type": "option",
+          "settings": {
+            "heading": "Minimizing the look of \\n Fine Lines and Wrinkles",
+            "text": "<p>Our powerful Hydra-Soothing Serum gets deep into your skin where it can be quickly absorbed, <strong>fading <\/strong>the appearance of wrinkles, <strong>reducing <\/strong>fine lines, and <strong>deeply hydrating <\/strong>for a dewy glow. <\/p>",
+            "image_country": "shopify:\/\/shop_images\/Lines_Wrinkles.svg"
+          }
+        },
+        "option_WQWEz3": {
+          "type": "option",
+          "settings": {
+            "heading": "Reducing the appearance of Dark Spots \\n and Hyperpigmentation",
+            "text": "<p>Our scientifically-backed rejuvenating serum gets deep into your skin where it can be quickly absorbed, <strong>reducing pigmentation <\/strong>and <strong>fading dark spots <\/strong>while <strong>evening the look of the skin <\/strong>and reducing the size appearance of pores. <\/p>",
+            "image_country": "shopify:\/\/shop_images\/dark_spots_1428ac89-c09a-4f7b-bb00-4ff0e67c6b13.svg"
+          }
+        }
+      },
+      "block_order": [
+        "video_e4rgp4",
+        "option_RjVYMf",
+        "option_WQWEz3"
+      ],
       "settings": {
+        "heading": "How does “stamping your skin” work?",
+        "text": "<p>Qure’s microneedles <strong>bypass the stratum corneum<\/strong> (the tough protective outer layer of skin) to <strong>deliver our scientifically-backed serum<\/strong> where it is needed to give you faster, better results.<\/p><p>It also triggers your <strong>natural recovery process<\/strong> giving your skin a rejuvenating boost.<\/p>"
       }
     },
     "effective": {
@@ -542,7 +573,10 @@
         "wistia_XYikTK": {
           "type": "wistia",
           "settings": {
-            "wistia_id": "50s645m3k7"
+            "wistia_id": "50s645m3k7",
+            "dr_name": "",
+            "board": "",
+            "desc": ""
           }
         },
         "video_ihtJ6A": {
@@ -577,7 +611,9 @@
       ],
       "settings": {
         "heading": "Confident skin starts here. Just ask the internet.",
-        "classname": "section videosQure"
+        "classname": "section videosQure",
+        "btn": "",
+        "btn_url": ""
       }
     },
     "anti-creams-microinfusion-page-how-to-use": {
@@ -701,6 +737,7 @@
         "object_n7R7ar"
       ],
       "settings": {
+        "background": "bg_yellow",
         "classname": "",
         "heading": "The answers to your questions",
         "text": "",
