@@ -985,12 +985,28 @@
             "image": "shopify:\/\/shop_images\/q_w_plus.svg",
             "text": "Clinic-like skincare without clinic prices."
           }
+        },
+        "option_r3MNVN": {
+          "type": "option",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/q_w_time.svg",
+            "text": "Saves you time."
+          }
+        },
+        "option_Njxw7i": {
+          "type": "option",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/q_w_needles.svg",
+            "text": "Virtually painless, minimal to no downtime."
+          }
         }
       },
       "block_order": [
         "option_YPqW63",
         "option_LKBaRk",
-        "option_yRNWRF"
+        "option_yRNWRF",
+        "option_r3MNVN",
+        "option_Njxw7i"
       ],
       "settings": {
         "heading": "Break through your skin’s barrier and rejuvenate from the inside out.",
