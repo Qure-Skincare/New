@@ -372,6 +372,14 @@
             "percent_text": "70"
           }
         },
+        "option_kcwiy8": {
+          "type": "option",
+          "settings": {
+            "heading": "AFTER 6 treatments",
+            "text": "<p>noticed even better results after 6 treatments*<\/p>",
+            "percent_text": "83"
+          }
+        },
         "before_after_mXCbRp": {
           "type": "before_after",
           "settings": {
@@ -384,6 +392,7 @@
         "image_aePDNH",
         "option_FT3hkJ",
         "option_jj4b6n",
+        "option_kcwiy8",
         "before_after_mXCbRp"
       ],
       "settings": {
