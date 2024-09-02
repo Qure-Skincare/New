@@ -64,7 +64,9 @@
                                     {% if block.settings.image != blank %}
                                         <img src="{{ block.settings.image | img_url: '800x' }}" alt="{{ block.settings.image.alt | escape }}" class="img-fluid">
                                     {% endif %}
-                                    {{ block.settings.text }}
+                                    {% if block.settings.text != blank %}
+                                        <p>{{ block.settings.text }}</p>
+                                    {% endif %}
                                 </div>
                         {% endcase %}
                     {% endfor %}
@@ -104,7 +106,7 @@
             {
                 "type": "option",
                 "name": "t:common.option.name",
-                "limit": 2,
+                "limit": 3,
                 "settings": [
                     {
                         "type": "text",
