@@ -465,6 +465,13 @@
             "text": "<p>Helps to fade the look of dark spots and discolouration. Assists with brightening and evening skin tone and reducing the appearance of texture.<\/p>",
             "image": "shopify:\/\/shop_images\/pi_licorice.webp"
           }
+        },
+        "button_7UNUk3": {
+          "type": "button",
+          "settings": {
+            "button_label": "Regain Your Confidence",
+            "button_url": "#new-landing-purchase"
+          }
         }
       },
       "block_order": [
@@ -475,7 +482,8 @@
         "product_dB9FNL",
         "option_KtDdRN",
         "option_9ftefr",
-        "option_a7pDtr"
+        "option_a7pDtr",
+        "button_7UNUk3"
       ],
       "settings": {
         "heading": "Accelerate your results with our scientifically backed serums"
