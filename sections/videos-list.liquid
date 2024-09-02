@@ -127,9 +127,11 @@
 
                 </div>
 
-                <div class="get_clearer_wrapper text-center mt-5">
-                    <a class="btn btn-lg btn-primary btn_green" href="{% if section.settings.btn_url != blank%} {{ section.settings.btn_url }} {% endif %}">{{ section.settings.btn }}</a>
-                </div>
+                {% if section.settings.btn != blank %}
+                    <div class="get_clearer_wrapper text-center mt-5">
+                        <a class="btn btn-lg btn-primary btn_green" href="{% if section.settings.btn_url != blank%} {{ section.settings.btn_url }} {% endif %}">{{ section.settings.btn }}</a>
+                    </div>
+                {% endif %}
             </div>
         </div>
     </div>
