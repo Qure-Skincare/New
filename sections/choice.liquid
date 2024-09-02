@@ -43,8 +43,9 @@
                                 {% when 'result' %}
                                     <div class="t_c_wrapper">
                                         <div class="t_c_info mb-3 d-flex">
-                                            {{ block.settings.text | replace: '<p class="d-block d-md-none">', '<p>' }}
-
+                                            {% if block.settings.text != blank %}
+                                                <p class="d-block d-md-none">{{ block.settings.text }}</p>
+                                            {% endif %}
                                             {% if block.settings.image != blank %}
                                                 <div class="c_img">
                                                     <img src="{{ block.settings.image | img_url: '250x' }}" alt="result">
@@ -52,7 +53,9 @@
                                             {% endif %}
 
                                             <div class="c_desc ps-2">
-                                                {{ block.settings.text | replace: '<p class="d-none d-md-block">', '<p>' }}
+                                                {% if block.settings.text != blank %}
+                                                    <p class="d-none d-md-block">{{ block.settings.text }}</p>
+                                                {% endif %}
                                                 <h6><span>{{ block.settings.client }},</span><br> {{ block.settings.client_text }}</h6>
                                             </div>
                                         </div>
