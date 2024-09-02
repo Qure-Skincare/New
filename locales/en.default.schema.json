@@ -80,6 +80,9 @@
     "title": {
       "label": "Title"
     },
+    "percentage": {
+      "label": "Percentage"
+    },
     "serum": {
       "label": "Serum For",
       "type": "Serum Type"
@@ -110,6 +113,9 @@
       "amount": {
         "label": "Comments amount"
       }
+    },
+    "before-after-image": {
+      "label": "Before after image"
     },
     "align": {
       "label": "Align",
@@ -433,6 +439,13 @@
     },
     "results-simple": {
       "name": "Results simple",
+      "settings": {
+      },
+      "blocks": {
+      }
+    },
+    "effective": {
+      "name": "Effective",
       "settings": {
       },
       "blocks": {
