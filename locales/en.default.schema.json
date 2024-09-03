@@ -130,7 +130,10 @@
       "discount": "Discount"
     },
     "background": {
-      "label": "Background"
+      "label": "Background",
+      "yellow": "Yellow",
+      "grey": "Grey",
+      "transparent": "Tranparent"
     },
     "Section": {
       "label": "Section Heading"
@@ -1160,6 +1163,9 @@
     },
     "serum_ingredients":{
       "label": "Serum Ingredients"
+    },
+    "ingredients-dropdown":{
+      "label": "Ingredients dropdown"
     }
   }
 }
