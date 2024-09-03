@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin language editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "settings_schema": {
     "logo": {
@@ -80,43 +89,12 @@
       "label": "Reviews"
     }
   },
-  "responsive": {
-    "desktop": {
-      "slides": "Slides on desktop"
-    },
-    "tablet": {
-      "slides": "Slides on tablet"
-    },
-    "mobile": {
-      "slides": "Slides on mobile"
-    }
-  },
   "common": {
-    "testimonial": {
-      "text": "Testimonial text"
-    },
-    "tab": {
-      "name": "Tab Name"
-    },
-    "skin": {
-      "concerns": "Skin Concerns"
-    },
-    "font": {
-      "size": "Font Size"
-    },
-    "checkbox": {
-      "from": "From",
-      "verified": "Verified Customer",
-      "loop": "Enable loop",
-      "autoplay": "Enable autoplay"
-    },
-    "blog": {
-      "label": "Blog"
-    },
     "title": {
-      "label": "Title",
-      "color": "Title color",
-      "strong": "Title strong color"
+      "label": "Title"
+    },
+    "percentage": {
+      "label": "Percentage"
     },
     "serum": {
       "label": "Serum For",
@@ -149,10 +127,21 @@
         "label": "Comments amount"
       }
     },
+    "before-after-image": {
+      "label": "Before after image"
+    },
     "align": {
       "label": "Align",
       "center": {
         "label": "Align center"
+      }
+    },
+    "choose_option": {
+      "first": {
+        "label": "First YES\/NO"
+      },
+      "second": {
+        "label": "Second YES\/NO"
       }
     },
     "heading": {
@@ -362,6 +351,9 @@
       "details": "Client Details",
       "country": {
         "label": "Country"
+      },
+      "text": {
+        "label": "Client text"
       }
     },
     "progress": {
@@ -399,8 +391,7 @@
       }
     },
     "desc": {
-      "label": "Description",
-      "info": "Info Description"
+      "label": "Description"
     }
   },
   "sections": {
@@ -474,6 +465,13 @@
       "blocks": {
       }
     },
+    "text-block": {
+      "name": "Text block",
+      "settings": {
+      },
+      "blocks": {
+      }
+    },
     "compare-videos": {
       "name": "Compare videos",
       "settings": {
@@ -490,6 +488,41 @@
     },
     "results-simple": {
       "name": "Results simple",
+      "settings": {
+      },
+      "blocks": {
+      }
+    },
+    "effective": {
+      "name": "Effective",
+      "settings": {
+      },
+      "blocks": {
+      }
+    },
+    "confidence": {
+      "name": "Confidence",
+      "settings": {
+      },
+      "blocks": {
+      }
+    },
+    "accelerate-results": {
+      "name": "Accelerate results",
+      "settings": {
+      },
+      "blocks": {
+      }
+    },
+    "choice": {
+      "name": "Choice",
+      "settings": {
+      },
+      "blocks": {
+      }
+    },
+    "why-choose": {
+      "name": "Why choose",
       "settings": {
       },
       "blocks": {

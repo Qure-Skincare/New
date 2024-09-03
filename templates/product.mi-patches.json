@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "product_landing_tetLcC": {
@@ -496,7 +505,6 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Rectangle_188_2a078240-295d-4e92-a36f-2acb2c6b5c1f.png",
             "heading": "Micro-Infusion Targeted Patches",
-            "mob_text": "",
             "text": "",
             "price": "",
             "style": "correctCircle",
@@ -508,7 +516,6 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/mi-eye-patches.webp",
             "heading": "Alternative Eye Patches",
-            "mob_text": "",
             "text": "",
             "price": "",
             "style": "incorrectCircle",
@@ -721,7 +728,6 @@
         "object_HjiKT3"
       ],
       "settings": {
-        "background": "bg_yellow",
         "classname": "bg_yellow",
         "heading": "Your burning questions, our glowing answers",
         "text": "",
