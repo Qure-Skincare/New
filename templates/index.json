@@ -83,6 +83,19 @@
     },
     "promotion_main_banner_second_jCUkqh": {
       "type": "promotion-main-banner-second",
+      "blocks": {
+        "link_Pk3LH6": {
+          "type": "link",
+          "settings": {
+            "link_label": "Shop Best Sellers",
+            "link_label_mobile": "Shop Best Sellers",
+            "link_url": "https:\/\/www.qureskincare.com\/collections\/best-sellers"
+          }
+        }
+      },
+      "block_order": [
+        "link_Pk3LH6"
+      ],
       "settings": {
         "heading": "Get clinic-level results from home- minus the ‘clinical’ costs.",
         "heading_mobile": "Get clinic-level results from home- minus the ‘clinical’ costs.",
