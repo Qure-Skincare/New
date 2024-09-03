@@ -81,32 +81,6 @@
       "settings": {
       }
     },
-    "promotion_main_banner_second_jCUkqh": {
-      "type": "promotion-main-banner-second",
-      "blocks": {
-        "link_Pk3LH6": {
-          "type": "link",
-          "settings": {
-            "link_label": "Shop Best Sellers",
-            "link_label_mobile": "Shop Best Sellers",
-            "link_url": "https:\/\/www.qureskincare.com\/collections\/best-sellers"
-          }
-        }
-      },
-      "block_order": [
-        "link_Pk3LH6"
-      ],
-      "settings": {
-        "heading": "Get clinic-level results from home- minus the ‘clinical’ costs.",
-        "heading_mobile": "",
-        "heading_tag": "h1",
-        "subheading": "",
-        "subheading_mobile": "",
-        "text": "<p><strong>50,000+<\/strong>customers feel more confident in their own skin.<\/p>",
-        "image": "shopify:\/\/shop_images\/banner_after.png",
-        "image_mobile": "shopify:\/\/shop_images\/banner_mobile.png"
-      }
-    },
     "promotion_main_banner_48gkNr": {
       "type": "promotion-main-banner",
       "blocks": {
@@ -122,7 +96,6 @@
       "block_order": [
         "link_crBjL9"
       ],
-      "disabled": true,
       "settings": {
         "heading": "Labor Day Sale Save 51%",
         "heading_mobile": "Labor Day Sale",
@@ -132,6 +105,33 @@
         "text": "<p><em>A deal so good, it’s limited to one per order.<\/em><\/p>",
         "image": "shopify:\/\/shop_images\/LABOR_NEW_DESKTOP.png",
         "image_mobile": "shopify:\/\/shop_images\/LABOR_NEW_MBILE.png"
+      }
+    },
+    "promotion_main_banner_second_jCUkqh": {
+      "type": "promotion-main-banner-second",
+      "blocks": {
+        "link_Pk3LH6": {
+          "type": "link",
+          "settings": {
+            "link_label": "Shop Best Sellers",
+            "link_label_mobile": "Shop Best Sellers",
+            "link_url": "https:\/\/www.qureskincare.com\/collections\/best-sellers"
+          }
+        }
+      },
+      "block_order": [
+        "link_Pk3LH6"
+      ],
+      "disabled": true,
+      "settings": {
+        "heading": "Get clinic-level results from home- minus the ‘clinical’ costs.",
+        "heading_mobile": "",
+        "heading_tag": "h1",
+        "subheading": "",
+        "subheading_mobile": "",
+        "text": "<p><strong>50,000+<\/strong>customers feel more confident in their own skin.<\/p>",
+        "image": "shopify:\/\/shop_images\/banner_after.png",
+        "image_mobile": "shopify:\/\/shop_images\/banner_mobile.png"
       }
     },
     "featuredin_extended_P7BNDN": {
@@ -780,8 +780,8 @@
   },
   "order": [
     "main",
-    "promotion_main_banner_second_jCUkqh",
     "promotion_main_banner_48gkNr",
+    "promotion_main_banner_second_jCUkqh",
     "featuredin_extended_P7BNDN",
     "box_slider_HRHeRA",
     "featured_collection_Hj3Xcw",
