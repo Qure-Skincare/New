@@ -1300,8 +1300,6 @@
         "button_F67Uh4": {
           "type": "button",
           "settings": {
-            "button_label": "Don’t see your question? Ask us",
-            "button_url": "shopify:\/\/pages\/faqs"
           }
         }
       },
