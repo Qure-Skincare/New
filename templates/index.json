@@ -107,6 +107,33 @@
         "image_mobile": "shopify:\/\/shop_images\/LABOR_NEW_MBILE.png"
       }
     },
+    "promotion_main_banner_second_jCUkqh": {
+      "type": "promotion-main-banner-second",
+      "blocks": {
+        "link_Pk3LH6": {
+          "type": "link",
+          "settings": {
+            "link_label": "Shop Best Sellers",
+            "link_label_mobile": "Shop Best Sellers",
+            "link_url": "https:\/\/www.qureskincare.com\/collections\/best-sellers"
+          }
+        }
+      },
+      "block_order": [
+        "link_Pk3LH6"
+      ],
+      "disabled": true,
+      "settings": {
+        "heading": "Get clinic-level results from home- minus the ‘clinical’ costs.",
+        "heading_mobile": "",
+        "heading_tag": "h1",
+        "subheading": "",
+        "subheading_mobile": "",
+        "text": "<p><strong>50,000+<\/strong>customers feel more confident in their own skin.<\/p>",
+        "image": "shopify:\/\/shop_images\/banner_after.png",
+        "image_mobile": "shopify:\/\/shop_images\/banner_mobile.png"
+      }
+    },
     "featuredin_extended_P7BNDN": {
       "type": "featuredin_extended",
       "blocks": {
@@ -754,6 +781,7 @@
   "order": [
     "main",
     "promotion_main_banner_48gkNr",
+    "promotion_main_banner_second_jCUkqh",
     "featuredin_extended_P7BNDN",
     "box_slider_HRHeRA",
     "featured_collection_Hj3Xcw",

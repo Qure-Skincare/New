@@ -687,6 +687,18 @@
         }
       }
     },
+    "main-banner-promotion-second": {
+      "name": "Main banner promo second",
+      "settings": {
+      },
+      "blocks": {
+        "link": {
+          "name": "Link",
+          "settings": {
+          }
+        }
+      }
+    },
     "featuredin": {
       "name": "Featured in",
       "settings": {
