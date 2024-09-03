@@ -322,7 +322,7 @@
             "percent_bar": 87,
             "toolip_hed": "<p>smoother facial <strong>wrinkles <\/strong>and <strong>fine lines<\/strong><\/p>",
             "toolip_desc": "<p>*About the clinical trial: Clinical trial was conducted and investigated the potential of light-emitting diode (LED) treatments with a 660 nm. LED effects were then assessed in aged\/photoaged individuals in a split-face single-blinded study.<\/p>",
-            "font_size": 14
+            "font_size": 11
           }
         },
         "column_QYVDHR": {
@@ -424,6 +424,7 @@
         "product_name": "Neck & Decolletage LED Device",
         "abt_product": "<p>Perfect combination to the Q-Rejuvalight Pro LED mask for the ultimate skin rejuvenation experience.<\/p>",
         "benefits": "<ul><li>Treat beyond the face for an all-over youthful appearance<\/li><li>Smooth fine lines, reduce appearance of wrinkles and boost firmness<\/li><li>Fade dark spots and repair sun-damaged skin for an even-toned complexion<\/li><\/ul>",
+        "btn_txt": "Bundle & SAVE",
         "rating_text": "97% customer satisfaction rate",
         "stars": "shopify:\/\/shop_images\/star-half_fill_d51f6801-2e35-487c-89d0-130f978da1e8.svg",
         "m_benefits": "<ul><li>Treat beyond the face for an all-over youthful appearance<\/li><li>Smooth fine lines & wrinkles<\/li><li>Evens skin tone & smooths texture<\/li><\/ul>",
@@ -438,10 +439,7 @@
           "settings": {
             "tab_txt": "Specs",
             "tab_desc": "<ul><li>TREATMENT TIME: 3 minutes<\/li><li>CERTIFICATIONS: FDA, TGA, CE, UKCA<\/li><li>OPERATION: Wireless, hands-free<\/li><li>WAVELENGTH: 415nm (Blue), 605nm (Amber), 630nm (Red), 660nm (Deep Red), 880nm (Infrared)<\/li><li>CHARGING TIME: 2 hours<\/li><li>LEDs: 160 dual core<\/li><\/ul>",
-            "image1": "shopify:\/\/shop_images\/get_specs.webp",
-            "image2": "shopify:\/\/shop_images\/get_quickstart.webp",
-            "image3": "shopify:\/\/shop_images\/get_customize.webp",
-            "image4": "shopify:\/\/shop_images\/get_aftercare.webp"
+            "image": "shopify:\/\/shop_images\/get_specs.webp"
           }
         },
         "tab_yTEcfK": {
@@ -449,10 +447,7 @@
           "settings": {
             "tab_txt": "Quick start",
             "tab_desc": "<ul><li>Cleanse & dry your skin thoroughly before use.<\/li><li>Hold the button for 2-3 seconds to power ON.<\/li><li>Adjust the mask to fit your face comfortably.<\/li><li>For Anti-Aging treatment: Press button once.<\/li><li>For Anti-Breakout treatment: Press button twice.<\/li><li>After three minutes, the device will shut off automatically.<\/li><\/ul>",
-            "image1": "shopify:\/\/shop_images\/get_quickstart.webp",
-            "image2": "shopify:\/\/shop_images\/get_customize.webp",
-            "image3": "shopify:\/\/shop_images\/get_aftercare.webp",
-            "image4": "shopify:\/\/shop_images\/get_specs.webp"
+            "image": "shopify:\/\/shop_images\/get_quickstart.webp"
           }
         },
         "tab_QqVtHE": {
@@ -460,10 +455,7 @@
           "settings": {
             "tab_txt": "Customize treatment",
             "tab_desc": "<p>Download the Qure Skincare app and pair your Q-Rejuvalight Pro.Choose either Anti-aging or Anti-breakout treatment on 5 different facial areas.Set reminders and never miss your treatment!<\/p>",
-            "image1": "shopify:\/\/shop_images\/get_customize.webp",
-            "image2": "shopify:\/\/shop_images\/get_aftercare.webp",
-            "image3": "shopify:\/\/shop_images\/get_specs.webp",
-            "image4": "shopify:\/\/shop_images\/get_quickstart.webp"
+            "image": "shopify:\/\/shop_images\/get_customize.webp"
           }
         },
         "tab_gUbBCP": {
@@ -471,10 +463,7 @@
           "settings": {
             "tab_txt": "Aftercare",
             "tab_desc": "<p>Remember to wipe the mask down after each treatment.<\/p><p>When not in use, place your Q-Rejuvalight Pro in the luxury bag provided and store in a cool, moisture-free environment.<\/p>",
-            "image1": "shopify:\/\/shop_images\/get_aftercare.webp",
-            "image2": "shopify:\/\/shop_images\/get_specs.webp",
-            "image3": "shopify:\/\/shop_images\/get_quickstart.webp",
-            "image4": "shopify:\/\/shop_images\/get_customize.webp"
+            "image": "shopify:\/\/shop_images\/get_aftercare.webp"
           }
         },
         "wistia_HJKH8h": {
@@ -593,7 +582,8 @@
             "image": "shopify:\/\/shop_images\/results_teresa_3a620dd8-7320-41da-b19d-4202f4097626.webp",
             "image_country": "shopify:\/\/shop_images\/usa_flag.svg",
             "client": "Teresa S.",
-            "concerns": "Dark spots, discoloration"
+            "concerns": "Dark spots, discoloration",
+            "verified": true
           }
         },
         "slide_f6CjxA": {
@@ -605,7 +595,8 @@
             "image": "shopify:\/\/shop_images\/results_bj_nardi_fd924eb5-aaaf-4d31-a054-0e3cdf45f063.webp",
             "image_country": "shopify:\/\/shop_images\/canadian_flag.svg",
             "client": "BJ Nardi",
-            "concerns": "Acne"
+            "concerns": "Acne",
+            "verified": true
           }
         },
         "slide_36nkwc": {
@@ -617,7 +608,8 @@
             "image": "shopify:\/\/shop_images\/results_terri.webp",
             "image_country": "shopify:\/\/shop_images\/usa_flag.svg",
             "client": "Terri P.",
-            "concerns": "Fine Lines & Wrinkles"
+            "concerns": "Fine Lines & Wrinkles",
+            "verified": true
           }
         },
         "slide_R3C6JP": {
@@ -629,7 +621,8 @@
             "image": "shopify:\/\/shop_images\/results_michelle_bea5bba9-6469-46b8-b59a-4456973a4b3c.webp",
             "image_country": "shopify:\/\/shop_images\/usa_flag.svg",
             "client": "Michelle S.",
-            "concerns": "Fine Lines & Wrinkles, Acne"
+            "concerns": "Fine Lines & Wrinkles, Acne",
+            "verified": true
           }
         },
         "slide_fBweTe": {
@@ -641,7 +634,8 @@
             "image": "shopify:\/\/shop_images\/results_june_4f06e4e8-529a-404e-b15c-ae472849d9bc.webp",
             "image_country": "shopify:\/\/shop_images\/usa_flag.svg",
             "client": "June T.",
-            "concerns": "Fine Lines & Wrinkles, Skin Texture"
+            "concerns": "Fine Lines & Wrinkles, Skin Texture",
+            "verified": true
           }
         },
         "slide_ytEe6x": {
@@ -653,7 +647,8 @@
             "image": "shopify:\/\/shop_images\/results_tiffany_d43313a3-80f7-4452-a45b-c864ceedae03.webp",
             "image_country": "shopify:\/\/shop_images\/usa_flag.svg",
             "client": "Tiffany L.",
-            "concerns": "Acne, rosacea"
+            "concerns": "Acne, rosacea",
+            "verified": true
           }
         },
         "slide_CPEePW": {
@@ -665,7 +660,8 @@
             "image": "shopify:\/\/shop_images\/results_anton_cdc44f21-b8dc-4a5f-a020-6741e12ac25e.webp",
             "image_country": "shopify:\/\/shop_images\/uk_flag.svg",
             "client": "Anton",
-            "concerns": "Acne"
+            "concerns": "Acne",
+            "verified": true
           }
         },
         "slide_UaaMCL": {
@@ -677,7 +673,8 @@
             "image": "shopify:\/\/shop_images\/results_jessica1.webp",
             "image_country": "shopify:\/\/shop_images\/usa_flag.svg",
             "client": "Jessica K.",
-            "concerns": "Acne"
+            "concerns": "Acne",
+            "verified": true
           }
         }
       },

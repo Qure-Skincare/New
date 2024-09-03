@@ -33,7 +33,8 @@
   },
   "progressBlock": {
     "column": {
-      "percent_text": "Percentage"
+      "percent_text": "Percentage",
+      "percent_bars": "Percentage Bars"
     }
   },
   "product": {
@@ -47,29 +48,30 @@
       "label": "Rating text",
       "text": "Badge text"
     },
-    "benefits":{
+    "benefits": {
       "label": "Benefits List",
-      "title": "Benefit"
+      "title": "Benefit",
+      "p_benefits": "Product benefits"
     },
-    "url":{
+    "url": {
       "label": "Product Url"
     },
-    "video":{
+    "video": {
       "label": "Product Video"
     },
-    "video_txt":{
+    "video_txt": {
       "label": "Video Text"
     },
-    "warranty":{
+    "warranty": {
       "label": "Warranty Text",
       "icon": "Warranty Icon"
     }
   },
-  "commonMob":{
-    "header":{
+  "commonMob": {
+    "header": {
       "label": "Mobile Content"
     },
-    "benefits":{
+    "benefits": {
       "label": "Benefits List"
     }
   },
@@ -78,25 +80,56 @@
       "label": "Reviews"
     }
   },
+  "responsive": {
+    "desktop": {
+      "slides": "Slides on desktop"
+    },
+    "tablet": {
+      "slides": "Slides on tablet"
+    },
+    "mobile": {
+      "slides": "Slides on mobile"
+    }
+  },
   "common": {
-    "blog":{
+    "testimonial": {
+      "text": "Testimonial text"
+    },
+    "tab": {
+      "name": "Tab Name"
+    },
+    "skin": {
+      "concerns": "Skin Concerns"
+    },
+    "font": {
+      "size": "Font Size"
+    },
+    "checkbox": {
+      "from": "From",
+      "verified": "Verified Customer",
+      "loop": "Enable loop",
+      "autoplay": "Enable autoplay"
+    },
+    "blog": {
       "label": "Blog"
     },
-    "title":{
-      "label": "Title"
+    "title": {
+      "label": "Title",
+      "color": "Title color",
+      "strong": "Title strong color"
     },
-    "serum":{
+    "serum": {
       "label": "Serum For",
       "type": "Serum Type"
     },
-    "sale":{
+    "sale": {
       "label": "Sale Name",
       "discount": "Discount"
     },
-    "background":{
+    "background": {
       "label": "Background"
     },
-    "Section":{
+    "Section": {
       "label": "Section Heading"
     },
     "timer": {
@@ -124,6 +157,7 @@
     },
     "heading": {
       "label": "Heading",
+      "info": "Info Heading",
       "mobile": {
         "label": "Heading for mobile"
       }
@@ -138,7 +172,8 @@
       }
     },
     "recommended": {
-      "label": "Recommended"
+      "label": "Recommended",
+      "icon": "Recommended Icon"
     },
     "menu": {
       "label": "Menu"
@@ -151,7 +186,9 @@
         "label": "Client card"
       },
       "doctor": {
-        "label": "Doctor card"
+        "label": "Doctor card",
+        "name": "Doctor's Name",
+        "board": "Board"
       },
       "brand": {
         "label": "Brand card"
@@ -179,14 +216,23 @@
       "image": {
         "label": "Product image"
       },
+      "images": {
+        "label": "Product Images"
+      },
       "title": {
         "label": "Product title"
       },
       "url": {
         "label": "Product url"
       },
-      "type":{
+      "type": {
         "label": "Product Type"
+      },
+      "instalments": {
+        "label": "Instalments"
+      },
+      "payment": {
+        "icon": "Payment Icon"
       }
     },
     "object": {
@@ -238,7 +284,8 @@
       "label": "Reserve"
     },
     "text": {
-      "label": "Text"
+      "label": "Text",
+      "content": "Text content"
     },
     "html": {
       "label": "Html"
@@ -260,6 +307,14 @@
     },
     "video": {
       "label": "Video",
+      "hosted": "Hosted video",
+      "info": "Use the following settings if you want to use hosted video",
+      "type": "Video type",
+      "choose": "Choose video",
+      "youtube": {
+        "settings": "Youtube settings",
+        "link": "Add youtube link"
+      },
       "url": {
         "label": "Video url"
       },
@@ -269,8 +324,9 @@
     },
     "wistia": {
       "label": "Wistia video",
+      "wistia": "Wista",
       "id": {
-        "label": "Video id"
+        "label": "Wistia id"
       }
     },
     "button": {
@@ -299,6 +355,7 @@
     },
     "client": {
       "label": "Client",
+      "details": "Client Details",
       "country": {
         "label": "Country"
       }
@@ -322,7 +379,8 @@
       "label": "Pre order"
     },
     "rating": {
-      "label": "Rating"
+      "label": "Rating",
+      "stars": "Stars"
     },
     "code": {
       "label": "Code"
@@ -336,15 +394,16 @@
         "label": "Subscribe plan"
       }
     },
-    "desc":{
-      "label": "Description"
+    "desc": {
+      "label": "Description",
+      "info": "Info Description"
     }
   },
   "sections": {
-    "padding":{
-      "section_padding_heading":"Padding",
-      "padding_top":"Padding top",
-      "padding_bottom":"Padding bottom"
+    "padding": {
+      "section_padding_heading": "Padding",
+      "padding_top": "Padding top",
+      "padding_bottom": "Padding bottom"
     },
     "header": {
       "name": "Header",
@@ -424,9 +483,6 @@
       },
       "blocks": {
       }
-    },
-    "collection":{
-      "label": "Collection Name"
     },
     "collection": {
       "name": "Collection",
@@ -571,6 +627,7 @@
     },
     "slider": {
       "name": "Slider",
+      "space_between": "Space between slides",
       "settings": {
       },
       "blocks": {
@@ -651,6 +708,9 @@
     },
     "trusted": {
       "name": "Trusted",
+      "header": "Trust line settings",
+      "icon": "Trust icon",
+      "text": "Trust text",
       "settings": {
       },
       "blocks": {
@@ -963,30 +1023,45 @@
       "blocks": {
       }
     },
-    "box-slider":{
-      "name":"Box Slider",
+    "box-slider": {
+      "name": "Box Slider",
       "button": "Box Text"
     },
     "f-collection": {
       "name": "Featured Collection"
     },
-    "banner_tabs":{
+    "banner_tabs": {
       "name": "Banner Tab Slider"
     },
-    "posts":{
+    "posts": {
       "name": "Community Posts"
     },
-    "f_product2":{
+    "f_product2": {
       "name": "Featured Product 2"
     },
-    "f_product":{
+    "f_product": {
       "name": "Featured Product"
     },
-    "img_txt":{
+    "img_txt": {
       "name": "Image & Text"
     },
-    "how_to_use":{
+    "how_to_use": {
       "name": "How to Use"
+    },
+    "product_grid": {
+      "label": "Products Grid"
+    },
+    "progress_blocks": {
+      "label": "Progress Blocks"
+    },
+    "result_slider": {
+      "label": "Results Slider"
+    },
+    "text_video": {
+      "label": "Text with video"
+    },
+    "testimonials": {
+      "label": "Testimonials"
     }
   }
 }
