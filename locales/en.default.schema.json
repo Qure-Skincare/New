@@ -109,7 +109,7 @@
       "loop": "Enable loop",
       "autoplay": "Enable autoplay"
     },
-    "dropdown":{
+    "dropdown": {
       "design": "Dropdown design"
     },
     "blog": {
@@ -1173,10 +1173,10 @@
     "testimonials": {
       "label": "Testimonials"
     },
-    "serum_ingredients":{
+    "serum_ingredients": {
       "label": "Serum Ingredients"
     },
-    "ingredients-dropdown":{
+    "ingredients-dropdown": {
       "label": "Ingredients dropdown"
     }
   }
