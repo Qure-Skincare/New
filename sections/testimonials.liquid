@@ -102,7 +102,7 @@ assign slides_space = st.space_between_slides
                                 </div>
                             {% endif %}
                             <div class="trusted_tag_sm">
-                                <img src="https://qureskincaredns.com/new/assets/trusted_play_esm.svg" alt="">{{ badge_txt }}
+                                <img src="{{ 'trusted_play_esm.svg' | asset_url }}" alt="">{{ badge_txt }}
                             </div>
                         </div>
                     </div>
@@ -202,14 +202,14 @@ assign slides_space = st.space_between_slides
         {
             "type":"text",
             "id":"custom_class",
-            "label":"Custom class",
+            "label":"t:common.classname.custom",
             "default":"trusted_bl trustedVerified"
         }
     ],
     "blocks":[
         {
             "type":"testimonial",
-            "name":"Testimonial",
+            "name":"t:sections.testimonials.label",
             "settings": [
                 {
                     "type":"image_picker",
