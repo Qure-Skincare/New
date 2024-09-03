@@ -38,6 +38,7 @@
     }
   },
   "product": {
+    "label": "Product",
     "name": {
       "label": "Product Name"
     },
@@ -109,6 +110,9 @@
       "verified": "Verified Customer",
       "loop": "Enable loop",
       "autoplay": "Enable autoplay"
+    },
+    "dropdown":{
+      "design": "Dropdown design"
     },
     "blog": {
       "label": "Blog"
@@ -205,6 +209,8 @@
     },
     "image": {
       "label": "Image",
+      "with": "With image",
+      "without": "Without image",
       "hide": {
         "mobile": {
           "label": "Hide on mobile"
@@ -255,6 +261,8 @@
     },
     "column": {
       "label": "Column",
+      "left": "Left column",
+      "right": "Right column",
       "image": {
         "label": "Image column"
       },
@@ -303,7 +311,8 @@
       "label": "Percent"
     },
     "classname": {
-      "label": "CSS classname"
+      "label": "CSS classname",
+      "custom": "Custom class"
     },
     "video": {
       "label": "Video",
@@ -1062,6 +1071,9 @@
     },
     "testimonials": {
       "label": "Testimonials"
+    },
+    "serum_ingredients":{
+      "label": "Serum Ingredients"
     }
   }
 }
