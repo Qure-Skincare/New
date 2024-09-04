@@ -20,10 +20,10 @@
                     <img src="{{ block.settings.pd_img | img_url: '86x' }}" alt="{{ block.settings.pd_img.alt }}">
                     <div class="u_item_wrapper {{ block.settings.background }}">
                         <div class="u_item_header">
-                            {% if section.settings.serum_type != blank %}
+                            {% if block.settings.serum_type != blank %}
                             <h3>{{ block.settings.serum_type }}</h3>
                             {% endif %}
-                            {% if section.settings.name != blank %}
+                            {% if block.settings.name != blank %}
                             <p>{{ block.settings.name }}</p>
                             {% endif %}
                         </div>
@@ -103,13 +103,11 @@
                 </div>
             </div>
             {% when 'or' %}
-            {% if section.settings.or_txt != blank %}
             <div class="unique_grid_col">
                 <div class="u_text_only">
                     <p class="text-center">{{ block.settings.or_txt }}</p>
                 </div>
             </div>
-            {% endif %}
             {% endcase %}
             {% endfor %}
         </div>
