@@ -1105,10 +1105,10 @@
     "slidecart": {
       "name": "Slidecart",
       "settings": {
-        "enable_free_shipping" :{
+        "enable_free_shipping": {
           "label": "Enable Free Shipping Treshold"
         },
-        "enable_product_gift" : {
+        "enable_product_gift": {
           "label": "Enable Product Gift"
         },
         "product_gift": {
