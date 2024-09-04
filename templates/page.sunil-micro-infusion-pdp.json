@@ -178,6 +178,11 @@
         "text_label_real_result_3": "Plastic Surgeon"
       }
     },
+    "second": {
+      "type": "temp-sunil-micro-infusion-pdp",
+      "settings": {
+      }
+    },
     "serum_ingredients_FTbJif": {
       "type": "serum-Ingredients",
       "blocks": {
@@ -244,11 +249,6 @@
         "bottom_txt": "Can't decide?",
         "desk_img": "shopify:\/\/shop_images\/cant_d_desk.webp",
         "mob_img": "shopify:\/\/shop_images\/cant_d_mob.webp"
-      }
-    },
-    "second": {
-      "type": "temp-sunil-micro-infusion-pdp",
-      "settings": {
       }
     },
     "liquid_JJikgW": {
@@ -540,8 +540,8 @@
   },
   "order": [
     "main",
-    "serum_ingredients_FTbJif",
     "second",
+    "serum_ingredients_FTbJif",
     "liquid_JJikgW",
     "faq_4hnCjw",
     "reviews_LMxgH7",
