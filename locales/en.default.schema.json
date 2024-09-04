@@ -1105,6 +1105,30 @@
     "slidecart": {
       "name": "Slidecart",
       "settings": {
+        "enable_free_shipping" :{
+          "label": "Enable Free Shipping Treshold"
+        },
+        "enable_product_gift" : {
+          "label": "Enable Product Gift"
+        },
+        "product_gift": {
+          "label": "Product free"
+        },
+        "enable_show_gift_price": {
+          "label": "Show Gift Price"
+        },
+        "copy_get_free_shipping": {
+          "label": "Copy Free Shipping",
+          "info": "If you want put the price left to gift add '&price-left&' to the copy"
+        },
+        "copy_get_product_free": {
+          "label": "Copy Product Gift ",
+          "info": "If you want put the price left to gift add '&price-left&' for product gift price add '&product-price&' to the copy"
+        },
+        "copy_congrats": {
+          "label": "Copy Congrats Gift",
+          "info": "If you want put the name of a product gift add '&product-title&' to the copy"
+        }
       },
       "blocks": {
         "gift": {

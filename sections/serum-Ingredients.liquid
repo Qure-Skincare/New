@@ -16,7 +16,14 @@
                     <img src="{{ block.settings.pd_img | img_url: '86x' }}" alt="{{ block.settings.pd_img.alt }}">
                     <div class="u_item_wrapper {{ block.settings.background }}">
                         <div class="u_item_header">
+<<<<<<< HEAD
                             <h3>{{ block.settings.serum_type }}</h3>
+=======
+                            {% if block.settings.serum_type != blank %}
+                            <h3>{{ block.settings.serum_type }}</h3>
+                            {% endif %}
+                            {% if block.settings.name != blank %}
+>>>>>>> staging
                             <p>{{ block.settings.name }}</p>
                         </div>
                     </div>
