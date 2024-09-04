@@ -82,6 +82,7 @@
       "blocks": {
         "product_cRJKBk": {
           "type": "product",
+          "disabled": true,
           "settings": {
             "product": "exclusive-labor-day-bundle",
             "announcement_id": "",
@@ -234,6 +235,7 @@
         "icon_bQCB9E"
       ],
       "settings": {
+        "background": "bg-grey"
       }
     },
     "results_NKDiDj": {
@@ -846,6 +848,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/beauty_ledmask.webp",
             "heading": "Qure",
+            "mob_text": "",
             "text": "",
             "price": "",
             "style": "correctCircle",
@@ -857,6 +860,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/beauty_derma.webp",
             "heading": "Derm\/Clinic\\nTreatments",
+            "mob_text": "",
             "text": "",
             "price": "",
             "style": "incorrectCircle",
