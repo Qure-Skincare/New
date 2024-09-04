@@ -95,7 +95,8 @@
       "text": "Testimonial text"
     },
     "tab": {
-      "name": "Tab Name"
+      "name": "Tab Name",
+      "tab": "Tab"
     },
     "skin": {
       "concerns": "Skin Concerns"
@@ -123,7 +124,8 @@
     },
     "serum": {
       "label": "Serum For",
-      "type": "Serum Type"
+      "type": "Serum Type",
+      "or": "Or"
     },
     "sale": {
       "label": "Sale Name",
@@ -715,6 +717,7 @@
       "blocks": {
         "slide": {
           "name": "Slide",
+          "two_slide": "2 Slides only",
           "settings": {
             "popup_content": {
               "label": "Popup content"
@@ -1123,7 +1126,8 @@
     },
     "box-slider": {
       "name": "Box Slider",
-      "button": "Box Text"
+      "button": "Box Text",
+      "box": "Box"
     },
     "f-collection": {
       "name": "Featured Collection"
@@ -1166,6 +1170,12 @@
     },
     "ingredients-dropdown":{
       "label": "Ingredients dropdown"
+    },
+    "main":{
+      "label": "Main"
+    },
+    "guide_content":{
+      "label": "Guide Content"
     }
   }
 }

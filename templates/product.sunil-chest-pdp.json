@@ -1,12 +1,3 @@
-/*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
 {
   "sections": {
     "main": {
@@ -77,6 +68,427 @@
         "text_label_real_result_1": "Product",
         "text_label_real_result_2": "Real Results",
         "text_label_real_result_3": "Dermatologist"
+      }
+    },
+    "featuredin_extended_ibQVj8": {
+      "type": "featuredin_extended",
+      "blocks": {
+        "image_4BcEQC": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/vogue-black_5851d9e9-b2a6-47f1-a606-0f0243a9319f.svg"
+          }
+        },
+        "text_49pB7c": {
+          "type": "text",
+          "settings": {
+            "text": "<p>\"Changes you’ll see are positive ones, like plumper and more taut skin and an improved skin tone.<\/p>"
+          }
+        },
+        "image_MHDmTx": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/elle-black_af7c0fb6-1535-4d44-b64c-b96b7d90bf08.svg"
+          }
+        },
+        "text_tGWG9p": {
+          "type": "text",
+          "settings": {
+            "text": "<p>\"Changes you’ll see are positive ones, like plumper and more taut skin and an improved skin tone.<\/p>"
+          }
+        },
+        "image_zYixkn": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/cosmopolitan-black.svg"
+          }
+        },
+        "text_GQ3CEw": {
+          "type": "text",
+          "settings": {
+            "text": "<p>\"Changes you’ll see are positive ones, like plumper and more taut skin and an improved skin tone.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "image_4BcEQC",
+        "text_49pB7c",
+        "image_MHDmTx",
+        "text_tGWG9p",
+        "image_zYixkn",
+        "text_GQ3CEw"
+      ],
+      "settings": {
+        "heading": "FEATURED IN"
+      }
+    },
+    "image_text_DddWnn": {
+      "type": "image-text",
+      "settings": {
+        "background": "bg_clr_transparent",
+        "image": "shopify:\/\/shop_images\/chest_skincare_girl1.webp",
+        "heading": "Skincare shouldn’t stop at the face.",
+        "text": "<p>Our <strong>safe, non-invasive skin rejuvenation<\/strong> LED treatment targets a part of the skincare routine many people overlook – the neck and décolletage.<\/p><p>This delicate area is actually where the <strong>first signs of aging show – thin skin, wrinkles, sun spots,<\/strong> age spots and more.<\/p><p>Now, you can conveniently boost firmness, even skin tone and texture, plump fine lines for youthful-looking neck and décolletage skin with our clinically-proven portable, at-home LED light therapy treatment.<\/p><p>No trips to the clinic, and no pain, side effects, or down time. (Your low neckline wardrobe will thank you for it!). <\/p>"
+      }
+    },
+    "reasons_myniQ7": {
+      "type": "reasons",
+      "blocks": {
+        "icon_8kjarc": {
+          "type": "icon",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/chest_reason1.svg",
+            "text": "<p>Reduces fine lines & wrinkles<\/p>"
+          }
+        },
+        "icon_LdMAJi": {
+          "type": "icon",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/chest_reason2.svg",
+            "text": "<p>Fades the appearance of pigmentation and dark spots<\/p>"
+          }
+        },
+        "icon_CEAWWn": {
+          "type": "icon",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/chest_reason4.svg",
+            "text": "<p>Rejuvenates sun damaged skin and boosts firmness<\/p>"
+          }
+        },
+        "icon_e7n4C9": {
+          "type": "icon",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/chest_reason5.svg",
+            "text": "<p>Promotes healthier, younger-looking skin<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "icon_8kjarc",
+        "icon_LdMAJi",
+        "icon_CEAWWn",
+        "icon_e7n4C9"
+      ],
+      "settings": {
+        "classname": "bg-transparent pb-0 pt-0",
+        "heading": "",
+        "text": ""
+      }
+    },
+    "before_after_short_slider_P6ddcC": {
+      "type": "before-after-short-slider",
+      "blocks": {
+        "slide_Hn9HzM": {
+          "type": "slide",
+          "settings": {
+            "heading": "Fine Lines and Wrinkles",
+            "text": "<ul><li>Uses skin-rejuvenating technology to <strong>reduce the appearance of wrinkles.<\/strong><\/li><li>Stimulates collagen for <strong>plumper, younger-looking<\/strong> skin.<\/li><li>Promotes elastin production for tighter,<strong>firmer complexion<\/strong><\/li><\/ul>",
+            "image": "shopify:\/\/shop_images\/results2_neck_ashley.webp",
+            "image_country": "shopify:\/\/shop_images\/usa_89e25711-f730-4521-8931-83b3307204af.png",
+            "client": "Ashley"
+          }
+        },
+        "slide_bjpFqj": {
+          "type": "slide",
+          "settings": {
+            "heading": "Dark Spots & Sun Damage",
+            "text": "<ul><li>Uses soothing anti-inflammatory benefits to <strong>reduce redness.<\/strong><\/li><li>Fades pigmentation & <strong>dark spots<\/strong> for more <strong>even skin tone.<\/strong><\/li><li>Helps heal sun damaged & hyper-pigmented skin for a <strong>radiant glow.<\/strong><\/li><\/ul>",
+            "image": "shopify:\/\/shop_images\/results2_neck_mary.webp",
+            "image_country": "shopify:\/\/shop_images\/australia_f.webp",
+            "client": "Mary R.M."
+          }
+        }
+      },
+      "block_order": [
+        "slide_Hn9HzM",
+        "slide_bjpFqj"
+      ],
+      "settings": {
+        "heading": "Achieve your skincare goals",
+        "text": "",
+        "slide_count": true,
+        "text_verified_customer": "Verified customer"
+      }
+    },
+    "icons_list_MaLwqY": {
+      "type": "icons-list",
+      "blocks": {
+        "icon_PWpgwa": {
+          "type": "icon",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/free-shipping-ftr.svg",
+            "text": "<p>Free Shipping<\/p><p>Orders Over $100<\/p>"
+          }
+        },
+        "icon_P8hUBd": {
+          "type": "icon",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/buy-now-ftr.svg",
+            "text": "<p>Buy Now,<\/p><p>Pay Later<\/p>"
+          }
+        },
+        "icon_4hAMfr": {
+          "type": "icon",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/derma-ftr.svg",
+            "text": "<p>Dermatologist<\/p><p>Reviewed & Approved<\/p>"
+          }
+        },
+        "icon_BzYPPx": {
+          "type": "icon",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/science-ftr.svg",
+            "text": "<p>Proven Results,<\/p><p>Backed by science<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "icon_PWpgwa",
+        "icon_P8hUBd",
+        "icon_4hAMfr",
+        "icon_BzYPPx"
+      ],
+      "settings": {
+        "background": "trasnparent"
+      }
+    },
+    "text_with_video_dBNcHP": {
+      "type": "text-with-video",
+      "blocks": {
+        "video_DTRibm": {
+          "type": "video",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/trusted_prem_shah_nd.webp",
+            "video": "https:\/\/www.youtube.com\/watch?v=I2Fe-kP-2Jg",
+            "title": "Dr Shah, MD",
+            "des": "Board certified dermatologist"
+          }
+        },
+        "text_content_rTCfXc": {
+          "type": "text_content",
+          "settings": {
+            "trust_icon": "shopify:\/\/shop_images\/verified_design.svg",
+            "trust_des": "Trusted and recommended by world leading Dermatologists",
+            "title": "<strong>\"LED light targets fibroblasts to <\/strong>increase collagen production <strong>and has anti-aging benefits especially if you are seeing<\/strong> wrinkles and lines <strong>on your neck...\"<\/strong>",
+            "title_clr": "#000000",
+            "title_strong_clr": "#797d7c"
+          }
+        }
+      },
+      "block_order": [
+        "video_DTRibm",
+        "text_content_rTCfXc"
+      ],
+      "settings": {
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "testimonials_D9DwwF": {
+      "type": "testimonials",
+      "blocks": {
+        "testimonial_NxtghP": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/trusted_prem_nd.webp",
+            "video_type": "wistia",
+            "video_link": "",
+            "youtube_link": "",
+            "wistia_id": "1s5ki0sb4c",
+            "badge_txt": "661.8K Subscribers",
+            "title": "\"Qure has all the right wavelengths for their face LED mask but they also have it fot their neck and dec. So you can maximize any treatment you are doing!”",
+            "client_details": "<strong>Dr Prem,<\/strong> Board Certified Facial Plastic Surgeon"
+          }
+        },
+        "testimonial_4XwwBh": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/trusted_zeitny_nd.webp",
+            "video_type": "wistia",
+            "video_link": "",
+            "youtube_link": "",
+            "wistia_id": "fn1wr66mzp",
+            "badge_txt": "25.4K Followers",
+            "title": "\"This device helps me fight early signs of aging like fine lines, redness and discoloration. The red light can also boost the firmness of the skin and the device is so easy to use.\"",
+            "client_details": "<strong>Dr Zeitany,<\/strong> Certified Dermatologist"
+          }
+        },
+        "testimonial_GMQeJt": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/trusted_mona_nd.webp",
+            "video_type": "wistia",
+            "video_link": "",
+            "youtube_link": "",
+            "wistia_id": "yuqb3gno7g",
+            "badge_txt": "21.4K Subscribers",
+            "title": "I personally suffer from tech neck from looking down at my phone. It also helps address other signs of aging such as wrinkles and hyperpigmentation.",
+            "client_details": "<strong>Dr Mona,<\/strong>  Internal Medicine Doctor"
+          }
+        },
+        "testimonial_6pGtfW": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/trusted_naiyri_nd.webp",
+            "video_type": "wistia",
+            "video_link": "",
+            "youtube_link": "",
+            "wistia_id": "ha3jsau5v8",
+            "badge_txt": "25.4K Followers",
+            "title": "“I love Qure Skincare LED face mask, and I’m so happy they also have the neck and decolletage version so I can extend the LED light therapy down as well.",
+            "client_details": "<strong>Dr Nayiri,<\/strong>  MD Resident Doctor"
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_NxtghP",
+        "testimonial_4XwwBh",
+        "testimonial_GMQeJt",
+        "testimonial_6pGtfW"
+      ],
+      "settings": {
+        "enable_autoplay": false,
+        "enable_loop": false,
+        "slide_on_desktop": 3,
+        "slide_on_tablet": 2,
+        "slide_on_mobile": 1,
+        "space_between_slides": 20,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": "trusted_bl trustedVerified"
+      }
+    },
+    "results_FxQnmz": {
+      "type": "results",
+      "blocks": {
+        "result_99hr6W": {
+          "type": "result",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/results_claudia.webp",
+            "heading": "Healthier-looking glow",
+            "text": "<p>“I was shocked seeing my before and after photos!! I didn’t realise how much my skin improved. I feel so much more confident wearing open tops now. My skin looks much more even, less red and all round healthier. Happy I invested into this device and would definitely recommend it to everyone :)”<br\/>                                    <\/p>",
+            "image_country": "shopify:\/\/shop_images\/canada_f.svg",
+            "text_country": "Canada",
+            "client": "Claudia",
+            "code": ""
+          }
+        },
+        "result_TK6i6r": {
+          "type": "result",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/results_sophia.webp",
+            "heading": "From sun damage to this",
+            "text": "<p>“After years damage from the strong Aussie sun I wanted to try LED therapy to help rejuvenate and repair my decollate area as I read lots of positive reviews on it. I’m so glad I did because after using it daily, I've witnessed this transformation!!! Skin is firmer, sunspots have faded and texture is so much smoother!! ”                     <\/p>",
+            "image_country": "shopify:\/\/shop_images\/australia_f_35e9b6f0-d77f-4184-afaf-224d96562185.webp",
+            "text_country": "Australia",
+            "client": "Sophia. N",
+            "code": ""
+          }
+        },
+        "result_XjBhJN": {
+          "type": "result",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/results_anton.webp",
+            "heading": "My first aging signs",
+            "text": "<p>“I’ve always taken care of my face but neglected my neck and chest skin so I’ve made it a top priority in the past year. Since using LED regularly, the pesky fine lines in the middle of my chest are so much smoother and my skin looks youthful again! I love how this qure device has LEDs placed in the centre of the chest unlike other devices.\"                                    <\/p>",
+            "image_country": "shopify:\/\/shop_images\/usa_89e25711-f730-4521-8931-83b3307204af.png",
+            "text_country": "United States",
+            "client": "Ashley",
+            "code": ""
+          }
+        },
+        "result_jzwh9c": {
+          "type": "result",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/results_marry.webp",
+            "heading": "Outstanding",
+            "text": "<p>“I’m so impressed with the results! I noticed a difference after a few weeks however when comparing photos I am so surprised at how much younger the skin on my neck and chest looks. Wrinkles have significantly reduced, sun spots are lighter and my skin looks and feels more rejuvenated. Device is easy to use, I love that I can clip the controller to my robe and multitask around the house whilst the treatment is on.\"                                    <\/p>",
+            "image_country": "shopify:\/\/shop_images\/america_f.webp",
+            "text_country": "United States",
+            "client": "Mary R.M.",
+            "code": ""
+          }
+        },
+        "result_Lxeh36": {
+          "type": "result",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/results_josie1.webp",
+            "heading": "Stubborn inflammation",
+            "text": "<p>“After struggling with acne and the stubborn pigmentation it left behind, I'm thrilled with the results I've seen after using Qure LED chest device. My skin is clearer, and the pigmentation has significantly faded. The most important, I don’t have to cover my neck and chest with foundations and concealers anymore”                      <\/p>",
+            "image_country": "shopify:\/\/shop_images\/america_f.webp",
+            "text_country": "United States",
+            "client": "Josie",
+            "code": ""
+          }
+        }
+      },
+      "block_order": [
+        "result_99hr6W",
+        "result_TK6i6r",
+        "result_XjBhJN",
+        "result_jzwh9c",
+        "result_Lxeh36"
+      ],
+      "settings": {
+        "classname": "mi_landing_result",
+        "heading": "Results you‘ll see with your own eyes",
+        "heading_reduced": "",
+        "text_verified_customer": "Verified customer",
+        "text_reviewed": "Reviewed in"
+      }
+    },
+    "two_column_box_TeaFD8": {
+      "type": "two-column-box",
+      "blocks": {
+        "image_8gXTjH": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/technology_light.webp",
+            "classname": "mw-mob-100"
+          }
+        },
+        "content_PGGbbT": {
+          "type": "content",
+          "settings": {
+            "text": "<h2>Technology light years ahead of the game<\/h2><p>This device features LED lights placed in the center of the chest where most fine lines appear. <\/p><p>Our LED uses clinical-grade technology to deliver safe, concentrated wavelengths deep into the layers of the skin where even the best creams and serums can’t reach. That’s where the magic happens.<\/p>",
+            "column_content": 0,
+            "classname": "section_header p-0 pt-0 pt-md-3"
+          }
+        },
+        "details_RYGy3z": {
+          "type": "details",
+          "settings": {
+            "heading": "Technical specifications",
+            "text": "<p><strong>TREATMENT TIME:<\/strong> 3 minutes<\/p><p><strong>CERTIFICATES:<\/strong> FDA, TGA, CE, UKCA<\/p><p><strong>OPERATION:<\/strong> Wireless, hands-free<\/p><p><strong>USE:<\/strong> Daily after cleansing<\/p><p><strong>WAVELENGTH:<\/strong> 415nm (Blue), 605nm (Amber), 630nm (Red), 660nm (Deep Red), 880nm (Infrared)<\/p><p><strong>CHARGING TIME:<\/strong> 2 hours<\/p><p><strong>LEDs:<\/strong> 160 dual core<\/p>"
+          }
+        },
+        "details_iT87XX": {
+          "type": "details",
+          "settings": {
+            "heading": "Treatment details",
+            "text": "<p><strong>USE:<\/strong> Use daily after cleansing, before topical skincare<\/p><p><strong>ANTI-AGING TREATMENT:<\/strong> 605nm (Amber), 630nm (Red), 660nm (Deep Red), 880nm (Infrared)<\/p><p><strong>ANTI-BREAKOUT TREATMENT: <\/strong>415nm (Blue), 630nm (Red)<\/p><p><strong>CUSTOMIZED TREATMENT:<\/strong> Choose treatment modes on 5 different facial areas<\/p><p><strong>SKIN TYPE:<\/strong> Most suitable for Fitzpatrick Skin Types I-IV<\/p>"
+          }
+        },
+        "content_reduced_wtXAyU": {
+          "type": "content_reduced",
+          "settings": {
+            "text": "<h2>Personalized clinical-grade LED<\/h2><h3>See transformative results in less than 12 weeks. <br\/>[image_mobile]<\/h3><p>Safe, clinically proven light wavelengths <strong>penetrate various skin layers to trigger natural cellular regeneration processes<\/strong>, treating the skin from the inside out for immediate, long-lasting results. <\/p><p>[details]<\/p>",
+            "column_content": 0,
+            "classname": "it_info p-0 pt-0 pt-md-3"
+          }
+        }
+      },
+      "block_order": [
+        "image_8gXTjH",
+        "content_PGGbbT",
+        "details_RYGy3z",
+        "details_iT87XX",
+        "content_reduced_wtXAyU"
+      ],
+      "settings": {
+        "classname": "technology_light section clinical-grade-container",
+        "column_image": 6,
+        "column_content": 6
       }
     },
     "second": {
@@ -186,6 +598,8 @@
         "button_8yxV6r": {
           "type": "button",
           "settings": {
+            "ext_btn": "",
+            "ext_url": ""
           }
         }
       },
@@ -205,6 +619,7 @@
         "button_8yxV6r"
       ],
       "settings": {
+        "background": "bg_yellow",
         "classname": "bg_yellow",
         "heading": "The answers to your questions",
         "text": "",
@@ -249,6 +664,15 @@
   },
   "order": [
     "main",
+    "featuredin_extended_ibQVj8",
+    "image_text_DddWnn",
+    "reasons_myniQ7",
+    "before_after_short_slider_P6ddcC",
+    "icons_list_MaLwqY",
+    "text_with_video_dBNcHP",
+    "testimonials_D9DwwF",
+    "results_FxQnmz",
+    "two_column_box_TeaFD8",
     "second",
     "faq_UUdrDJ",
     "heading_rr4Umg",

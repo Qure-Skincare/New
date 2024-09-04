@@ -1,5 +1,5 @@
 <!-- -- single step start -- -->
-<div class="single_step section bg-lightGrey">
+<div class="single_step section {{ section.settings.background }}">
   <div class="container">
     <div class="section_header d-block d-md-none text-center">
       {%- if section.settings.heading != blank -%}
@@ -9,9 +9,11 @@
     <div class="row gx-5 align-items-center">
       <div class="col-md-6">
         <div class="single-step_img">
+          {%- if section.settings.image != blank -%}
           <img
-            src="{% if section.settings.image == blank %} https://cdn.shopify.com/s/files/1/0441/1431/3365/files/light_therapy.webp?v=1724659763 {% endif %} {{ section.settings.image | img_url: '400px' }}"
+            src="{{ section.settings.image | img_url: '400x' }}"
             alt="{{ section.settings.image.alt }}" class="w-100">
+            {%- endif -%}
         </div>
       </div>
       <div class="col-md-6">
@@ -35,6 +37,26 @@
 {
   "name": "t:sections.img_txt.name",
   "settings": [
+    {
+      "type": "select",
+      "id": "background",
+      "label": "t:common.background.label",
+      "options": [
+        {
+          "value": "bg-yellow",
+          "label": "t:common.background.yellow"
+        },
+        {
+          "value": "bg-lightGrey",
+          "label": "t:common.background.grey"
+        },
+        {
+          "value": "bg_clr_transparent",
+          "label": "t:common.background.transparent"
+        }
+      ],
+      "default": "bg_clr_transparent"
+    },
     {
       "type": "image_picker",
       "id": "image",
