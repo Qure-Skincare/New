@@ -938,3 +938,46 @@
         </div>
     </div>
 </div>
+
+
+<script src="https://qureskincaredns.com/new/assets/custom_treatment.js"></script>
+<script src="https://fast.wistia.com/embed/medias/3ahwzg8wjz.jsonp" async></script>
+<script src="https://fast.wistia.com/assets/external/E-v1.js" async></script>
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        var swiperT = new Swiper(".mySwiperFAQ", {
+            spaceBetween: 10,
+            slidesPerView: 1,
+            watchSlidesProgress: true,
+            touchRatio: 0,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+        var swiper2 = new Swiper(".mySwiperFAQ2", {
+            spaceBetween: 20,
+            slidesPerView: 1.2,
+            touchRatio: 0,
+            thumbs: {
+                swiper: swiperT,
+            },
+            breakpoints: {
+                768: {
+                    slidesPerView: 1,
+                }
+            },
+        });
+        swiperT.on('slideChange', function () {
+            swiper2.slideTo(swiperT.activeIndex);
+        });
+
+        swiper2.on('slideChange', function () {
+            swiperT.slideTo(swiper2.activeIndex);
+        });
+    });
+</script>
