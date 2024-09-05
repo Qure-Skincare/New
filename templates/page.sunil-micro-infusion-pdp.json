@@ -1,12 +1,3 @@
-/*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
 {
   "sections": {
     "main": {
@@ -176,6 +167,137 @@
         "text_label_real_result_1": "Product",
         "text_label_real_result_2": "Real Results",
         "text_label_real_result_3": "Plastic Surgeon"
+      }
+    },
+    "featuredin_NRcwXY": {
+      "type": "featuredin",
+      "blocks": {
+        "image_PWmiyX": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/vogue.svg",
+            "mobile_hide": false
+          }
+        },
+        "image_LFPk4F": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/cosmopolitan.svg",
+            "mobile_hide": false
+          }
+        },
+        "image_UHahpb": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/elle.svg",
+            "mobile_hide": false
+          }
+        },
+        "image_eebpMh": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/glamour.svg",
+            "mobile_hide": false
+          }
+        },
+        "image_RTH4rd": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/grazia.svg",
+            "mobile_hide": false
+          }
+        }
+      },
+      "block_order": [
+        "image_PWmiyX",
+        "image_LFPk4F",
+        "image_UHahpb",
+        "image_eebpMh",
+        "image_RTH4rd"
+      ],
+      "settings": {
+        "heading": ""
+      }
+    },
+    "reasons_zpLx7x": {
+      "type": "reasons",
+      "blocks": {
+        "icon_DXrnTX": {
+          "type": "icon",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/mi_pdp-reason1.svg",
+            "text": "<p><strong>Saves time, money <\/strong>and hassle compared to in-clinic treatments<\/p>"
+          }
+        },
+        "icon_rXrKhB": {
+          "type": "icon",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/mi_pdp-reason2.svg",
+            "text": "<p><strong>Quick & easy <\/strong>5-minute DIY facial from the convenience of home<\/p>"
+          }
+        },
+        "icon_amVNLB": {
+          "type": "icon",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/mi_pdp-reason4.svg",
+            "text": "<p>Virtually <strong>painless, <\/strong>little to no downtime<\/p>"
+          }
+        },
+        "icon_HdmMrF": {
+          "type": "icon",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/mi_pdp-reason3.svg",
+            "text": "<p>Perfect for transforming dull-looking skin <strong>before events<\/strong><\/p>"
+          }
+        },
+        "icon_TCqtyH": {
+          "type": "icon",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/mi_pdp-reason6.svg",
+            "text": "<p><strong>2-in-1<\/strong>system rejuvenates skin & infuses serum deeper for <strong>faster results<\/strong><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "icon_DXrnTX",
+        "icon_rXrKhB",
+        "icon_amVNLB",
+        "icon_HdmMrF",
+        "icon_TCqtyH"
+      ],
+      "settings": {
+        "classname": "bg-transparent pb-0 pt-0",
+        "heading": "5 reasons why everyone is using Qure Micro-Infusion System",
+        "text": ""
+      }
+    },
+    "image_text_k9WAez": {
+      "type": "image-text",
+      "blocks": {
+        "wistia_DiyAwY": {
+          "type": "wistia",
+          "settings": {
+            "wistia": "a1pykz2tp0",
+            "wistia_m": "6ffu0xdg6l"
+          }
+        },
+        "text_BHGBe4": {
+          "type": "text",
+          "settings": {
+            "heading": "Qure’s Micro-Infusion goes where your skin cream can’t…",
+            "text": "<p>Its tiny, almost painless, 24K gold plated 0.5mm microneedles penetrate <strong>beyond the skin’s surface<\/strong> to gently create controlled trauma in your skin which help boost the feel of <strong>firmness, smooth texture and reduce the look of fine lines and wrinkles.<\/strong><\/p><p>The invisible micro-channels then <strong>infuse science-backed serums<\/strong> into your skin that are tailored to treat your specific skin concerns, increasing absorption and <strong>delivering powerful active ingredients EXACTLY where they’re needed!<\/strong><\/p>",
+            "btn_text": "Shop Now",
+            "btn_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "wistia_DiyAwY",
+        "text_BHGBe4"
+      ],
+      "settings": {
+        "background": "bg_clr_transparent",
+        "column": 5
       }
     },
     "serum_ingredients_FTbJif": {
@@ -374,6 +496,8 @@
         "button_WyPm98": {
           "type": "button",
           "settings": {
+            "ext_btn": "",
+            "ext_url": ""
           }
         }
       },
@@ -395,6 +519,7 @@
         "button_WyPm98"
       ],
       "settings": {
+        "background": "bg_yellow",
         "classname": "bg_yellow",
         "heading": "The answers to your questions",
         "text": "",
@@ -536,6 +661,9 @@
   },
   "order": [
     "main",
+    "featuredin_NRcwXY",
+    "reasons_zpLx7x",
+    "image_text_k9WAez",
     "serum_ingredients_FTbJif",
     "second",
     "liquid_JJikgW",

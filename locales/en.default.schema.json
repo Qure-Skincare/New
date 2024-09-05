@@ -43,7 +43,9 @@
   "progressBlock": {
     "column": {
       "percent_text": "Percentage",
-      "percent_bars": "Percentage Bars"
+      "percent_bars": "Percentage Bars",
+      "partition": "Column Partition",
+      "info": "For image or video column"
     }
   },
   "product": {
@@ -354,7 +356,8 @@
       "label": "Wistia video",
       "wistia": "Wista",
       "id": {
-        "label": "Wistia id"
+        "label": "Wistia id",
+        "mobile": "Wistia video mobile"
       }
     },
     "button": {
@@ -1176,6 +1179,9 @@
     },
     "guide_content":{
       "label": "Guide Content"
+    },
+    "skin-care": {
+      "label": "Result Rate"
     }
   }
 }

@@ -124,11 +124,30 @@
     },
     "image_text_DddWnn": {
       "type": "image-text",
+      "blocks": {
+        "image_eX3eCH": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/chest_skincare_girl1.webp"
+          }
+        },
+        "text_kaep4N": {
+          "type": "text",
+          "settings": {
+            "heading": "Skincare shouldn’t stop at the face.",
+            "text": "<p>Our <strong>safe, non-invasive skin rejuvenation<\/strong> LED treatment targets a part of the skincare routine many people overlook – the neck and décolletage.<\/p><p>This delicate area is actually where the <strong>first signs of aging show – thin skin, wrinkles, sun spots,<\/strong> age spots and more.<\/p><p>Now, you can conveniently boost firmness, even skin tone and texture, plump fine lines for youthful-looking neck and décolletage skin with our clinically-proven portable, at-home LED light therapy treatment.<\/p><p>No trips to the clinic, and no pain, side effects, or down time. (Your low neckline wardrobe will thank you for it!). <\/p>",
+            "btn_text": "",
+            "btn_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_eX3eCH",
+        "text_kaep4N"
+      ],
       "settings": {
         "background": "bg_clr_transparent",
-        "image": "shopify:\/\/shop_images\/chest_skincare_girl1.webp",
-        "heading": "Skincare shouldn’t stop at the face.",
-        "text": "<p>Our <strong>safe, non-invasive skin rejuvenation<\/strong> LED treatment targets a part of the skincare routine many people overlook – the neck and décolletage.<\/p><p>This delicate area is actually where the <strong>first signs of aging show – thin skin, wrinkles, sun spots,<\/strong> age spots and more.<\/p><p>Now, you can conveniently boost firmness, even skin tone and texture, plump fine lines for youthful-looking neck and décolletage skin with our clinically-proven portable, at-home LED light therapy treatment.<\/p><p>No trips to the clinic, and no pain, side effects, or down time. (Your low neckline wardrobe will thank you for it!). <\/p>"
+        "column": 6
       }
     },
     "reasons_myniQ7": {
