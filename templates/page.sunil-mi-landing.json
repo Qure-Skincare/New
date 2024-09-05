@@ -170,6 +170,7 @@
       "settings": {
         "heading": "50,000+ are making the change and transforming their skin at home",
         "heading_mobile": "50,000+ are making the change and transforming their skin at home",
+        "test_product_name": "",
         "product": "",
         "product_images_offset": 0,
         "product_images_limit": 6,
@@ -463,7 +464,10 @@
         "wistia_NNkDBD": {
           "type": "wistia",
           "settings": {
-            "wistia_id": "ren04vix0l"
+            "wistia_id": "ren04vix0l",
+            "dr_name": "",
+            "board": "",
+            "desc": ""
           }
         },
         "video_pxN89b": {
@@ -490,7 +494,10 @@
         "wistia_ctwd8i": {
           "type": "wistia",
           "settings": {
-            "wistia_id": "albsf16uog"
+            "wistia_id": "albsf16uog",
+            "dr_name": "",
+            "board": "",
+            "desc": ""
           }
         }
       },
@@ -504,7 +511,9 @@
       ],
       "settings": {
         "heading": "Confident skin starts here",
-        "classname": "section videosQure"
+        "classname": "section videosQure",
+        "btn": "",
+        "btn_url": ""
       }
     },
     "two_column_box_f67akQ": {
@@ -694,6 +703,16 @@
             "wistia_id": "",
             "text": "<p>\"Unlike using harsh micro needles or Derma rollers, this one is super safe...\"<\/p><h6><strong>Dr Davin Lim<\/strong> Board-Certified Dermatologist<\/h6>"
           }
+        },
+        "video_RcwXy6": {
+          "type": "video",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/alexis.png",
+            "video_url": "https:\/\/youtu.be\/ZMGm5PmWzF0?t=649",
+            "video_label": "Watch Video",
+            "wistia_id": "",
+            "text": "<p>“You can get a Clinical treatment at home safely and conveniently... It is particularly beneficial for those with melanin Rich Skin”<\/p><p><strong>Dr Alexis Stephens,<\/strong>  Board-Certified Dermatologist<\/p><p><\/p>"
+          }
         }
       },
       "block_order": [
@@ -706,7 +725,8 @@
         "video_PECKPL",
         "video_dyArxL",
         "video_BMBJXV",
-        "video_jPYhQi"
+        "video_jPYhQi",
+        "video_RcwXy6"
       ],
       "settings": {
         "classname": "trusted_bl",
@@ -973,6 +993,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/beauty_micro.webp",
             "heading": "Qure Micro-Infusion System",
+            "mob_text": "",
             "text": "",
             "price": "",
             "style": "correctCircle",
@@ -984,6 +1005,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/beauty_needle.webp",
             "heading": "Other At-Home Needling Devices",
+            "mob_text": "",
             "text": "",
             "price": "",
             "style": "incorrectCircle",
@@ -1300,6 +1322,8 @@
         "button_F67Uh4": {
           "type": "button",
           "settings": {
+            "ext_btn": "",
+            "ext_url": ""
           }
         }
       },
@@ -1323,6 +1347,7 @@
         "button_F67Uh4"
       ],
       "settings": {
+        "background": "bg_yellow",
         "classname": "",
         "heading": "The answers to your questions",
         "text": "",
