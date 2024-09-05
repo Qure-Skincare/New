@@ -1,4 +1,3 @@
-
 /*
 * ------------------------------------------------------------
 * IMPORTANT: The contents of this file are auto-generated.
@@ -8,42 +7,10 @@
 * made to this file may be overwritten.
 * ------------------------------------------------------------
 */
-
 {
   "sections": {
     "header_landing_pFmaRH": {
       "type": "header-landing-simple",
-      "blocks": {
-        "navigation_link_qLHgyD": {
-          "type": "navigation-link",
-          "settings": {
-            "link_label": "CONTENT REQUIREMENTS",
-            "link_url": "#tabsAccordion",
-            "image": "shopify:\/\/shop_images\/header_cs1.webp"
-          }
-        },
-        "navigation_link_DgYaFx": {
-          "type": "navigation-link",
-          "settings": {
-            "link_label": "PRODUCT",
-            "link_url": "#tabsAccordion",
-            "image": "shopify:\/\/shop_images\/header_cs2.webp"
-          }
-        },
-        "navigation_link_3X4mrf": {
-          "type": "navigation-link",
-          "settings": {
-            "link_label": "INSPIRING CONTENT",
-            "link_url": "#tabsAccordion",
-            "image": "shopify:\/\/shop_images\/header_cs3.webp"
-          }
-        }
-      },
-      "block_order": [
-        "navigation_link_qLHgyD",
-        "navigation_link_DgYaFx",
-        "navigation_link_3X4mrf"
-      ],
       "settings": {
       }
     },
