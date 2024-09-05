@@ -11,18 +11,6 @@
   "sections": {
     "header_landing_pFmaRH": {
       "type": "header-landing-simple",
-      "blocks": {
-        "navigation_link_hnh9kz": {
-          "type": "navigation-link",
-          "settings": {
-            "link_label": "SAVE UP TO 43% ",
-            "link_url": "https:\/\/www.qureskincare.com\/pages\/qure-microinfusion-offer"
-          }
-        }
-      },
-      "block_order": [
-        "navigation_link_hnh9kz"
-      ],
       "settings": {
       }
     },
