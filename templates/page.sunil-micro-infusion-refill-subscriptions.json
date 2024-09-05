@@ -811,6 +811,16 @@
             "wistia_id": "",
             "text": "<p>\"Unlike using harsh micro needles or Derma rollers, this one is super safe...\"<\/p><h6><strong>Dr Davin Lim<\/strong> Board-Certified Dermatologist<\/h6>"
           }
+        },
+        "video_gqnjTV": {
+          "type": "video",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/alexis.png",
+            "video_url": "https:\/\/youtu.be\/ZMGm5PmWzF0?t=649",
+            "video_label": "Watch Video",
+            "wistia_id": "",
+            "text": "<p>“ You can get a Clinical treatment at home safely and conveniently... It is particularly beneficial for those with melanin rich Skin”<\/p><p><strong>Dr Alexis Stephens<\/strong>,  Board-Certified Dermatologist<\/p>"
+          }
         }
       },
       "block_order": [
@@ -823,7 +833,8 @@
         "video_zTx4mk",
         "video_dcczF3",
         "video_fbrc7r",
-        "video_EN37N8"
+        "video_EN37N8",
+        "video_gqnjTV"
       ],
       "settings": {
         "classname": "trusted_bl",
