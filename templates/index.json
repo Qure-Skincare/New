@@ -572,6 +572,18 @@
             "title": "I have been using this mask with the anti-breakout settings, which has been fantastic to help clear up my complexion in only two weeks.",
             "client_details": "<strong>Dr Alexandra Hunter<\/strong>, NHS & Aesthetics Doctor"
           }
+        },
+        "testimonial_PKTtDU": {
+          "type": "testimonial",
+          "settings": {
+            "video_type": "video",
+            "video_link": "",
+            "youtube_link": "",
+            "wistia_id": "",
+            "badge_txt": "Subscriber\/Views\/Followers",
+            "title": "Testimonial text goes here",
+            "client_details": "<strong>Dr Mona Patel,<\/strong> Internal Medicine"
+          }
         }
       },
       "block_order": [
@@ -579,7 +591,8 @@
         "testimonial_niJCUK",
         "testimonial_d3pmRz",
         "testimonial_D3CC69",
-        "testimonial_FayfUe"
+        "testimonial_FayfUe",
+        "testimonial_PKTtDU"
       ],
       "settings": {
         "enable_autoplay": false,
