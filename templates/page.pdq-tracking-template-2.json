@@ -9,13 +9,23 @@
 */
 {
   "sections": {
-    "main": {
-      "type": "page",
+    "17115385750c73305f": {
+      "type": "apps",
+      "blocks": {
+        "pdq_checkout_fulfill_ship_tracking_page_cCxNPg": {
+          "type": "shopify:\/\/apps\/pdq-checkout-fulfill-ship\/blocks\/tracking-page\/a668eab0-b569-4206-8f4c-a0f244820a6b",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "pdq_checkout_fulfill_ship_tracking_page_cCxNPg"
+      ],
       "settings": {
       }
     },
-    "17115385750c73305f": {
-      "type": "apps",
+    "main": {
+      "type": "page",
       "settings": {
       }
     },
@@ -26,8 +36,8 @@
     }
   },
   "order": [
-    "main",
     "17115385750c73305f",
+    "main",
     "1723811635f4799cbc"
   ]
 }
