@@ -183,6 +183,11 @@
       "settings": {
       }
     },
+    "third": {
+      "type": "temp-sunil-micro-infusion-pdp-second",
+      "settings": {
+      }
+    },
     "serum_ingredients_FTbJif": {
       "type": "serum-Ingredients",
       "blocks": {
@@ -540,6 +545,7 @@
   "order": [
     "main",
     "second",
+    "third",
     "serum_ingredients_FTbJif",
     "liquid_JJikgW",
     "faq_4hnCjw",
