@@ -11,6 +11,18 @@
   "sections": {
     "header_landing_pFmaRH": {
       "type": "header-landing-simple",
+      "blocks": {
+        "announcement_4tpDkY": {
+          "type": "announcement",
+          "settings": {
+            "heading": "Get Up To 43% OFF Younger Looking, Radiant Skin!",
+            "heading_mobile": ""
+          }
+        }
+      },
+      "block_order": [
+        "announcement_4tpDkY"
+      ],
       "settings": {
       }
     },
