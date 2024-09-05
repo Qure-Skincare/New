@@ -9,6 +9,25 @@
 */
 {
   "sections": {
+    "header_landing_KghXM9": {
+      "type": "header-landing",
+      "blocks": {
+        "announcement_Jg3bwh": {
+          "type": "announcement",
+          "settings": {
+            "heading": "Get Up To 43% OFF Younger Looking, Radiant Skin!",
+            "heading_mobile": ""
+          }
+        }
+      },
+      "block_order": [
+        "announcement_Jg3bwh"
+      ],
+      "settings": {
+        "button_label": "SAVE UP TO 43%",
+        "button_url": "#productSubscription"
+      }
+    },
     "header_landing_pFmaRH": {
       "type": "header-landing-simple",
       "blocks": {
@@ -23,6 +42,7 @@
       "block_order": [
         "announcement_4tpDkY"
       ],
+      "disabled": true,
       "settings": {
       }
     },
@@ -33,6 +53,7 @@
     }
   },
   "order": [
+    "header_landing_KghXM9",
     "header_landing_pFmaRH",
     "main"
   ]
