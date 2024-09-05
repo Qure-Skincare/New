@@ -82,7 +82,6 @@
       "blocks": {
         "product_cRJKBk": {
           "type": "product",
-          "disabled": true,
           "settings": {
             "product": "exclusive-labor-day-bundle",
             "announcement_id": "",
@@ -560,7 +559,6 @@
       "blocks": {
         "product_9rPLGX": {
           "type": "product",
-          "disabled": true,
           "settings": {
             "product": "exclusive-labor-day-bundle",
             "comment_ammount": 100,
