@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "header_sales_TMQyBR": {
@@ -73,6 +82,7 @@
       "blocks": {
         "product_cRJKBk": {
           "type": "product",
+          "disabled": true,
           "settings": {
             "product": "exclusive-labor-day-bundle",
             "announcement_id": "",
@@ -225,6 +235,7 @@
         "icon_bQCB9E"
       ],
       "settings": {
+        "background": "bg-grey"
       }
     },
     "results_NKDiDj": {
@@ -549,6 +560,7 @@
       "blocks": {
         "product_9rPLGX": {
           "type": "product",
+          "disabled": true,
           "settings": {
             "product": "exclusive-labor-day-bundle",
             "comment_ammount": 100,
@@ -837,6 +849,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/beauty_ledmask.webp",
             "heading": "Qure",
+            "mob_text": "",
             "text": "",
             "price": "",
             "style": "correctCircle",
@@ -848,6 +861,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/beauty_derma.webp",
             "heading": "Derm\/Clinic\\nTreatments",
+            "mob_text": "",
             "text": "",
             "price": "",
             "style": "incorrectCircle",

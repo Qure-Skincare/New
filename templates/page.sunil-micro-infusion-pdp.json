@@ -367,11 +367,6 @@
         "mob_img": "shopify:\/\/shop_images\/cant_d_mob.webp"
       }
     },
-    "second": {
-      "type": "temp-sunil-micro-infusion-pdp",
-      "settings": {
-      }
-    },
     "liquid_JJikgW": {
       "type": "liquid",
       "settings": {
@@ -498,6 +493,8 @@
           "settings": {
             "ext_btn": "",
             "ext_url": ""
+            "ext_btn": "",
+            "ext_url": ""
           }
         }
       },
@@ -519,6 +516,7 @@
         "button_WyPm98"
       ],
       "settings": {
+        "background": "bg_yellow",
         "background": "bg_yellow",
         "classname": "bg_yellow",
         "heading": "The answers to your questions",
@@ -665,7 +663,6 @@
     "reasons_zpLx7x",
     "image_text_k9WAez",
     "serum_ingredients_FTbJif",
-    "second",
     "liquid_JJikgW",
     "faq_4hnCjw",
     "reviews_LMxgH7",
