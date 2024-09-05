@@ -23,6 +23,9 @@
       "block_order": [
         "announcement_Jg3bwh"
       ],
+      "custom_css": [
+        ".nav__item cart_btn {display:none !important;}"
+      ],
       "settings": {
         "button_label": "SAVE UP TO 43%",
         "button_url": "https:\/\/www.qureskincare.com\/pages\/qure-microinfusion-offer"
