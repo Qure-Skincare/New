@@ -24,31 +24,11 @@
         "announcement_Jg3bwh"
       ],
       "custom_css": [
-        ".nav__item.cart_btn,.mobile-menu-custome,.nav__item.header_gift_btn {display: none !important;}",
-        ".dek-menu ul {gap: 12px !important; }",
-        " .dek-menu .menu {width: 38.33% !important; }",
-        " .dek-menu .logo {width: 28.33% !important; }"
+        ".nav__item.cart_btn,.mobile-menu-custome,.nav__item.header_gift_btn {display: none !important;}"
       ],
       "settings": {
         "button_label": "SAVE UP TO 43%",
         "button_url": "https:\/\/www.qureskincare.com\/pages\/qure-microinfusion-offer"
-      }
-    },
-    "header_landing_pFmaRH": {
-      "type": "header-landing-simple",
-      "blocks": {
-        "announcement_4tpDkY": {
-          "type": "announcement",
-          "settings": {
-            "heading": "Get Up To 43% OFF Younger Looking, Radiant Skin!",
-            "heading_mobile": ""
-          }
-        }
-      },
-      "block_order": [
-        "announcement_4tpDkY"
-      ],
-      "settings": {
       }
     },
     "main": {
@@ -59,7 +39,6 @@
   },
   "order": [
     "header_landing_KghXM9",
-    "header_landing_pFmaRH",
     "main"
   ]
 }
