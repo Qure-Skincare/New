@@ -213,13 +213,37 @@
             "image": "shopify:\/\/shop_images\/sn_1.webp",
             "richtext": ""
           }
+        },
+        "image_pVyDfg": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/sn_2.webp",
+            "richtext": ""
+          }
+        },
+        "image_pCCQX4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/sn_3.webp",
+            "richtext": ""
+          }
+        },
+        "image_FVDNMG": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/sn_4.webp",
+            "richtext": ""
+          }
         }
       },
       "block_order": [
         "option_W4ATx4",
         "option_BHjjLG",
         "option_mDnBfz",
-        "image_nXpmCt"
+        "image_nXpmCt",
+        "image_pVyDfg",
+        "image_pCCQX4",
+        "image_FVDNMG"
       ],
       "settings": {
         "heading": "No hype, just evidence.",
