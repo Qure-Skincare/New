@@ -24,7 +24,7 @@
         "announcement_Jg3bwh"
       ],
       "custom_css": [
-        ".nav__item.cart_btn, .mobile-menu-custome {display: none !important;}"
+        ".nav__item.cart_btn,.mobile-menu-custome,.nav__item.header_gift_btn {display: none !important;}"
       ],
       "settings": {
         "button_label": "SAVE UP TO 43%",
