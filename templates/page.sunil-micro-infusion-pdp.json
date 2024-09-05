@@ -211,28 +211,28 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/sn_1.webp",
-            "richtext": ""
+            "text": "<p>Proven to visually improve <strong>Fine Lines & Wrinkles<\/strong><\/p>"
           }
         },
         "image_pVyDfg": {
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/sn_2.webp",
-            "richtext": ""
+            "text": ""
           }
         },
         "image_pCCQX4": {
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/sn_3.webp",
-            "richtext": ""
+            "text": ""
           }
         },
         "image_FVDNMG": {
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/sn_4.webp",
-            "richtext": ""
+            "text": ""
           }
         }
       },
