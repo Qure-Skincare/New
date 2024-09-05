@@ -10,7 +10,7 @@
                         </h2>
                     {% endif %}
 
-                    {{ section.settings.heading }}
+                    {{ section.settings.text }}
 
                     <div class="d-none d-md-block">
                         {%- for block in section.blocks -%}
@@ -154,7 +154,7 @@
 		    },
             {
                 "type": "image",
-                "name": "t:common.image.name",
+                "name": "t:common.image.label",
                 "settings": [
                     {
                         "type": "image_picker",
