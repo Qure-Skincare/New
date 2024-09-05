@@ -752,6 +752,9 @@
       "name": "Slider",
       "space_between": "Space between slides",
       "settings": {
+        "desktop": "Slides on desktop",
+        "tablet": "Slides on tablet",
+        "mobile": "Slides on mobile"
       },
       "blocks": {
       }
@@ -1222,9 +1225,6 @@
     },
     "guide_content":{
       "label": "Guide Content"
-    },
-    "skin-care": {
-      "label": "Result Rate"
     }
   }
 }
