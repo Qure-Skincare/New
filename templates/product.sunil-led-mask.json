@@ -335,6 +335,16 @@
             "wistia_id": "",
             "text": "<p>\"I have been using this mask with the anti-breakout settings, which has been fantastic to help clear up my complexion in only two weeks.\"<\/p><h6><strong>Dr Hunter, <\/strong>NHS & Aesthetics Doctor<\/h6>"
           }
+        },
+        "video_JwEJy3": {
+          "type": "video",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/alexis.png",
+            "video_url": "https:\/\/youtu.be\/ZMGm5PmWzF0?t=649",
+            "video_label": "Watch Video",
+            "wistia_id": "",
+            "text": "<p>“ You can get a Clinical treatment at home safely and conveniently... It is particularly beneficial for those with melanin rich Skin”<\/p><p><strong>Dr Alexis Stephens<\/strong>,  Board-Certified Dermatologist<\/p>"
+          }
         }
       },
       "block_order": [
@@ -347,7 +357,8 @@
         "video_rVzjQy",
         "video_9pKekb",
         "video_kkYG7b",
-        "video_63bzGN"
+        "video_63bzGN",
+        "video_JwEJy3"
       ],
       "settings": {
         "classname": "trusted_bl",
