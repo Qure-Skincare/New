@@ -344,7 +344,7 @@
             "wistia_id": "",
             "badge_txt": "",
             "title": "I like this one because it allows you to customize your treatment... This is a great skin care investment",
-            "client_details": "<strong>Dr Natasha Henry,<\/strong>Medical Doctor"
+            "client_details": "<strong>Dr Natasha Henry, <\/strong>Medical Doctor"
           }
         },
         "testimonial_PKTtDU": {
@@ -389,13 +389,14 @@
         "testimonial_GfkxXA": {
           "type": "testimonial",
           "settings": {
-            "video_type": "video",
+            "image": "shopify:\/\/shop_images\/alexis.png",
+            "video_type": "youtube",
             "video_link": "",
-            "youtube_link": "",
+            "youtube_link": "https:\/\/youtu.be\/ZMGm5PmWzF0?t=649",
             "wistia_id": "",
             "badge_txt": "Subscriber\/Views\/Followers",
-            "title": "Testimonial text goes here",
-            "client_details": "<strong>Dr Mona Patel,<\/strong> Internal Medicine"
+            "title": "You can get a Clinical treatment at home safely and conveniently... It is particularly beneficial for those with melanin rich Skin",
+            "client_details": "<strong>Dr Alexis Stephens<\/strong>,  Board-Certified Dermatologist"
           }
         }
       },
