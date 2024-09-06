@@ -298,38 +298,38 @@
         "testimonial_EitjK9": {
           "type": "testimonial",
           "settings": {
-            "image": "shopify:\/\/shop_images\/trusted_shah_prem.webp",
+            "image": "shopify:\/\/shop_images\/trusted_prem.webp",
             "video_type": "youtube",
             "video_link": "",
-            "youtube_link": "https:\/\/www.youtube.com\/watch?v=JPWycy8cwN8",
+            "youtube_link": "https:\/\/www.youtube.com\/watch?v=_w8yWCPeijg",
             "wistia_id": "",
-            "badge_txt": "3.03M Subscribers",
-            "title": "There have been studies to show that this will definitely work to help your products penetrate better...",
-            "client_details": "<strong>Dr Shah & Dr Maxfield,<\/strong>   Certified Dermatologists"
+            "badge_txt": "",
+            "title": "Qure has a fully customized mask which has 5 clinical-grade wavelength for anti-ageing, hyperpigmentation and acne and app makes it very easy to customize and control...",
+            "client_details": "<strong>Dr Prem,<\/strong>   Board Certified Dermatologist"
           }
         },
         "testimonial_niJCUK": {
           "type": "testimonial",
           "settings": {
-            "image": "shopify:\/\/shop_images\/trusted_brown.webp",
-            "video_type": "video",
-            "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/d5d0c051b43e4117be7b6308e06e8f66.mp4",
+            "image": "shopify:\/\/shop_images\/trusted_maren.webp",
+            "video_type": "youtube",
+            "video_link": "https:\/\/www.youtube.com\/watch?v=DvA8FkhJqso",
             "youtube_link": "",
             "wistia_id": "",
-            "badge_txt": "155K Followers",
-            "title": "I’ve liked using this in between my in-office treatments. It’s convenient and you get all the benefits of micro-needling treatment from the comfort of your home...",
-            "client_details": "<strong>Dr Brown,<\/strong>  Medical Doctor"
+            "badge_txt": "",
+            "title": "There are actually many of these on the market but I love this one for several reasons. It's well made, it has a comfortable adjustable headband, it comes with an app..",
+            "client_details": "<strong>Dr. Maren Locke,<\/strong>  Board Certified Dermatologist"
           }
         },
         "testimonial_d3pmRz": {
           "type": "testimonial",
           "settings": {
-            "image": "shopify:\/\/shop_images\/trusted_greeney1.webp",
+            "image": "shopify:\/\/shop_images\/trusted_greeney_8f7d6159-5134-4725-bbad-183898950e84.webp",
             "video_type": "youtube",
             "video_link": "",
             "youtube_link": "https:\/\/www.youtube.com\/watch?v=1iXBgh7WPOY",
-            "wistia_id": "wistia_async_yuqb3gno7g",
-            "badge_txt": "9.77K Subscribers",
+            "wistia_id": "",
+            "badge_txt": "",
             "title": "Qure's anti-ageing treatment gets down deep into your skin to stimulate collagen & makes a big difference in skin texture, decreasing fine lines & wrinkles",
             "client_details": "<strong>Dr Greeney<\/strong>, Certified Dermatologist"
           }
@@ -337,40 +337,40 @@
         "testimonial_D3CC69": {
           "type": "testimonial",
           "settings": {
-            "image": "shopify:\/\/shop_images\/trusted_mona_57744543-79ed-4f6e-ba40-e204be0af0f7.webp",
-            "video_type": "video",
-            "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/71857fdec6b0497294117ed84cab480e.mp4",
+            "image": "shopify:\/\/shop_images\/trusted_maxfield.webp",
+            "video_type": "youtube",
+            "video_link": "https:\/\/www.youtube.com\/watch?v=AeksxRPZyrA",
             "youtube_link": "",
             "wistia_id": "",
-            "badge_txt": "2.3M Views",
-            "title": "You'll see a kind of dewy glowy look after you use it but within a couple of days your skin really looks quite amazing.",
-            "client_details": "<strong>Dr Mona Patel,<\/strong> Internal Medicine"
+            "badge_txt": "",
+            "title": "This is one of my faves from @qureskincare. It’s a high quality mask and personalizable",
+            "client_details": "<strong>Dr Maxfield,<\/strong> Board Certified Dermatologist"
           }
         },
         "testimonial_FayfUe": {
           "type": "testimonial",
           "settings": {
-            "image": "shopify:\/\/shop_images\/trusted_alex1.webp",
-            "video_type": "wistia",
-            "video_link": "",
+            "image": "shopify:\/\/shop_images\/trusted_natasha.webp",
+            "video_type": "video",
+            "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/ebb5f0ed35b844f7b9f2486db670748b.mp4",
             "youtube_link": "",
-            "wistia_id": "wistia_async_yuqb3gno7g",
-            "badge_txt": "1,154 Followers",
-            "title": "I have been using this mask with the anti-breakout settings, which has been fantastic to help clear up my complexion in only two weeks.",
-            "client_details": "<strong>Dr Alexandra Hunter<\/strong>, NHS & Aesthetics Doctor"
+            "wistia_id": "",
+            "badge_txt": "",
+            "title": "I like this one because it allows you to customize your treatment... This is a great skin care investment",
+            "client_details": "<strong>Dr Natasha Henry,<\/strong>Medical Doctor"
           }
         },
         "testimonial_PKTtDU": {
           "type": "testimonial",
           "settings": {
-            "image": "shopify:\/\/shop_images\/alexis.png",
-            "video_type": "video",
+            "image": "shopify:\/\/shop_images\/trusted_sarah.webp",
+            "video_type": "wistia",
             "video_link": "",
-            "youtube_link": "https:\/\/youtu.be\/ZMGm5PmWzF0?t=649",
-            "wistia_id": "",
-            "badge_txt": "53k Followers",
-            "title": "You can get a Clinical treatment at home safely and conveniently... It is particularly beneficial for those with melanin rich Skin",
-            "client_details": "<strong>Dr Alexis Stephens,<\/strong>  Board-Certified Dermatologist"
+            "youtube_link": "",
+            "wistia_id": "yhzax4egvh",
+            "badge_txt": "",
+            "title": "Qure’s LED mask combines red lights and blue lights, meaning it can benefit EVERYONE",
+            "client_details": "<strong>Dr Sarah Too,<\/strong>  Medical Doctor"
           }
         }
       },
