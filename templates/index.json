@@ -202,7 +202,8 @@
         "text_Mnmb4P"
       ],
       "settings": {
-        "heading": "FEATURED IN"
+        "heading": "FEATURED IN",
+        "slider_type": "five_slides"
       }
     },
     "results_slider_w6BARa": {
@@ -302,7 +303,7 @@
         "slide_hFbVVd"
       ],
       "settings": {
-        "heading": "See the results yourself",
+        "heading": "Customers love us",
         "rating_text": ""
       }
     },
@@ -691,107 +692,6 @@
         "heading_reduced": "",
         "text": "",
         "text_reduced": ""
-      }
-    },
-    "results_slider_w6BARa": {
-      "type": "results-slider",
-      "blocks": {
-        "slide_ApYVrJ": {
-          "type": "Slide",
-          "settings": {
-            "heading": "IT REALLY WORKS!!",
-            "product": "Q-Rejuvalight Pro LED Mask",
-            "stars_img": "shopify:\/\/shop_images\/results_star-full.svg",
-            "text": "<p>I was very skeptical when my husband bought this mask for me. But after 6mo the results are amazing!! I’ve tried numerous serums for my sun spots but nothing worked until I used this mask. Definitely worth the money.<\/p>",
-            "image": "shopify:\/\/shop_images\/results_teresa.webp",
-            "image_country": "shopify:\/\/shop_images\/america_f_92cbd39d-f0e3-42b9-a692-c714420fbe53.webp",
-            "client": "Teresa S.",
-            "concerns": "",
-            "verified": true
-          }
-        },
-        "slide_8DpTJn": {
-          "type": "Slide",
-          "settings": {
-            "heading": "My skin returned to life!",
-            "product": "Micro-Infusion System",
-            "stars_img": "shopify:\/\/shop_images\/results_star-full.svg",
-            "text": "<p>“I just turned 57 years. My skin was extremely dry and while using this product my skin RETURNED to LIFE! I am so impressed with it! My Coworkers ask me what I use in my skin.. and I tell them. Product easy to use and the needles are better that using a pen for microneedling. This is an amazing product that you will not regret in purchasing it. I really see the change in my skin. Outstanding job QURE!”<\/p>",
-            "image": "shopify:\/\/shop_images\/ellie_412942fe-4036-4c4e-a52b-10020082a2c1.png",
-            "image_country": "shopify:\/\/shop_images\/america_f_92cbd39d-f0e3-42b9-a692-c714420fbe53.webp",
-            "client": "Ellie V.",
-            "concerns": "",
-            "verified": true
-          }
-        },
-        "slide_wwBJ3B": {
-          "type": "Slide",
-          "settings": {
-            "heading": "Can’t go a day without it",
-            "product": "Q-Rejuvalight Pro LED Mask",
-            "stars_img": "shopify:\/\/shop_images\/results_star-full.svg",
-            "text": "<p>“I started getting the usual teenage acne. It got very bad. I tried everything, I tried diets, I went completely vegan. I tried all sorts of skincare, expensive and cheap. Straight away I noticed results with Qure, after the first week I had no active breakouts anymore. People ask me now how have I got my skin to be hydrated, acne-free, looking bright with no redness. I'm so reliant on the Qure mask now. I don't think I can go a day without using it.”<\/p>",
-            "image": "shopify:\/\/shop_images\/results_anton_cdc44f21-b8dc-4a5f-a020-6741e12ac25e.webp",
-            "image_country": "shopify:\/\/shop_images\/australia_f_35e9b6f0-d77f-4184-afaf-224d96562185.webp",
-            "client": "Anton M.",
-            "concerns": "",
-            "verified": true
-          }
-        },
-        "slide_8TxkNC": {
-          "type": "Slide",
-          "settings": {
-            "heading": "Best natural glow",
-            "product": "Micro-Infusion System",
-            "stars_img": "shopify:\/\/shop_images\/results_star-full.svg",
-            "text": "<p>“I was hesitant at first as I didn’t know how much it would hurt but to my surprise it was pretty painless. The 2nd day after the treatment, my skin has the best natural glow! I was also happy to to see how much my pigmentation had lightened after 3rd treatment :) I switch between the serums depending on how my skin is before the treatment.”<\/p>",
-            "image": "shopify:\/\/shop_images\/results_glorija.webp",
-            "image_country": "shopify:\/\/shop_images\/australia_f_35e9b6f0-d77f-4184-afaf-224d96562185.webp",
-            "client": "Glorija",
-            "concerns": "",
-            "verified": true
-          }
-        },
-        "slide_xWKmb6": {
-          "type": "Slide",
-          "settings": {
-            "heading": "Renewed Skin!",
-            "product": "Q-Rejuvalight Pro LED Mask",
-            "stars_img": "shopify:\/\/shop_images\/results_star-full.svg",
-            "text": "<p>“My Qure mask has been amazing! As someone who struggles with acne and rosacea, your LED light therapy mask has improved my skin so much that I can now feel comfortable without any makeup. I’m very happy with this product!”<\/p>",
-            "image": "shopify:\/\/shop_images\/results_tiffany_d43313a3-80f7-4452-a45b-c864ceedae03.webp",
-            "image_country": "shopify:\/\/shop_images\/america_f_92cbd39d-f0e3-42b9-a692-c714420fbe53.webp",
-            "client": "Tiffany L.",
-            "concerns": "",
-            "verified": true
-          }
-        },
-        "slide_hFbVVd": {
-          "type": "Slide",
-          "settings": {
-            "heading": "Fade after just two treatments",
-            "product": "Micro-Infusion System",
-            "stars_img": "shopify:\/\/shop_images\/results_star-full.svg",
-            "text": "<p>“I personally think my products absorbed better, my skin looks a bit brighter and that larger acne scar on my right cheek has started to fade after just TWO treatments!”<\/p>",
-            "image": "shopify:\/\/shop_images\/results_mona.webp",
-            "image_country": "shopify:\/\/shop_images\/america_f_92cbd39d-f0e3-42b9-a692-c714420fbe53.webp",
-            "client": "Mona P.",
-            "concerns": "",
-            "verified": true
-          }
-        }
-      },
-      "block_order": [
-        "slide_ApYVrJ",
-        "slide_8DpTJn",
-        "slide_wwBJ3B",
-        "slide_8TxkNC",
-        "slide_xWKmb6",
-        "slide_hFbVVd"
-      ],
-      "settings": {
-        "heading": "Customers love us",
-        "rating_text": ""
       }
     },
     "tile_JERe9p": {

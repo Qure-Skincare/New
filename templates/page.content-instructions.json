@@ -1,12 +1,3 @@
-/*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
 {
   "sections": {
     "header_landing_pFmaRH": {
@@ -47,6 +38,7 @@
     },
     "main": {
       "type": "temp-content-instructions",
+      "disabled": true,
       "settings": {
       }
     },
@@ -79,8 +71,7 @@
             "heading": "<p>Merge Qure into your creatives<\/p>",
             "image": "shopify:\/\/shop_images\/ac_step1.webp",
             "button_label": "Content Requirements",
-            "heading_icon": "shopify:\/\/shop_images\/key_message.svg",
-            "bl_heading": "Key Messages",
+            "bl1_heading": "",
             "bl_subheading": "<p>Key Points to include in the messaging:<\/p>",
             "dropdown1_heading": "How it works",
             "dropdown1_content": "<ul><li>The unique 2-in-1 system uses virtually painless needles to create invisible micro-channels in the top layer of your skin through a \"stamping\" technique. This controlled trauma stimulates the skin’s natural healing process, enhancing skin texture. Simultaneously, the invisible micro-channels allow science-backed serums to be infused directly below the skin barrier, delivering active ingredients more effectively for faster results - resulting in a rejuvenated, glowing complexion.<\/li><\/ul>",
@@ -100,12 +91,6 @@
             "dropdown5_heading": "Dropdown Heading 5",
             "dropdown5_content": "",
             "block1_list": "",
-            "link_text": "",
-            "link_url": "",
-            "technical_specification": "Technical Specification",
-            "technical_specification_info": "",
-            "treatment_details": "Treatment Details",
-            "treatment_details_info": "",
             "heading2_icon": "shopify:\/\/shop_images\/direction.svg",
             "bl2_heading": "Creative Direction",
             "bl2_list": "<ul><li>High quality, bright lighting and high resolution imagery\/videography to be supplied. No obvious filters.<\/li><li>Close-up of the Micro-Infusion device and serums to be the feature in the content. Background must be clean and bright.<\/li><li>When demonstrating the application of the product, please do not wear any make-up, or no visible\/noticeable makeup and make sure to do a close-up.<\/li><li>In cover photos for video content always show yourself using the Qure Micro-Infusion, unless otherwise agreed on with the brand.<\/li><\/ul>",
@@ -119,9 +104,45 @@
           "settings": {
             "step": "Step 2",
             "heading": "<p>Get to know our Micro-Infusion System<\/p>",
-            "button_label": "Product Information",
             "image": "shopify:\/\/shop_images\/ac_step2.webp",
-            "contentT": "<p>Cooo<\/p>"
+            "button_label": "Product Information",
+            "bl1_heading": "",
+            "bl_subheading": "",
+            "image_width": false,
+            "pdt_spec_ul": "",
+            "bl1_list": "",
+            "technical_specification": "",
+            "technical_specification_info": "",
+            "treatment_details": "",
+            "treatment_details_info": "",
+            "link_text": "",
+            "link_url": "",
+            "bl2_heading": "",
+            "bl2_list": "",
+            "wistia_video_id": "",
+            "video_btn_url": "",
+            "video_btn_text": "",
+            "bl3_heading": "",
+            "bl3_list": "",
+            "pdt_acc_1_heading": "",
+            "pdt_acc_1_status_bar": false,
+            "pdt_acc_1_list": "",
+            "pdt_acc_2_heading": "",
+            "pdt_acc_2_status_bar": false,
+            "pdt_acc_2_list": "",
+            "bl3_list_ing": "",
+            "dropdown1_heading": "",
+            "dropdown1_content": "",
+            "dropdown2_heading": "",
+            "dropdown2_content": "",
+            "dropdown3_heading": "",
+            "dropdown3_content": "",
+            "dropdown4_heading": "",
+            "dropdown4_content": "",
+            "dropdown5_heading": "",
+            "dropdown5_content": "",
+            "dropdown6_heading": "",
+            "dropdown6_content": ""
           }
         },
         "inspiring_content_iBPkMb": {
@@ -129,9 +150,28 @@
           "settings": {
             "step": "Step 3",
             "heading": "<p>Get inspired by other content creators<\/p>",
-            "button_label": "Inspiring Content",
             "image": "shopify:\/\/shop_images\/ac_step3.webp",
-            "contentT": "<p>Cooo<\/p>"
+            "button_label": "Inspiring Content",
+            "bl1_heading": "",
+            "bl1_v1": "",
+            "bl1_v2": "",
+            "bl1_v3": "",
+            "bl1_v4": "",
+            "bl2_heading": "",
+            "bl2_v1": "",
+            "bl2_v2": "",
+            "bl2_v3": "",
+            "bl3_heading": "",
+            "bl3_v1": "",
+            "bl3_v2": "",
+            "bl3_v3": "",
+            "bl4_heading": "",
+            "bl4_v1": "",
+            "bl4_v2": "",
+            "bl4_v3": "",
+            "bl4_v4": "",
+            "bl4_v5": "",
+            "bl4_v6": ""
           }
         }
       },

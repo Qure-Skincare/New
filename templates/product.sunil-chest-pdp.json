@@ -119,7 +119,8 @@
         "text_GQ3CEw"
       ],
       "settings": {
-        "heading": "FEATURED IN"
+        "heading": "FEATURED IN",
+        "slider_type": "one_slides"
       }
     },
     "image_text_DddWnn": {
@@ -372,7 +373,7 @@
         "slide_on_tablet": 2,
         "slide_on_mobile": 1,
         "space_between_slides": 20,
-        "padding_top": 0,
+        "padding_top": 60,
         "padding_bottom": 0,
         "custom_class": "trusted_bl trustedVerified"
       }
@@ -459,17 +460,10 @@
     "two_column_box_TeaFD8": {
       "type": "two-column-box",
       "blocks": {
-        "image_8gXTjH": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/technology_light.webp",
-            "classname": "mw-mob-100"
-          }
-        },
         "content_PGGbbT": {
           "type": "content",
           "settings": {
-            "text": "<h2>Technology light years ahead of the game<\/h2><p>This device features LED lights placed in the center of the chest where most fine lines appear. <\/p><p>Our LED uses clinical-grade technology to deliver safe, concentrated wavelengths deep into the layers of the skin where even the best creams and serums can’t reach. That’s where the magic happens.<\/p>",
+            "text": "<h2>Technology light years ahead of the game [image_mobile]<\/h2><p>This device features LED lights placed in the center of the chest where most fine lines appear.<\/p><p>Our LED uses clinical-grade technology to deliver safe, concentrated wavelengths deep into the layers of the skin where even the best creams and serums can’t reach. That’s where the magic happens.<\/p><p>[details]<\/p>",
             "column_content": 0,
             "classname": "section_header p-0 pt-0 pt-md-3"
           }
@@ -495,14 +489,21 @@
             "column_content": 0,
             "classname": "it_info p-0 pt-0 pt-md-3"
           }
+        },
+        "image_8gXTjH": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/technology_light.webp",
+            "classname": "mw-mob-100"
+          }
         }
       },
       "block_order": [
-        "image_8gXTjH",
         "content_PGGbbT",
         "details_RYGy3z",
         "details_iT87XX",
-        "content_reduced_wtXAyU"
+        "content_reduced_wtXAyU",
+        "image_8gXTjH"
       ],
       "settings": {
         "classname": "technology_light section clinical-grade-container",
@@ -510,8 +511,131 @@
         "column_content": 6
       }
     },
+    "how_to_use_2_j76wte": {
+      "type": "how-to-use-2",
+      "blocks": {
+        "tab_N3JL8J": {
+          "type": "tab",
+          "settings": {
+            "heading": "Prepare & set",
+            "heading_mob": "How to use",
+            "image": "shopify:\/\/shop_images\/chest_use11.webp",
+            "tab_content": "<p>Cleanse and dry your skin to prepare it for ultimate LED light absorption. \u2028Secure the device around your neck using the adjustable velcro straps. <\/p>"
+          }
+        },
+        "tab_Y7wj94": {
+          "type": "tab",
+          "settings": {
+            "heading": "Quick Start",
+            "heading_mob": "Quick Start",
+            "image": "shopify:\/\/shop_images\/chest_use22.webp",
+            "tab_content": "<p>Press & hold to start your 10-minute treatment. <br\/>With a hands-free controller & clip-on, you can either relax or go about your day. <\/p>"
+          }
+        },
+        "tab_tiRD8V": {
+          "type": "tab",
+          "settings": {
+            "heading": "Aftercare",
+            "heading_mob": "Aftercare",
+            "image": "shopify:\/\/shop_images\/chest_use33.webp",
+            "tab_content": "<p>The device will automatically shut off after 10 minutes.<br\/>Remove the device and gently wipe it down.<br\/>Follow up with your normal skincare routine. That’s it!<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "tab_N3JL8J",
+        "tab_Y7wj94",
+        "tab_tiRD8V"
+      ],
+      "settings": {
+        "heading": "How to use"
+      }
+    },
+    "icons_list_9g8QWp": {
+      "type": "icons-list",
+      "blocks": {
+        "icon_7i9y88": {
+          "type": "icon",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/anti-aging.svg",
+            "text": "<p>Anti-aging & suitable for all skin types<\/p>"
+          }
+        },
+        "icon_3jdipA": {
+          "type": "icon",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/8-weeks.svg",
+            "text": "<p>Pain-free results in less than 8 weeks<\/p>"
+          }
+        },
+        "icon_DFkrNT": {
+          "type": "icon",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/hassle-free.svg",
+            "text": "<p>Hassle-free clip perfect for multi-tasking<\/p>"
+          }
+        },
+        "icon_bVEbdE": {
+          "type": "icon",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/natural-skincare.svg",
+            "text": "<p>Natural, fast working, chemical-free treatment<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "icon_7i9y88",
+        "icon_3jdipA",
+        "icon_DFkrNT",
+        "icon_bVEbdE"
+      ],
+      "settings": {
+        "background": "trasnparent"
+      }
+    },
+    "compare_FjJcFT": {
+      "type": "compare",
+      "blocks": {
+        "object_yK6bFg": {
+          "type": "object",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/chest_beauty_11.webp",
+            "heading": "Qure Neck & Décolletage LED",
+            "mob_text": "",
+            "text": "<p><strong>one time-cost<\/strong><\/p>",
+            "price": "$299",
+            "style": "correctCircle",
+            "list": "<ul><li>Complete in just 10 minutes<\/li><li>Comfortable & convenient at home<\/li><li>Unlimited treatments & maintenance<\/li><li>Only one-time payment<\/li><\/ul>"
+          }
+        },
+        "object_anrDGe": {
+          "type": "object",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/beauty_derma.webp",
+            "heading": "Derm\/ Clinic Treatments",
+            "mob_text": "",
+            "text": "<p><strong>yearly cost*<\/strong><\/p>",
+            "price": "$1,200 +",
+            "style": "incorrectCircle",
+            "list": "<ul><li>Time-consuming commute to clinic<\/li><li>According to clinic’s availability<\/li><li>Limited treatments<\/li><li>Ongoing payments required<\/li><\/ul>"
+          }
+        }
+      },
+      "block_order": [
+        "object_yK6bFg",
+        "object_anrDGe"
+      ],
+      "settings": {
+        "classname": "beauty_skincare section bg-white",
+        "heading": "Hello beautiful skin, goodbye clinical costs",
+        "heading_reduced": "",
+        "text": "<p>Are you ready to enjoy the same technology used in clinics, without the price tag or hassle?<\/p><p>Get that professional-looking result from the comfort of your own home – for a fraction of what you’d pay elsewhere.<\/p>",
+        "text_reduced": ""
+      }
+    },
     "second": {
       "type": "temp-product-sunil-chest-pdp",
+      "disabled": true,
       "settings": {
       }
     },
@@ -692,6 +816,9 @@
     "testimonials_D9DwwF",
     "results_FxQnmz",
     "two_column_box_TeaFD8",
+    "how_to_use_2_j76wte",
+    "icons_list_9g8QWp",
+    "compare_FjJcFT",
     "second",
     "faq_UUdrDJ",
     "heading_rr4Umg",

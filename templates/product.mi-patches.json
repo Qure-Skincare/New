@@ -1,12 +1,3 @@
-/*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
 {
   "sections": {
     "product_landing_tetLcC": {
@@ -138,6 +129,31 @@
       ],
       "settings": {
         "heading": ""
+      }
+    },
+    "featuredin_extended_kENYrm": {
+      "type": "featuredin_extended",
+      "blocks": {
+        "text_JYLPRq": {
+          "type": "text",
+          "settings": {
+            "text": "<p>\"This helps bring life and radiance to your eyes, the focal point of your face.\"<\/p>"
+          }
+        },
+        "image_VRfJ7m": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/vogue-black.svg"
+          }
+        }
+      },
+      "block_order": [
+        "text_JYLPRq",
+        "image_VRfJ7m"
+      ],
+      "settings": {
+        "heading": "FEATURED IN",
+        "slider_type": "one_slides"
       }
     },
     "two_column_box_LbCXBk": {
@@ -765,6 +781,7 @@
   "order": [
     "product_landing_tetLcC",
     "featuredin_zGJF46",
+    "featuredin_extended_kENYrm",
     "two_column_box_LbCXBk",
     "one_column_box_ACaxnJ",
     "results_pkwNpm",

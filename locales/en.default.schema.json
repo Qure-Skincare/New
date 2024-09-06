@@ -1,12 +1,3 @@
-/*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin language editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
 {
   "settings_schema": {
     "logo": {
@@ -93,6 +84,7 @@
     }
   },
   "common": {
+    "mark": "Mark",
     "testimonial": {
       "text": "Testimonial text"
     },
@@ -278,7 +270,9 @@
       "label": "Result"
     },
     "icon": {
-      "label": "Icon"
+      "label": "Icon",
+      "check": "Tick",
+      "cross": "Cross"
     },
     "column": {
       "label": "Column",
@@ -314,7 +308,11 @@
     },
     "text": {
       "label": "Text",
-      "content": "Text content"
+      "content": "Text content",
+      "count": {
+        "one": "1 Text",
+        "five": "5 Text"
+      }
     },
     "html": {
       "label": "Html"
@@ -713,6 +711,7 @@
     },
     "featuredin": {
       "name": "Featured in",
+      "two": "Featured in qurify LP",
       "settings": {
       },
       "blocks": {
@@ -750,6 +749,7 @@
     },
     "slider": {
       "name": "Slider",
+      "type": "Slider Type",
       "space_between": "Space between slides",
       "settings": {
         "desktop": "Slides on desktop",
@@ -872,6 +872,14 @@
     },
     "compare": {
       "name": "Compare",
+      "product": "Product Comparing",
+      "info": "Which points you want to compare",
+      "points": {
+        "one": "Point 1",
+        "two": "Point 2",
+        "three": "Point 3",
+        "four": "Point 4"
+      },
       "settings": {
       },
       "blocks": {
@@ -1220,11 +1228,17 @@
     "ingredients-dropdown": {
       "label": "Ingredients dropdown"
     },
-    "main":{
+    "main": {
       "label": "Main"
     },
-    "guide_content":{
+    "guide_content": {
       "label": "Guide Content"
+    },
+    "compare_products": {
+      "label": "Compare Products"
+    },
+    "feature_extend": {
+      "label": "Featured Extended"
     }
   }
 }
