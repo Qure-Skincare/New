@@ -308,19 +308,6 @@
             "client_details": "<strong>Dr Prem,<\/strong>   Board Certified Dermatologist"
           }
         },
-        "testimonial_niJCUK": {
-          "type": "testimonial",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/trusted_maren.webp",
-            "video_type": "youtube",
-            "video_link": "https:\/\/www.youtube.com\/watch?v=DvA8FkhJqso",
-            "youtube_link": "",
-            "wistia_id": "",
-            "badge_txt": "",
-            "title": "There are actually many of these on the market but I love this one for several reasons. It's well made, it has a comfortable adjustable headband, it comes with an app..",
-            "client_details": "<strong>Dr. Maren Locke,<\/strong>  Board Certified Dermatologist"
-          }
-        },
         "testimonial_d3pmRz": {
           "type": "testimonial",
           "settings": {
@@ -376,7 +363,6 @@
       },
       "block_order": [
         "testimonial_EitjK9",
-        "testimonial_niJCUK",
         "testimonial_d3pmRz",
         "testimonial_D3CC69",
         "testimonial_FayfUe",
