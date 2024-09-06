@@ -82,7 +82,6 @@
       "blocks": {
         "product_cRJKBk": {
           "type": "product",
-          "disabled": true,
           "settings": {
             "product": "micro-infusion-4-month-bundle",
             "announcement_id": "",
@@ -560,7 +559,6 @@
       "blocks": {
         "product_9rPLGX": {
           "type": "product",
-          "disabled": true,
           "settings": {
             "product": "micro-infusion-4-month-bundle",
             "comment_ammount": 100,
