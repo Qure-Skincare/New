@@ -260,6 +260,140 @@
         "text": ""
       }
     },
+    "text_with_video_TwRQhd": {
+      "type": "text-with-video",
+      "blocks": {
+        "video_xLP3b6": {
+          "type": "video",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/dr_shah_trusted.webp",
+            "video": "https:\/\/www.youtube.com\/watch?v=I2Fe-kP-2Jg",
+            "title": "Dr Shah, MD",
+            "des": "Board certified dermatologist"
+          }
+        },
+        "text_content_zQrNN6": {
+          "type": "text_content",
+          "settings": {
+            "trust_icon": "shopify:\/\/shop_images\/verified_design.svg",
+            "trust_des": "Trusted and recommended by world leading Dermatologists",
+            "title": "\"The best LED mask <strong>on the market in my opinion at this time, that being said you do need to <\/strong>use this consistently to see results…\"",
+            "title_clr": "#000000",
+            "title_strong_clr": "#797d7c"
+          }
+        }
+      },
+      "block_order": [
+        "video_xLP3b6",
+        "text_content_zQrNN6"
+      ],
+      "settings": {
+        "padding_top": 60,
+        "padding_bottom": 0
+      }
+    },
+    "testimonials_m84mqf": {
+      "type": "testimonials",
+      "blocks": {
+        "testimonial_EitjK9": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/trusted_shah_prem.webp",
+            "video_type": "youtube",
+            "video_link": "",
+            "youtube_link": "https:\/\/www.youtube.com\/watch?v=JPWycy8cwN8",
+            "wistia_id": "",
+            "badge_txt": "3.03M Subscribers",
+            "title": "There have been studies to show that this will definitely work to help your products penetrate better...",
+            "client_details": "<strong>Dr Shah & Dr Maxfield,<\/strong>   Certified Dermatologists"
+          }
+        },
+        "testimonial_niJCUK": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/trusted_brown.webp",
+            "video_type": "video",
+            "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/d5d0c051b43e4117be7b6308e06e8f66.mp4",
+            "youtube_link": "",
+            "wistia_id": "",
+            "badge_txt": "155K Followers",
+            "title": "I’ve liked using this in between my in-office treatments. It’s convenient and you get all the benefits of micro-needling treatment from the comfort of your home...",
+            "client_details": "<strong>Dr Brown,<\/strong>  Medical Doctor"
+          }
+        },
+        "testimonial_d3pmRz": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/trusted_greeney1.webp",
+            "video_type": "youtube",
+            "video_link": "",
+            "youtube_link": "https:\/\/www.youtube.com\/watch?v=1iXBgh7WPOY",
+            "wistia_id": "wistia_async_yuqb3gno7g",
+            "badge_txt": "9.77K Subscribers",
+            "title": "Qure's anti-ageing treatment gets down deep into your skin to stimulate collagen & makes a big difference in skin texture, decreasing fine lines & wrinkles",
+            "client_details": "<strong>Dr Greeney<\/strong>, Certified Dermatologist"
+          }
+        },
+        "testimonial_D3CC69": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/trusted_mona_57744543-79ed-4f6e-ba40-e204be0af0f7.webp",
+            "video_type": "video",
+            "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/71857fdec6b0497294117ed84cab480e.mp4",
+            "youtube_link": "",
+            "wistia_id": "",
+            "badge_txt": "2.3M Views",
+            "title": "You'll see a kind of dewy glowy look after you use it but within a couple of days your skin really looks quite amazing.",
+            "client_details": "<strong>Dr Mona Patel,<\/strong> Internal Medicine"
+          }
+        },
+        "testimonial_FayfUe": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/trusted_alex1.webp",
+            "video_type": "wistia",
+            "video_link": "",
+            "youtube_link": "",
+            "wistia_id": "wistia_async_yuqb3gno7g",
+            "badge_txt": "1,154 Followers",
+            "title": "I have been using this mask with the anti-breakout settings, which has been fantastic to help clear up my complexion in only two weeks.",
+            "client_details": "<strong>Dr Alexandra Hunter<\/strong>, NHS & Aesthetics Doctor"
+          }
+        },
+        "testimonial_PKTtDU": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/alexis.png",
+            "video_type": "video",
+            "video_link": "",
+            "youtube_link": "https:\/\/youtu.be\/ZMGm5PmWzF0?t=649",
+            "wistia_id": "",
+            "badge_txt": "53k Followers",
+            "title": "You can get a Clinical treatment at home safely and conveniently... It is particularly beneficial for those with melanin rich Skin",
+            "client_details": "<strong>Dr Alexis Stephens,<\/strong>  Board-Certified Dermatologist"
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_EitjK9",
+        "testimonial_niJCUK",
+        "testimonial_d3pmRz",
+        "testimonial_D3CC69",
+        "testimonial_FayfUe",
+        "testimonial_PKTtDU"
+      ],
+      "settings": {
+        "enable_autoplay": false,
+        "enable_loop": false,
+        "slide_on_desktop": 3,
+        "slide_on_tablet": 2,
+        "slide_on_mobile": 1,
+        "space_between_slides": 20,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": "trusted_bl trustedVerified"
+      }
+    },
     "trusted_rqeQrY": {
       "type": "trusted",
       "blocks": {
@@ -1193,6 +1327,8 @@
     "main",
     "featuredin_yT6yRP",
     "before_after_slider_Nfk96E",
+    "text_with_video_TwRQhd",
+    "testimonials_m84mqf",
     "trusted_rqeQrY",
     "icons_list_Fkgrmd",
     "results_Yfghzf",
