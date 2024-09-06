@@ -359,6 +359,43 @@
             "title": "Qure’s LED mask combines red lights and blue lights, meaning it can benefit EVERYONE",
             "client_details": "<strong>Dr Sarah Too,<\/strong>  Medical Doctor"
           }
+        },
+        "testimonial_epJ3rN": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/trusted_zeitany.webp",
+            "video_type": "wistia",
+            "video_link": "",
+            "youtube_link": "",
+            "wistia_id": "gpf4liwnyn",
+            "badge_txt": "",
+            "title": "It's the only LED mask on the market that pairs with an app and is customizable",
+            "client_details": "<strong>Dr Zeitany,<\/strong> Board Certified Dermatologist"
+          }
+        },
+        "testimonial_PjwcFL": {
+          "type": "testimonial",
+          "settings": {
+            "video_type": "video",
+            "video_link": "",
+            "youtube_link": "",
+            "wistia_id": "",
+            "badge_txt": "Subscriber\/Views\/Followers",
+            "title": "Testimonial text goes here",
+            "client_details": "<strong>Dr Mona Patel,<\/strong> Internal Medicine"
+          }
+        },
+        "testimonial_GfkxXA": {
+          "type": "testimonial",
+          "settings": {
+            "video_type": "video",
+            "video_link": "",
+            "youtube_link": "",
+            "wistia_id": "",
+            "badge_txt": "Subscriber\/Views\/Followers",
+            "title": "Testimonial text goes here",
+            "client_details": "<strong>Dr Mona Patel,<\/strong> Internal Medicine"
+          }
         }
       },
       "block_order": [
@@ -366,7 +403,10 @@
         "testimonial_d3pmRz",
         "testimonial_D3CC69",
         "testimonial_FayfUe",
-        "testimonial_PKTtDU"
+        "testimonial_PKTtDU",
+        "testimonial_epJ3rN",
+        "testimonial_PjwcFL",
+        "testimonial_GfkxXA"
       ],
       "settings": {
         "enable_autoplay": false,
