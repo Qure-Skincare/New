@@ -99,58 +99,80 @@
       }
     },
     "featuredin_yT6yRP": {
-      "type": "featuredin",
+      "type": "featuredin_extended",
       "blocks": {
-        "image_LcHDT9": {
+        "image_n99dk9": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/elle.svg",
-            "mobile_hide": false
+            "image": "shopify:\/\/shop_images\/vogue-black.svg"
           }
         },
-        "image_3wjhLt": {
-          "type": "image",
+        "text_hjVp7i": {
+          "type": "text",
           "settings": {
-            "image": "shopify:\/\/shop_images\/glamour.svg",
-            "mobile_hide": false
+            "text": "<p>“The professional grade is the perfect addition to any at-home skincare routine.”<\/p>"
           }
         },
-        "image_VytDAA": {
+        "image_XrzjQ3": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/vogue.svg",
-            "mobile_hide": false
+            "image": "shopify:\/\/shop_images\/womenshealth_e1cfba2e-29da-4232-9235-69184bd9d1a3.svg"
           }
         },
-        "image_r78DY6": {
-          "type": "image",
+        "text_t9tnXK": {
+          "type": "text",
           "settings": {
-            "image": "shopify:\/\/shop_images\/grazia.svg",
-            "mobile_hide": false
+            "text": "<p>\"Treatment time is only three minutes—among the fastest <\/p>"
           }
         },
-        "image_4cmhLn": {
+        "image_PmUxLt": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/cosmopolitan.svg",
-            "mobile_hide": true
+            "image": "shopify:\/\/shop_images\/elle-black_af7c0fb6-1535-4d44-b64c-b96b7d90bf08.svg"
           }
         },
-        "image_BK9W8D": {
+        "text_bxTn4H": {
+          "type": "text",
+          "settings": {
+            "text": "<p>\"A multi-use LED mask with five different light setting options to plump smooth and rejuvenate all skin types.\"<br\/>                                    <\/p>"
+          }
+        },
+        "image_hNLLqX": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/bazaar_889503c3-d4d6-4eb0-b7be-dd1212b56c58.png",
-            "mobile_hide": true
+            "image": "shopify:\/\/shop_images\/cosmopolitan-black.svg"
+          }
+        },
+        "text_k6KEBE": {
+          "type": "text",
+          "settings": {
+            "text": "<p>“The combination of colors allows you to customize which lights are used, maximizing its benefits to help your skin...”<br\/>                            <\/p>"
+          }
+        },
+        "image_ebp8NW": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/grazia_black.svg"
+          }
+        },
+        "text_Mnmb4P": {
+          "type": "text",
+          "settings": {
+            "text": "<p>“The Qure mask is the FIRST mask in the world that adapts to your skin!...There is an app that reminds you of the treatments too.”<\/p>"
           }
         }
       },
       "block_order": [
-        "image_LcHDT9",
-        "image_3wjhLt",
-        "image_VytDAA",
-        "image_r78DY6",
-        "image_4cmhLn",
-        "image_BK9W8D"
+        "image_n99dk9",
+        "text_hjVp7i",
+        "image_XrzjQ3",
+        "text_t9tnXK",
+        "image_PmUxLt",
+        "text_bxTn4H",
+        "image_hNLLqX",
+        "text_k6KEBE",
+        "image_ebp8NW",
+        "text_Mnmb4P"
       ],
       "settings": {
         "heading": "FEATURED IN"
