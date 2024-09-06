@@ -326,8 +326,8 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/trusted_maxfield.webp",
             "video_type": "youtube",
-            "video_link": "https:\/\/www.youtube.com\/watch?v=AeksxRPZyrA",
-            "youtube_link": "",
+            "video_link": "",
+            "youtube_link": "https:\/\/www.youtube.com\/watch?v=AeksxRPZyrA",
             "wistia_id": "",
             "badge_txt": "",
             "title": "This is one of my faves from @qureskincare. It’s a high quality mask and personalizable",
