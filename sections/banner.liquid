@@ -1,5 +1,5 @@
 <!-- -- main banner start -- -->
-<div class="main_banner">
+<div class="main_banner{% if section.settings.classname != blank %} {{ section.settings.classname }}{% endif %}">
 
     {% if section.settings.image != blank %}
         <picture>
