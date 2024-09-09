@@ -950,6 +950,18 @@
             "client": "Linda L.",
             "code": ""
           }
+        },
+        "result_TDck3M": {
+          "type": "result",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Before_and_after_m.i.png",
+            "heading": "Finally! A product that actually works!",
+            "text": "<p>\"I can't say enough good things about Qure! I have tried everything to even my skin tone, minimize pores and skin texture, & reduce sun spots on my face. I was very skeptical upon ordering Qure products--let's face it, lots of products say they are the miracle cure we have all been looking for, but and they do literally nothing! Qure does exactly what it says it will do and quickly! The process is easy and pretty painless. I will be a product buyer for life!\"<\/p>",
+            "image_country": "shopify:\/\/shop_images\/usa_189ccd4e-add5-48f9-8078-c50c3e29332f.png",
+            "text_country": "United States",
+            "client": "Melanie B.",
+            "code": ""
+          }
         }
       },
       "block_order": [
@@ -969,7 +981,8 @@
         "result_xtFHnk",
         "result_UVLAG4",
         "result_7DbhCR",
-        "result_UHVMGG"
+        "result_UHVMGG",
+        "result_TDck3M"
       ],
       "settings": {
         "classname": "mi_landing_result",
