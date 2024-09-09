@@ -956,11 +956,6 @@
         "classname": "bg-black text-white"
       }
     },
-    "third": {
-      "type": "temp-sunil-micro-infusion-pdp-second",
-      "settings": {
-      }
-    },
     "serum_ingredients_FTbJif": {
       "type": "serum-Ingredients",
       "blocks": {
@@ -1213,7 +1208,6 @@
     "compare_HdKqmr",
     "compare_products_y7yjpe",
     "line_RWLxMz",
-    "third",
     "serum_ingredients_FTbJif",
     "liquid_JJikgW",
     "faq_4hnCjw",

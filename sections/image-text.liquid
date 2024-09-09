@@ -1,84 +1,127 @@
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.40 | round: 0 }}px !important;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.40 | round: 0 }}px !important;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px !important;
+      padding-bottom: {{ section.settings.padding_bottom }}px !important;
+    }
+  }
+{%- endstyle -%}
 <!-- -- single step start -- -->
-<div class="single_step section {{ section.settings.background }}">
+<div class="single_step section-{{ section.id }}-padding {{ section.settings.background }}">
   <div class="container">
-    <div class="section_header d-block d-md-none text-center">
-      {%- if section.settings.heading != blank -%}
+    {%- if section.settings.heading != blank -%}
+      <div class="section_header {% if section.settings.hide_on_mob == true %} d-block d-md-none {% endif %} text-center">
         <h2 class="title-lg paddingB">{{ section.settings.heading }}</h2>
-      {%- endif -%}
-    </div>
+      </div>
+    {%- endif -%}
     <div class="row gx-5 align-items-center">
-
       {%- for block in section.blocks -%}
-        
-          {%- case block.type -%}
-            
-            {%- when 'image' -%}
-              <div class="col-md-{{ section.settings.column }}">
-                <div class="single-step_img">
-                  <img
-                    src="{{ block.settings.image | img_url: '400x' }}"
-                    alt="{{ block.settings.image.alt }}"
-                    class="w-100"
-                  >
-                </div>
+        {%- case block.type -%}
+          {%- when 'image' -%}
+            <div class="col-md-{{ section.settings.column }} {% if block.settings.order_mob == true %} order-1 order-md-0 {% endif %}">
+              <div class="single-step_img">
+                <img
+                  src="{{ block.settings.image | img_url: '400x' }}"
+                  alt="{{ block.settings.image.alt }}"
+                  class="w-100 {{ block.settings.custom_img }}"
+                >
               </div>
+            </div>
 
-            {%- when 'wistia' -%}
-              <div class="col-md-{{ section.settings.column }}">
-                <div class="it_img pb-3 pb-md-0 mw-mob-100">
-                  <div class="wistia_responsive_padding d-none d-md-block" style="position:relative;">
+          {%- when 'wistia' -%}
+            <div class="col-md-{{ section.settings.column }}">
+              <div class="it_img pb-3 pb-md-0 mw-mob-100">
+                <div class="wistia_responsive_padding d-none d-md-block" style="position:relative;">
+                  <div
+                    class="wistia_responsive_wrapper"
+                    style="height:100%;left:0;position:absolute;top:0;width:100%;"
+                  >
                     <div
-                      class="wistia_responsive_wrapper"
-                      style="height:100%;left:0;position:absolute;top:0;width:100%;"
+                      class="wistia_embed wistia_async_{{ block.settings.wistia }} seo=false videoFoam=true"
+                      style="height:100%;position:relative;width:100%"
                     >
-                      <div
-                        class="wistia_embed wistia_async_{{ block.settings.wistia }} seo=false videoFoam=true"
-                        style="height:100%;position:relative;width:100%"
-                      >
-                        &nbsp;
-                      </div>
+                      &nbsp;
                     </div>
                   </div>
-                  <div class="wistia_responsive_padding d-block d-md-none" style="position:relative;">
+                </div>
+                <div class="wistia_responsive_padding d-block d-md-none" style="position:relative;">
+                  <div
+                    class="wistia_responsive_wrapper"
+                    style="height:100%;left:0;position:absolute;top:0;width:100%;"
+                  >
                     <div
-                      class="wistia_responsive_wrapper"
-                      style="height:100%;left:0;position:absolute;top:0;width:100%;"
+                      class="wistia_embed wistia_async_{{ block.settings.wistia_m }} seo=false videoFoam=true"
+                      style="height:100%;position:relative;width:100%"
                     >
-                      <div
-                        class="wistia_embed wistia_async_{{ block.settings.wistia_m }} seo=false videoFoam=true"
-                        style="height:100%;position:relative;width:100%"
-                      >
-                        &nbsp;
-                      </div>
+                      &nbsp;
                     </div>
                   </div>
                 </div>
               </div>
-             
-            {%- when 'text' -%}
-              <div class="col-md-{% assign dashoffset = 12 | minus: section.settings.column %}{{ dashoffset }}">
-                <div class="single_step ps-md-3 mt-3 mt-md-0">
-                  <div class="section_header">
-                    {%- if block.settings.heading != blank -%}
-                      <h2 class="title-lg paddingB d-none d-md-block">{{ block.settings.heading }}</h2>
-                    {%- endif -%}
-                    {%- if block.settings.text != blank -%}
-                      {{ block.settings.text }}
-                    {%- endif -%}
-                    {% if block.settings.btn_text != blank %}
-                      <a href="{{ block.settings.btn_url }}" class="mt-4 btn btn-lg btn-primary mw-268 fw-medium">
-                        {{- block.settings.btn_text -}}
-                      </a>
+            </div>
+
+          {%- when 'text' -%}
+            <div class="col-md-{% assign dashoffset = 12 | minus: section.settings.column %}{{ dashoffset }}">
+              <div class="single_step return_ftrs ps-md-3 mt-3 mt-md-0">
+                {% if block.settings.heading2 != blank %}
+                  <div class="rtn_ftr mb-3 mb-md-5">
+                    <div class="section_header align-items-center d-flex gap-1 gap-md-2">
+                      {% if block.settings.icon != blank %}
+                        <img src="{{ block.settings.icon | img_url: 'master' }}" alt="" class="img-fluid">
+                      {% endif %}
+                      <h3>{{ block.settings.heading2 }}</h3>
+                    </div>
+
+                    {% if block.settings.text2 != blank %}
+                      {{ block.settings.text2 }}
                     {% endif %}
                   </div>
-                </div>
+                {% endif %}
+                {% if block.settings.heading3 != blank %}
+                  <div class="rtn_ftr">
+                    <div class="section_header align-items-center d-flex gap-1 gap-md-2">
+                      {% if block.settings.icon2 != blank %}
+                        <img src="{{ block.settings.icon2 | img_url: 'master' }}" alt="" class="img-fluid">
+                      {% endif %}
+                      <h3>{{ block.settings.heading3 }}</h3>
+                    </div>
+                    {% if block.settings.text3 != blank %}
+                      {{ block.settings.text3 }}
+                    {% endif %}
+                  </div>
+                {% endif %}
+                {%- if section.settings.heading != blank -%}
+                  <div class="section_header">
+                    <h2 class="title-lg paddingB {% if section.settings.hide_on_mob == true %}d-none d-md-block {% endif %}">{{ section.settings.heading }}</h2>
+                    {% if block.settings.rating != blank %}
+                      <div class="refill_review justify-content-start mb-0">
+                        <div class="star_gp">
+                          <img src="{{ block.settings.rating | img_url: '115x' }}" alt="">
+                        </div>
+                      </div>
+                    {% endif %}
+                  </div>
+                {%- endif -%}
+                {%- if block.settings.text != blank -%}
+                  <div class="{{ block.settings.custom_class }}">
+                    {{ block.settings.text }}
+                  </div>
+                {%- endif -%}
+                {% if block.settings.btn_text != blank %}
+                  <a href="{{ block.settings.btn_url }}" class="mt-4 btn btn-lg btn-primary mw-268 fw-medium">
+                    {{- block.settings.btn_text -}}
+                  </a>
+                {% endif %}
               </div>
-
-          {%- endcase -%}
-        
+            </div>
+        {%- endcase -%}
       {%- endfor -%}
     </div>
-    
   </div>
 </div>
 <!-- -- single step end -- -->
@@ -108,6 +151,17 @@
       "default": "bg_clr_transparent"
     },
     {
+      "type": "text",
+      "id": "heading",
+      "label": "t:common.heading.label"
+    },
+    {
+      "type": "checkbox",
+      "id": "hide_on_mob",
+      "label": "t:commonMob.hide",
+      "default":false
+    },
+    {
       "type": "range",
       "id": "column",
       "max": 12,
@@ -117,6 +171,26 @@
       "unit": "col",
       "info": "t:progressBlock.column.info",
       "label": "t:progressBlock.column.partition"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "label": "t:sections.padding.padding_top",
+      "default": 0,
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px"
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "label": "t:sections.padding.padding_bottom",
+      "default": 0,
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px"
     }
   ],
   "max_blocks": 2,
@@ -130,6 +204,21 @@
           "type": "image_picker",
           "id": "image",
           "label": "t:common.image.label"
+        },
+        {
+          "type": "textarea",
+          "id": "custom_img",
+          "label": "t:common.classname.custom"
+        },
+        {
+          "type": "header",
+          "content": "t:commonMob.order.label"
+        },
+        {
+          "type": "checkbox",
+          "id": "order_mob",
+          "label": "t:commonMob.order.bottom",
+          "default": false
         }
       ]
     },
@@ -139,14 +228,14 @@
       "limit": 1,
       "settings": [
         {
-          "type": "text",
-          "id": "heading",
-          "label": "t:common.heading.label"
-        },
-        {
           "type": "richtext",
           "id": "text",
           "label": "t:common.text.label"
+        },
+        {
+          "type": "image_picker",
+          "id": "rating",
+          "label": "t:common.rating.stars"
         },
         {
           "type": "text",
@@ -157,6 +246,45 @@
           "type": "url",
           "id": "btn_url",
           "label": "t:common.button.url.label"
+        },
+        {
+          "type": "textarea",
+          "id": "custom_class",
+          "label": "t:common.classname.custom"
+        },
+        {
+          "type": "header",
+          "content": "t:common.text_icon.label"
+        },
+        {
+          "type": "text",
+          "id": "heading2",
+          "label": "t:common.heading.label"
+        },
+        {
+          "type": "image_picker",
+          "id": "icon",
+          "label": "t:common.icon.label"
+        },
+        {
+          "type": "richtext",
+          "id": "text2",
+          "label": "t:common.text.label"
+        },
+        {
+          "type": "text",
+          "id": "heading3",
+          "label": "t:common.heading.label"
+        },
+        {
+          "type": "image_picker",
+          "id": "icon2",
+          "label": "t:common.icon.label"
+        },
+        {
+          "type": "richtext",
+          "id": "text3",
+          "label": "t:common.text.label"
         }
       ]
     },

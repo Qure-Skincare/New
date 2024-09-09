@@ -260,7 +260,8 @@
         "text_HCBmhc"
       ],
       "settings": {
-        "heading": "FEATURED IN"
+        "heading": "FEATURED IN",
+        "slider_type": "five_slides"
       }
     },
     "uses_w3CMA7": {
@@ -694,8 +695,40 @@
     },
     "image_text_jBxiPm": {
       "type": "image-text",
+      "blocks": {
+        "image_xAnjen": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/light_therapy.webp",
+            "custom_img": "",
+            "order_mob": false
+          }
+        },
+        "text_ELmdge": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Just as plants need sunlight, our skin craves the rejuvenating power of light. But in our modern world, relentless exposure to harsh artificial lights can leave our complexion dull and damaged.<br\/><br\/>Enter red light therapy — the ultimate skincare revolution.<br\/><br\/>Harnessing the transformative energy of LED light, it penetrates deep into the skin, kickstarting cellular repair and renewal from within. Say goodbye to tired, lacklustre skin and hello to a luminous, youthful glow.<\/p><p>Embrace the light, embrace the beauty!<\/p>",
+            "btn_text": "",
+            "btn_url": "",
+            "custom_class": "",
+            "heading2": "",
+            "text2": "",
+            "heading3": "",
+            "text3": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_xAnjen",
+        "text_ELmdge"
+      ],
       "settings": {
-        "background": "bg_clr_transparent"
+        "background": "bg-lightGrey",
+        "heading": "Why Light Therapy Is Proven To Work",
+        "hide_on_mob": true,
+        "column": 6,
+        "padding_top": 80,
+        "padding_bottom": 80
       }
     },
     "compare_8hnCcH": {
