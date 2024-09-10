@@ -1,12 +1,3 @@
-/*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin language editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
 {
   "settings_schema": {
     "logo": {
@@ -43,7 +34,9 @@
   "progressBlock": {
     "column": {
       "percent_text": "Percentage",
-      "percent_bars": "Percentage Bars"
+      "percent_bars": "Percentage Bars",
+      "partition": "Column Partition",
+      "info": "For image or video column"
     }
   },
   "product": {
@@ -83,7 +76,12 @@
     },
     "benefits": {
       "label": "Benefits List"
-    }
+    },
+    "order":{
+      "label": "Order on mobile",
+      "bottom": "Bottom"
+    },
+    "hide": "Hide on mobile"
   },
   "review": {
     "heading": {
@@ -91,11 +89,21 @@
     }
   },
   "common": {
+    "container":{
+      "size": "Section Width",
+      "full": "Full",
+      "half": "Contain"
+    },
+    "text_icon":{
+      "label": "Heading with Icon"
+    },
+    "mark": "Mark",
     "testimonial": {
       "text": "Testimonial text"
     },
     "tab": {
-      "name": "Tab Name"
+      "name": "Tab Name",
+      "tab": "Tab"
     },
     "skin": {
       "concerns": "Skin Concerns"
@@ -123,7 +131,8 @@
     },
     "serum": {
       "label": "Serum For",
-      "type": "Serum Type"
+      "type": "Serum Type",
+      "or": "Or"
     },
     "sale": {
       "label": "Sale Name",
@@ -162,7 +171,8 @@
       "label": "Align",
       "center": {
         "label": "Align center"
-      }
+      },
+      "right": "Align Right"
     },
     "choose_option": {
       "first": {
@@ -274,7 +284,9 @@
       "label": "Result"
     },
     "icon": {
-      "label": "Icon"
+      "label": "Icon",
+      "check": "Check",
+      "cross": "Cross"
     },
     "column": {
       "label": "Column",
@@ -310,7 +322,11 @@
     },
     "text": {
       "label": "Text",
-      "content": "Text content"
+      "content": "Text content",
+      "count": {
+        "one": "1 Text",
+        "five": "5 Text"
+      }
     },
     "html": {
       "label": "Html"
@@ -352,7 +368,8 @@
       "label": "Wistia video",
       "wistia": "Wista",
       "id": {
-        "label": "Wistia id"
+        "label": "Wistia id",
+        "mobile": "Wistia video mobile"
       }
     },
     "button": {
@@ -708,6 +725,7 @@
     },
     "featuredin": {
       "name": "Featured in",
+      "two": "Featured in qurify LP",
       "settings": {
       },
       "blocks": {
@@ -734,6 +752,7 @@
       "blocks": {
         "slide": {
           "name": "Slide",
+          "two_slide": "2 Slides only",
           "settings": {
             "popup_content": {
               "label": "Popup content"
@@ -744,8 +763,12 @@
     },
     "slider": {
       "name": "Slider",
+      "type": "Slider Type",
       "space_between": "Space between slides",
       "settings": {
+        "desktop": "Slides on desktop",
+        "tablet": "Slides on tablet",
+        "mobile": "Slides on mobile"
       },
       "blocks": {
       }
@@ -863,6 +886,14 @@
     },
     "compare": {
       "name": "Compare",
+      "product": "Product Comparing",
+      "info": "Which points you want to compare",
+      "points": {
+        "one": "Point 1",
+        "two": "Point 2",
+        "three": "Point 3",
+        "four": "Point 4"
+      },
       "settings": {
       },
       "blocks": {
@@ -1166,7 +1197,9 @@
     },
     "box-slider": {
       "name": "Box Slider",
-      "button": "Box Text"
+      "button": "Box Text",
+      "box": "Box",
+      "two": "Box Slider 2"
     },
     "f-collection": {
       "name": "Featured Collection"
@@ -1209,6 +1242,21 @@
     },
     "ingredients-dropdown": {
       "label": "Ingredients dropdown"
+    },
+    "main": {
+      "label": "Main"
+    },
+    "guide_content": {
+      "label": "Guide Content"
+    },
+    "compare_products": {
+      "label": "Compare Products"
+    },
+    "feature_extend": {
+      "label": "Featured Extended"
+    },
+    "have_ques":{
+      "label": "Have Questions"
     }
   }
 }

@@ -44,7 +44,7 @@
       "custom_css": [
         ".header_btn img {display: none;}",
         ".menu_icon_footer {display: none;}",
-        ".announcement_bar {background-color: #008763 !important; color: #f8f9fa !important}"
+        ".announcement_bar {background-color: #008763 !important; color: #f8f9fa !important;}"
       ],
       "settings": {
         "button_label": "GET CLEARER SKIN",
