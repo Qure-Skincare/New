@@ -83,7 +83,7 @@
         "product_YMUgQb": {
           "type": "product",
           "settings": {
-            "product": "2-month-microinfusion-bundle",
+            "product": "exclusive-micro-infusion-bundle",
             "announcement_id": "",
             "button_text_id": "Get yours",
             "show_save_price": true
@@ -571,7 +571,7 @@
         "product_bMiKn4": {
           "type": "product",
           "settings": {
-            "product": "2-month-microinfusion-bundle",
+            "product": "exclusive-micro-infusion-bundle",
             "comment_ammount": 100,
             "percent": 34,
             "ppl_choise": 0,
