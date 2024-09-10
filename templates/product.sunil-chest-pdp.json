@@ -63,8 +63,8 @@
         "video_before_and_after_dPc77J"
       ],
       "settings": {
-        "heading": "Neck & Décolletage LED Light Therapy",
-        "heading_mobile": "Neck & Décolletage LED Light Therapy",
+        "heading": "Combat Signs of Aging with Neck & Décolletage LED Therapy",
+        "heading_mobile": "Combat Signs of Aging with Neck & Décolletage LED Therapy",
         "test_product_name": "Neck & Décolletage LED Device",
         "product_images_limit": 5,
         "product_button_label": "Product",
@@ -186,6 +186,8 @@
         "button_8yxV6r": {
           "type": "button",
           "settings": {
+            "ext_btn": "",
+            "ext_url": ""
           }
         }
       },
@@ -205,6 +207,7 @@
         "button_8yxV6r"
       ],
       "settings": {
+        "background": "bg_yellow",
         "classname": "bg_yellow",
         "heading": "The answers to your questions",
         "text": "",
