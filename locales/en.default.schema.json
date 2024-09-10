@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin language editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "settings_schema": {
     "logo": {
@@ -77,7 +86,7 @@
     "benefits": {
       "label": "Benefits List"
     },
-    "order":{
+    "order": {
       "label": "Order on mobile",
       "bottom": "Bottom"
     },
@@ -89,12 +98,12 @@
     }
   },
   "common": {
-    "container":{
+    "container": {
       "size": "Section Width",
       "full": "Full",
       "half": "Contain"
     },
-    "text_icon":{
+    "text_icon": {
       "label": "Heading with Icon"
     },
     "mark": "Mark",
@@ -1255,7 +1264,7 @@
     "feature_extend": {
       "label": "Featured Extended"
     },
-    "have_ques":{
+    "have_ques": {
       "label": "Have Questions"
     }
   }
