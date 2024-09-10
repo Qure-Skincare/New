@@ -1,12 +1,3 @@
-/*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
 {
   "sections": {
     "main": {
@@ -550,7 +541,7 @@
             "benefit1": "Brightens  discolouration",
             "icon1": "shopify:\/\/shop_images\/brightens-even-skin-tone_1.png",
             "benefit2": "Fades  dark spots",
-            "icon2": "shopify:\/\/shop_images\/brightens-even-skin-tone-01_1.png",
+            "icon2": "shopify:\/\/shop_images\/unique_reduce_line.svg",
             "benefit3": "Promotes even  skin tone",
             "icon3": "shopify:\/\/shop_images\/boosts-hydration-02_1_071958b6-9b9b-428b-bd41-944b7590d5bd.svg",
             "title1": "What can it do for your skin",
@@ -577,7 +568,7 @@
             "name": "Hydra-Soothing Serum",
             "serum_type": "Fine Lines & Wrinkles",
             "benefit1": "Reduces the look of fine lines & wrinkles",
-            "icon1": "shopify:\/\/shop_images\/plumps-fine-lines-02_1.png",
+            "icon1": "shopify:\/\/shop_images\/unique_plump_fine.svg",
             "benefit2": "Helps soothe  redness",
             "icon2": "shopify:\/\/shop_images\/unique_soothes.svg",
             "benefit3": "Boosts  hydration",
