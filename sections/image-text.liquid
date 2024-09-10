@@ -15,7 +15,7 @@
 <div class="single_step section-{{ section.id }}-padding {{ section.settings.background }}">
   <div class="container">
     {%- if section.settings.heading != blank -%}
-      <div class="section_header {% if section.settings.hide_on_mob == true %} d-block d-md-none {% endif %} text-center">
+      <div class="section_header d-md-none {% if section.settings.hide_on_mob == true %} d-block {% else %}d-none {% endif %} text-center">
         <h2 class="title-lg paddingB">{{ section.settings.heading }}</h2>
       </div>
     {%- endif -%}

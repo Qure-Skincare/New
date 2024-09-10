@@ -1,5 +1,5 @@
 <!-- -- 6 reasons section start -- -->
-<div class="{{ section.settings.classname }} reasons section" id="reasons_section">
+<div class="{{ section.settings.classname }} section-{{ section.id }} reasons section" id="reasons_section">
     <div class="container">
         {% if section.settings.heading != blank %}
         <div class="section_header text-start text-md-center">
@@ -38,9 +38,15 @@
 <!-- -- 6 reasons section end -- -->
 
 {% style %}
-.chest_pdp .reasons_wrapper {
+.chest_pdp .section-{{ section.id }} .reasons_wrapper {
     display: grid;
     grid-template-columns: repeat({{ variable_name }},auto);
+}
+@media(max-width:767px) {
+    .chest_pdp .section-{{ section.id }} .reasons_wrapper {
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+}
 }
 {% endstyle %}
 

@@ -137,9 +137,7 @@
         "text_kaep4N": {
           "type": "text",
           "settings": {
-            "heading": "Skincare shouldn’t stop at the face.",
-            "text": "<p>Our <strong>safe, non-invasive skin rejuvenation<\/strong> LED treatment targets a part of the skincare routine many people overlook – the neck and décolletage.<\/p><p>This delicate area is actually where the <strong>first signs of aging show – thin skin, wrinkles, sun spots,<\/strong> age spots and more.<\/p><p>Now, you can conveniently boost firmness, even skin tone and texture, plump fine lines for youthful-looking neck and décolletage skin with our clinically-proven portable, at-home LED light therapy treatment.<\/p><p>No trips to the clinic, and no pain, side effects, or down time. (Your low neckline wardrobe will thank you for it!). <\/p>",
-            "hide_on_mob": false,
+            "text": "<p>Our <strong>safe, non-invasive skin rejuvenation<\/strong> LED treatment targets a part of the skincare routine many people overlook – the neck and décolletage.<br\/><br\/>This delicate area is actually where the <strong>first signs of aging show – thin skin, wrinkles, sun spots,<\/strong> age spots and more.<\/p><p><br\/>Now, you can conveniently boost firmness, even skin tone and texture, plump fine lines for youthful-looking neck and décolletage skin with our clinically-proven portable, at-home LED light therapy treatment.<\/p><p><br\/>No trips to the clinic, and no pain, side effects, or down time. (Your low neckline wardrobe will thank you for it!). <\/p>",
             "btn_text": "",
             "btn_url": "",
             "custom_class": "",
@@ -156,6 +154,8 @@
       ],
       "settings": {
         "background": "bg_clr_transparent",
+        "heading": "Skincare shouldn’t stop at the face.",
+        "hide_on_mob": false,
         "column": 6,
         "padding_top": 60,
         "padding_bottom": 60

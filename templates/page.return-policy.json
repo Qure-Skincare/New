@@ -21,9 +21,7 @@
         "text_UMTGcY": {
           "type": "text",
           "settings": {
-            "heading": "",
             "text": "",
-            "hide_on_mob": false,
             "btn_text": "",
             "btn_url": "",
             "custom_class": "",
@@ -50,6 +48,8 @@
       ],
       "settings": {
         "background": "bg_clr_transparent",
+        "heading": "",
+        "hide_on_mob": false,
         "column": 6,
         "padding_top": 80,
         "padding_bottom": 80
@@ -69,9 +69,7 @@
         "text_awyab8": {
           "type": "text",
           "settings": {
-            "heading": "Quick Facts",
             "text": "<p>Here’s the low-down on the terms and conditions that apply to the guarantee. You can read full T&Cs <a href=\"https:\/\/www.qureskincare.com\/pages\/terms-and-conditions\">here<\/a>.<br\/><br\/><\/p><ul><li>30 days to return OR exchange for a full refund.<\/li><li>Returns first need to be approved by Qure support. <\/li><li>Product must be new, unused with the seal intact.<\/li><li>Shipping charges are non-refundable.<\/li><li>A Restocking Fee of $10 will be deducted from the refund. <\/li><\/ul>",
-            "hide_on_mob": false,
             "btn_text": "",
             "btn_url": "",
             "custom_class": "it_info subscriptions_section m-0",
@@ -92,6 +90,8 @@
       ],
       "settings": {
         "background": "bg_clr_transparent",
+        "heading": "Quick Facts",
+        "hide_on_mob": false,
         "column": 6,
         "padding_top": 0,
         "padding_bottom": 0
@@ -182,9 +182,7 @@
         "text_ybVTyM": {
           "type": "text",
           "settings": {
-            "heading": "You’re in Good Company ",
             "text": "<p>50,000+ customers feel more confident in their own skin<\/p>",
-            "hide_on_mob": false,
             "rating": "shopify:\/\/shop_images\/results_star-full.svg",
             "btn_text": "",
             "btn_url": "",
@@ -201,18 +199,15 @@
         "text_ybVTyM"
       ],
       "custom_css": [
-        "@media(max-width: 575px){.single-step_img {margin: 0 -24px !important;}}"
+        "@media (max-width: 575px) {.single-step_img {margin: 0 -24px !important; }}"
       ],
       "settings": {
         "background": "bg_clr_transparent",
+        "heading": "You’re in Good Company ",
+        "hide_on_mob": false,
         "column": 6,
         "padding_top": 60,
         "padding_bottom": 60
-      }
-    },
-    "main": {
-      "type": "temp-return-policy",
-      "settings": {
       }
     },
     "faq_RzRgYF": {
@@ -319,7 +314,6 @@
     "box_slider_2_K8zwUd",
     "question_wYr44B",
     "image_text_BpRC9g",
-    "main",
     "faq_RzRgYF",
     "featured_collection_YxcB6X"
   ]
