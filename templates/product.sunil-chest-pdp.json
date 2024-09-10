@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "main": {
@@ -420,18 +429,6 @@
             "code": ""
           }
         },
-        "result_XjBhJN": {
-          "type": "result",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/results_anton.webp",
-            "heading": "My first aging signs",
-            "text": "<p>“I’ve always taken care of my face but neglected my neck and chest skin so I’ve made it a top priority in the past year. Since using LED regularly, the pesky fine lines in the middle of my chest are so much smoother and my skin looks youthful again! I love how this qure device has LEDs placed in the centre of the chest unlike other devices.\"                                    <\/p>",
-            "image_country": "shopify:\/\/shop_images\/usa_89e25711-f730-4521-8931-83b3307204af.png",
-            "text_country": "United States",
-            "client": "Ashley",
-            "code": ""
-          }
-        },
         "result_jzwh9c": {
           "type": "result",
           "settings": {
@@ -460,7 +457,6 @@
       "block_order": [
         "result_99hr6W",
         "result_TK6i6r",
-        "result_XjBhJN",
         "result_jzwh9c",
         "result_Lxeh36"
       ],

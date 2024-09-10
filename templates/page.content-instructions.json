@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "header_landing_pFmaRH": {
@@ -71,8 +80,6 @@
             "heading": "<p>Merge Qure into your creatives<\/p>",
             "image": "shopify:\/\/shop_images\/ac_step1.webp",
             "button_label": "Content Requirements",
-            "heading1_icon": "shopify:\/\/shop_images\/key_message.svg",
-            "bl1_heading": "Key Messages",
             "bl_subheading": "<p>Key Points to include in the messaging:<\/p>",
             "dropdown1_heading": "How it works",
             "dropdown1_content": "<ul><li>The unique 2-in-1 system uses virtually painless needles to create invisible micro-channels in the top layer of your skin through a \"stamping\" technique. This controlled trauma stimulates the skin’s natural healing process, enhancing skin texture. Simultaneously, the invisible micro-channels allow science-backed serums to be infused directly below the skin barrier, delivering active ingredients more effectively for faster results - resulting in a rejuvenated, glowing complexion.<\/li><\/ul>",
@@ -106,49 +113,8 @@
           "settings": {
             "step": "Step 2",
             "heading": "<p>Get to know our Micro-Infusion System<\/p>",
-            "image": "shopify:\/\/shop_images\/ac_step2.webp",
             "button_label": "Product Information",
-            "heading1_icon": "shopify:\/\/shop_images\/search.svg",
-            "bl1_heading": "Product Details",
-            "bl_subheading": "",
-            "pdt_spec_img": "shopify:\/\/shop_images\/mi_safety_mob1.webp",
-            "image_width": false,
-            "pdt_spec_ul": "<ul><li><strong>20 pcs<\/strong><br\/>hypoallergenic surgical needles<\/li><li><strong>24K Gold<\/strong><br\/>plated micro-needles<\/li><li><strong>0.5mm<\/strong><br\/>needle length<\/li><li><strong>5mL<\/strong><br\/>capacity for serum<\/li><\/ul>",
-            "bl1_list": "<ul><li>0.5 mm needles create controlled depth of micro-channels in the top layer of your skin through a \"stamping\" technique. It “tricks” your skin into activating your body’s natural healing process.<\/li><li>Single-use sterile 24 gold plated needle heads help minimize the risk of infection or irritation.<\/li><li>Serum of choice (for wrinkles \/ for dark spots) is infused directly below the skin barrier, accelerating absorption of active ingredients for faster results.<\/li><\/ul>",
-            "technical_specification": "",
-            "technical_specification_info": "",
-            "treatment_details": "",
-            "treatment_details_info": "",
-            "link_text": "Learn more about Micro-Infusion System >",
-            "link_url": "https:\/\/www.qureskincare.com\/pages\/microinfusion",
-            "heading2_icon": "shopify:\/\/shop_images\/usage_dir.svg",
-            "bl2_heading": "Usage Instructions",
-            "bl2_list": "<ul><li>Treatment every 2 weeks, at night, for the best results. <\/li><li>Follow pre and post treatment protocol.<\/li><li>Make sure to scan the QR-code on the packaging before use or see detailed protocol <a href=\"https:\/\/www.qureskincare.com\/pages\/microinfusion-safety-guide\">here<\/a>.<\/li><\/ul>",
-            "wistia_video_id": "yy9nv8vwsn",
-            "video_btn_url": "https:\/\/www.qureskincare.com\/pages\/microinfusion-safety-guide",
-            "video_btn_text": "Detailed How to Use Guide",
-            "heading3_icon": "shopify:\/\/shop_images\/product_claims.svg",
-            "bl3_heading": "Product Claims",
-            "bl3_list": "<ul><li>Disposable needle-heads with 24 karat gold-plated needles minimize the risk of infection and irritation<\/li><li>Delivers science-backed serums directly to skin to help increase absorption & results<\/li><li>Little to no downtime & quick recovery of the skin<\/li><li>Offers similar results to in-clinic micro needling<\/li><\/ul>",
-            "pdt_acc_1_heading": "",
-            "pdt_acc_1_status_bar": false,
-            "pdt_acc_1_list": "",
-            "pdt_acc_2_heading": "",
-            "pdt_acc_2_status_bar": false,
-            "pdt_acc_2_list": "",
-            "bl3_list_ing": "",
-            "dropdown1_heading": "",
-            "dropdown1_content": "",
-            "dropdown2_heading": "",
-            "dropdown2_content": "",
-            "dropdown3_heading": "",
-            "dropdown3_content": "",
-            "dropdown4_heading": "",
-            "dropdown4_content": "",
-            "dropdown5_heading": "",
-            "dropdown5_content": "",
-            "dropdown6_heading": "",
-            "dropdown6_content": ""
+            "image": "shopify:\/\/shop_images\/ac_step2.webp"
           }
         },
         "inspiring_content_iBPkMb": {
@@ -156,40 +122,8 @@
           "settings": {
             "step": "Step 3",
             "heading": "<p>Get inspired by other content creators<\/p>",
-            "image": "shopify:\/\/shop_images\/ac_step3.webp",
             "button_label": "Inspiring Content",
-            "bl1_heading": "Show before and after",
-            "bl1_i1": "shopify:\/\/shop_images\/ac_video1.webp",
-            "bl1_v1": "9j7kz7pwfj",
-            "bl1_i2": "shopify:\/\/shop_images\/ac_video2.webp",
-            "bl1_v2": "vwg9xabn6t",
-            "bl1_i3": "shopify:\/\/shop_images\/ac_video3.webp",
-            "bl1_v3": "ao0jik85yh",
-            "bl1_v4": "",
-            "bl2_heading": "How to use and product details",
-            "bl2_i1": "shopify:\/\/shop_images\/ac_video4.webp",
-            "bl2_v1": "zbw5az4lxu",
-            "bl2_i2": "shopify:\/\/shop_images\/ac_video5.webp",
-            "bl2_v2": "ctu18ifgej",
-            "bl2_i3": "shopify:\/\/shop_images\/ac_video6.webp",
-            "bl2_v3": "e3owuyh54j",
-            "bl3_heading": "Compared to alternatives",
-            "bl3_i1": "shopify:\/\/shop_images\/ac_video7.webp",
-            "bl3_v1": "dmnyxb9uyx",
-            "bl3_i2": "shopify:\/\/shop_images\/ac_video8.webp",
-            "bl3_v2": "7ybppilsd8",
-            "bl3_i3": "shopify:\/\/shop_images\/ac_video9.webp",
-            "bl3_v3": "atadet89nj",
-            "bl4_heading": "What experts say",
-            "bl4_i1": "shopify:\/\/shop_images\/ac_video10.webp",
-            "bl4_v1": "x5n59x4s9n",
-            "bl4_i2": "shopify:\/\/shop_images\/ac_video11.webp",
-            "bl4_v2": "lqydp0b8zz",
-            "bl4_i3": "shopify:\/\/shop_images\/ac_video12.webp",
-            "bl4_v3": "u9wetsz9sg",
-            "bl4_v4": "",
-            "bl4_v5": "",
-            "bl4_v6": ""
+            "image": "shopify:\/\/shop_images\/ac_step3.webp"
           }
         }
       },
