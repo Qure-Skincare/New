@@ -106,9 +106,6 @@
             "step": "Step 2",
             "heading": "<p>Get to know our Micro-Infusion System<\/p>",
             "image": "shopify:\/\/shop_images\/ac_step2.webp",
-<<<<<<< HEAD
-            "button_label": "Product Information"
-=======
             "button_label": "Product Information",
             "bl1_heading": "",
             "bl_subheading": "",
@@ -147,7 +144,6 @@
             "dropdown5_content": "",
             "dropdown6_heading": "",
             "dropdown6_content": ""
->>>>>>> production
           }
         },
         "inspiring_content_iBPkMb": {
@@ -156,9 +152,6 @@
             "step": "Step 3",
             "heading": "<p>Get inspired by other content creators<\/p>",
             "image": "shopify:\/\/shop_images\/ac_step3.webp",
-<<<<<<< HEAD
-            "button_label": "Inspiring Content"
-=======
             "button_label": "Inspiring Content",
             "bl1_heading": "",
             "bl1_v1": "",
@@ -180,7 +173,6 @@
             "bl4_v4": "",
             "bl4_v5": "",
             "bl4_v6": ""
->>>>>>> production
           }
         }
       },
