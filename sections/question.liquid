@@ -22,17 +22,17 @@
           {% case block.type %}
             {% when 'chat' %}
               <a href="javascript:;" class="cu_btn" onclick="openChat()">
-                <img src="https://qureskincaredns.com/new/assets/live-chat_sm.svg" alt="">
+                <img src="{{ 'chat_icon.svg' | asset_url }}" alt="">
                 <p>Chat With Us</p>
               </a>
             {% when 'call' %}
               <a href="tel:+1 (240) 702-2228" class="cu_btn">
-                <img src="https://qureskincaredns.com/new/assets/call.svg" alt="">
+                <img src="{{ 'call_icon.svg' | asset_url }}" alt="">
                 <p>Call Us</p>
               </a>
             {% when 'email' %}
               <a href="mailto:support@qureskincare.com" class="cu_btn">
-                <img src="https://qureskincaredns.com/new/assets/email_us.svg" alt="">
+                <img src="{{ 'email_icon.svg' | asset_url }}" alt="">
                 <p>Email Us</p>
               </a>
           {% endcase %}
@@ -62,17 +62,17 @@
   "blocks": [
     {
       "type": "chat",
-      "name": "chat",
+      "name": "t:common.name.chat",
       "limit": 1
     },
     {
       "type": "call",
-      "name": "call",
+      "name": "t:common.name.call",
       "limit": 1
     },
     {
       "type": "email",
-      "name": "email",
+      "name": "t:common.name.email",
       "limit": 1
     }
   ],

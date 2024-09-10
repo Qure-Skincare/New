@@ -83,6 +83,9 @@
     "header": {
       "label": "Mobile Content"
     },
+    "image":{
+      "label": "Image Mobile"
+    },
     "benefits": {
       "label": "Benefits List"
     },
@@ -201,7 +204,10 @@
       }
     },
     "name": {
-      "label": "Name"
+      "label": "Name",
+      "call": "Call",
+      "email": "Email",
+      "chat": "Chat"
     },
     "subheading": {
       "label": "Subheading",
@@ -334,6 +340,8 @@
     "text": {
       "label": "Text",
       "content": "Text content",
+      "with_acco": "Text With Dropdown",
+      "dropdown": "Dropdowns",
       "count": {
         "one": "1 Text",
         "five": "5 Text"
@@ -862,6 +870,7 @@
       "header": "Trust line settings",
       "icon": "Trust icon",
       "text": "Trust text",
+      "dermatologist": "Trusted Dermatologist",
       "settings": {
       },
       "blocks": {
@@ -1231,7 +1240,8 @@
       "name": "Image & Text"
     },
     "how_to_use": {
-      "name": "How to Use"
+      "name": "How to Use",
+      "two": "How to Use 2"
     },
     "product_grid": {
       "label": "Products Grid"
@@ -1268,6 +1278,9 @@
     },
     "have_ques": {
       "label": "Have Questions"
+    },
+    "founder":{
+      "label": "Qure Founder"
     }
   }
 }

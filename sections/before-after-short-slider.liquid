@@ -2,10 +2,12 @@
 <div class="result_s section {% if section.settings.slide_count != blank %} result_s2 {% endif %}">
     <div class="container">
         <div class="section_header text-start text-md-center">
+            {% if section.settings.heading != blank %}
             <h2 class="title-lg">
                 {{ section.settings.heading }}
             </h2>
-            {% if section.settings.text %}
+            {% endif %}
+            {% if section.settings.text != blank %}
                 {{ section.settings.text }}
             {% endif %}
         </div>

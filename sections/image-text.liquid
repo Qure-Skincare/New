@@ -12,7 +12,7 @@
   }
 {%- endstyle -%}
 <!-- -- single step start -- -->
-<div class="single_step section-{{ section.id }}-padding {{ section.settings.background }}">
+<div class="single_step {% if section.settings.show_comment == true %}technology_light {% endif %} section-{{ section.id }}-padding {{ section.settings.background }}">
   <div class="container">
     {%- if section.settings.heading != blank -%}
       <div class="section_header d-md-none {% if section.settings.hide_on_mob == true %} d-block {% else %}d-none {% endif %} text-center">
@@ -30,6 +30,23 @@
                   alt="{{ block.settings.image.alt }}"
                   class="w-100 {{ block.settings.custom_img }}"
                 >
+              </div>
+              <div class="tl_content {% if section.settings.show_comment == true %}d-grid {% else %}d-none{% endif %} pt-5">
+                <div class="tl_info_wrap pt-2 pt-md-0 pb-4 pb-md-5">
+                  {% if block.settings.comment1 != blank %}
+                    <div class="tl_info">
+                      <div class="tl_box" style="background: {{ block.settings.color1 }};"></div>
+                      <p>{{ block.settings.comment1 }}</p>
+                    </div>
+                  {% endif %}
+                  {% if block.settings.comment2 != blank %}
+                    <div class="tl_info">
+                      <div class="tl_box" style="background: {{ block.settings.color2 }};"></div>
+                      <p>{{ block.settings.comment2 }}</p>
+                    </div>
+                  {% endif %}
+                </div>
+                {% if block.settings.comment_txt != blank %} {{ block.settings.comment_txt }} {% endif %}
               </div>
             </div>
 
@@ -97,7 +114,9 @@
                 {% endif %}
                 {%- if section.settings.heading != blank -%}
                   <div class="section_header">
-                    <h2 class="title-lg paddingB {% if section.settings.hide_on_mob == true %}d-none d-md-block {% endif %}">{{ section.settings.heading }}</h2>
+                    <h2 class="title-lg paddingB {% if section.settings.hide_on_mob == true %}d-none d-md-block {% endif %}">
+                      {{ section.settings.heading }}
+                    </h2>
                     {% if block.settings.rating != blank %}
                       <div class="refill_review justify-content-start mb-0">
                         <div class="star_gp">
@@ -118,6 +137,56 @@
                   </a>
                 {% endif %}
               </div>
+            </div>
+
+          {%- when 'accordian' -%}
+            <div class="col-md-{% assign dashoffset = 12 | minus: section.settings.column %}{{ dashoffset }}">
+              <div class="single_step return_ftrs ps-md-3 mt-3 mt-md-0">
+                {%- if block.settings.a_heading != blank -%}
+                  <div class="section_header">
+                    <h2 class="title-lg paddingB">
+                      {{ block.settings.a_heading }}
+                    </h2>
+                  </div>
+                {%- endif -%}
+                {%- if block.settings.a_text != blank -%}
+                  <div>
+                    {{ block.settings.a_text }}
+                  </div>
+                {%- endif -%}
+              </div>
+              {%- if block.settings.a_head1 != blank -%}
+              <div class="accordion-item u_item_question bg-grey">
+                <h2 class="accordion-header u_item_expandable bg-grey">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#t_item_accordion_3" aria-expanded="false" aria-controls="t_item_accordion_3">
+                        <div class="containers">{{ block.settings.a_head1 }}</div>
+                    </button>
+                </h2>
+                <div id="t_item_accordion_3" class="accordion-collapse collapse" data-bs-parent="#accordionTechnology">
+                    <div class="accordion-body">
+                        <div class="containers">
+                           {{ block.settings.a_text1 }}
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {%- endif -%}
+            {%- if block.settings.a_head2 != blank -%}
+            <div class="accordion-item u_item_question bg-grey">
+                <h2 class="accordion-header u_item_expandable bg-grey">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#t_item_accordion_4" aria-expanded="false" aria-controls="t_item_accordion_4">
+                        <div class="containers">{{ block.settings.a_head2 }}</div>
+                    </button>
+                </h2>
+                <div id="t_item_accordion_4" class="accordion-collapse collapse" data-bs-parent="#accordionTechnology">
+                    <div class="accordion-body">
+                        <div class="containers">
+                          {{ block.settings.a_text2 }}
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {%- endif -%}
             </div>
         {%- endcase -%}
       {%- endfor -%}
@@ -159,7 +228,7 @@
       "type": "checkbox",
       "id": "hide_on_mob",
       "label": "t:commonMob.hide",
-      "default":false
+      "default": false
     },
     {
       "type": "range",
@@ -191,6 +260,16 @@
       "max": 100,
       "step": 1,
       "unit": "px"
+    },
+    {
+      "type": "header",
+      "content": "t:common.comment.label"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_comment",
+      "label": "t:common.comment.show",
+      "default": false
     }
   ],
   "max_blocks": 2,
@@ -219,6 +298,74 @@
           "id": "order_mob",
           "label": "t:commonMob.order.bottom",
           "default": false
+        },
+        {
+          "type": "color",
+          "id": "color1",
+          "label": "t:common.comment.flag",
+          "default": "#000000"
+        },
+        {
+          "type": "text",
+          "id": "comment1",
+          "label": "t:common.comment.label"
+        },
+        {
+          "type": "color",
+          "id": "color2",
+          "label": "t:common.comment.flag",
+          "default": "#000000"
+        },
+        {
+          "type": "text",
+          "id": "comment2",
+          "label": "t:common.comment.label"
+        },
+        {
+          "type": "richtext",
+          "id": "comment_txt",
+          "label": "t:common.text.label"
+        }
+      ]
+    },
+    {
+      "type": "accordian",
+      "name": "t:common.text.with_acco",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "text",
+          "id": "a_heading",
+          "label": "t:common.heading.label"
+        },
+        {
+          "type": "richtext",
+          "id": "a_text",
+          "label": "t:common.text.content"
+        },
+        {
+          "type": "header",
+          "content": "t:common.text.dropdown"
+        },
+        {
+          "type": "text",
+          "id": "a_head1",
+          "label": "t:common.heading.label"
+        },
+        {
+          "type": "richtext",
+          "id": "a_text1",
+          "label": "t:common.text.content"
+        },
+        {
+          "type": "text",
+          "id": "a_head2",
+          "label": "t:common.heading.label"
+        },
+        {
+          "type": "richtext",
+          "id": "a_text2",
+          "label": "t:common.text.content"
         }
       ]
     },
