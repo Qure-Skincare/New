@@ -83,7 +83,7 @@
     "header": {
       "label": "Mobile Content"
     },
-    "image":{
+    "image": {
       "label": "Image Mobile"
     },
     "benefits": {
@@ -1279,7 +1279,7 @@
     "have_ques": {
       "label": "Have Questions"
     },
-    "founder":{
+    "founder": {
       "label": "Qure Founder"
     }
   }
