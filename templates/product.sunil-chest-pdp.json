@@ -152,6 +152,11 @@
         "image_eX3eCH",
         "text_kaep4N"
       ],
+      "custom_css": [
+        ".single-step_img {padding-right: 48px;}",
+        ".single_step .gx-5 {--bs-gutter-x: 0rem;}",
+        ".section_header {padding-bottom: 0;}"
+      ],
       "settings": {
         "background": "bg_clr_transparent",
         "heading": "Skincare shouldn’t stop at the face.",
@@ -310,7 +315,7 @@
         "text_content_rTCfXc"
       ],
       "settings": {
-        "padding_top": 0,
+        "padding_top": 60,
         "padding_bottom": 0
       }
     },
@@ -504,7 +509,13 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/technology_light.webp",
-            "classname": "mw-mob-100"
+            "classname": "mw-mob-100",
+            "show_comment": true,
+            "color1": "#e83c3f",
+            "comment1": "Addresses premature skin ageing",
+            "color2": "#912a5c",
+            "comment2": "Renews and nourishes skin",
+            "comment_txt": "<p>Your skin absorbs the natural light, kickstarting production of elastin, collagen, and fibroblasts – known to <strong>enhance skin firmness and smoothness. <\/strong>It’s truly working to repair and rejuvenate your skin from the inside out!<\/p>"
           }
         }
       },

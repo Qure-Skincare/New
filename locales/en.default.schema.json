@@ -160,6 +160,8 @@
     },
     "comment": {
       "label": "Comment",
+      "show": "Show Comment",
+      "flag": "Comment Flag Color",
       "amount": {
         "label": "Comments amount"
       }

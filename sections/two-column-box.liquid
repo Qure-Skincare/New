@@ -114,6 +114,25 @@
                             {% if image_custom != blank %}
                                 <div class="col-12 col-md-{{ section.settings.column_image }} d-none d-md-block">
                                     {{ image }}
+                                    <div class="tl_content {% if block.settings.show_comment == true %}d-grid {% else %}d-none{% endif %} pt-5">
+                                        <div class="tl_info_wrap pt-2 pt-md-0 pb-4 pb-md-5">
+                                            {% if block.settings.comment1 != blank %}
+                                            <div class="tl_info">
+                                                <div class="tl_box" style="background: {{ block.settings.color1 }};"></div>
+                                                <p>{{ block.settings.comment1 }}</p>
+                                            </div>
+                                            {% endif %}
+                                            {% if block.settings.comment2 != blank %}
+                                            <div class="tl_info">
+                                                <div class="tl_box" style="background: {{ block.settings.color2 }};"></div>
+                                                <p>{{ block.settings.comment2 }}</p>
+                                            </div>
+                                            {% endif %}
+                                        </div>
+                                        {% if block.settings.comment_txt != blank %}
+                                        {{ block.settings.comment_txt }}
+                                        {% endif %}
+                                    </div> 
                                 </div>
                             {% else %}
                                 {% comment %} default view for desktop-mobile images {% endcomment %}
@@ -271,6 +290,39 @@
                         "id": "classname",
                         "label": "t:common.classname.label",
                         "default": "mw-mob-100"
+                    },
+                    {
+                        "type": "checkbox",
+                        "id": "show_comment",
+                        "label": "t:common.comment.show",
+                        "default": false
+                    },
+                    {
+                        "type": "color",
+                        "id": "color1",
+                        "label": "t:common.comment.flag",
+                        "default": "#000000"
+                    },
+                    {
+                        "type": "text",
+                        "id": "comment1",
+                        "label": "t:common.comment.label"
+                    },
+                    {
+                        "type": "color",
+                        "id": "color2",
+                        "label": "t:common.comment.flag",
+                        "default": "#000000"
+                    },
+                    {
+                        "type": "text",
+                        "id": "comment2",
+                        "label": "t:common.comment.label"
+                    },
+                    {
+                        "type": "richtext",
+                        "id": "comment_txt",
+                        "label": "t:common.text.label"
                     }
                 ]
 		    },
