@@ -737,24 +737,24 @@
         "text": "<h5>5 minutes total, every 2-4 weeks<\/h5>"
       }
     },
-    "trusted_3LYymW": {
+    "trusted_qGtbnC": {
       "type": "trusted",
       "blocks": {
-        "feedback_7TxNa9": {
+        "feedback_9Aa4j6": {
           "type": "feedback",
           "settings": {
             "image": "shopify:\/\/shop_images\/cl_shah.webp",
-            "text": "<p>\"This treatment is an at-home option for those who want to avoid the hassle or cost of going to the office.\"<\/p><h6><strong>Dr Shah, MD<\/strong>Board-Certified Dermatologist<\/h6>"
+            "text": "<p>\"This treatment is an at-home option for those who want to avoid the hassle or cost of going to the office.\"<\/p><h6><strong>Dr Shah, MD,<\/strong> Certified Dermatologist<\/h6>"
           }
         },
-        "feedback_mKipFz": {
+        "feedback_NVbkWM": {
           "type": "feedback",
           "settings": {
             "image": "shopify:\/\/shop_images\/cl_max.webp",
-            "text": "<p>\"Brighter looking, more even skin, minimum pain, and little downtime, just a few reasons why this is my favorite at-home treatment.\"<\/p><h6><strong>Dr Maxfield, MD<\/strong>Board-Certified Dermatologist<\/h6>"
+            "text": "<p>\"Brighter looking, more even skin, minimum pain, and little downtime, just a few reasons why this is my favorite at-home treatment.\"<\/p><h6><strong>Dr Maxfield, MD,<\/strong> Certified Dermatologist<\/h6>"
           }
         },
-        "video_76qkgq": {
+        "video_pEM9DL": {
           "type": "video",
           "disabled": true,
           "settings": {
@@ -765,7 +765,18 @@
             "text": "<p>\"Qure’s system is far more affordable and convenient than the in office procedure because it’s done in the comfort of your home.\"<\/p><h6><strong>Dr Maren Locke<\/strong> Board-Certified Dermatologist<\/h6>"
           }
         },
-        "video_R7fmpe": {
+        "video_XF3pgt": {
+          "type": "video",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/trusted_anthony.webp",
+            "video_url": "https:\/\/www.youtube.com\/watch?v=gGVKgTHloXw",
+            "video_label": "Watch Video",
+            "wistia_id": "",
+            "text": "<p>\"The Qure’s System is the closest thing that you can get to bringing your aesthetician home with you!\"<\/p><h6><strong>Dr Anthony Youn<\/strong> Board-Certified Plastic Surgeon<\/h6>"
+          }
+        },
+        "video_cBVzEm": {
           "type": "video",
           "settings": {
             "image": "shopify:\/\/shop_images\/Dr._Aleksandra_Brown_1.png",
@@ -775,27 +786,17 @@
             "text": "<p>\"I have liked this in between my in-office treatments. It’s convenient, great before events, and safe even for beginners.\"<\/p><h6><strong>Dr Aleksandra Brown, <\/strong>Board-Certified Dermatologist<\/h6>"
           }
         },
-        "video_gqnjTV": {
-          "type": "video",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/alexis.png",
-            "video_url": "https:\/\/youtu.be\/ZMGm5PmWzF0?t=649",
-            "video_label": "Watch Video",
-            "wistia_id": "",
-            "text": "<p>“You can get a clinical treatment at home safely and conveniently... It is particularly beneficial for those with melanin rich skin”<\/p><p><strong>Dr Alexis Stephens<\/strong>,  Board-Certified Dermatologist<\/p>"
-          }
-        },
-        "video_37LLVV": {
+        "video_C6tFxe": {
           "type": "video",
           "settings": {
             "image": "shopify:\/\/shop_images\/trusted_dylan.webp",
             "video_url": "https:\/\/www.youtube.com\/watch?v=mVdncsTAXiA",
             "video_label": "Watch Video",
             "wistia_id": "",
-            "text": "<p>\"The Qure micro-infusion system takes it a step further by not only increasing hydration but also delivering growth factors right where they need to be.\"<\/p><h6><strong>Dr Dylan Greeney, <\/strong>Board-Certified Dermatologist<\/h6>"
+            "text": "<p>\"The Qure micro-infusion system takes it a step further by not only increasing hydration but also delivering growth factors right where they need to be.”<\/p><h6><strong>Dr Dylan Greeney<\/strong> Board-Certified Dermatologist<\/h6>"
           }
         },
-        "video_zTx4mk": {
+        "video_PECKPL": {
           "type": "video",
           "settings": {
             "image": "shopify:\/\/shop_images\/trusted_mona.webp",
@@ -805,27 +806,7 @@
             "text": "<p>\"You'll see a kind of dewy glowy look after you use it but within a couple of days your skin really looks quite amazing.\"<\/p><h6><strong>Dr Mona Patel<\/strong> Internal Medicine<\/h6>"
           }
         },
-        "video_fbrc7r": {
-          "type": "video",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Dr._Prasanthi_Purusothaman_1.png",
-            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/5537bcc1d93146b2a7f84e09b1c41b4b.mp4",
-            "video_label": "Watch Video",
-            "wistia_id": "",
-            "text": "<p>\"..safe for generally all skin tones and types to perform at home without any risk of infection or trauma.\" <\/p><h6><strong>Dr Prasanthi Purusothman, <\/strong>General Practitioner & Cosmetic Doctor<\/h6>"
-          }
-        },
-        "video_EN37N8": {
-          "type": "video",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/trusted_davim.webp",
-            "video_url": "https:\/\/www.youtube.com\/watch?v=0Lxofv19620",
-            "video_label": "Watch Video",
-            "wistia_id": "",
-            "text": "<p>\"Unlike using harsh micro needles or Derma rollers, this one is super safe...\"<\/p><h6><strong>Dr Davin Lim<\/strong> Board-Certified Dermatologist<\/h6>"
-          }
-        },
-        "video_dcczF3": {
+        "video_dyArxL": {
           "type": "video",
           "disabled": true,
           "settings": {
@@ -836,37 +817,56 @@
             "text": "<p>\"It’s an amazing 5-minute facial with minimal to no downtime! I absolutely love this. Ten out of ten from me.\"<\/p><h6><strong>Dr Doireann O’Leary, <\/strong>Medical Doctor<\/h6>"
           }
         },
-        "video_D7zBLA": {
+        "video_BMBJXV": {
           "type": "video",
-          "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/trusted_anthony.webp",
-            "video_url": "https:\/\/www.youtube.com\/watch?v=gGVKgTHloXw",
+            "image": "shopify:\/\/shop_images\/Dr._Prasanthi_Purusothaman_1.png",
+            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/5537bcc1d93146b2a7f84e09b1c41b4b.mp4",
             "video_label": "Watch Video",
             "wistia_id": "",
-            "text": "<p>\"The Qure’s System is the closest thing that you can get to bringing your aesthetician home with you!\"<\/p><h6><strong>Dr Anthony Youn<\/strong> Board-Certified Plastic Surgeon<\/h6>"
+            "text": "<p>”..safe for generally all skin tones and types to perform at home without any risk of infection or trauma.” <\/p><h6><strong>Dr Prasanthi Purusothman, <\/strong>General Practitioner & Cosmetic Doctor<\/h6>"
+          }
+        },
+        "video_jPYhQi": {
+          "type": "video",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/trusted_davim.webp",
+            "video_url": "https:\/\/www.youtube.com\/watch?v=0Lxofv19620",
+            "video_label": "Watch Video",
+            "wistia_id": "",
+            "text": "<p>\"Unlike using harsh micro needles or Derma rollers, this one is super safe...\"<\/p><h6><strong>Dr Davin Lim<\/strong> Board-Certified Dermatologist<\/h6>"
+          }
+        },
+        "video_RcwXy6": {
+          "type": "video",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/alexis.png",
+            "video_url": "https:\/\/youtu.be\/ZMGm5PmWzF0?t=649",
+            "video_label": "Watch Video",
+            "wistia_id": "",
+            "text": "<p>“You can get a Clinical treatment at home safely and conveniently... It is particularly beneficial for those with melanin Rich Skin”<\/p><p><strong>Dr Alexis Stephens,<\/strong>  Board-Certified Dermatologist<\/p><p><\/p>"
           }
         }
       },
       "block_order": [
-        "feedback_7TxNa9",
-        "feedback_mKipFz",
-        "video_76qkgq",
-        "video_R7fmpe",
-        "video_gqnjTV",
-        "video_37LLVV",
-        "video_zTx4mk",
-        "video_fbrc7r",
-        "video_EN37N8",
-        "video_dcczF3",
-        "video_D7zBLA"
+        "feedback_9Aa4j6",
+        "feedback_NVbkWM",
+        "video_pEM9DL",
+        "video_XF3pgt",
+        "video_cBVzEm",
+        "video_C6tFxe",
+        "video_PECKPL",
+        "video_dyArxL",
+        "video_BMBJXV",
+        "video_jPYhQi",
+        "video_RcwXy6"
       ],
       "settings": {
         "classname": "trusted_bl",
-        "heading": "Loved by world leading Dermatologists",
+        "heading": "Reviewed by world leading Dermatologists",
         "heading_reduced": "",
         "likes": "23K",
-        "views": "1.3M views",
+        "views": "1.3M VIEWS",
         "image": "shopify:\/\/shop_images\/trusted_3.webp",
         "video_url": "https:\/\/www.youtube.com\/watch?v=JPWycy8cwN8",
         "video_label": "Click To Watch Review",
@@ -1029,7 +1029,7 @@
     "two_column_box_PWXFYi",
     "liquid_C6P8Fm",
     "guide_PGAAdt",
-    "trusted_3LYymW",
+    "trusted_qGtbnC",
     "liquid_yCpGbf",
     "faq_i6CJe6",
     "reviews_gBAXeE",
