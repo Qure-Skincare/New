@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "main": {
@@ -492,6 +501,18 @@
             "client": "Melanie B.",
             "code": ""
           }
+        },
+        "result_yQPg9y": {
+          "type": "result",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/B_A_alexandra.png",
+            "heading": "Cured my PP skin!",
+            "text": "<p>\"Tried top shelf skin routines but none of them were able to help me with my PP skin issues (severe acne, scaring, dark spots, you name it! It was worse then puberty! But it's my second month and my skin is already 90% back to normal! Subscribe to this and stick with it! Customer service is also top notch the best!\"<\/p>",
+            "image_country": "shopify:\/\/shop_images\/usa_189ccd4e-add5-48f9-8078-c50c3e29332f.png",
+            "text_country": "Unites States",
+            "client": "Alexandra R.",
+            "code": ""
+          }
         }
       },
       "block_order": [
@@ -511,7 +532,8 @@
         "result_zHPFqU",
         "result_djxhNa",
         "result_gDzAyP",
-        "result_UYzMEq"
+        "result_UYzMEq",
+        "result_yQPg9y"
       ],
       "settings": {
         "classname": "mi_landing_result",
