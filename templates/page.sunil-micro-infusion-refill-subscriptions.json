@@ -156,7 +156,6 @@
       "settings": {
         "heading": "Refill your Micro-Infusion & don’t stop glowing",
         "heading_mobile": "Refill your Micro-Infusion & don’t stop glowing",
-        "test_product_name": "Micro-Infusion Refill Kit",
         "product": "",
         "product_images_offset": 0,
         "product_images_limit": 4,
@@ -561,7 +560,7 @@
             "name": "Rejuvenating Serum",
             "serum_type": "Dark Spots & Uneven Skin Tone",
             "benefit1": "Brightens  discolouration",
-            "icon1": "shopify:\/\/shop_images\/brightens-even-skin-tone_1.png",
+            "icon1": "shopify:\/\/shop_images\/unique_bright_skin_fixed.svg",
             "benefit2": "Fades  dark spots",
             "icon2": "shopify:\/\/shop_images\/unique_reduce_line.svg",
             "benefit3": "Promotes even  skin tone",

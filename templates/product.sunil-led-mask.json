@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "main": {
@@ -75,7 +84,6 @@
       "settings": {
         "heading": "Repair & rejuvenate your skin with our Light Therapy Mask",
         "heading_mobile": "Customizable LED Light Therapy Mask",
-        "test_product_name": "Q-Rejuvalight Pro LED Mask",
         "product_images_limit": 5,
         "product_button_label": "Product",
         "before_after_images_limit": 2,
