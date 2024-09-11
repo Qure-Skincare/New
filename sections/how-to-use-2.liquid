@@ -1,3 +1,4 @@
+{% assign random_number='now' | date: "%s" | modulo: 100 | plus: 1 %}
 <!-- -- how to use start -- -->
 <div class="howUseSection section">
     <div class="container">
@@ -11,7 +12,7 @@
           <div class="howUseSection_bl pe-md-5">
             <div
               style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff"
-              class="swiper howUse_img"
+              class="swiper howUse_img-{{ random_number }}"
             >
               <div class="swiper-wrapper">
                 {% for block in section.blocks %}
@@ -29,7 +30,7 @@
               <h2 class="title-lg">{{ section.settings.heading }}</h2>
             {% endif %}
           </div>
-          <div thumbsSlider="" class="swiper howUse_slider">
+          <div thumbsSlider="" class="swiper howUse_slider-{{ random_number }}">
             <div class="swiper-wrapper">
               {% for block in section.blocks %}
                 <div class="swiper-slide">
@@ -47,7 +48,7 @@
           </div>
           <div
             style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff"
-            class="swiper howUse_info dot_pagination"
+            class="swiper howUse_info-{{ random_number }} dot_pagination"
           >
             <div class="swiper-wrapper">
               {% for block in section.blocks %}
@@ -71,7 +72,7 @@
   <!-- -- how to use end -- -->
   <script>
     document.addEventListener('DOMContentLoaded', function () {
-      var swiperThumbs = new Swiper('.howUse_slider', {
+      var swiperThumbs = new Swiper('.howUse_slider-{{ random_number }}', {
         spaceBetween: 0,
         slidesPerView: 3,
         // freeMode: true,
@@ -84,7 +85,7 @@
         },
       });
   
-      var swiper2 = new Swiper('.howUse_info', {
+      var swiper2 = new Swiper('.howUse_info-{{ random_number }}', {
         spaceBetween: 10,
         navigation: {
           nextEl: '.swiper-button-next',
@@ -100,7 +101,7 @@
         touchRatio: 0,
       });
   
-      var swiper3 = new Swiper('.howUse_img', {
+      var swiper3 = new Swiper('.howUse_img-{{ random_number }}', {
         spaceBetween: 20,
         slidesPerView: 1.2,
         thumbs: {
@@ -134,7 +135,7 @@
   </script>
   {% schema %}
   {
-    "name": "How to Use 2",
+    "name": "t:sections.how_to_use.two",
     "settings": [
       {
         "type": "text",
@@ -146,7 +147,7 @@
     "blocks": [
       {
         "type": "tab",
-        "name": "Tab",
+        "name": "t:common.tab.tab",
         "settings": [
           {
             "type": "text",
@@ -157,25 +158,25 @@
           {
             "type": "text",
             "id": "heading_mob",
-            "label": "Heading Mobile",
+            "label": "t:common.heading.mobile.label",
             "default": "How to use"
           },
           {
             "type": "image_picker",
             "id": "image",
-            "label": "Image"
+            "label": "t:common.image.label"
           },
           {
             "type": "richtext",
             "id": "tab_content",
-            "label": "Content"
+            "label": "t:common.text.content"
           }
         ]
       }
     ],
     "presets": [
       {
-        "name": "How to use 2"
+        "name": "t:sections.how_to_use.two"
       }
     ]
   }

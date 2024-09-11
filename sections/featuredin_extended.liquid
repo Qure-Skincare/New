@@ -1,5 +1,6 @@
 <!-- -- press slider start -- -->
 <!-- -- press slider app out start -- -->
+{% assign random_number='now' | date: "%s" | modulo: 100 | plus: 1 %}
 <div id="{{ section.id }} " class="app_press section">
   <div class="container1">
     <div class="press_bl py-2 mw-mob-100">
@@ -8,11 +9,11 @@
       </div>
 
       {% if section.settings.slider_type == 'five_slides' %}
-        {% assign sliderCnt = 'app_press_sl_content_five' %}
-        {% assign sliderImg = 'app_press_sl_img_five' %}
+        {% assign sliderCnt = 'app_press_{{ random_number }}_five' %}
+        {% assign sliderImg = 'app_press_{{ random_number }}_five' %}
       {% else %}
-        {% assign sliderCnt = 'app_press_sl_content_three' %}
-        {% assign sliderImg = 'app_press_sl_img_three' %}
+        {% assign sliderCnt = 'app_press_{{ random_number }}_three' %}
+        {% assign sliderImg = 'app_press_{{ random_number }}_three' %}
       {% endif %}
       {% if section.blocks.size > 0 %}
         <div class="app_press_slider">
@@ -58,16 +59,16 @@
 <!-- -- press slider end -- -->
 
 {% if section.settings.slider_type == 'five_slides' %}
-  {% assign sliderCnt = 'app_press_sl_content_five' %}
-  {% assign sliderImg = 'app_press_sl_img_five' %}
+  {% assign sliderCnt = 'app_press_{{ random_number }}_five' %}
+  {% assign sliderImg = 'app_press_{{ random_number }}_five' %}
 {% else %}
-  {% assign sliderCnt = 'app_press_sl_content_three' %}
-  {% assign sliderImg = 'app_press_sl_img_three' %}
+  {% assign sliderCnt = 'app_press_{{ random_number }}_three' %}
+  {% assign sliderImg = 'app_press_{{ random_number }}_three' %}
 {% endif %}
 
 <script>
   document.addEventListener('DOMContentLoaded', function () {
-    var swiper_press1 = new Swiper('.app_press_sl_img_three', {
+    var swiper_press1 = new Swiper('.app_press_{{ random_number }}_three', {
       spaceBetween: 20,
       initialSlide: 1,
       touchRatio: 0,
@@ -80,7 +81,7 @@
         },
       },
     });
-    var swiper_press12 = new Swiper('.app_press_sl_content_three', {
+    var swiper_press12 = new Swiper('.app_press_{{ random_number }}_three', {
       spaceBetween: 10,
       slidesPerView: 1,
       initialSlide: 1,
@@ -91,7 +92,7 @@
       touchRatio: 0,
     });
 
-    var swiper_press = new Swiper('.app_press_sl_img_five', {
+    var swiper_press = new Swiper('.app_press_{{ random_number }}_five', {
       spaceBetween: 20,
       slidesPerView: 2.9,
       autoplay: {
@@ -111,7 +112,7 @@
         },
       },
     });
-    var swiper_press2 = new Swiper('.app_press_sl_content_five', {
+    var swiper_press2 = new Swiper('.app_press_{{ random_number }}_five', {
       spaceBetween: 10,
       autoplay: {
         delay: 5000,

@@ -501,6 +501,18 @@
             "client": "Melanie B.",
             "code": ""
           }
+        },
+        "result_yQPg9y": {
+          "type": "result",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/B_A_alexandra.png",
+            "heading": "Cured my PP skin!",
+            "text": "<p>\"Tried top shelf skin routines but none of them were able to help me with my PP skin issues (severe acne, scaring, dark spots, you name it! It was worse then puberty! But it's my second month and my skin is already 90% back to normal! Subscribe to this and stick with it! Customer service is also top notch the best!\"<\/p>",
+            "image_country": "shopify:\/\/shop_images\/usa_189ccd4e-add5-48f9-8078-c50c3e29332f.png",
+            "text_country": "Unites States",
+            "client": "Alexandra R.",
+            "code": ""
+          }
         }
       },
       "block_order": [
@@ -520,7 +532,8 @@
         "result_zHPFqU",
         "result_djxhNa",
         "result_gDzAyP",
-        "result_UYzMEq"
+        "result_UYzMEq",
+        "result_yQPg9y"
       ],
       "settings": {
         "classname": "mi_landing_result",
@@ -550,7 +563,7 @@
             "benefit1": "Brightens  discolouration",
             "icon1": "shopify:\/\/shop_images\/brightens-even-skin-tone_1.png",
             "benefit2": "Fades  dark spots",
-            "icon2": "shopify:\/\/shop_images\/brightens-even-skin-tone-01_1.png",
+            "icon2": "shopify:\/\/shop_images\/unique_reduce_line.svg",
             "benefit3": "Promotes even  skin tone",
             "icon3": "shopify:\/\/shop_images\/boosts-hydration-02_1_071958b6-9b9b-428b-bd41-944b7590d5bd.svg",
             "title1": "What can it do for your skin",
@@ -577,7 +590,7 @@
             "name": "Hydra-Soothing Serum",
             "serum_type": "Fine Lines & Wrinkles",
             "benefit1": "Reduces the look of fine lines & wrinkles",
-            "icon1": "shopify:\/\/shop_images\/plumps-fine-lines-02_1.png",
+            "icon1": "shopify:\/\/shop_images\/unique_plump_fine.svg",
             "benefit2": "Helps soothe  redness",
             "icon2": "shopify:\/\/shop_images\/unique_soothes.svg",
             "benefit3": "Boosts  hydration",
