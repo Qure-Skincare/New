@@ -737,6 +737,38 @@
         "text": "<h5>5 minutes total, every 2-4 weeks<\/h5>"
       }
     },
+    "text_with_video_QXJpiy": {
+      "type": "text-with-video",
+      "blocks": {
+        "video_cWe83q": {
+          "type": "video",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/trusted_3.webp",
+            "video": "https:\/\/www.youtube.com\/watch?v=JPWycy8cwN8",
+            "title": "Dr Shah & Dr Maxfield,",
+            "des": "Board certified dermatologist"
+          }
+        },
+        "text_content_BRMwjz": {
+          "type": "text_content",
+          "settings": {
+            "trust_icon": "shopify:\/\/shop_images\/verified_design.svg",
+            "trust_des": "Trusted and recommended by world leading Dermatologists",
+            "title": "<strong>“This treatment is an<\/strong> at-home <strong>option for those who want to<\/strong> avoid the hassle or cost of going to the office”.",
+            "title_clr": "#000000",
+            "title_strong_clr": "#797d7c"
+          }
+        }
+      },
+      "block_order": [
+        "video_cWe83q",
+        "text_content_BRMwjz"
+      ],
+      "settings": {
+        "padding_top": 60,
+        "padding_bottom": 0
+      }
+    },
     "testimonials_AcVpqD": {
       "type": "testimonials",
       "blocks": {
@@ -977,6 +1009,7 @@
     "two_column_box_PWXFYi",
     "liquid_C6P8Fm",
     "guide_PGAAdt",
+    "text_with_video_QXJpiy",
     "testimonials_AcVpqD",
     "liquid_yCpGbf",
     "faq_i6CJe6",
