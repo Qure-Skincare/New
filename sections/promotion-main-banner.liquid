@@ -21,10 +21,10 @@
             <div class="m_b_content">
                 {% if section.settings.heading != blank %}
                     <div class="section_header pb-0">
-                        <h1 class="text-center text-md-start">{{ section.settings.heading }}</h1>
+                        <h1 class="text-center text-md-start">{{ section.settings.heading |  replace:  '\n', '<br />' }}</h1>
                     </div>
                 {% endif %}
-                {{ section.settings.text }}
+                {{ section.settings.text |  replace:  '\n', '<br />' }}
 
                 {%- for block in section.blocks -%}
                     <div class="btn-auto text-center text-md-start">
