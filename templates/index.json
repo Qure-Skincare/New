@@ -211,7 +211,8 @@
         "text_Mnmb4P"
       ],
       "settings": {
-        "heading": "FEATURED IN"
+        "heading": "FEATURED IN",
+        "slider_type": "five_slides"
       }
     },
     "results_slider_w6BARa": {
@@ -300,6 +301,20 @@
             "concerns": "",
             "verified": true
           }
+        },
+        "slide_yWqyRW": {
+          "type": "Slide",
+          "settings": {
+            "heading": "Thrilled with the results!",
+            "product": "Q-Rejuvalight Pro LED Mask",
+            "stars_img": "shopify:\/\/shop_images\/results_star-full.svg",
+            "text": "<p>\"I am 45 so I am fighting signs of aging, but also still dealing with acne flare ups. I haven’t had a single breakout since I started using the mask, plus I notice a definite smoothing of fine wrinkles on my cheeks & around my eyes. I recommend this product to anyone. Well worth the investment.\"<\/p>",
+            "image": "shopify:\/\/shop_images\/Jessica_k_led_mask_b_a.png",
+            "image_country": "shopify:\/\/shop_images\/usa_189ccd4e-add5-48f9-8078-c50c3e29332f.png",
+            "client": "Jessica K.",
+            "concerns": "",
+            "verified": true
+          }
         }
       },
       "block_order": [
@@ -308,7 +323,8 @@
         "slide_wwBJ3B",
         "slide_8TxkNC",
         "slide_xWKmb6",
-        "slide_hFbVVd"
+        "slide_hFbVVd",
+        "slide_yWqyRW"
       ],
       "settings": {
         "heading": "Customers love us",
@@ -323,6 +339,7 @@
           "settings": {
             "c_image": "shopify:\/\/shop_images\/skin_c1.webp",
             "name": "Signs of aging, fine lines & wrinkles",
+            "button": "Shop Now",
             "btn_url": "https:\/\/www.qureskincare.com\/collections\/fine-line-wrinkles"
           }
         },
@@ -331,6 +348,7 @@
           "settings": {
             "c_image": "shopify:\/\/shop_images\/skin_c2.webp",
             "name": "Dark spots & uneven skin tone",
+            "button": "Shop Now",
             "btn_url": "https:\/\/www.qureskincare.com\/collections\/dark-spots?ose=false"
           }
         },
@@ -339,6 +357,7 @@
           "settings": {
             "c_image": "shopify:\/\/shop_images\/skin_c3.webp",
             "name": "Acne Breakouts & Blemishes",
+            "button": "Shop Now",
             "btn_url": "https:\/\/www.qureskincare.com\/collections\/acne-breakouts?ose=false"
           }
         },
@@ -347,6 +366,7 @@
           "settings": {
             "c_image": "shopify:\/\/shop_images\/skin_c4.webp",
             "name": "Large pores & textured skin",
+            "button": "Shop Now",
             "btn_url": "https:\/\/www.qureskincare.com\/collections\/dark-spots?"
           }
         }
@@ -362,7 +382,11 @@
       ],
       "settings": {
         "heading": "Get the Qure",
-        "sub_heading": "<h4>Reclaim your confidence at any age, no matter what your skin concern is.<\/h4>"
+        "sub_heading": "<h4>Reclaim your confidence at any age, no matter what your skin concern is.<\/h4>",
+        "container": "container",
+        "slide_on_desktop": 3,
+        "slide_on_tablet": 2,
+        "slide_on_mobile": 1
       }
     },
     "products_grid_mCReWM": {
