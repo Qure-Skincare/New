@@ -85,28 +85,27 @@
     "promotion_main_banner_48gkNr": {
       "type": "promotion-main-banner",
       "blocks": {
-        "link_crBjL9": {
+        "link_GirQqh": {
           "type": "link",
           "settings": {
-            "link_label": "Shop Labor Day Sale",
-            "link_label_mobile": "Shop & Save 51%",
-            "link_url": "https:\/\/www.qureskincare.com\/pages\/exclusive-holiday-bundle-deal#exclusive-labor-day-bundle"
+            "link_label": "Shop Now",
+            "link_label_mobile": "Shop Now",
+            "link_url": "https:\/\/www.qureskincare.com\/collections\/best-sellers"
           }
         }
       },
       "block_order": [
-        "link_crBjL9"
+        "link_GirQqh"
       ],
-      "disabled": true,
       "settings": {
-        "heading": "Labor Day Sale Save 51%",
-        "heading_mobile": "Labor Day Sale",
-        "heading_tag": "h2",
-        "subheading": "<p>on Exclusive <strong>Limited Edition<\/strong> Micro-Infusion Bundle<\/p>",
-        "subheading_mobile": "<p>Exclusive <strong>Limited Edition<\/strong> Micro-Infusion Bundle<\/p>",
-        "text": "<p><em>A deal so good, it’s limited to one per order.<\/em><\/p>",
-        "image": "shopify:\/\/shop_images\/LABOR_NEW_DESKTOP.png",
-        "image_mobile": "shopify:\/\/shop_images\/LABOR_NEW_MBILE.png"
+        "heading": "Don't let post-summer skin damage get your confidence down",
+        "heading_mobile": "",
+        "heading_tag": "h1",
+        "subheading": "",
+        "subheading_mobile": "",
+        "text": "<p>Repair, replenish and even skin tone with clinically-proven LED light therapy.<\/p>",
+        "image": "shopify:\/\/shop_images\/summer_banner.webp",
+        "image_mobile": "shopify:\/\/shop_images\/summer_banner-mob.webp"
       }
     },
     "promotion_main_banner_second_jCUkqh": {
@@ -124,6 +123,7 @@
       "block_order": [
         "link_Pk3LH6"
       ],
+      "disabled": true,
       "settings": {
         "heading": "Get clinic-level results from home- minus the ‘clinical’ costs.",
         "heading_mobile": "",
