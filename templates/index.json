@@ -54,6 +54,7 @@
         },
         "slide_9qAien": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/homepageslide-5.jpg",
             "link_label": "Q-urify Water Filter",
