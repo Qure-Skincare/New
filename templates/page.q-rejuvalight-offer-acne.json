@@ -367,11 +367,24 @@
           "settings": {
             "heading": "Renewed skin!",
             "product": "",
-            "text": "<p>My Qure mask has been amazing! As someone who struggles with acne and rosacea, your LED light therapy mask has improved my skin so much that I an now feel comfortable without any makeup. I’m very happy with this product!<\/p>",
+            "text": "<p>\"My Qure mask has been amazing! As someone who struggles with acne and rosacea, your LED light therapy mask has improved my skin so much that I an now feel comfortable without any makeup. I’m very happy with this product!\"<\/p>",
             "image": "shopify:\/\/shop_images\/results_tiffany_d43313a3-80f7-4452-a45b-c864ceedae03.webp",
             "image_country": "shopify:\/\/shop_images\/usa_flag.svg",
             "client": "Tiffany L.",
             "concerns": "Acne, rosacea",
+            "verified": true
+          }
+        },
+        "slide_UaaMCL": {
+          "type": "Slide",
+          "settings": {
+            "heading": "Thrilled with the results!",
+            "product": "",
+            "text": "<p>“I am 45 so I am fighting signs of aging, but also still dealing with acne flare ups. I haven’t had a single breakout since I started using the mask, plus I notice a definite smoothing of fine wrinkles on my cheeks & around my eyes. I recommend this product to anyone. Well worth the investment”<\/p>",
+            "image": "shopify:\/\/shop_images\/results_jessica1.webp",
+            "image_country": "shopify:\/\/shop_images\/usa_flag.svg",
+            "client": "Jessica K.",
+            "concerns": "Acne",
             "verified": true
           }
         },
@@ -401,19 +414,6 @@
             "verified": true
           }
         },
-        "slide_UaaMCL": {
-          "type": "Slide",
-          "settings": {
-            "heading": "Thrilled with the results!",
-            "product": "",
-            "text": "<p>“I am 45 so I am fighting signs of aging, but also still dealing with acne flare ups. I haven’t had a single breakout since I started using the mask, plus I notice a definite smoothing of fine wrinkles on my cheeks & around my eyes. I recommend this product to anyone. Well worth the investment”<\/p>",
-            "image": "shopify:\/\/shop_images\/results_jessica1.webp",
-            "image_country": "shopify:\/\/shop_images\/usa_flag.svg",
-            "client": "Jessica K.",
-            "concerns": "Acne",
-            "verified": true
-          }
-        },
         "slide_fBweTe": {
           "type": "Slide",
           "settings": {
@@ -433,9 +433,9 @@
         "slide_CPEePW",
         "slide_pU3mTj",
         "slide_ytEe6x",
+        "slide_UaaMCL",
         "slide_R3C6JP",
         "slide_36nkwc",
-        "slide_UaaMCL",
         "slide_fBweTe"
       ],
       "settings": {
