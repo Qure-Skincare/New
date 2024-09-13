@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "custom_qurify_filter_lp_product_Mjcjbn": {
@@ -657,7 +666,7 @@
             "product": "",
             "text": "<p>“I started getting the usual teenage acne. It got very bad. I tried everything... Straight away I noticed results with Qure, after the first week I had no active breakouts anymore.<\/p>",
             "image": "shopify:\/\/shop_images\/results_anton_cdc44f21-b8dc-4a5f-a020-6741e12ac25e.webp",
-            "image_country": "shopify:\/\/shop_images\/uk_flag.svg",
+            "image_country": "shopify:\/\/shop_images\/australia_f.webp",
             "client": "Anton",
             "concerns": "Acne",
             "verified": true
@@ -695,40 +704,14 @@
     },
     "image_text_jBxiPm": {
       "type": "image-text",
-      "blocks": {
-        "image_xAnjen": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/light_therapy.webp",
-            "custom_img": "",
-            "order_mob": false
-          }
-        },
-        "text_ELmdge": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Just as plants need sunlight, our skin craves the rejuvenating power of light. But in our modern world, relentless exposure to harsh artificial lights can leave our complexion dull and damaged.<br\/><br\/>Enter red light therapy — the ultimate skincare revolution.<br\/><br\/>Harnessing the transformative energy of LED light, it penetrates deep into the skin, kickstarting cellular repair and renewal from within. Say goodbye to tired, lacklustre skin and hello to a luminous, youthful glow.<\/p><p>Embrace the light, embrace the beauty!<\/p>",
-            "btn_text": "",
-            "btn_url": "",
-            "custom_class": "",
-            "heading2": "",
-            "text2": "",
-            "heading3": "",
-            "text3": ""
-          }
-        }
-      },
-      "block_order": [
-        "image_xAnjen",
-        "text_ELmdge"
-      ],
       "settings": {
-        "background": "bg-lightGrey",
+        "background": "bg_clr_transparent",
         "heading": "Why Light Therapy Is Proven To Work",
-        "hide_on_mob": true,
+        "hide_on_mob": false,
         "column": 6,
-        "padding_top": 80,
-        "padding_bottom": 80
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "show_comment": false
       }
     },
     "compare_8hnCcH": {
@@ -872,7 +855,6 @@
       "settings": {
         "heading": "",
         "heading_mobile": "",
-        "test_product_name": "",
         "product": "",
         "product_images_offset": 0,
         "product_images_limit": 0,
