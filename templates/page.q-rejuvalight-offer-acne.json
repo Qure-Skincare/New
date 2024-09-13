@@ -472,6 +472,19 @@
             "concerns": "Fine Lines & Wrinkles",
             "verified": true
           }
+        },
+        "slide_6JbRPj": {
+          "type": "Slide",
+          "settings": {
+            "heading": "Amazing!",
+            "product": "",
+            "text": "<p>“Amazing! Has made such a massive on my acne. Still getting breakouts but they disappear way quicker. Took maybe 2 days to start working. Pics are about 3 weeks difference.”<\/p>",
+            "image": "shopify:\/\/shop_images\/Sophie_after_qure.png",
+            "image_country": "shopify:\/\/shop_images\/AUS_07.png",
+            "client": "Sophie R.",
+            "concerns": "Acne",
+            "verified": true
+          }
         }
       },
       "block_order": [
@@ -482,7 +495,8 @@
         "slide_UaaMCL",
         "slide_R3C6JP",
         "slide_36nkwc",
-        "slide_fBweTe"
+        "slide_fBweTe",
+        "slide_6JbRPj"
       ],
       "settings": {
         "heading": "Thousands are out-glowing their insecurities",
