@@ -1,3 +1,5 @@
+console.log('aaaaqqqq5550');
+
 /**
  * Retrieves the user's location IP and calls the deliveryDate function with the result.
  */
@@ -120,6 +122,8 @@ const atcNoPricesPdp = () => {
     });
   }
 }
+
+console.log('aaaaqqqq5551');
 
 document.addEventListener('DOMContentLoaded', function() {
   atcNoPricesPdp();
@@ -272,16 +276,21 @@ document.addEventListener('DOMContentLoaded', function() {
 
   // end PDP: Before & After First Image 
 
+  console.log('aaaaqqq7770');
   // Micro-Infusion Landing Page Purchase Process
   const newMicroInfusionLandingPagePurchaseProcess = document.querySelector('#new-landing-purchase')
-
+  console.log('aaaaqqq7771');
   if (newMicroInfusionLandingPagePurchaseProcess) {
+    console.log('aaaaqqq7772');
     class microInfusionPurchaseLandingPage {
       /**
        * Creates an instance of PurchaseLandingPage.
        * @param {string} formId - The ID of the form element associated with the purchase landing page.
        */
       constructor(formId) {
+
+        console.log('aaaaqqq7773');
+
         this.form = document.getElementById(formId);
         this.panels = document.querySelectorAll('.landing-panel');
         this.btnBack = document.getElementById('landing-back');
@@ -310,6 +319,9 @@ document.addEventListener('DOMContentLoaded', function() {
       * Initializes the landing page by hiding panels, showing the current panel, and updating necessary elements.
       */
       initializeLandingPage() {
+
+        console.log('aaaaqqq7774');
+
         this.hidePanels();
         this.showActualPanel(this.indexPanel);
         this.updateVisibilityFirstStep();
