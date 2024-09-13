@@ -1,12 +1,3 @@
-/*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
 {
   "sections": {
     "header_landing_KghXM9": {
@@ -31,6 +22,573 @@
         "button_url": "https:\/\/www.qureskincare.com\/pages\/qure-microinfusion-offer"
       }
     },
+    "two_column_box_kH6ngX": {
+      "type": "two-column-box",
+      "blocks": {
+        "content_aWtJAJ": {
+          "type": "content",
+          "settings": {
+            "text": "<h1>Enjoy Smoother, Healthier Skin at Home in Just 5 Minutes with Our Micro-Infusion System<\/h1>",
+            "column_content": 0,
+            "classname": "it_info paddingB faq_title"
+          }
+        },
+        "content_4z7mYH": {
+          "type": "content",
+          "settings": {
+            "text": "<h3>Created In Partnership With <strong>Leading Dermatologists<\/strong> And Trusted By <strong>Skincare Experts<\/strong> Worldwide<\/h3>",
+            "column_content": 0,
+            "classname": "it_info p-0 pt-0 pt-md-3 faq_sub"
+          }
+        },
+        "image_LQnzbE": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/qure_mi_faq1_1.webp",
+            "image_mobile": "shopify:\/\/shop_images\/qure_mi_faq1mob.webp",
+            "classname": "mw-mob-100"
+          }
+        }
+      },
+      "block_order": [
+        "content_aWtJAJ",
+        "content_4z7mYH",
+        "image_LQnzbE"
+      ],
+      "custom_css": [
+        ".faq_title h1 {font-size: 45px; letter-spacing: 0.36px; line-height: 55px;}",
+        ".faq_sub h3 {font-size: 24px; font-weight: 400; line-height: 39px; letter-spacing: 0.3px;}",
+        "@media (max-width: 767px) {.faq_title h1 {font-size: 30px; line-height: 40px; letter-spacing: 0.3px; } .faq_sub h3 {font-size: 18px; line-height: 30px; }}"
+      ],
+      "settings": {
+        "classname": "technology_light pt-30 section",
+        "column_image": 10,
+        "column_content": 10
+      }
+    },
+    "two_column_box_MTCzYJ": {
+      "type": "two-column-box",
+      "blocks": {
+        "content_wrmNDz": {
+          "type": "content",
+          "settings": {
+            "text": "<h2>What Is the Qure Micro-Infusion System?<\/h2>",
+            "column_content": 10,
+            "classname": "it_info p-0 pt-0 pt-md-3"
+          }
+        },
+        "content_wpnrcC": {
+          "type": "content",
+          "settings": {
+            "text": "<p>The Qure Micro-Infusion System is a simple yet <strong>powerful skincare device <\/strong>that brings the benefits of micro-needling to your home. It helps to reduce the appearance of fine lines, smooths skin texture, and enhances the effectiveness of your serums to improve your skin’s appearance and boost your confidence.<br\/><br\/>Use it for just 5 minutes every 2 weeks to infuse active ingredients deep into your skin, promoting a brighter, more radiant complexion.<\/p>",
+            "column_content": 10,
+            "classname": "it_info p-0 pt-0 pt-md-3"
+          }
+        }
+      },
+      "block_order": [
+        "content_wrmNDz",
+        "content_wpnrcC"
+      ],
+      "settings": {
+        "classname": "technology_light",
+        "column_image": 6,
+        "column_content": 6
+      }
+    },
+    "two_column_box_pVWC73": {
+      "type": "two-column-box",
+      "blocks": {
+        "content_q4jdd4": {
+          "type": "content",
+          "settings": {
+            "text": "<h2>How Fast Can I See Results?<\/h2>",
+            "column_content": 10,
+            "classname": "it_info p-0 pt-0 pt-md-3"
+          }
+        },
+        "content_FWjC9d": {
+          "type": "content",
+          "settings": {
+            "text": "<p>With the Qure Micro-Infusion System, many users notice improvements in their skin’s appearance after the first use. While it won’t transform your skin overnight, <strong>you’ll likely see a brighter, more hydrated complexion the next day.<br\/><br\/><\/strong>With consistent use every 2 weeks, you can expect to see a significant reduction in fine lines and a smoother skin texture within a month, helping you achieve a more youthful and radiant look. Dermatologists recommend using the device every 2 weeks for a minimum of 3 months for optimal results. Consistency is key!<\/p>",
+            "column_content": 10,
+            "classname": "it_info p-0 pt-0 pt-md-3"
+          }
+        }
+      },
+      "block_order": [
+        "content_q4jdd4",
+        "content_FWjC9d"
+      ],
+      "settings": {
+        "classname": "technology_light pt-30 section",
+        "column_image": 6,
+        "column_content": 6
+      }
+    },
+    "anti_creams_microinfusion_page_stamping_n7hzYC": {
+      "type": "anti-creams-microinfusion-page-stamping",
+      "blocks": {
+        "video_QR9exC": {
+          "type": "video",
+          "settings": {
+            "wistia_id": "womq9t497b"
+          }
+        },
+        "option_GUyeMX": {
+          "type": "option",
+          "settings": {
+            "heading": "",
+            "text": "<p><strong>Micro-Needles: <\/strong>Tiny, gold needles (thinner than a human hair) create micro-channels in your skin. This helps stimulate collagen production and triggers your skin’s natural healing process.<br\/><br\/><strong>Serum Delivery: <\/strong>The micro-channels allow our scientifically-backed serums to penetrate deeply, delivering active ingredients exactly where they are needed to reduce the appearance of wrinkles, fine lines, and dark spots.<br\/><br\/><strong>Hydration and Plumping:<\/strong>The infusion process enhances your skin's ability to retain moisture, resulting in a plumper, more hydrated, and radiant looking complexion.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "video_QR9exC",
+        "option_GUyeMX"
+      ],
+      "settings": {
+        "heading": "How Does the Qure Micro-Infusion System Work?",
+        "text": "<p>The Qure Micro-Infusion System is designed to revitalize your skin through a precise and effective process:<\/p>",
+        "custom_class": "mw-932 text-md-left ms-0",
+        "custom_class2": "mw-932 text-md-left ms-0"
+      }
+    },
+    "two_column_box_9cpVpn": {
+      "type": "two-column-box",
+      "blocks": {
+        "content_UVK7xF": {
+          "type": "content",
+          "settings": {
+            "text": "<h2>Can I Use the Qure Micro-Infusion System If I Have Sensitive Skin?<\/h2>",
+            "column_content": 10,
+            "classname": "it_info p-0 pt-0 pt-md-3"
+          }
+        },
+        "content_kWXQrt": {
+          "type": "content",
+          "settings": {
+            "text": "<p>Absolutely! The Qure Micro-Infusion System is designed to be <strong>gentle and effective for all skin types.<br\/><br\/><\/strong>We know that everyone's skin is unique, and that's why our device is crafted to minimize irritation while maximizing results. The 24k gold plated micro-needles are designed to be virtually painless, and our serums are formulated to soothe and nourish even the most delicate skin.<\/p>",
+            "column_content": 10,
+            "classname": "it_info p-0 pt-0 pt-md-3"
+          }
+        }
+      },
+      "block_order": [
+        "content_UVK7xF",
+        "content_kWXQrt"
+      ],
+      "settings": {
+        "classname": "technology_light pt-30 section",
+        "column_image": 6,
+        "column_content": 6
+      }
+    },
+    "how_to_use_steps_4FEhcp": {
+      "type": "how-to-use-steps",
+      "blocks": {
+        "video_3A38ij": {
+          "type": "video",
+          "settings": {
+            "wista": "i4a51d8k7u",
+            "wista_mob": "58aic0anst"
+          }
+        },
+        "steps_7MCadz": {
+          "type": "steps",
+          "settings": {
+            "step_image": "shopify:\/\/shop_images\/mi_faq_use_1.webp",
+            "text_content": "<p><strong>Prep Your Skin: <\/strong>Cleanse your face thoroughly to remove any makeup or impurities. Pat dry with a clean towel.<\/p>"
+          }
+        },
+        "steps_hJH6Hw": {
+          "type": "steps",
+          "settings": {
+            "step_image": "shopify:\/\/shop_images\/mi_faq_use_2.webp",
+            "text_content": "<p><strong>Prepare the Device: <\/strong>Twist open the chamber and fill it with one ampule of your chosen serum. Secure the micro-needle head by twisting it on tightly.<\/p>"
+          }
+        },
+        "steps_8at44M": {
+          "type": "steps",
+          "settings": {
+            "step_image": "shopify:\/\/shop_images\/mi_faq_use_3.webp",
+            "text_content": "<p><strong>Activate the Device: <\/strong>Leave the device upside down for 1-2 minutes to allow the serum to flow into the micro-needles.<\/p>"
+          }
+        },
+        "steps_hWbjmD": {
+          "type": "steps",
+          "settings": {
+            "step_image": "shopify:\/\/shop_images\/mi_faq_use_4.webp",
+            "text_content": "<p><strong>Micro-Infuse: <\/strong>Remove the lid and gently press the device onto your skin, starting at the center of your face and working outward. Use a stamping motion to ensure even coverage.<\/p>"
+          }
+        },
+        "steps_ynbAn8": {
+          "type": "steps",
+          "settings": {
+            "step_image": "shopify:\/\/shop_images\/mi_faq_use_5.webp",
+            "text_content": "<p><strong>Aftercare: <\/strong>Pat any remaining serum onto your face and neck. Once done, place the lid back on the needle head, twist it off, and dispose of it safely.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "video_3A38ij",
+        "steps_7MCadz",
+        "steps_hJH6Hw",
+        "steps_8at44M",
+        "steps_hWbjmD",
+        "steps_ynbAn8"
+      ],
+      "settings": {
+        "heading": "How Do I Use the Qure Micro-Infusion System?",
+        "sub_head": "Using the Qure Micro-Infusion System is simple and convenient. Just follow these steps:",
+        "custom_class": "mw-932 text-md-left ms-0"
+      }
+    },
+    "two_column_box_Ck6gNH": {
+      "type": "two-column-box",
+      "blocks": {
+        "content_bWjYX9": {
+          "type": "content",
+          "settings": {
+            "text": "<h2>Will the Qure Micro-Infusion System Work for Wrinkles?<\/h2>",
+            "column_content": 0,
+            "classname": "it_info p-0 pt-0 pt-md-3"
+          }
+        },
+        "image_E9yPFc": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/qure_mi_faq2.webp",
+            "image_mobile": "shopify:\/\/shop_images\/qure_mi_faq2_mob.webp",
+            "classname": "mw-mob-100"
+          }
+        },
+        "content_ywwKwB": {
+          "type": "content",
+          "settings": {
+            "text": "<p>Absolutely! The Qure Micro-Infusion System is designed to be <strong>gentle and effective for all skin types<\/strong>, including <strong>sensitive skin.<br\/><br\/><\/strong><\/p><p>We know that everyone's skin is unique, and that's why our device is crafted to minimize irritation while maximizing results. The 24k gold plated micro-needles are designed to be virtually painless, and our serums are formulated to soothe and nourish even the most delicate skin.<br\/><br\/>So, if you have sensitive skin, you can confidently use our micro-infusion system to achieve a healthier, more radiant complexion.<\/p>",
+            "column_content": 0,
+            "classname": "it_info p-0 pt-0 pt-md-3"
+          }
+        }
+      },
+      "block_order": [
+        "content_bWjYX9",
+        "image_E9yPFc",
+        "content_ywwKwB"
+      ],
+      "settings": {
+        "classname": "technology_light",
+        "column_image": 10,
+        "column_content": 10
+      }
+    },
+    "two_column_box_Lpy6pz": {
+      "type": "two-column-box",
+      "blocks": {
+        "image_BeP4UC": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/qure_mi_faq3.webp",
+            "classname": "mw-mob-100"
+          }
+        },
+        "content_qn4Lda": {
+          "type": "content",
+          "settings": {
+            "text": "<h2>Will the Qure Micro-Infusion System Work for Dark Spots and Hyperpigmentation?<\/h2>",
+            "column_content": 0,
+            "classname": "it_info p-0 pt-0 pt-md-3"
+          }
+        },
+        "content_XhVnYG": {
+          "type": "content",
+          "settings": {
+            "text": "<p><strong>Yes, it will!<\/strong> The Qure Micro-Infusion System is specifically designed to address a variety of skin concerns, including dark spots and hyperpigmentation.<br\/><br\/>Our micro-needling process, combined with our rejuvenating serum, <strong>helps to penetrate deeply into the skin, reducing pigmentation and evening out skin tone.<\/strong> The system delivers active ingredients directly to the areas where they are needed most, promoting a clearer, more radiant complexion.<br\/><br\/>With consistent use, you’ll notice a significant reduction in dark spots and a more even skin tone, helping you to reveal your natural glow.<\/p>",
+            "column_content": 0,
+            "classname": "it_info p-0 pt-0 pt-md-3"
+          }
+        }
+      },
+      "block_order": [
+        "image_BeP4UC",
+        "content_qn4Lda",
+        "content_XhVnYG"
+      ],
+      "settings": {
+        "classname": "technology_light pt-30 section",
+        "column_image": 10,
+        "column_content": 10
+      }
+    },
+    "two_column_box_nJqEy8": {
+      "type": "two-column-box",
+      "blocks": {
+        "image_czwpBF": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/qure_mi_faq4.webp",
+            "image_mobile": "shopify:\/\/shop_images\/qure_mi_faq4mob.webp",
+            "classname": "mw-mob-100"
+          }
+        },
+        "content_hdqacq": {
+          "type": "content",
+          "settings": {
+            "text": "<h2>How Much Does the Qure Micro-Infusion System Cost?<\/h2>",
+            "column_content": 0,
+            "classname": "it_info p-0 pt-0 pt-md-3"
+          }
+        },
+        "content_FJNzmR": {
+          "type": "content",
+          "settings": {
+            "text": "<p>At Qure, we are dedicated to making advanced skincare solutions accessible and affordable for everyone.<br\/><br\/>We’ve priced our Micro-Infusion System competitively because we understand that quality skincare shouldn’t break the bank. Professional treatments can be costly and time-consuming, but with Qure, <strong>you can achieve similar results at home for a fraction of the cost.<br\/><br\/><\/strong>The Qure Micro-Infusion System, which includes the device and a 3-month supply of serums, typically retails at $297. However, for a limited time, you can get it for just <strong>$169 when you choose our best value bundle, saving you 43%.<br\/><br\/><\/strong>We believe everyone deserves to look and feel their best without the high costs of professional treatments.<\/p>",
+            "column_content": 0,
+            "classname": "it_info p-0 pt-0 pt-md-3"
+          }
+        }
+      },
+      "block_order": [
+        "image_czwpBF",
+        "content_hdqacq",
+        "content_FJNzmR"
+      ],
+      "settings": {
+        "classname": "technology_light",
+        "column_image": 10,
+        "column_content": 10
+      }
+    },
+    "two_column_box_RtweAe": {
+      "type": "two-column-box",
+      "blocks": {
+        "content_FqcjTd": {
+          "type": "content",
+          "settings": {
+            "text": "<h2>Where Can I Purchase the Qure Micro-Infusion System?<\/h2>",
+            "column_content": 11,
+            "classname": "it_info p-0 pt-0 pt-md-3"
+          }
+        },
+        "image_YjLiGf": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/qure_mi_faq5.webp",
+            "classname": "mw-mob-100"
+          }
+        },
+        "content_VdYxaH": {
+          "type": "content",
+          "settings": {
+            "text": "<p>You can purchase the Qure Micro-Infusion System directly from our official website. This ensures you get the authentic product with the quality and results you expect.<br\/><br\/>Avoid imitations and knockoffs by buying only from our site. We’ve designed our system to be effective and safe, and only our official website can guarantee you’re getting the real thing.<br\/><br\/><a href=\"https:\/\/www.qureskincare.com\/pages\/qure-microinfusion-offer\" title=\"https:\/\/www.qureskincare.com\/pages\/qure-microinfusion-offer\">Visit our website to order your Qure Micro-Infusion System today.<\/a><\/p>",
+            "column_content": 5,
+            "classname": "it_info p-0 pt-0 pt-md-3"
+          }
+        }
+      },
+      "block_order": [
+        "content_FqcjTd",
+        "image_YjLiGf",
+        "content_VdYxaH"
+      ],
+      "settings": {
+        "classname": "technology_light pt-30 section",
+        "column_image": 6,
+        "column_content": 6
+      }
+    },
+    "two_column_box_EN8WmE": {
+      "type": "two-column-box",
+      "blocks": {
+        "content_iTpBJa": {
+          "type": "content",
+          "settings": {
+            "text": "<h2>Is the Qure Micro-Infusion System Safe?<\/h2>",
+            "column_content": 11,
+            "classname": "it_info p-0 pt-0 pt-md-3"
+          }
+        },
+        "content_mRakXV": {
+          "type": "content",
+          "settings": {
+            "text": "<p>Yes, the Qure Micro-Infusion System is very safe to use. It has been thoroughly tested and reviewed by leading dermatologists to ensure it meets the highest safety standards.<br\/><br\/>Our device uses gentle, 24k gold micro-needles and carefully formulated serums to provide effective results with minimal risk of irritation. You can confidently incorporate it into your skincare routine, knowing it’s designed with your skin’s health in mind.<\/p>",
+            "column_content": 10,
+            "classname": "it_info p-0 pt-0 pt-md-3"
+          }
+        }
+      },
+      "block_order": [
+        "content_iTpBJa",
+        "content_mRakXV"
+      ],
+      "settings": {
+        "classname": "technology_light",
+        "column_image": 6,
+        "column_content": 6
+      }
+    },
+    "two_column_box_YyK4VQ": {
+      "type": "two-column-box",
+      "blocks": {
+        "content_pR4q9h": {
+          "type": "content",
+          "settings": {
+            "text": "<h2>What If I Am Not Happy With My Purchase?<\/h2>",
+            "column_content": 10,
+            "classname": "it_info p-0 pt-0 pt-md-3"
+          }
+        },
+        "content_3dFLJE": {
+          "type": "content",
+          "settings": {
+            "text": "<p>We want you to love your Qure Micro-Infusion System. That’s why we offer a 90-day money-back guarantee on all purchases.<br\/><br\/>You have 90 days from the date your order arrives to try the product and see the results for yourself. If you’re not completely satisfied, simply contact our customer support team at <a href=\"mailto:support@qureskincare.com\">support@qureskincare.com<\/a>, and we’ll issue you a full refund—no questions asked.<br\/><br\/>Your satisfaction is our priority, and we’re here to ensure you have a positive experience with Qure.<\/p>",
+            "column_content": 10,
+            "classname": "it_info p-0 pt-0 pt-md-3"
+          }
+        }
+      },
+      "block_order": [
+        "content_pR4q9h",
+        "content_3dFLJE"
+      ],
+      "settings": {
+        "classname": "technology_light pt-30 section",
+        "column_image": 6,
+        "column_content": 6
+      }
+    },
+    "skin_care_steps_VDH8FG": {
+      "type": "skin-care-steps",
+      "blocks": {
+        "content_DFtEen": {
+          "type": "content",
+          "settings": {
+            "content-text": "Click the \"Check Availability\" button below to see if we’re in stock. (Due to high demand, we sell out quickly.)"
+          }
+        },
+        "content_4VX8FD": {
+          "type": "content",
+          "settings": {
+            "content-text": "If we have stock, you’ll be directed to our secure checkout where you can choose the bundle that best fits your needs. We recommend the 3 month bundle for best results (and the best price!)"
+          }
+        },
+        "content_ctpPdn": {
+          "type": "content",
+          "settings": {
+            "content-text": "Enter your shipping and billing information on our secure checkout, and we'll pack your order and send it out to you the following day."
+          }
+        },
+        "content_4HH989": {
+          "type": "content",
+          "settings": {
+            "content-text": "Your Qure Micro-Infusion System will be delivered to your door, typically shipping from our local warehouse within 7 working days. It's that straightforward!"
+          }
+        }
+      },
+      "block_order": [
+        "content_DFtEen",
+        "content_4VX8FD",
+        "content_ctpPdn",
+        "content_4HH989"
+      ],
+      "settings": {
+        "heading": "Try it Yourself And Enjoy Simple Skincare Created To Support Real Women Look And Feel Their Best.",
+        "text": "<p>If you're tired of dealing with fine lines, dark spots, and dull skin, the Qure Micro-Infusion System is here to help.<br\/><br\/>Getting started is simple:<\/p>",
+        "hide_on": "d-md-none",
+        "custom_class": "mw-932 text-md-left ms-0"
+      }
+    },
+    "two_column_box_FWKJVL": {
+      "type": "two-column-box",
+      "blocks": {
+        "content_8KnVxV": {
+          "type": "content",
+          "settings": {
+            "text": "<h2>Can I Use the Qure Micro-Infusion System If I Have Sensitive Skin?<\/h2>",
+            "column_content": 0,
+            "classname": "it_info p-0 pt-0 pt-md-3"
+          }
+        },
+        "content_6DTzzb": {
+          "type": "content",
+          "settings": {
+            "text": "<p>Absolutely! The Qure Micro-Infusion System is designed to be <strong>gentle and effective for all skin types.<br\/><br\/><\/strong>We know that everyone's skin is unique, and that's why our device is crafted to minimize irritation while maximizing results. The 24k gold plated micro-needles are designed to be virtually painless, and our serums are formulated to soothe and nourish even the most delicate skin.<\/p>",
+            "column_content": 0,
+            "classname": "it_info p-0 pt-0 pt-md-3"
+          }
+        }
+      },
+      "block_order": [
+        "content_8KnVxV",
+        "content_6DTzzb"
+      ],
+      "settings": {
+        "classname": "technology_light pt-30 section",
+        "column_image": 10,
+        "column_content": 10
+      }
+    },
+    "two_column_box_B6ej7p": {
+      "type": "two-column-box",
+      "blocks": {
+        "content_RD7xwA": {
+          "type": "content",
+          "settings": {
+            "text": "<h2>What If I Am Not Happy With My Purchase?<\/h2>",
+            "column_content": 0,
+            "classname": "it_info p-0 pt-0 pt-md-3"
+          }
+        },
+        "content_Xg4fUq": {
+          "type": "content",
+          "settings": {
+            "text": "<p>We want you to love your Qure Micro-Infusion System. That’s why we offer a 90-day money-back guarantee on all purchases.<br\/><br\/>You have 90 days from the date your order arrives to try the product and see the results for yourself. If you’re not completely satisfied, simply contact our customer support team at <a href=\"mailto:support@qureskincare.com\">support@qureskincare.com<\/a>, and we’ll issue you a full refund—no questions asked.<br\/><br\/>Your satisfaction is our priority, and we’re here to ensure you have a positive experience with Qure.<\/p>",
+            "column_content": 0,
+            "classname": "it_info p-0 pt-0 pt-md-3"
+          }
+        }
+      },
+      "block_order": [
+        "content_RD7xwA",
+        "content_Xg4fUq"
+      ],
+      "settings": {
+        "classname": "technology_light",
+        "column_image": 10,
+        "column_content": 10
+      }
+    },
+    "two_column_box_JUFJCP": {
+      "type": "two-column-box",
+      "blocks": {
+        "content_BUfy8W": {
+          "type": "content",
+          "settings": {
+            "text": "<h2>Flexible Payment Plans<\/h2>",
+            "column_content": 0,
+            "classname": "it_info p-0 pt-0 pt-md-3"
+          }
+        },
+        "content_ayVKnT": {
+          "type": "content",
+          "settings": {
+            "text": "<p>We offer easy payment plans through Sezzle, AfterPay, and Klarna. Spread your payments over four interest-free monthly installments and start your skincare transformation today without the upfront cost.<br\/><br\/>Trust Qure to support you on your journey to healthier, more radiant skin. Click \"Check Availability\" now, and let's start transforming your skin together!<\/p>",
+            "column_content": 0,
+            "classname": "it_info p-0 pt-0 pt-md-3"
+          }
+        }
+      },
+      "block_order": [
+        "content_BUfy8W",
+        "content_ayVKnT"
+      ],
+      "settings": {
+        "classname": "technology_light pt-30 section",
+        "column_image": 10,
+        "column_content": 10
+      }
+    },
     "main": {
       "type": "temp-page-micro-infusion-faq-page",
       "settings": {
@@ -39,6 +597,22 @@
   },
   "order": [
     "header_landing_KghXM9",
+    "two_column_box_kH6ngX",
+    "two_column_box_MTCzYJ",
+    "two_column_box_pVWC73",
+    "anti_creams_microinfusion_page_stamping_n7hzYC",
+    "two_column_box_9cpVpn",
+    "how_to_use_steps_4FEhcp",
+    "two_column_box_Ck6gNH",
+    "two_column_box_Lpy6pz",
+    "two_column_box_nJqEy8",
+    "two_column_box_RtweAe",
+    "two_column_box_EN8WmE",
+    "two_column_box_YyK4VQ",
+    "skin_care_steps_VDH8FG",
+    "two_column_box_FWKJVL",
+    "two_column_box_B6ej7p",
+    "two_column_box_JUFJCP",
     "main"
   ]
 }
