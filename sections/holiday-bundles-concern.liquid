@@ -83,6 +83,7 @@
             </div>
             <a
               href="{{ routes.cart_add_url }}?id={{ block.settings.card_product.first_available_variant.id }}&quantity=1"
+              onclick="setEventProductHandler('{{ block.settings.card_product.handle | escape }}')"
               data-ajax-cart-request-button
             >
               {{ block.settings.card_button_text }}
