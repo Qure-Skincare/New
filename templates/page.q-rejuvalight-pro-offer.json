@@ -471,6 +471,19 @@
             "concerns": "Acne",
             "verified": true
           }
+        },
+        "slide_mNAa9k": {
+          "type": "Slide",
+          "settings": {
+            "heading": "Amazing!",
+            "product": "",
+            "text": "<p>“Amazing! Has made such a massive on my acne. Still getting breakouts but they disappear way quicker. Took maybe 2 days to start working. Pics are about 3 weeks difference.”<\/p>",
+            "image": "shopify:\/\/shop_images\/Sophie_Richards_Desktop.png",
+            "image_country": "shopify:\/\/shop_images\/AUS_07.png",
+            "client": "Sophie R.",
+            "concerns": "Acne",
+            "verified": true
+          }
         }
       },
       "block_order": [
@@ -481,7 +494,8 @@
         "slide_UaaMCL",
         "slide_fBweTe",
         "slide_ytEe6x",
-        "slide_CPEePW"
+        "slide_CPEePW",
+        "slide_mNAa9k"
       ],
       "settings": {
         "heading": "Thousands are out-glowing their insecurities",
