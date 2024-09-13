@@ -38,7 +38,6 @@
   assign products1_refill_product = products1.refill_product.value.product_refill.value
   assign products1_refill_product_2 = products1.refill_product.value.product_refill_2.value
 
-
   # each mix product
   ## for to split and general info
   for data in products1_products
@@ -120,14 +119,6 @@
     render 'pdm_landing-purchase-icons', icon: 'star'
   endcapture
 %}
-
-<!-- aaaaqqqq1 [{{ products1_products }}] -->
-<!-- aaaaqqqq2 [{{ products1_type }}] -->
-<!-- aaaaqqqq3 [{{ products1_refill_info }}] -->
-<!-- aaaaqqqq4 [{{ products1_refill_product }}] -->
-<!-- aaaaqqqq5 [{{ products1_refill_product_2 }}] -->
-
-
 <div class="available_bar">
   <p>{{ "microInfusionLandingPage.redLabel.title" | t }}</p>
 </div>
@@ -149,7 +140,7 @@
           <h3>{{ general_settings.title_component }}</h3>
         </div>
         {% comment %} products1 / mix {% endcomment %}
-        {% comment %} {% render 'pdm_landing-purchase-step1-inputs',
+        {% render 'pdm_landing-purchase-step1-inputs',
           productOne: third_products1_product,
           productOneInfo: products1_product_3_month,
           productTwo: second_products1_product,
@@ -160,7 +151,7 @@
           checkIcon: checkIcon,
           crossIcon: crossIcon,
           starIcon: starIcon
-        %} {% endcomment %}
+        %}
         {% comment %} products2 / silver {% endcomment %}
         {% render 'pdm_landing-purchase-step1-inputs',
           productOne: third_products2_product,
