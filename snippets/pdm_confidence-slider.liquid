@@ -1,0 +1,139 @@
+<!-- -- PDM  skincare slider start  -- -->
+{% assign text_images = data.text_slide_first | append: ',' | append: data.text_slide_second | append: ',' | append: data.text_slide_third | append: ',' | append: data.text_slide_fourth %}
+{% assign text_images_array = text_images | split: ',' %}
+
+{% assign text_ranges = data.text_first-info | append: ',' | append: data.text_second-info | append: ',' | append: data.text_third-info %}
+{% assign text_ranges_array = text_ranges | split: ',' %}
+
+{% assign ranges = data.percent_bar_first-info | append: ',' | append: data.percent_bar_second-info | append: ',' | append: data.percent_bar_third-info %}
+{% assign ranges_array = ranges | split: ',' %}
+
+{% assign images = data.image_slide_first | append: ',' | append: data.image_slide_second | append: ',' | append: data.image_slide_third | append: ',' | append: data.image_slide_fourth %}
+{% assign images_array = images | split: ',' %}
+
+
+
+
+<script>
+  console.log("data.settings ",{{ text_images | json }});
+  
+</script>
+<div class="skincare_slider_n section section-confidence">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="section_header">
+                    {% if data.heading != blank %}
+                        <h2 class="title-lg">
+                            {{ data.heading }}
+                        </h2>
+                    {% endif %}
+
+                    {{ data.text }}
+
+                    <div class="d-none d-md-block">
+                        {%- for range in ranges_array -%}
+                          {% assign index = forloop.index0 %}
+                          {% assign corresponding_text = text_ranges_array[index] %}
+                            {% comment %} {% case block.type %}
+                                {% when 'option' %} {% endcomment %}
+                                    {% assign dashoffset = 100 | minus: range %}
+                                    <div class="skincare_percent">
+                                        <div class="progressCont">
+                                            <span class="progressWrapper">
+                                                <span class="progessInfo text-dark">{{ range }}%</span>
+                                                <svg class="vMQQx" height="54" width="54" viewBox="-29 -29 58 58">
+                                                    <defs>
+                                                        <linearGradient id="gradient" x1="0" x2="0" y1="1" y2="0">
+                                                            <stop offset="0%" stop-color="#C7E7DC"></stop>
+                                                            <stop offset="100%" stop-color="#C7E7DC"></stop>
+                                                        </linearGradient>
+                                                    </defs>
+                                                    <circle stroke="rgba(221, 224, 228, 1)" fill="none" pathLength="100"
+                                                        class="K4v4P" r="24" style="stroke-width: 1px;"></circle>
+                                                    <circle visibility="visible" fill="none" pathLength="100"
+                                                        transform="rotate(-90)" class="OKwUu" r="24" stroke="url(#gradient)"
+                                                        style="stroke-dasharray: 100; stroke-dashoffset: {{ dashoffset }}; stroke-width: 4px;">
+                                                    </circle>
+                                                </svg>
+                                            </span>
+                                        </div>
+                                        {{ corresponding_text }}
+                                    </div>
+                            {% comment %} {% endcase %} {% endcomment %}
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+            <div class="offset-md-1 col-md-5">
+                <div class="swiper twa__swiper dot_pagination" id="twa__swiper-skinSliderN"
+                    data-section-id="skinSliderN" data-autoplay="false" data-loop="false"
+                    data-centerslide="false" data-mobile="1" data-tablet="1" data-desktop="1" data-spacing="30"
+                    data-arrowleft="skinSliderN-swiper-prev" data-arrowright="skinSliderN-swiper-next">
+                    <div class="swiper-wrapper">
+                        {%- for image in images_array -%}
+                          {% assign index = forloop.index0 %}
+                          {% assign corresponding_text = text_images_array[index] %}
+                            {% comment %} {% case block.type %}
+                                {% when 'image' %} {% endcomment %}
+                                    <div class="swiper-slide">
+                                        <div class="skin_item_n">
+                                            {% if image != blank %}
+                                                <div class="skin_item_n_img">
+                                                    <img src="{{ image | img_url: 'master' }}" alt="{{ image.alt | escape }}" class="img-fluid">
+                                                </div>
+                                            {% endif %}
+
+                                            <div class="skin_item_n_tag">
+                                                {{ corresponding_text |  replace: '<strong>', '<span class="sn_tag">' |  replace: '</strong>', '</span>' }}
+                                            </div>
+                                        </div>
+                                    </div>
+                            {% comment %} {% endcase %} {% endcomment %}
+                        {% endfor %}
+                    </div>
+                    <div class="pagination_navigation">
+                        <div class="swiper-pagination"></div>
+                        <div class="skinSliderN-swiper-prev swiper-button-prev swiper-button"></div>
+                        <div class="skinSliderN-swiper-next swiper-button-next swiper-button"></div>
+                    </div>
+                </div>
+                <div class="d-block d-md-none">
+                  {%- for range in ranges_array -%}
+                    {% assign index = forloop.index0 %}
+                    {% assign corresponding_text = text_ranges_array[index] %}
+                        {% comment %} {% case block.type %}
+                            {% when 'option' %} {% endcomment %}
+                                {% assign dashoffset = 100 | minus: range %}
+                                <div class="skincare_percent">
+                                    <div class="progressCont">
+                                        <span class="progressWrapper">
+                                            <span class="progessInfo text-dark">{{ dashoffset }}%</span>
+                                            <svg class="vMQQx" height="54" width="54" viewBox="-29 -29 58 58">
+                                                <defs>
+                                                    <linearGradient id="gradient" x1="0" x2="0" y1="1" y2="0">
+                                                        <stop offset="0%" stop-color="#C7E7DC"></stop>
+                                                        <stop offset="100%" stop-color="#C7E7DC"></stop>
+                                                    </linearGradient>
+                                                </defs>
+                                                <circle stroke="rgba(221, 224, 228, 1)" fill="none" pathLength="100"
+                                                    class="K4v4P" r="24" style="stroke-width: 1px;"></circle>
+                                                <circle visibility="visible" fill="none" pathLength="100"
+                                                    transform="rotate(-90)" class="OKwUu" r="24" stroke="url(#gradient)"
+                                                    style="stroke-dasharray: 100; stroke-dashoffset: {{ dashoffset }}; stroke-width: 4px;">
+                                                </circle>
+                                            </svg>
+                                        </span>
+                                    </div>
+                                    {{ corresponding_text }}
+                                </div>
+                        {% comment %} {% endcase %} {% endcomment %}
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<!-- --  skincare slider end  -- -->
