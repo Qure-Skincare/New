@@ -149,7 +149,7 @@
           <h3>{{ general_settings.title_component }}</h3>
         </div>
         {% comment %} products1 / mix {% endcomment %}
-        {% render 'pdm_landing-purchase-step1-inputs',
+        {% comment %} {% render 'pdm_landing-purchase-step1-inputs',
           productOne: third_products1_product,
           productOneInfo: products1_product_3_month,
           productTwo: second_products1_product,
@@ -160,7 +160,7 @@
           checkIcon: checkIcon,
           crossIcon: crossIcon,
           starIcon: starIcon
-        %}
+        %} {% endcomment %}
         {% comment %} products2 / silver {% endcomment %}
         {% render 'pdm_landing-purchase-step1-inputs',
           productOne: third_products2_product,
