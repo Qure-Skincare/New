@@ -88,16 +88,15 @@
         "link_GirQqh": {
           "type": "link",
           "settings": {
-            "link_label": "Shop Now",
-            "link_label_mobile": "Shop Now",
-            "link_url": "https:\/\/www.qureskincare.com\/collections\/best-sellers"
+            "link_label": "SAVE $50",
+            "link_label_mobile": "SAVE $50",
+            "link_url": "shopify:\/\/products\/q-rejuvalight-pro-facewear"
           }
         }
       },
       "block_order": [
         "link_GirQqh"
       ],
-      "disabled": true,
       "settings": {
         "heading": "Don't let post-summer skin damage get your confidence down",
         "heading_mobile": "",
@@ -117,13 +116,14 @@
           "settings": {
             "link_label": "Shop Best Sellers",
             "link_label_mobile": "Shop Best Sellers",
-            "link_url": "https:\/\/www.qureskincare.com\/collections\/best-sellers"
+            "link_url": "shopify:\/\/products\/q-rejuvalight-pro-facewear"
           }
         }
       },
       "block_order": [
         "link_Pk3LH6"
       ],
+      "disabled": true,
       "settings": {
         "heading": "Get clinic-level results from home- minus the ‘clinical’ costs.",
         "heading_mobile": "",
