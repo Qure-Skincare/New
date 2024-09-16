@@ -1286,6 +1286,9 @@
     },
     "how_use_steps": {
       "label": "How to use steps"
+    },
+    "limited-offer":{
+      "label":"Limited Offer Product"
     }
   }
 }

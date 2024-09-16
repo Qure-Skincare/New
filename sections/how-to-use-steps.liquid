@@ -92,7 +92,7 @@
                 <div class="stamping_content-main d-block d-md-none mt-4">
                   <div
                     style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff"
-                    class="swiper SwiperFAQ_{{ random_number }}-2">
+                    class="swiper Swiper_image Swiper_image_{{ random_number }}-2">
                     <div class="swiper-wrapper">
                     {% for block in section.blocks %}
                       {% if block.type == 'steps' %}
@@ -155,7 +155,7 @@
                 prevEl: ".swiper-button-prev",
             },
         });
-        var swiper2 = new Swiper(".SwiperFAQ_{{ random_number }}-2", {
+        var swiper2 = new Swiper(".Swiper_image_{{ random_number }}-2", {
             spaceBetween: 20,
             slidesPerView: 1.2,
             touchRatio: 0,
