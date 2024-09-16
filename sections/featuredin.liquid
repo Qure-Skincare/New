@@ -76,7 +76,6 @@
 </div>
 <!-- -- press slider end -- -->
 
-{% comment %} MI LP Science Section AB test  {% endcomment %}
 {% for block in section.blocks %}
   {% if block.type == 'science_section_block' %}
     {% render 'pdm_science_section', data: block.settings %}
@@ -85,7 +84,6 @@
     {% render 'pdm_confidence-slider',  data: block.settings %}
   {% endif %}
 {% endfor %}
-{% comment %} MI LP Science Section AB test  {% endcomment %}
 
 {% schema %}
 {
@@ -151,6 +149,12 @@
         },
         {
           "type": "text",
+          "id": "new_science_heading",
+          "label": "heading",
+          "default": "Qure’s Micro-Infusion goes where your skin cream can’t"
+        },
+        {
+          "type": "text",
           "id": "science_subheading",
           "label": "science subheading",
           "default": "Its tiny, almost painless, microneedles penetrate beyond the skin’s surface increasing serum absorption and delivering powerful active ingredients EXACTLY where they’re needed!"
@@ -199,6 +203,36 @@
           "type": "richtext",
           "id": "value_prop_text_4",
           "label": "value text 4"
+        },
+        {
+          "type": "text",
+          "id": "new_value_prop_title_1",
+          "label": "new title value text 1"
+        },
+        {
+          "type": "richtext",
+          "id": "new_value_prop_text_1",
+          "label": "new value text 1"
+        },
+        {
+          "type": "text",
+          "id": "new_value_prop_title_2",
+          "label": "new title value text 2"
+        },
+        {
+          "type": "richtext",
+          "id": "new_value_prop_text_2",
+          "label": "new value text 2"
+        },
+        {
+          "type": "text",
+          "id": "new_value_prop_title_3",
+          "label": "new title value text 3"
+        },
+        {
+          "type": "richtext",
+          "id": "new_value_prop_text_3",
+          "label": "new value text 3"
         },
         {
           "type": "text",
@@ -317,7 +351,7 @@
           "type": "richtext",
           "id": "text_slide_fourth",
           "label": "t:common.text.label",
-          "default":"<p>Proven to visually improve <strong>Uneven Skin Tone<\/strong><\/p>"
+          "default":"<p>Proven to visually improve <strong>Uneven Skin Tone<\/strong><\/p>"
         }
       ]
     }
