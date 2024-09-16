@@ -16,6 +16,7 @@
           "type": "Tab",
           "settings": {
             "btn_text": "Product",
+            "image": "shopify:\/\/shop_images\/led-lp-product-1-1.png",
             "image2": "shopify:\/\/shop_images\/led_large_3.webp",
             "image3": "shopify:\/\/shop_images\/led_large_4.webp",
             "wistia": ""
