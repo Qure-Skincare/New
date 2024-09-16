@@ -320,6 +320,19 @@
             "verified": true
           }
         },
+        "slide_6JbRPj": {
+          "type": "Slide",
+          "settings": {
+            "heading": "Amazing!",
+            "product": "",
+            "text": "<p>“Amazing! Has made such a massive on my acne. Still getting breakouts but they disappear way quicker. Took maybe 2 days to start working. Pics are about 3 weeks difference.”<\/p>",
+            "image": "shopify:\/\/shop_images\/Sophie_after_qure.png",
+            "image_country": "shopify:\/\/shop_images\/AUS_07.png",
+            "client": "Sophie R.",
+            "concerns": "Acne",
+            "verified": true
+          }
+        },
         "slide_ytEe6x": {
           "type": "Slide",
           "settings": {
@@ -374,6 +387,7 @@
         },
         "slide_fBweTe": {
           "type": "Slide",
+          "disabled": true,
           "settings": {
             "heading": "Amazing results!",
             "product": "",
@@ -384,31 +398,18 @@
             "concerns": "Fine Lines & Wrinkles",
             "verified": true
           }
-        },
-        "slide_6JbRPj": {
-          "type": "Slide",
-          "settings": {
-            "heading": "Amazing!",
-            "product": "",
-            "text": "<p>“Amazing! Has made such a massive on my acne. Still getting breakouts but they disappear way quicker. Took maybe 2 days to start working. Pics are about 3 weeks difference.”<\/p>",
-            "image": "shopify:\/\/shop_images\/Sophie_after_qure.png",
-            "image_country": "shopify:\/\/shop_images\/AUS_07.png",
-            "client": "Sophie R.",
-            "concerns": "Acne",
-            "verified": true
-          }
         }
       },
       "block_order": [
         "slide_f6CjxA",
         "slide_CPEePW",
         "slide_pU3mTj",
+        "slide_6JbRPj",
         "slide_ytEe6x",
         "slide_UaaMCL",
         "slide_R3C6JP",
         "slide_36nkwc",
-        "slide_fBweTe",
-        "slide_6JbRPj"
+        "slide_fBweTe"
       ],
       "settings": {
         "heading": "Thousands are out-glowing their insecurities",
