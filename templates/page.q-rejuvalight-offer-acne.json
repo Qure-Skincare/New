@@ -46,7 +46,7 @@
         "tab_nUG7QA"
       ],
       "settings": {
-        "heading": "Feel Confident Makeup-Free with Q-Rejuvalight Pro",
+        "heading": "End the Battle With Acne & Feel Confident with the Q-Rejuvalight Pro",
         "desc": "<ul><li>FDA-cleared at-home LED mask<\/li><li>Clear & prevent acne, smooth fine lines & fade dark spots<\/li><li>Customize, track & schedule treatments with app<\/li><li>Quick & convenient 3-minute wireless treatments<\/li><\/ul>",
         "rating_text": "43,893+ Happy Customers",
         "stars": "shopify:\/\/shop_images\/star-half_fill_d51f6801-2e35-487c-89d0-130f978da1e8.svg",
@@ -477,12 +477,6 @@
         "video_txt": "See it in video"
       }
     },
-    "liquid_Q9zJkg": {
-      "type": "liquid",
-      "settings": {
-        "code": "{% render 'landing-sticky-button' with variant_id: 37390541553813 %}"
-      }
-    },
     "featured_product_2_YjNQXn": {
       "type": "featured-product-2",
       "settings": {
@@ -812,7 +806,6 @@
     "progress_blocks_d8f7qn",
     "results_slider_RTd6ad",
     "featured_product_pEjkiL",
-    "liquid_Q9zJkg",
     "featured_product_2_YjNQXn",
     "how_to_use_tmBGpa",
     "services_slider_ctkatz",
