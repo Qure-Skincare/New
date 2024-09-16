@@ -16,7 +16,6 @@
           "type": "Tab",
           "settings": {
             "btn_text": "Product",
-            "image": "shopify:\/\/shop_images\/led-lp-product-1.webp",
             "image2": "shopify:\/\/shop_images\/led_large_3.webp",
             "image3": "shopify:\/\/shop_images\/led_large_4.webp",
             "wistia": ""
@@ -26,8 +25,9 @@
           "type": "Tab",
           "settings": {
             "btn_text": "Real Results",
-            "image": "shopify:\/\/shop_images\/led-lp-result-1.webp",
+            "image": "shopify:\/\/shop_images\/led-lp-result-4.png",
             "image2": "shopify:\/\/shop_images\/led-lp-result-2.webp",
+            "image3": "shopify:\/\/shop_images\/led-lp-result-3.png",
             "wistia": ""
           }
         },
