@@ -480,7 +480,7 @@
     "liquid_Q9zJkg": {
       "type": "liquid",
       "settings": {
-        "code": "{% render 'landing-sticky-button' with variant_id: 44062187913455 %}"
+        "code": "{% render 'landing-sticky-button' with variant_id: 37390541553813 %}"
       }
     },
     "featured_product_2_YjNQXn": {
