@@ -477,6 +477,12 @@
         "video_txt": "See it in video"
       }
     },
+    "liquid_Q9zJkg": {
+      "type": "liquid",
+      "settings": {
+        "code": "{% render 'landing-sticky-button' with variant_id: 44062187913455 %}"
+      }
+    },
     "featured_product_2_YjNQXn": {
       "type": "featured-product-2",
       "settings": {
@@ -806,6 +812,7 @@
     "progress_blocks_d8f7qn",
     "results_slider_RTd6ad",
     "featured_product_pEjkiL",
+    "liquid_Q9zJkg",
     "featured_product_2_YjNQXn",
     "how_to_use_tmBGpa",
     "services_slider_ctkatz",
