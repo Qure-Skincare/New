@@ -970,3 +970,52 @@
     </div>
 </div>
 <!-- -- amazing content end -- -->
+
+<script src="https://fast.wistia.com/embed/medias/3ahwzg8wjz.jsonp" async></script>
+<script src="https://fast.wistia.com/assets/external/E-v1.js" async></script>
+
+<style>
+    .dek-menu ul {
+        gap: 12px !important;
+    }
+    .dek-menu .menu {
+        width: 38.33% !important;
+    }
+    .dek-menu .logo {
+        width: 28.33% !important;
+    }
+    @media(max-width:767px) {
+        #video_mobile {
+            min-height: 430px;
+        }
+    }
+</style>
+
+<script>
+    // for making the amazing content inactive all tabs by default
+    document.addEventListener('DOMContentLoaded', function () {
+        // Ensure no tab is active
+        document.querySelectorAll('#myTab .nav-link').forEach(function (tab) {
+            tab.classList.remove('active');
+            tab.setAttribute('aria-selected', 'false');
+        });
+
+        // Ensure no tab content is active
+        document.querySelectorAll('#myTabContent .tab-pane').forEach(function (content) {
+            content.classList.remove('show', 'active');
+        });
+    });
+</script>
+<script>
+    $(document).ready(function () {
+        $('a[href^="#"]').on('click', function (event) {
+            event.preventDefault();
+            var target = $(this.getAttribute('href'));
+            if (target.length) {
+                $('html, body').stop().animate({
+                    scrollTop: target.offset().top - 100
+                }, 100);
+            }
+        });
+    });
+</script>
