@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "main": {
@@ -5,8 +14,8 @@
       "settings": {
         "heading": "",
         "heading_mobile": "",
-        "image": "shopify:\/\/shop_images\/banner_desk.png",
-        "image_mobile": "shopify:\/\/shop_images\/banner.png"
+        "image": "shopify:\/\/shop_images\/bannerLED.png",
+        "image_mobile": "shopify:\/\/shop_images\/bannerledmobile.png"
       }
     },
     "icons_list_BUTDmx": {
@@ -48,6 +57,7 @@
         "icon_PncCDy"
       ],
       "settings": {
+        "background": "bg-grey"
       }
     },
     "main_results": {
@@ -207,6 +217,7 @@
       "settings": {
         "classname": "mi_landing_result all_bg_gradient_green_tb",
         "heading": "Results you‘ll see with your own eyes",
+        "heading_reduced": "",
         "text_verified_customer": "Verified customer",
         "text_reviewed": "Reviewed in"
       }
