@@ -24,7 +24,7 @@
           "settings": {
             "link_label": "REVIEWS",
             "link_url": "#result_section",
-            "image": "shopify:\/\/shop_images\/header-lp-shop.webp"
+            "image": "shopify:\/\/shop_images\/headerLanding-2.png"
           }
         },
         "navigation_link_wPNEr9": {
@@ -32,7 +32,7 @@
           "settings": {
             "link_label": "SPECIAL OFFER",
             "link_url": "#special_offer",
-            "image": "shopify:\/\/shop_images\/header_2.webp"
+            "image": "shopify:\/\/shop_images\/header_specialOffer.webp"
           }
         },
         "navigation_link_wVVWXW": {
@@ -40,7 +40,7 @@
           "settings": {
             "link_label": "FAQS",
             "link_url": "#faq_section",
-            "image": "shopify:\/\/shop_images\/header-lp-local.webp"
+            "image": "shopify:\/\/shop_images\/headerLanding-4.png"
           }
         }
       },
