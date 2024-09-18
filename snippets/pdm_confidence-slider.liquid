@@ -1,4 +1,8 @@
 <!-- -- PDM  skincare slider start  -- -->
+{%- comment -%}
+  Usage:  {% render 'pdm_confidence-slider',  data: block.settings %}
+{%- endcomment -%}
+
 {% assign text_ranges = data.text_first-info | append: ',' | append: data.text_second-info | append: ',' | append: data.text_third-info %}
 {% assign text_ranges_array = text_ranges | split: ',' %}
 
