@@ -197,6 +197,18 @@
           "settings": {
             "text": "<p>“The Qure mask is the FIRST mask in the world that adapts to your skin!...There is an app that reminds you of the treatments too.”<\/p>"
           }
+        },
+        "image_a8KMPg": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/gq_logo.png"
+          }
+        },
+        "text_dUdLVN": {
+          "type": "text",
+          "settings": {
+            "text": "<p>“Q-Rejuvalight Pro harnesses the power of lights from blue to infrared to address nearly every skincare concern you could imagine.”<\/p>"
+          }
         }
       },
       "block_order": [
@@ -209,7 +221,9 @@
         "image_hNLLqX",
         "text_k6KEBE",
         "image_ebp8NW",
-        "text_Mnmb4P"
+        "text_Mnmb4P",
+        "image_a8KMPg",
+        "text_dUdLVN"
       ],
       "settings": {
         "heading": "FEATURED IN",
@@ -332,6 +346,59 @@
         "rating_text": ""
       }
     },
+    "advisors_MYYMCj": {
+      "type": "advisors",
+      "blocks": {
+        "object_HV9VTX": {
+          "type": "object",
+          "settings": {
+            "heading": "Dr Shah, MD",
+            "subheading": "Board-Certified Dermatologist",
+            "text": "<p>“I like that they put a lot of R&D into their products -                                                       Ultimately, I think that they care a lot about the products they                                                        are putting out”<\/p>",
+            "image": "shopify:\/\/shop_images\/advisor_1.webp"
+          }
+        },
+        "object_fwn8MX": {
+          "type": "object",
+          "settings": {
+            "heading": "Dr Maxfield, MD",
+            "subheading": "Board-Certified Dermatologist",
+            "text": "<p>“Qure do studies on this, taking a look at how effective it is, so you can have confidence it’s going to hep what you’re doing for your skincare routine”<\/p>",
+            "image": "shopify:\/\/shop_images\/advisor_2.webp"
+          }
+        },
+        "object_ztcPKz": {
+          "type": "object",
+          "settings": {
+            "heading": "Dr Alexis Stephens, MD",
+            "subheading": "Board-Certified Dermatologist",
+            "text": "<p>\"What really sets Qure apart is the level of innovation and thoughtfulness they put into each product. Their commitment to quality and attention to detail really shines through in everything they create\"<\/p>",
+            "image": "shopify:\/\/shop_images\/advisor_3.webp"
+          }
+        },
+        "object_rkVQek": {
+          "type": "object",
+          "settings": {
+            "heading": "Dr Prem Tripathi, MD",
+            "subheading": "Double Board Certified Facial Plastic Surgeon",
+            "text": "<p>“I love that Qure Skincare products go beyond just topical treatments, helping to maintain the results of in-office procedures.”<\/p>",
+            "image": "shopify:\/\/shop_images\/advisor_4.webp"
+          }
+        }
+      },
+      "block_order": [
+        "object_HV9VTX",
+        "object_fwn8MX",
+        "object_ztcPKz",
+        "object_rkVQek"
+      ],
+      "settings": {
+        "heading": "Meet our board of advisors",
+        "heading_mobile": "Board of advisors",
+        "subheading": "At Qure Skincare, we are proud to have a team of esteemed Dermatologists guiding our mission to deliver high-quality skincare solutions.",
+        "subheading_mobile": "Meet our board of advisors:"
+      }
+    },
     "featured_collection_Hj3Xcw": {
       "type": "featured-collection",
       "blocks": {
@@ -384,7 +451,7 @@
       "settings": {
         "heading": "Get the Qure",
         "sub_heading": "<h4>Reclaim your confidence at any age, no matter what your skin concern is.<\/h4>",
-        "container": "container",
+        "container": "container-fluid",
         "slide_on_desktop": 4,
         "slide_on_tablet": 2,
         "slide_on_mobile": 1
@@ -820,8 +887,8 @@
       "settings": {
         "heading": "Personalized solutions for your skin’s unique needs",
         "text": "<p>Answer a few questions and we’ll tell you how to achieve your skincare goals.<\/p>",
-        "btn_text": "",
-        "btn_url": ""
+        "btn_text": "Claim Free Consultation",
+        "btn_url": "https:\/\/www.qureskincare.com\/pages\/skin-consultation"
       }
     }
   },
@@ -831,6 +898,7 @@
     "promotion_main_banner_second_jCUkqh",
     "featuredin_extended_P7BNDN",
     "results_slider_w6BARa",
+    "advisors_MYYMCj",
     "featured_collection_Hj3Xcw",
     "products_grid_mCReWM",
     "icons_list_iPVXgA",

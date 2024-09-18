@@ -68,7 +68,6 @@
       "settings": {
         "heading": "Smooth, firm and plump stubborn areas with Micro- Infusion Targeted Patches",
         "heading_mobile": "Smooth, firm and plump stubborn areas with Micro- Infusion Targeted Patches",
-        "test_product_name": "Micro-Infusion Targeted Patches",
         "product": "micro-infusion-targeted-patches",
         "product_images_offset": 2,
         "product_images_limit": 7,
@@ -161,7 +160,8 @@
         "image_VRfJ7m"
       ],
       "settings": {
-        "heading": "FEATURED IN"
+        "heading": "FEATURED IN",
+        "slider_type": "five_slides"
       }
     },
     "two_column_box_LbCXBk": {
@@ -204,6 +204,65 @@
         "classname": "main_banner section",
         "column_image": 6,
         "column_content": 6
+      }
+    },
+    "confidence_slider_Wgjdzg": {
+      "type": "confidence-slider",
+      "blocks": {
+        "option_Y6BeL3": {
+          "type": "option",
+          "settings": {
+            "text": "<p>Noticed continued improvement in <strong>wrinkle reduction. <\/strong><\/p>",
+            "percent_bar": 77
+          }
+        },
+        "option_hcfNfn": {
+          "type": "option",
+          "settings": {
+            "text": "<p>Reported under eyes were visibly <strong>brighter<\/strong>.<\/p>",
+            "percent_bar": 90
+          }
+        },
+        "option_FadxcY": {
+          "type": "option",
+          "settings": {
+            "text": "<p><strong>Would recommend<\/strong> Micro-Infusion Targeted Patches to a friend.<\/p>",
+            "percent_bar": 87
+          }
+        },
+        "image_3MnJTp": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_1299_cc31326d-6e2c-4f17-81f1-577910276f40.png",
+            "text": "<p>Proven to visually improve <strong>“Crow's Feet”<\/strong><\/p>"
+          }
+        },
+        "image_D4PQ83": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_12992.png",
+            "text": "<p>Proven to visually improve <strong>Dark under-eyes<\/strong><\/p>"
+          }
+        },
+        "image_78xVBn": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Frame_1000004439.png",
+            "text": "<p>Proven to visually improve <strong>Wrinkles<\/strong><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "option_Y6BeL3",
+        "option_hcfNfn",
+        "option_FadxcY",
+        "image_3MnJTp",
+        "image_D4PQ83",
+        "image_78xVBn"
+      ],
+      "settings": {
+        "heading": "No promises, just results.",
+        "text": "<p>In an independent user study, participants' skin was measured and showed proven visible improvement after just one month.<\/p>"
       }
     },
     "one_column_box_ACaxnJ": {
@@ -791,6 +850,7 @@
     "featuredin_zGJF46",
     "featuredin_extended_kENYrm",
     "two_column_box_LbCXBk",
+    "confidence_slider_Wgjdzg",
     "one_column_box_ACaxnJ",
     "results_pkwNpm",
     "videos_RDmhf8",
