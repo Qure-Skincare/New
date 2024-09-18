@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "main": {
@@ -188,6 +197,18 @@
           "settings": {
             "text": "<p>“The Qure mask is the FIRST mask in the world that adapts to your skin!...There is an app that reminds you of the treatments too.”<\/p>"
           }
+        },
+        "image_a8KMPg": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/gq_logo.png"
+          }
+        },
+        "text_dUdLVN": {
+          "type": "text",
+          "settings": {
+            "text": "<p>“Q-Rejuvalight Pro harnesses the power of lights from blue to infrared to address nearly every skincare concern you could imagine.”<\/p>"
+          }
         }
       },
       "block_order": [
@@ -200,7 +221,9 @@
         "image_hNLLqX",
         "text_k6KEBE",
         "image_ebp8NW",
-        "text_Mnmb4P"
+        "text_Mnmb4P",
+        "image_a8KMPg",
+        "text_dUdLVN"
       ],
       "settings": {
         "heading": "FEATURED IN",
