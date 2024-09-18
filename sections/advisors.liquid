@@ -37,8 +37,8 @@
                                         <div class="accordion-item bg-transparent">
                                             <h2 class="accordion-header" id="flush-headingOne">
                                                 <button class="accordion-button collapsed bg-transparent" type="button"
-                                                    data-bs-toggle="collapse" data-bs-target="#flush-collapseOne"
-                                                    aria-expanded="false" aria-controls="flush-collapseOne">
+                                                    data-bs-toggle="collapse" data-bs-target="#flush-collapse-{{ forloop.index }}"
+                                                    aria-expanded="false" aria-controls="flush-collapse-{{ forloop.index }}">
                                                 </button>
                                                 <div class="text-white ps-3">
                                                     {% if block.settings.heading != blank %}
@@ -49,7 +49,7 @@
                                                     {% endif %}
                                                 </div>
                                             </h2>
-                                            <div id="flush-collapseOne" class="accordion-collapse collapse"
+                                            <div id="flush-collapse-{{ forloop.index }}" class="accordion-collapse collapse"
                                                 aria-labelledby="flush-headingOne" data-bs-parent="#advisorOne">
                                                 <div class="accordion-body pt-2">
                                                     {{ block.settings.text }}
