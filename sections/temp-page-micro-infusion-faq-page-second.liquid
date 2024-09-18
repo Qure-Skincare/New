@@ -457,13 +457,19 @@
                         </ul>
                     </div>
                 </div>
-                <a href="https://www.qureskincare.com/pages/qure-microinfusion-offer"
-                    class="black_btn btn buy_btn w-100 mt-3 mt-md-5">Check Availability Now</a>
+                <a href="#new-landing-purchase" class="black_btn btn buy_btn w-100 mt-3 mt-md-5">Check Availability Now</a>
             </div>
         </div>
     </div>
 </div>
 <!-- -- main banner end -- -->
+
+<div class="section" id="productSubscription">
+    {% render 'pdm_product-social-proof-data-snippet' %}
+    {% render 'pdm_landing-page-purchase-process' %}
+    <script defer src="{{ '__app_treatment-form.js' | asset_url }}"></script>
+</div>
+
 <!-- -- result section start -- -->
 <div class="result_s section mi_landing_result" id="result_section">
     <div class="container">
@@ -920,9 +926,7 @@
             </div>
         </div>
         <div class="w-100 text-center">
-            <a href="https://www.qureskincare.com/pages/qure-microinfusion-offer"
-                class="black_btn btn buy_btn mw-525 mt-3 mx-auto w-100">Check Availability And Apply Discount
-                Now</a>
+            <a href="#new-landing-purchase" class="black_btn btn buy_btn mw-525 mt-3 mx-auto w-100">Check Availability And Apply Discount Now</a>
         </div>
     </div>
 </div>
