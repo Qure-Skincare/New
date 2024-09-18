@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "header_landing_KghXM9": {
@@ -160,9 +169,7 @@
       ],
       "settings": {
         "heading": "How Does the Qure Micro-Infusion System Work?",
-        "text": "<p>The Qure Micro-Infusion System is designed to revitalize your skin through a precise and effective process:<\/p>",
-        "custom_class": "mw-932 text-md-left ms-0 paddingB",
-        "custom_class2": "mw-932 text-md-left ms-0 pb-md-5"
+        "text": "<p>The Qure Micro-Infusion System is designed to revitalize your skin through a precise and effective process:<\/p>"
       }
     },
     "two_column_box_6BgfGf": {
@@ -777,8 +784,7 @@
           "type": "button",
           "settings": {
             "button_label": "Check Availability And Apply Discount Now",
-            "button_url": "https:\/\/www.qureskincare.com\/pages\/qure-microinfusion-offer",
-            "custom_class": "mw-525 mt-4"
+            "button_url": "https:\/\/www.qureskincare.com\/pages\/qure-microinfusion-offer"
           }
         }
       },
