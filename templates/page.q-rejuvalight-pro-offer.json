@@ -170,6 +170,18 @@
           "settings": {
             "text": "<p>“Qure Light Therapy Mask features five different types of light.... You can customize and track your progress using Qure’s app.”<\/p>"
           }
+        },
+        "image_zUxEYC": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/gq_logo.png"
+          }
+        },
+        "text_KwkbRg": {
+          "type": "text",
+          "settings": {
+            "text": "<p>“Q-Rejuvalight Pro harnesses the power of lights from blue to infrared to address nearly every skincare concern you could imagine.”<\/p>"
+          }
         }
       },
       "block_order": [
@@ -180,7 +192,9 @@
         "image_7jwEXX",
         "text_8bYXt8",
         "image_ezT6pQ",
-        "text_HCBmhc"
+        "text_HCBmhc",
+        "image_zUxEYC",
+        "text_KwkbRg"
       ],
       "settings": {
         "heading": "FEATURED IN",
