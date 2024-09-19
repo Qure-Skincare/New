@@ -121,7 +121,10 @@
       "concerns": "Skin Concerns"
     },
     "font": {
-      "size": "Font Size"
+      "size": "Font size",
+      "mobile": {
+        "size": "Font size mobile"
+      }
     },
     "checkbox": {
       "from": "From",
