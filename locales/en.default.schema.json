@@ -203,6 +203,12 @@
         "label": "Heading for mobile"
       }
     },
+    "announcement": {
+      "label": "Announcement",
+      "color": {
+        "label": "Color"
+      }
+    },
     "name": {
       "label": "Name",
       "call": "Call",

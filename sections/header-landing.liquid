@@ -15,10 +15,10 @@
     {% for block in section.blocks %}
         {% if block.type == 'announcement' %}
             <!-- -- announcement bar start -- -->
-            <div class="announcement_bar">
+            <div class="announcement_bar {% if block.settings.color == 'green' %}bg_Darkgreen text-light{% else %}bg-light text-dark{% endif %}">
                 <p class="d-none d-md-block">{{ block.settings.heading }}</p>
             </div>
-            <div class="announcement_bar bg-light text-dark">
+            <div class="announcement_bar {% if block.settings.color == 'green' %}bg_Darkgreen text-light{% else %}bg-light text-dark{% endif %}">
                 <p class="d-block d-md-none">{% if block.settings.heading_mobile != blank %}{{ block.settings.heading_mobile }}{% else %}{{ block.settings.heading }}{% endif %}</p>
             </div>
             <!-- -- announcement bar end -- -->
@@ -172,6 +172,22 @@
                         "type" : "text",
                         "id" : "heading_mobile",
                         "label" : "t:common.heading.mobile.label"
+                    },
+                    {
+                        "type": "select",
+                        "id": "color",
+                        "label": "t:common.announcement.color.label",
+                        "options": [
+                            {
+                                "label": "white",
+                                "value": "white"
+                            },
+                            {
+                                "label": "green",
+                                "value": "green"
+                            }
+                        ],
+                        "default": "white"
                     }
                 ]
             },
