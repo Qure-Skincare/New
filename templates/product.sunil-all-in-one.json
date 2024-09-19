@@ -511,6 +511,18 @@
             "client": "Irina K.",
             "code": ""
           }
+        },
+        "result_kg3ycz": {
+          "type": "result",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Elizabeth_R.png",
+            "heading": "Feels like heaven",
+            "text": "<p>\"Feels like heaven. Sad the bottle won’t last 😒\"<\/p>",
+            "image_country": "shopify:\/\/shop_images\/usa_189ccd4e-add5-48f9-8078-c50c3e29332f.png",
+            "text_country": "United States",
+            "client": "Elizabeth R.",
+            "code": ""
+          }
         }
       },
       "block_order": [
@@ -524,7 +536,8 @@
         "result_rzJmMH",
         "result_KdLc7q",
         "result_UnxUQa",
-        "result_qR4Hdi"
+        "result_qR4Hdi",
+        "result_kg3ycz"
       ],
       "settings": {
         "classname": "mi_landing_result",
