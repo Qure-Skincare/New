@@ -17,7 +17,9 @@
           "settings": {
             "heading": "[Limited Time Offer] SAVE $50 | Use Code: GLOWON50",
             "heading_mobile": "SAVE $50 | Use Code: GLOWON50",
-            "color": "green"
+            "color": "green",
+            "font_size_desktop": 14,
+            "font_size_mobile": 13
           }
         },
         "navigation_link_enLf8t": {
