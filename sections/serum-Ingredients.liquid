@@ -115,7 +115,7 @@
                                         <p>{{ block.settings.review }}</p>
                                     </div>
                                     <div class="u_verified">
-                                        <img src="assets/verified.svg" alt="">
+                                        <img src="{{ 'verified.svg' | asset_url }}" alt="">
                                         <p><strong>{{ block.settings.client }}</strong> - {{ block.settings.place }}</p>
                                     </div>
                                 </div>
@@ -139,12 +139,14 @@
             <div class="section_header text-center">
                 <h3>{{ section.settings.bottom_txt }}</h3>
             </div>
-            {% if section.settings.desk_img %}
             <div class="cd_img d-flex justify-content-center">
+                {% if section.settings.desk_img != blank %}
                 <img src="{{ section.settings.desk_img | img_url: 'master' }}" alt="" class="img-fluid d-none d-md-block">
+                {% endif %}
+                {% if section.settings.mob_img != blank %}
                 <img src="{{ section.settings.mob_img | img_url: 'master' }}" alt="" class="img-fluid d-block d-md-none">
+                {% endif %}
             </div>
-            {% endif %}
         </div>
     </div>
     {% endif %}
