@@ -61,7 +61,7 @@
           "settings": {
             "heading": "Save $50 on any LED device",
             "text": "<p>Get <em><strong>$50 OFF<\/strong><\/em><strong> <\/strong>with code: <strong>GLOWON50<\/strong><\/p>",
-            "timer": "2024-09-23T23:59:59"
+            "timer": "2024-09-30T23:59:59"
           }
         },
         "list_reduced_yep6j9": {
@@ -158,6 +158,18 @@
           "settings": {
             "text": "<p>“The Qure mask is the FIRST mask in the world that adapts to your skin!...There is an app that reminds you of the treatments too.”<\/p>"
           }
+        },
+        "image_iy6yaC": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/gq_logo.png"
+          }
+        },
+        "text_EnENJU": {
+          "type": "text",
+          "settings": {
+            "text": "<p> “Q-Rejuvalight Pro harnesses the power of lights from blue to infrared to address nearly every skincare concern you could imagine.”<\/p>"
+          }
         }
       },
       "block_order": [
@@ -170,7 +182,9 @@
         "image_hNLLqX",
         "text_k6KEBE",
         "image_ebp8NW",
-        "text_Mnmb4P"
+        "text_Mnmb4P",
+        "image_iy6yaC",
+        "text_EnENJU"
       ],
       "settings": {
         "heading": "FEATURED IN",

@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "main": {
@@ -50,7 +59,7 @@
           "settings": {
             "heading": "Save $50 on any LED device",
             "text": "<p>Get <em><strong>$50 OFF<\/strong><\/em><strong> <\/strong>with code: <strong>GLOWON50<\/strong><\/p>",
-            "timer": "2024-09-23T23:59:59"
+            "timer": "2024-09-30T23:59:59"
           }
         }
       },
