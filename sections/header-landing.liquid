@@ -16,10 +16,10 @@
         {% if block.type == 'announcement' %}
             <!-- -- announcement bar start -- -->
             <div class="announcement_bar {% if block.settings.color == 'green' %}bg_Darkgreen text-light{% else %}bg-light text-dark{% endif %}">
-                <p class="d-none d-md-block">{{ block.settings.heading }}</p>
+                <p class="d-none d-md-block" style="font-size: {{ font_size_desktop }}px !important">{{ block.settings.heading }}</p>
             </div>
             <div class="announcement_bar {% if block.settings.color == 'green' %}bg_Darkgreen text-light{% else %}bg-light text-dark{% endif %}">
-                <p class="d-block d-md-none">{% if block.settings.heading_mobile != blank %}{{ block.settings.heading_mobile }}{% else %}{{ block.settings.heading }}{% endif %}</p>
+                <p class="d-block d-md-none" style="font-size: {{ font_size_mobile }}px !important">{% if block.settings.heading_mobile != blank %}{{ block.settings.heading_mobile }}{% else %}{{ block.settings.heading }}{% endif %}</p>
             </div>
             <!-- -- announcement bar end -- -->
         {% endif %}
@@ -188,6 +188,26 @@
                             }
                         ],
                         "default": "white"
+                    },
+                    {
+                        "type": "range",
+                        "id": "font_size_desktop",
+                        "min": 10,
+                        "max": 15,
+                        "step": 1,
+                        "unit": "px",
+                        "label": "t:common.font.size",
+                        "default": 12
+                    },
+                    {
+                        "type": "range",
+                        "id": "font_size_mobile",
+                        "min": 10,
+                        "max": 15,
+                        "step": 1,
+                        "unit": "px",
+                        "label": "t:common.font.mobile.size",
+                        "default": 12
                     }
                 ]
             },
