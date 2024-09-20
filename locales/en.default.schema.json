@@ -84,7 +84,7 @@
       "label": "Mobile Content"
     },
     "image": {
-      "label": "Image Mobile"
+      "label": "Image on Mobile"
     },
     "benefits": {
       "label": "Benefits List"
@@ -101,6 +101,7 @@
     }
   },
   "common": {
+    "read_more": "Read More Content",
     "container": {
       "size": "Section Width",
       "full": "Full",
@@ -1312,6 +1313,9 @@
     },
     "limited-offer": {
       "label": "Limited Offer Product"
+    },
+    "money-back": {
+      "label": "Money Back Guarantee"
     }
   }
 }
