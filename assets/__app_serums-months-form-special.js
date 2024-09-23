@@ -35,7 +35,7 @@ function selectProduct(destination)
             product_type = productTypeElement.getAttribute('data-product-type');
             let product_variant_id = product_variants[product_type][product_period];
             updateProductButtonHref(destination, product_variant_id);
-            //applySpecialPromo(destination, product_period, product_variant_id);
+            applySpecialPromo(destination, product_period, product_variant_id);
         });
     });
 
@@ -52,7 +52,7 @@ function selectProduct(destination)
             $("#sale-price").text(sale_price);
 
             updateProductButtonHref(destination, product_variant_id);
-            //applySpecialPromo(destination, product_period, product_variant_id);
+            applySpecialPromo(destination, product_period, product_variant_id);
         });
     });
 }
