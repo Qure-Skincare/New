@@ -83,15 +83,15 @@ function applySpecialPromo(destination, product_period, product_variant_id) {
             {
                 switch (product_variant_id) {
                     //Rejuvenating + Hydra-Soothing
-                    case 43216449208559:
+                    case 45889978302703:
                         discountCode = 'BUY1GET1_H/R';
                     break;
                     //Rejuvenating
-                    case 43216398450927:
+                    case 45889990754543:
                         discountCode = 'BUY1GET1_R';
                     break;
                     //Hydra-Soothing
-                    case 43216434069743:
+                    case 45889987641583:
                         discountCode = 'BUY1GET1_H';
                     break;
                 }
