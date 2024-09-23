@@ -1,26 +1,26 @@
-let product_type = 1; //default type
-let product_period = 3; //default period
-let product_variant = 43216377217263; //default product variant
+let product_type = 2; //default type
+let product_period = 2; //default period
+let product_variant = 45889990754543; //default product variant
 
 let product_variants = [];
 
 //Rejuvenating + Hydra-Soothing
 product_variants[1] = [];  
 product_variants[1][1] = 43216489513199; //1 month
-product_variants[1][2] = 43216449208559; //2 months
-product_variants[1][3] = 43216377217263; //3 months
+product_variants[1][2] = 45889978302703; //2 months
+product_variants[1][3] = 45889975353583; //3 months
 
 //Rejuvenating
 product_variants[2] = []; 
 product_variants[2][1] = 43216457203951; //1 month
-product_variants[2][2] = 43216398450927; //2 months
-product_variants[2][3] = 43216299819247; //3 months
+product_variants[2][2] = 45889990754543; //2 months
+product_variants[2][3] = 45889972437231; //3 months
 
 //Hydra-Soothing
 product_variants[3] = [];
 product_variants[3][1] = 43216483942639; //1 month
-product_variants[3][2] = 43216434069743; //2 months
-product_variants[3][3] = 43216359555311; //3 months
+product_variants[3][2] = 45889987641583; //2 months
+product_variants[3][3] = 45889963065583; //3 months
 
 function selectProduct(destination)
 {
@@ -35,7 +35,7 @@ function selectProduct(destination)
             product_type = productTypeElement.getAttribute('data-product-type');
             let product_variant_id = product_variants[product_type][product_period];
             updateProductButtonHref(destination, product_variant_id);
-            applySpecialPromo(destination, product_period, product_variant_id);
+            //applySpecialPromo(destination, product_period, product_variant_id);
         });
     });
 
@@ -52,7 +52,7 @@ function selectProduct(destination)
             $("#sale-price").text(sale_price);
 
             updateProductButtonHref(destination, product_variant_id);
-            applySpecialPromo(destination, product_period, product_variant_id);
+            //applySpecialPromo(destination, product_period, product_variant_id);
         });
     });
 }

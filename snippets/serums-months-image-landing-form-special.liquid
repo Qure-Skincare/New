@@ -133,10 +133,10 @@
                                 <div class="step_content">
                                     <div class="step_conten_blocks">
 
-                                        {% assign product = all_products['micro-infusion-3-month-bundle-3x-b-g-serum-3x-e-g-f-serum'] %}
+                                        {% assign product = all_products['micro-infusion-3-month-bundle-rejuvenating-lp'] %}
                                         {% assign divided_price = product.price | divided_by: 4 %}
 
-                                        <a class="planBlock active {{ section_id }}_productPeriodObject" href="month_3" data-tab="month_3" data-pay="$49.75"
+                                        <a class="planBlock active {{ section_id }}_productPeriodObject" href="month_3" data-tab="month_3"
                                             data-per="& SAVE 33%" data-pay="${{ divided_price | money_without_currency }}" data-image="{{ 'MI2x-mixed-1.jpg' | asset_url }}">
                                             <input type="radio" name="monthlyPlan" id="3_month" checked data-product-period="3">
                                             <label class="monthly_plans" for="3_month">
@@ -148,13 +148,13 @@
                                                     <div class="plan_des">6 Micro-Infusion Treatments</div>
                                                 </div>
                                                 <div class="price">
-                                                    <div class="plan_prc regular_price">$297</div>
-                                                        <div class="plan_prc sale_price">$199</div>
+                                                    <div class="plan_prc regular_price">{{ product.compare_at_price | money_without_trailing_zeros }}</div>
+                                                        <div class="plan_prc sale_price">{{ product.price | money_without_trailing_zeros }}</div>
                                                 </div>
                                             </label>
                                         </a>
 
-                                        {% assign product = all_products['micro-infusion-2-month-bundle-2x-b-g-serum-2x-e-g-f-serum'] %}
+                                        {% assign product = all_products['micro-infusion-2-month-bundle-rejuvenating-lp'] %}
                                         {% assign divided_price = product.price | divided_by: 4 %}
 
                                         <a class="planBlock {{ section_id }}_productPeriodObject new_block" href="month_2" data-tab="month_2"
@@ -175,8 +175,8 @@
                                                 <div>
                                                     <span class="saved_price ms-auto d-block d-md-none mb-1 saved_price50">SAVE 55%</span>
                                                     <div class="price">
-                                                        <div class="plan_prc regular_price">$396</div>
-                                                            <div class="plan_prc sale_price">$179</div>
+                                                        <div class="plan_prc regular_price">{{ product.compare_at_price | money_without_trailing_zeros }}</div>
+                                                            <div class="plan_prc sale_price">{{ product.price | money_without_trailing_zeros }}</div>
                                                     </div>
                                                 </div>
                                             </label>
@@ -185,7 +185,7 @@
                                         {% assign product = all_products['micro-infusion-1-month-bundle-1x-b-g-serum-1x-e-g-f-serum'] %}
                                         {% assign divided_price = product.price | divided_by: 4 %}
 
-                                        <a class="planBlock {{ section_id }}_productPeriodObject new_block" href="month_1" data-tab="month_1" data-pay="$24.75"
+                                        <a class="planBlock {{ section_id }}_productPeriodObject new_block" href="month_1" data-tab="month_1"
                                             data-per="" data-pay="${{ divided_price | money_without_currency }}" data-image="{{ 'treatment.png' | asset_url }}">
                                             <input type="radio" name="monthlyPlan" id="1_month" data-product-period="1">
                                             <label class="monthly_plans" for="1_month" payment-price="{{ divided_price | money_without_trailing_zeros }}">
@@ -294,10 +294,10 @@
                                         </label>
                                     </div>
                                 </div>
-                                {% assign product = all_products['micro-infusion-3-month-refill-6x-hydra-soothing-serum'] %}
+                                {% assign product = all_products['micro-infusion-3-month-bundle-rejuvenating-copy'] %}
 
                                 <div class="step_content mb-3 pt-0 step_btn">
-                                    <a class="btn btn-lg btn-primary buy_btn mt-3 {{ section_id }}_productButtonObject" href="{{ routes.cart_add_url }}?id=43216377217263&quantity=1" onclick="setEventProductHandler('{{ product.handle | escape }}')" data-ajax-cart-request-button>
+                                    <a class="btn btn-lg btn-primary buy_btn mt-3 {{ section_id }}_productButtonObject" href="{{ routes.cart_add_url }}?id=45889972437231&quantity=1" onclick="setEventProductHandler('{{ product.handle | escape }}')" data-ajax-cart-request-button>
                                         BUY NOW <span class="btn_value"><strong>& SAVE 33%</strong></span>
                                         <img src="{{ 'arrow_right.svg' | asset_url }}" alt="" class="btn_icon">
                                     </a>
