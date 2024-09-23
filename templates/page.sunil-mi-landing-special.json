@@ -17,7 +17,7 @@
           "settings": {
             "heading": "BUY ONE & GET ONE FREE | Limited Time Offer",
             "heading_mobile": "Special Offer | BUY ONE & GET ONE FREE",
-            "color": "white",
+            "color": "green",
             "font_size_desktop": 12,
             "font_size_mobile": 12
           }
@@ -72,7 +72,7 @@
         "button_L9q6wE": {
           "type": "button",
           "settings": {
-            "button_label": "BUY NOW & SAVE UP TO 50%",
+            "button_label": "BUY NOW & SAVE UP TO 55%",
             "button_url": "#productSubscription"
           }
         },
