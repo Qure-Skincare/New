@@ -404,6 +404,18 @@
             "code": ""
           }
         },
+        "result_kg3ycz": {
+          "type": "result",
+          "settings": {
+            "image": "shopify://shop_images/Elizabeth_e05bd0ad-8f29-43f7-8f84-9deaf17f4d33.png",
+            "heading": "Feels like heaven",
+            "text": "<p>\"Feels like heaven. Sad the bottle won’t last 😒\"</p>",
+            "image_country": "shopify://shop_images/usa_189ccd4e-add5-48f9-8078-c50c3e29332f.png",
+            "text_country": "United States",
+            "client": "Elizabeth R.",
+            "code": ""
+          }
+        },
         "result_GbCVB4": {
           "type": "result",
           "settings": {
@@ -426,6 +438,18 @@
             "image_country": "shopify://shop_images/usa_89e25711-f730-4521-8931-83b3307204af.png",
             "text_country": "United States",
             "client": "Jessica R.",
+            "code": ""
+          }
+        },
+        "result_qR4Hdi": {
+          "type": "result",
+          "settings": {
+            "image": "shopify://shop_images/irina_k_desktop.png",
+            "heading": "Amazing Serum!",
+            "text": "<p>“I am 52, tried many different brands. This one does the job! I love multiple product in it so this way you truly have all in one serum!”</p>",
+            "image_country": "shopify://shop_images/usa_189ccd4e-add5-48f9-8078-c50c3e29332f.png",
+            "text_country": "Unites States",
+            "client": "Irina K.",
             "code": ""
           }
         },
@@ -500,45 +524,21 @@
             "client": "Dona S.",
             "code": ""
           }
-        },
-        "result_qR4Hdi": {
-          "type": "result",
-          "settings": {
-            "image": "shopify://shop_images/irina_k_desktop.png",
-            "heading": "Amazing Serum!",
-            "text": "<p>“I am 52, tried many different brands. This one does the job! I love multiple product in it so this way you truly have all in one serum!”</p>",
-            "image_country": "shopify://shop_images/usa_189ccd4e-add5-48f9-8078-c50c3e29332f.png",
-            "text_country": "Unites States",
-            "client": "Irina K.",
-            "code": ""
-          }
-        },
-        "result_kg3ycz": {
-          "type": "result",
-          "settings": {
-            "image": "shopify://shop_images/Elizabeth_e05bd0ad-8f29-43f7-8f84-9deaf17f4d33.png",
-            "heading": "Feels like heaven",
-            "text": "<p>\"Feels like heaven. Sad the bottle won’t last 😒\"</p>",
-            "image_country": "shopify://shop_images/usa_189ccd4e-add5-48f9-8078-c50c3e29332f.png",
-            "text_country": "United States",
-            "client": "Elizabeth R.",
-            "code": ""
-          }
         }
       },
       "block_order": [
         "result_aEQJMi",
         "result_yYz3aw",
+        "result_kg3ycz",
         "result_GbCVB4",
         "result_AdLwAt",
+        "result_qR4Hdi",
         "result_ehhnNV",
         "result_tQ6xTp",
         "result_6iEPHP",
         "result_rzJmMH",
         "result_KdLc7q",
-        "result_UnxUQa",
-        "result_qR4Hdi",
-        "result_kg3ycz"
+        "result_UnxUQa"
       ],
       "settings": {
         "classname": "mi_landing_result",
