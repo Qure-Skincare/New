@@ -2127,10 +2127,6 @@ body[data-test-trustpilot='c'] .drawer_shiping_test{
   body[data-test-trustpilot='b' ] .my-floating-cart form.my-cart .custom_upsell{
     padding-bottom: 10px;
   }
-
-  body[data-test-trustpilot='c'] .my-floating-cart .cart_total-checkout{
-    height: 120px !important;
-  }
 }
 
 .slidecart-trustpilot-container{
