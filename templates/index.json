@@ -125,14 +125,13 @@
         "link_Pk3LH6"
       ],
       "settings": {
-        "heading": "Get clinic-level results from home- minus the ‘clinical’ costs.",
+        "heading": "<p>STRONGER <strong>TOGETHER</strong></p>",
         "heading_mobile": "",
-        "heading_tag": "h1",
-        "subheading": "",
+        "subheading": "Join Us in the Fight Against Breast \\n Cancer",
         "subheading_mobile": "",
-        "text": "<p><strong>50,000+</strong>customers feel more confident in their own skin.</p>",
-        "image": "shopify://shop_images/banner_after.png",
-        "image_mobile": "shopify://shop_images/banner_mobile.png"
+        "text": "<p>*To support breast cancer research to prevent, detect, stop and treat breast cancer, Qure will donate $2 from every order to the National Breast Cancer Foundation</p>",
+        "image": "shopify://shop_images/ribben_banner.webp",
+        "image_mobile": "shopify://shop_images/ribben_banner_mob.webp"
       }
     },
     "featuredin_extended_P7BNDN": {
