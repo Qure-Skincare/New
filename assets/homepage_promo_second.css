@@ -7,7 +7,7 @@
 }
 
 .homepage .main_banner .main_b_wrapper .m_b_content {
-    max-width: 438px;
+    max-width: 498px;
 }
 
 .homepage .main_banner .bg_banner {
@@ -368,11 +368,24 @@
     font-size: 20px;
     margin-bottom: 15px;
     display: inline-block;
-    max-width: 354px;
-    width: 100%;
+    width: auto;
     text-align: center;
 }
 
+.homepage .main_banner .m_b_content p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.124px;
+    padding-bottom: 40px;
+    padding-top: 20px;
+}
+.homepage .main_banner .m_b_content h1{
+    font-size: 45px;
+    font-weight: 500;
+    line-height: 57.4px;
+    letter-spacing: 0.45px;
+}
 .homepage .main_b_wrapper .section_header p {
     font-size: 18px;
     line-height: 28px;
@@ -487,10 +500,6 @@
     gap: 0;
 }
 
-.homepage .mySwiperTest {
-    padding: 10px;
-}
-
 .trusted_bl .trust_item .trust_item_info .result_content p,
 .trust_item .trust_item_info .result_content h6 {
     font-size: 12px;
@@ -504,8 +513,50 @@
 .homepage .result_item.result_item_info_with_fixed .result_c_info .verified_img p {
     color: #797D7C;
 }
-
+.advisor_content .accordion-button::after {
+    margin-left: initial;
+    width: 33px;
+    height: 33px;
+    background-color: #fff;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 50%;
+    background-image: none;
+    content: url(../assets/arrow-down-sm.svg);
+    transform: unset;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.advisor_content .accordion-button:not(.collapsed):after{
+    content: url(../assets/arrow-up-sm.svg);
+}
+.advisor_content .accordion-button:not(.collapsed){
+    box-shadow: none;
+}
+.advisor_content .advisor_detail {
+    margin-top: -120px;
+}
+.advisor_content .advisor_detail h6{
+    font-weight: 600;
+    line-height: 21.538px;
+}
+.advisor_detail .accordion-body p {
+    line-height: 22px;
+}
+.advisor_content .accordion-header p {
+    font-weight: 400;
+    line-height: 21.538px;
+}
+.advisor_4 .advisor_detail {
+    margin-top: -140px;
+}
+.board_of-advisors .swiper {
+    overflow: unset;
+}
 @media(max-width:767px) {
+    .advisor_content .advisor_detail h6{
+        font-size: 14px;
+    }
     .ss_clinical .ss_c_detail a.ss_c_link {
         font-size: 12px;
         line-height: 22px;
@@ -518,8 +569,8 @@
     .homepage .btn_black {
         /* background-color: #fff;
         color: #000; */
-        max-width: 231px;
-        padding: 10px 26px;
+        max-width: 181px;
+        padding: 10px 28px;
     }
 
     .homepage .skincare_journey .btn_black {
@@ -529,14 +580,31 @@
     }
 
     .homepage .main_banner .main_b_wrapper .btn_black {
-        background-color: #fff;
-        color: #000;
+        font-size: 14px;
     }
 
+    .homepage .main_banner .m_b_content h1 {
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: 0.28px;
+    }
+    .homepage .main_banner .m_b_content p {
+    font-size: 12px;
+    line-height: 21.652px;
+    letter-spacing: 0.124px;
+    text-align: center;
+    padding-bottom: 16px;
+    padding-top: 0;
+    }
     .homepage .main_banner .main_b_wrapper {
-        /* align-items: flex-start;
-        top: 30px; */
-        color: #fff;
+        align-items: start;
+        padding-top: 23px;
+    }
+    .homepage .main_banner .main_b_wrapper .m_b_content {
+        max-width: 324px;
+        margin: auto;
     }
 
     .homepage .main_b_wrapper .section_header p {
