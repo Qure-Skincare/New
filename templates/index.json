@@ -115,9 +115,9 @@
         "link_Pk3LH6": {
           "type": "link",
           "settings": {
-            "link_label": "Shop Best Sellers",
-            "link_label_mobile": "Shop Best Sellers",
-            "link_url": "shopify://products/q-rejuvalight-pro-facewear"
+            "link_label": "Support Now",
+            "link_label_mobile": "Support Now",
+            "link_url": "https://www.qureskincare.com/collections/best-sellers"
           }
         }
       },
