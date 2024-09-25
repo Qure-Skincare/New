@@ -2068,3 +2068,16 @@ body[class~="page.sunil-mi-landing"] .product-price{
   display: none;
 }
 /* end confidence slider */
+
+/* start corner treatment bfcm */
+.productBlockGrid .cus-tag .cus-save.pdm-corner_bfcm {
+
+  border-radius: 4px 0px 0px 4px;
+  border: 1px solid #C92127;
+  background: #C92127;
+
+  color: #FFF;
+  text-transform: uppercase;
+
+}
+/* end corner treatment bfcm */
