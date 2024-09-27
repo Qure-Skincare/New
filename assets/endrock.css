@@ -2089,6 +2089,10 @@ body[class~="page.sunil-mi-landing"] .product-price{
 
 /* b */
 body[data-test-trustpilot='b'] .slidecart-trustpilot-container.test-trustpilot-b{
+  display: none;
+}
+
+body[data-test-trustpilot='b'] .slidecart-trustpilot-container.b-footer.test-trustpilot-b{
   display: flex;
 }
 
@@ -2110,6 +2114,15 @@ body[data-test-trustpilot='b'] .slidecart-trustpilot-container.test-trustpilot-b
   
 }
 
+@media screen and (min-width: 1000px) {
+  body[data-test-trustpilot='b'] .slidecart-trustpilot-container.test-trustpilot-b{
+    display: flex;
+  }
+  
+  body[data-test-trustpilot='b'] .slidecart-trustpilot-container.b-footer.test-trustpilot-b{
+    display: none;
+  }
+}
 /* c */
 
 body[data-test-trustpilot='c'] .slidecart-trustpilot-container.test-trustpilot-c{
