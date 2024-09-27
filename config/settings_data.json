@@ -178,10 +178,20 @@
               "discount": "FREEPATCH",
               "disable": true
             }
+          },
+          "trustpilot_JJ7mEQ": {
+            "type": "trustpilot",
+            "settings": {
+              "text_area_first": "<p>Excellent <b>4.4</b></p>",
+              "starts": "shopify://shop_images/stars-4.5_1.svg",
+              "second_text_content": "reviews on",
+              "logo": "shopify://shop_images/logo_truspilot.svg"
+            }
           }
         },
         "block_order": [
-          "gift_ccQgi4"
+          "gift_ccQgi4",
+          "trustpilot_JJ7mEQ"
         ],
         "settings": {
           "sidecart_timer_old_enable": false,
