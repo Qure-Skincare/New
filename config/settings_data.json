@@ -176,7 +176,7 @@
               "price_limit": "0",
               "quantity": "1",
               "discount": "FREEHEADBAND",
-              "disable": false
+              "disable": true
             }
           }
         },
