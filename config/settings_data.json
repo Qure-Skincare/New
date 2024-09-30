@@ -40,9 +40,9 @@
           "announcement_TPxBgi": {
             "type": "announcement",
             "settings": {
-              "heading": "<p><strong>SAVE $50 </strong>on any LED device</p>",
-              "button_label": "SHOP NOW & SAVE",
-              "button_url": "shopify://collections/led-light-therapy-devices"
+              "heading": "<p><strong>Receive a free pink headband with every purchase</strong></p>",
+              "button_label": "SHOP",
+              "button_url": "shopify://collections/best-sellers"
             }
           },
           "tab_3Wyyea": {
@@ -176,7 +176,7 @@
               "price_limit": "0",
               "quantity": "1",
               "discount": "FREEHEADBAND",
-              "disable": true
+              "disable": false
             }
           }
         },
