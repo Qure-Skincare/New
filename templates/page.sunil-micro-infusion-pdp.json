@@ -606,6 +606,7 @@
         },
         "result_NebkjP": {
           "type": "result",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/results_chelsea.webp",
             "heading": "Amazing results!",
@@ -666,6 +667,7 @@
         },
         "result_EMrrqr": {
           "type": "result",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/results_priya.webp",
             "heading": "Plumper, more hydrated!",
@@ -750,6 +752,7 @@
         },
         "result_EfPNCF": {
           "type": "result",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/B_A_alexandra.png",
             "heading": "Cured my PP skin!",
