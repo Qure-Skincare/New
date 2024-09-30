@@ -40,8 +40,8 @@
           "announcement_TPxBgi": {
             "type": "announcement",
             "settings": {
-              "heading": "<p><strong>Receive a free pink headband with every purchase</strong></p>",
-              "button_label": "SHOP",
+              "heading": "<p><strong>FREE </strong>World-Wide Shipping Over $100</p>",
+              "button_label": "SHOP NOW",
               "button_url": "shopify://collections/best-sellers"
             }
           },
