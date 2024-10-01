@@ -176,47 +176,10 @@
         "button_label": "Show More Questions",
         "button_hide_label": "Hide More Questions"
       }
-    },
-    "heading_rr4Umg": {
-      "type": "heading",
-      "settings": {
-        "heading": "<h2>Real reviews, real results</h2><h2>from people just like you.</h2>",
-        "heading_mobile": "<h2>Our customer reviews</h2>"
-      }
-    },
-    "17076549626a095922": {
-      "type": "apps",
-      "blocks": {
-        "stamped_product_reviews_ugc_main_widget_rcjLar": {
-          "type": "shopify://apps/stamped-reviews/blocks/main-widget/a103faaf-2125-4b0e-89fa-de5149736723",
-          "settings": {
-            "animation": true,
-            "tags_exclude": "",
-            "tags_include": "",
-            "search": "",
-            "linkify": true,
-            "use_metafields": false,
-            "sku_tagtype": "sku"
-          }
-        }
-      },
-      "block_order": [
-        "stamped_product_reviews_ugc_main_widget_rcjLar"
-      ],
-      "settings": {
-      }
-    },
-    "pdm_product_social_proof_data_dFhMMf": {
-      "type": "pdm_product-social-proof-data",
-      "settings": {
-      }
     }
   },
   "order": [
     "main",
-    "faq_UUdrDJ",
-    "heading_rr4Umg",
-    "17076549626a095922",
-    "pdm_product_social_proof_data_dFhMMf"
+    "faq_UUdrDJ"
   ]
 }
