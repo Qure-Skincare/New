@@ -92,56 +92,40 @@
         "object_Mkee9H": {
           "type": "object",
           "settings": {
-            "heading": "Can I use it on other areas of my body?",
-            "text": "<p>While it's primarily designed for the neck and chest, some users apply it to their face or other body areas such as the back and hands.. Refer to the user manual for specific usage recommendations.</p>",
+            "heading": "Can I use Dermal Mist on surfaces, too?",
+            "text": "<p>Yes, Dermal Mist is versatile enough to be used on your face, body, and even surfaces like your pillowcase or skincare tools. It’s a gentle yet effective way to keep bacteria at bay.</p>",
             "code": ""
           }
         },
         "object_r9ziUD": {
           "type": "object",
           "settings": {
-            "heading": "Can I use any serum/creams on my skin underneath my Neck & Décolletage LED device?",
-            "text": "<p>For optimal results use the device on clean, bare skin. Creating a barrier between the device and your skin with unauthorized skincare products may diminish its effectiveness or potentially cause skin reactions.</p>",
+            "heading": "Is this product vegan and cruelty-free?",
+            "text": "<p>Yes, Dermal Mist is both vegan and cruelty-free. We are committed to creating products that are kind to both your skin and the environment.</p>",
             "code": ""
           }
         },
         "object_WJHFVy": {
           "type": "object",
           "settings": {
-            "heading": "Can you use this if you're pregnant or breastfeeding?",
-            "text": "<p>Pregnant and breastfeeding individuals should exercise caution when considering any new skincare or beauty treatment. It is generally recommended to consult with a healthcare professional, before using such devices during pregnancy or while breastfeeding.</p>",
+            "heading": "What’s the concentration of hypochlorous acid in Dermal Mist?",
+            "text": "<p>Dermal Mist contains a precise 0.02% concentration of hypochlorous acid, which is effective enough to deliver antibacterial and anti-inflammatory benefits while remaining gentle on the skin.</p>",
             "code": ""
           }
         },
         "object_H3YLF3": {
           "type": "object",
           "settings": {
-            "heading": "How do you clean it?",
-            "text": "<p>To clean the Qure Neck & Décolletage LED follow these steps: turn it off, gently wipe the treatment head with a damp cloth, avoid harsh chemicals, dry it thoroughly, and store it in a cool, dry place.</p>",
+            "heading": "How should I store Dermal Mist?",
+            "text": "<p>Store Dermal Mist at room temperature, away from direct sunlight and heat. This will help maintain its effectiveness and prolong its shelf life.</p>",
             "code": ""
           }
         },
         "object_br8Tty": {
           "type": "object",
           "settings": {
-            "heading": "How do I charge the device?",
-            "text": "<p>Charge Neck & Décolletage device fully for 4 hours before your first use. Only use a 5V adapter or computer USB port. Please avoid fast chargers as they can damage the battery.</p><p>To charge the device, insert the USB-C cable into the controller. Insert the USB-A side of the cable into a USB power supply. When the controller is charged, the LED indicator on the controller flashes white, and when the controller is fully charged, the indicator will be steady white.</p>",
-            "code": ""
-          }
-        },
-        "object_CqQCj9": {
-          "type": "object",
-          "settings": {
-            "heading": "What comes with the device?",
-            "text": "<ul><li>Neck & Décolletage LED device</li><li>Controller</li><li>USB & Charging Cable</li><li>2 Velcro Straps (1 Short, 1 Long)</li><li>User Manual</li><li>Luxury storage bag</li></ul>",
-            "code": ""
-          }
-        },
-        "object_YaJwtL": {
-          "type": "object",
-          "settings": {
-            "heading": "Can I use my LED Mask and Neck & Décolletage LED at the same time?",
-            "text": "<p>Yes! You can use your Q-Rejuvalight Pro Facewear and the Neck & Décolletage LED at the same time. For better results, we recommend using the device 5-7 times a week.</p>",
+            "heading": "Will Dermal Mist dry out my skin?",
+            "text": "<p>No, Dermal Mist is formulated to be non-drying and won’t leave any residue. It’s designed to cleanse and soothe your skin, helping it stay hydrated and balanced.</p>",
             "code": ""
           }
         },
@@ -164,8 +148,6 @@
         "object_WJHFVy",
         "object_H3YLF3",
         "object_br8Tty",
-        "object_CqQCj9",
-        "object_YaJwtL",
         "button_8yxV6r"
       ],
       "settings": {
