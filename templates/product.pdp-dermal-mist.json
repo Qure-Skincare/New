@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "main": {
@@ -21,6 +30,7 @@
         "rating_KDB67x",
         "list_azYRbY"
       ],
+      "disabled": true,
       "settings": {
         "heading": "Cleanse, calm, andclear your skin with Dermal Mist",
         "heading_mobile": "Cleanse, calm, and clear your skin with Dermal Mis",
@@ -35,6 +45,45 @@
         "text_label_real_result_1": "",
         "text_label_real_result_2": "",
         "text_label_real_result_3": ""
+      }
+    },
+    "product_landing_FzHddC": {
+      "type": "product-landing",
+      "blocks": {
+        "list_BtkbWM": {
+          "type": "list",
+          "settings": {
+            "text": "<ul><li>Gently purifies to reduce impurities without stripping or drying out the skin.</li><li>Helps reduce bacteria that can cause breakouts.</li><li>Versatile and safe for use on your face, body, and even devices.</li></ul>"
+          }
+        },
+        "icons_wFTWne": {
+          "type": "icons",
+          "settings": {
+            "image": "shopify://shop_images/dermatologist.svg",
+            "text": "Dermatologist Reviewed",
+            "image_second": "shopify://shop_images/Free_World-Wide_Shipping_over_100.png",
+            "text_second": "Free Shipping Over $100"
+          }
+        }
+      },
+      "block_order": [
+        "list_BtkbWM",
+        "icons_wFTWne"
+      ],
+      "settings": {
+        "heading": "Cleanse, calm, andclear your skin with Dermal Mist",
+        "heading_mobile": "Cleanse, calm, andclear your skin with Dermal Mist",
+        "product": "dermal-mist",
+        "product_images_offset": 0,
+        "product_images_limit": 5,
+        "product_button_label": "Product",
+        "before_after_images_limit": 0,
+        "before_after_button_label": "Before & After",
+        "reserve": false,
+        "selected_design": "old",
+        "text_label_real_result_1": "Product",
+        "text_label_real_result_2": "Real Results",
+        "text_label_real_result_3": "Dermatologist"
       }
     },
     "second": {
@@ -158,6 +207,7 @@
   },
   "order": [
     "main",
+    "product_landing_FzHddC",
     "second",
     "faq_UUdrDJ"
   ]
