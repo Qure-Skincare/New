@@ -46,6 +46,11 @@
         "text_label_real_result_3": ""
       }
     },
+    "second": {
+      "type": "temp-pdp-dermal-mist",
+      "settings": {
+      }
+    },
     "faq_UUdrDJ": {
       "type": "faq",
       "blocks": {
@@ -162,6 +167,7 @@
   },
   "order": [
     "main",
+    "second",
     "faq_UUdrDJ"
   ]
 }
