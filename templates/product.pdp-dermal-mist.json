@@ -64,11 +64,20 @@
             "image_second": "shopify://shop_images/Free_World-Wide_Shipping_over_100.png",
             "text_second": "Free Shipping Over $100"
           }
+        },
+        "rating_paJLKD": {
+          "type": "rating",
+          "settings": {
+            "image": "shopify://shop_images/star4.8.svg",
+            "text": "<p>4.7/5 Rated by Customers</p>",
+            "product": ""
+          }
         }
       },
       "block_order": [
         "list_BtkbWM",
-        "icons_wFTWne"
+        "icons_wFTWne",
+        "rating_paJLKD"
       ],
       "settings": {
         "heading": "Cleanse, calm, andclear your skin with Dermal Mist",
