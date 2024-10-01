@@ -64,19 +64,11 @@
             "image_second": "shopify://shop_images/Free_World-Wide_Shipping_over_100.png",
             "text_second": "Free Shipping Over $100"
           }
-        },
-        "media_gYTU9G": {
-          "type": "media",
-          "settings": {
-            "image": "shopify://shop_images/chest-product-1.webp",
-            "wistia_id": ""
-          }
         }
       },
       "block_order": [
         "list_BtkbWM",
-        "icons_wFTWne",
-        "media_gYTU9G"
+        "icons_wFTWne"
       ],
       "settings": {
         "heading": "Cleanse, calm, andclear your skin with Dermal Mist",
