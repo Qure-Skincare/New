@@ -138,6 +138,8 @@
 		{
 			{% if giftProduct != blank and giftQuantity != blank and giftPriceLimit != blank and giftDiscount != blank %}
 				const giftProduct =  await gift(cart,'{{ giftProduct.variants.first.id }}', '{{ giftQuantity }}', '{{ giftPriceLimit }}', '{{ giftDiscount }}');
+        console.log('giftProduct ',giftProduct);
+        
         if(giftProduct){
           itemsAdd.push(giftProduct);
         }
@@ -145,10 +147,13 @@
 		}
     {% if enableProductGift and giftTresholdPdm != 0 and productGiftPdm != blank %}
       const pdmProductGift = productGiftPdm(cart,'{{ productGiftPdm.variants.first.id }}', {{ giftTresholdPdm }});
+      console.log('pdmProductGift ',pdmProductGift);
+      
       if(pdmProductGift){
         itemsAdd.push(pdmProductGift);
       }
     {% endif %}
+console.log('itemsAdd ', itemsAdd);
 
     if(itemsAdd.length>0){
       cartRequestAdd({
@@ -197,6 +202,8 @@
     var gift = cart.items.some(item => item.id === +(productId));
 
     if (total_price > priceLimit && !gift) {
+      console.log('agrega prioducto ghratis gift');
+      
       const getDiscount =  await fetch('/discount/' + discountCode).then(response  => response.ok);
       if(!getDiscount) return;
       return  {
@@ -209,6 +216,8 @@
       }
     }
     else if(total_price <= priceLimit && gift) {
+      console.log('deberia eliminar prioducto ghratis gift');
+      
       const giftInCart = cart.items.find(item => item.id === +(productId));
       cartRequestChange({
         id: giftInCart.key,
@@ -226,6 +235,7 @@
     const gift = cart.items.some(item => item.id === +(productId) && item.properties && item.properties['_required_validation']);
     const total_price = cart.total_price;
     if (total_price >= priceLimit && !gift) {
+      console.log('agrega prioducto ghratis productGiftPdm');
       return {
         id: productId,
         quantity: 1,
@@ -234,6 +244,7 @@
         }
       }
     }else if (total_price < priceLimit && gift) {
+      console.log('elimina prioducto ghratis productGiftPdm');
       const getGiftInCart = cart.items.find(item => item.id === +(productId) && item.properties['_required_validation']);
       cartRequestChange({
         id: getGiftInCart.key,
