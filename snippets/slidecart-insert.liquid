@@ -137,6 +137,9 @@
 				gift('{{ giftProduct.variants.first.id }}', '{{ giftQuantity }}', '{{ giftPriceLimit }}', '{{ giftDiscount }}');
 			{% endif %}
 		}
+    {% if enableProductGift and giftTresholdPdm != 0 and productGiftPdm != blank %}
+      deleteProductGiftPdm('{{ productGiftPdm.variants.first.id }}', {{ giftTresholdPdm }});
+    {% endif %}
 
 		if(typeof startCartTimer == 'function') {
 			startCartTimer(15 * 60);
@@ -151,12 +154,8 @@
 	});
 
   subscribeToCartStateUpdate( state => {
-    console.log('entra en el stat update');
-    
     if ( state.status.cartStateSet && !state.status.requestInProgress ) {
       {% if enableProductGift and giftTresholdPdm != 0 and productGiftPdm != blank %}
-        console.log('esta en la condicion');
-        
         const cart = state.cart;
         productGiftPdm(cart,'{{ productGiftPdm.variants.first.id }}', {{ giftTresholdPdm }});
       {% endif %}
@@ -244,6 +243,22 @@
           quantity: 0
         },  {} )
       }
+    }
+  }
+
+  function deleteProductGiftPdm (cart, productId,priceLimit) {
+    if(document.body.hasAttribute('data-free-gift-gamification')){
+    fetch('/cart.js').then(response => response.json()).then(cart => {
+      const gift = cart.items.some(item => item.id === +(productId) && item.properties && item.properties['_required_validation']);
+      const total_price = cart.total_price;
+      if (total_price < priceLimit && gift) {
+        const getGiftInCart = cart.items.find(item => item.id === +(productId) && item.properties['_required_validation']);
+        cartRequestChange({
+          id: getGiftInCart.key,
+          quantity: 0
+        },  {} )
+      }
+      });
     }
   }
   
