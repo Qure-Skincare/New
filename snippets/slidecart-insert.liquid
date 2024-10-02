@@ -139,7 +139,7 @@
 		}
     console.log('enableProductGift ', {{ enableProductGift }});
     console.log('giftTresholdPdm ', {{ giftTresholdPdm }});
-    console.log('productGiftPdm ', {{ productGiftPdm }});
+    console.log('productGiftPdm ', {{ productGiftPdm | json  }});
 
     {% if enableProductGift and giftTresholdPdm != 0 and productGiftPdm != blank %}
       console.log('entra en validacion productGiftPdm');
