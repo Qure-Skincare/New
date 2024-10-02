@@ -31,7 +31,7 @@
       ],
       "settings": {
         "button_label": "SAVE UP TO 55%",
-        "button_url": "#new-landing-purchase"
+        "button_url": "#productSubscription"
       }
     },
     "main": {
