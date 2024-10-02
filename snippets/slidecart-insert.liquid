@@ -1,10 +1,6 @@
 {% assign insuranceProduct = all_products["shipping-insurance"] %}
 
 <script>
-      console.log('productGiftPdm ', {{ productGiftPdm | json  }});
-</script>
-
-<script>
 	var CustomInsuraceVariants = [
 	{% for variant in insuranceProduct.variants %}
 		"{{variant.id}}", 
@@ -91,7 +87,7 @@
   window.initUpsellSwiper =   initUpsellSwiper; 
 </script>
 
-<script type="module"> import { configureCart, subscribeToCartSectionsUpdate, cartRequestAdd, cartRequestChange, subscribeToCartAjaxRequests, getCartState } from '{{ "liquid-ajax-cart-v1.11.1.js" | asset_url  }}'; 
+<script type="module"> import { configureCart, subscribeToCartSectionsUpdate, cartRequestAdd, cartRequestChange, subscribeToCartAjaxRequests, getCartState, subscribeToCartStateUpdate } from '{{ "liquid-ajax-cart-v1.11.1.js" | asset_url  }}'; 
 	configureCart('addToCartCssClass', 'js-my-cart-open'); 
   initUpsellSwiper(); //Upsell Swiper PDM when add product need show upsell slider
 
@@ -141,15 +137,6 @@
 				gift('{{ giftProduct.variants.first.id }}', '{{ giftQuantity }}', '{{ giftPriceLimit }}', '{{ giftDiscount }}');
 			{% endif %}
 		}
-    console.log('enableProductGift ', {{ enableProductGift }});
-    console.log('giftTresholdPdm ', {{ giftTresholdPdm }});
-    console.log('productGiftPdm ', {{ productGiftPdm | json  }});
-
-    {% if enableProductGift and giftTresholdPdm != 0 and productGiftPdm != blank %}
-      console.log('entra en validacion productGiftPdm');
-
-      productGiftPdm('{{ productGiftPdm.variants.first.id }}', {{ giftTresholdPdm }});
-    {% endif %}
 
 		if(typeof startCartTimer == 'function') {
 			startCartTimer(15 * 60);
@@ -162,6 +149,19 @@
 
     	initUpsellSwiper();
 	});
+
+  subscribeToCartStateUpdate( state => {
+    console.log('entra en el stat update');
+    
+    if ( state.status.cartStateSet && !state.status.requestInProgress ) {
+      {% if enableProductGift and giftTresholdPdm != 0 and productGiftPdm != blank %}
+        console.log('esta en la condicion');
+        
+        let currentSubtotal = state.cart.total_price;
+        productGiftPdm(currentSubtotal,'{{ productGiftPdm.variants.first.id }}', {{ giftTresholdPdm }});
+      {% endif %}
+    }
+  });
 
 	function dicount(productId, dproductId, discountCode) {
     fetch('/cart.js')
@@ -221,31 +221,29 @@
 		});
   }
 
-  function productGiftPdm (productId,priceLimit) {
+  function productGiftPdm (cart, productId,priceLimit) {
     if(document.body.hasAttribute('data-free-gift-gamification')){
-      fetch('/cart.js').then(response => response.json()).then(cart => {
-          const gift = cart.items.some(item => item.id === +(productId) && item.properties && item.properties['_required_validation']);
-          const total_price = cart.total_price;
-          if (total_price >= priceLimit && !gift) {
-            cartRequestAdd({
-              items: [
-                {
-                  id: productId,
-                  quantity: 1,
-                  properties: {
-                    _required_validation: 'validated',
-                  }
-                }
-              ]
-            }, {} )
-          }else if (total_price < priceLimit && gift) {
-            const getGiftInCart = cart.items.find(item => item.id === +(productId) && item.properties['_required_validation']);
-            cartRequestChange({
-              id: getGiftInCart.key,
-              quantity: 0
-            },  {} )
-          }
-      });
+      const gift = cart.items.some(item => item.id === +(productId) && item.properties && item.properties['_required_validation']);
+      const total_price = cart.total_price;
+      if (total_price >= priceLimit && !gift) {
+        cartRequestAdd({
+          items: [
+            {
+              id: productId,
+              quantity: 1,
+              properties: {
+                _required_validation: 'validated',
+              }
+            }
+          ]
+        }, {} )
+      }else if (total_price < priceLimit && gift) {
+        const getGiftInCart = cart.items.find(item => item.id === +(productId) && item.properties['_required_validation']);
+        cartRequestChange({
+          id: getGiftInCart.key,
+          quantity: 0
+        },  {} )
+      }
     }
   }
   

@@ -617,10 +617,6 @@
 {% assign enableProductGift = section.settings.enable_product_gift %}
 {% assign giftTresholdPdm = shop.metaobjects['sidecart_gamification_tresholds']['sidecart-gamification-tresholds-swspsm6c']['product_gift'].value %}
 {% assign productGiftPdm = section.settings.product_free_gift %}
-<script>
-  console.log('productGiftPdm slidecart ', {{ productGiftPdm | json }});
-  
-</script>
 
 {% render 'slidecart-insert', giftProduct: giftProduct, giftPriceLimit: giftPriceLimit, giftQuantity: giftQuantity, giftDiscount: giftDiscount, 
 enableProductGift: enableProductGift,
