@@ -91,7 +91,7 @@
 	configureCart('addToCartCssClass', 'js-my-cart-open'); 
   initUpsellSwiper(); //Upsell Swiper PDM when add product need show upsell slider
 
-  subscribeToCartAjaxRequests(myRequestCallback => {
+  subscribeToCartAjaxRequests(async myRequestCallback => {
     if(myRequestCallback.requestType === 'add') {
       if(!window.event_product_handle) {
         let atc_href = myRequestCallback.info.initiator.getAttribute('href');
@@ -124,7 +124,9 @@
         }
       }, 500);
 
+      console.log('pdmProductGift del ADd fuera condicion');
       {% if enableProductGift and giftTresholdPdm != 0 and productGiftPdm != blank %}
+      const cart = await statusCart();
       const pdmProductGift = productGiftPdm(cart,'{{ productGiftPdm.variants.first.id }}', {{ giftTresholdPdm }});
       console.log('pdmProductGift del ADd ',pdmProductGift);
       
@@ -248,6 +250,7 @@ console.log('itemsAdd ', itemsAdd);
     if(!document.body.hasAttribute('data-free-gift-gamification')) return;
     const gift = cart.items.some(item => item.id === +(productId) && item.properties && item.properties['_required_validation']);
     const total_price = cart.total_price;
+    console.log('agrega prioducto ghratis productGiftPdm fuera de condiciones');
     if (total_price >= priceLimit && !gift) {
       console.log('agrega prioducto ghratis productGiftPdm');
       return {
