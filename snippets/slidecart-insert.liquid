@@ -1,6 +1,10 @@
 {% assign insuranceProduct = all_products["shipping-insurance"] %}
 
 <script>
+      console.log('productGiftPdm ', {{ productGiftPdm | json  }});
+</script>
+
+<script>
 	var CustomInsuraceVariants = [
 	{% for variant in insuranceProduct.variants %}
 		"{{variant.id}}", 
