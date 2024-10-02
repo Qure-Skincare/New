@@ -91,7 +91,7 @@
 	configureCart('addToCartCssClass', 'js-my-cart-open'); 
   initUpsellSwiper(); //Upsell Swiper PDM when add product need show upsell slider
 
-  subscribeToCartAjaxRequests(async myRequestCallback => {
+  subscribeToCartAjaxRequests(myRequestCallback => {
     if(myRequestCallback.requestType === 'add') {
       if(!window.event_product_handle) {
         let atc_href = myRequestCallback.info.initiator.getAttribute('href');
@@ -123,22 +123,6 @@
           }
         }
       }, 500);
-
-      console.log('pdmProductGift del ADd fuera condicion');
-      {% if enableProductGift and giftTresholdPdm != 0 and productGiftPdm != blank %}
-      const cart = await statusCart();
-      const pdmProductGift = productGiftPdm(cart,'{{ productGiftPdm.variants.first.id }}', {{ giftTresholdPdm }});
-      console.log('pdmProductGift del ADd ',pdmProductGift);
-      
-      if(pdmProductGift){
-        cartRequestAdd({
-        items: [
-          pdmProductGift
-        ]
-        }, {} )
-      }
-    {% endif %}
-
     }
   })
 
@@ -152,7 +136,9 @@
 		}
 		else
 		{
+      console.log('Antes add gift Old');
 			{% if giftProduct != blank and giftQuantity != blank and giftPriceLimit != blank and giftDiscount != blank %}
+        console.log('ejecuta funcion add gift Old');
 				const giftProduct =  await gift(cart,'{{ giftProduct.variants.first.id }}', '{{ giftQuantity }}', '{{ giftPriceLimit }}', '{{ giftDiscount }}');
         console.log('giftProduct ',giftProduct);
         
@@ -161,8 +147,11 @@
         }
 			{% endif %}
 		}
+    console.log('amtes de la condicion para mi gift');
+    
     {% if enableProductGift and giftTresholdPdm != 0 and productGiftPdm != blank %}
-      const pdmProductGift = productGiftPdm(cart,'{{ productGiftPdm.variants.first.id }}', {{ giftTresholdPdm }});
+      console.log('entra  en la condicion para mi gift para consultar');
+      const pdmProductGift = await productGiftPdm(cart,'{{ productGiftPdm.variants.first.id }}', {{ giftTresholdPdm }});
       console.log('pdmProductGift ',pdmProductGift);
       
       if(pdmProductGift){
@@ -216,6 +205,7 @@ console.log('itemsAdd ', itemsAdd);
   async function gift(cart,productId, productQuantity, priceLimit, discountCode = '') {
     var total_price = cart.total_price / 100;
     var gift = cart.items.some(item => item.id === +(productId));
+console.log('antes de condicion gift');
 
     if (total_price > priceLimit && !gift) {
       console.log('agrega prioducto ghratis gift');
@@ -250,7 +240,6 @@ console.log('itemsAdd ', itemsAdd);
     if(!document.body.hasAttribute('data-free-gift-gamification')) return;
     const gift = cart.items.some(item => item.id === +(productId) && item.properties && item.properties['_required_validation']);
     const total_price = cart.total_price;
-    console.log('agrega prioducto ghratis productGiftPdm fuera de condiciones');
     if (total_price >= priceLimit && !gift) {
       console.log('agrega prioducto ghratis productGiftPdm');
       return {
