@@ -123,6 +123,20 @@
           }
         }
       }, 500);
+
+      {% if enableProductGift and giftTresholdPdm != 0 and productGiftPdm != blank %}
+      const pdmProductGift = productGiftPdm(cart,'{{ productGiftPdm.variants.first.id }}', {{ giftTresholdPdm }});
+      console.log('pdmProductGift del ADd ',pdmProductGift);
+      
+      if(pdmProductGift){
+        cartRequestAdd({
+        items: [
+          pdmProductGift
+        ]
+        }, {} )
+      }
+    {% endif %}
+
     }
   })
 
