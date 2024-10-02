@@ -157,8 +157,8 @@
       {% if enableProductGift and giftTresholdPdm != 0 and productGiftPdm != blank %}
         console.log('esta en la condicion');
         
-        let currentSubtotal = state.cart.total_price;
-        productGiftPdm(currentSubtotal,'{{ productGiftPdm.variants.first.id }}', {{ giftTresholdPdm }});
+        const cart = state.cart;
+        productGiftPdm(cart,'{{ productGiftPdm.variants.first.id }}', {{ giftTresholdPdm }});
       {% endif %}
     }
   });
