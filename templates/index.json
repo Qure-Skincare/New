@@ -679,17 +679,10 @@
         "testimonial_PKTtDU": {
           "type": "testimonial",
           "settings": {
-<<<<<<< HEAD
-            "image": "shopify:\/\/shop_images\/alexis.png",
-            "video_type": "video",
-            "video_link": "",
-            "youtube_link": "https:\/\/youtu.be\/ZMGm5PmWzF0?t=649",
-=======
             "image": "shopify://shop_images/alexis.png",
             "video_type": "youtube",
             "video_link": "",
             "youtube_link": "https://www.youtube.com/watch?v=ZMGm5PmWzF0",
->>>>>>> upstream/production
             "wistia_id": "",
             "badge_txt": "53k Followers",
             "title": "You can get a Clinical treatment at home safely and conveniently... It is particularly beneficial for those with melanin rich Skin",
