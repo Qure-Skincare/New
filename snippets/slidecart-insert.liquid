@@ -177,38 +177,64 @@
 		});
 	}
 
-  function gift(productId, productQuantity, priceLimit, discountCode = '') {
-    fetch('/cart.js')
-    .then(response => response.json())
-    .then(cart => {
-      var total_price = cart.total_price / 100;
-      var gift = cart.items.some(item => item.id === +(productId));
+  function giftException()
+  {
+    const pages = [
+      'micro-infusion-special-offer',
+      'micro-infusion-faq-page-2',
+      'qure-microinfusion-offer',
+      'qure-microinfusion-offer-ar',
+      'qure-microinfusion-offer-fr',
+      'qure-microinfusion-offer-es',
+      'qure-microinfusion-offer-de',
+      'anti-creams-microinfusion-page',
+      'qure-micro-infusion-landing-page-affiliate',
+      'qure-microinfusion-offer-men'
+    ];
 
-      if (total_price > priceLimit && !gift) {
-        fetch('/discount/' + discountCode).then(async () => {
-          cartRequestAdd({ 
-          items: [
-            {
-              id: productId,
-              quantity: productQuantity,
-              properties: {
-                _discount_code: discountCode,
-                _free_product: true
+    const currentUrl = window.location.href;
+
+    if (pages.some(page => currentUrl.includes(page))) {
+      return true;
+    }
+
+    return false;
+  }
+
+  function gift(productId, productQuantity, priceLimit, discountCode = '') {
+    if(!giftException()) {
+      fetch('/cart.js')
+      .then(response => response.json())
+      .then(cart => {
+        var total_price = cart.total_price / 100;
+        var gift = cart.items.some(item => item.id === +(productId));
+
+        if (total_price > priceLimit && !gift) {
+          fetch('/discount/' + discountCode).then(async () => {
+            cartRequestAdd({ 
+            items: [
+              {
+                id: productId,
+                quantity: productQuantity,
+                properties: {
+                  _discount_code: discountCode,
+                  _free_product: true
+                }
               }
-            }
-          ]  
-        }, {} )
-        });
-      }
-      else if(total_price <= priceLimit && gift)
-      {
-        const giftInCart = cart.items.find(item => item.id === +(productId));
-        cartRequestChange({ 
-          id: giftInCart.key,
-          quantity: 0
-        },  {} )
-      }
-		});
+            ]  
+          }, {} )
+          });
+        }
+        else if(total_price <= priceLimit && gift)
+        {
+          const giftInCart = cart.items.find(item => item.id === +(productId));
+          cartRequestChange({ 
+            id: giftInCart.key,
+            quantity: 0
+          },  {} )
+        }
+      });
+    }
   }
 
   function productGiftPdm (productId,priceLimit) {
