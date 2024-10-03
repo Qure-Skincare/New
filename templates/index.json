@@ -675,7 +675,7 @@
             "video_type": "wistia",
             "video_link": "",
             "youtube_link": "",
-            "wistia_id": "wistia_async_yuqb3gno7g",
+            "wistia_id": "yuqb3gno7g",
             "badge_txt": "1,154 Followers",
             "title": "I have been using this mask with the anti-breakout settings, which has been fantastic to help clear up my complexion in only two weeks.",
             "client_details": "<strong>Dr Alexandra Hunter</strong>, NHS & Aesthetics Doctor"
@@ -685,7 +685,7 @@
           "type": "testimonial",
           "settings": {
             "image": "shopify://shop_images/alexis.png",
-            "video_type": "video",
+            "video_type": "youtube",
             "video_link": "",
             "youtube_link": "https://youtu.be/ZMGm5PmWzF0?t=649",
             "wistia_id": "",
