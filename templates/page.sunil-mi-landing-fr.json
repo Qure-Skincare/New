@@ -1138,8 +1138,6 @@
         "button_F67Uh4": {
           "type": "button",
           "settings": {
-            "button_label": "Votre question n’apparaît pas ? Posez-nous votre question",
-            "button_url": "shopify:\/\/pages\/faqs"
           }
         }
       },
