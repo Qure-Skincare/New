@@ -16,11 +16,10 @@
 <script type="application/json" data-ajax-cart-configuration> { "addToCartCssClass": "js-my-cart-open" } </script>
 
 <!-- Swiper JS Add PDM By Samu3le-->
-<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-  
+
 <!-- Initialize Swiper -->
 <script>
-  // align cards center when they nedded
+  // align cards center when they neddeds
   const displayCard = () => {
       const customUpsell = document.querySelector(".my-floating-cart form.my-cart .custom_upsell .swiper-wrapper");
       if (!customUpsell) return;
@@ -87,9 +86,11 @@
   window.initUpsellSwiper =   initUpsellSwiper; 
 </script>
 
-<script type="module"> import { configureCart, subscribeToCartSectionsUpdate, cartRequestAdd, cartRequestChange, subscribeToCartAjaxRequests, getCartState } from '{{ "liquid-ajax-cart-v1.11.1.js" | asset_url  }}'; 
+<script type="module"> import { configureCart, subscribeToCartSectionsUpdate, cartRequestAdd, cartRequestChange, subscribeToCartAjaxRequests, getCartState, subscribeToCartStateUpdate } from '{{ "liquid-ajax-cart-v1.11.1.js" | asset_url  }}'; 
+
+document.addEventListener('DOMContentLoaded', () => {
+
 	configureCart('addToCartCssClass', 'js-my-cart-open'); 
-  initUpsellSwiper(); //Upsell Swiper PDM when add product need show upsell slider
 
   subscribeToCartAjaxRequests(myRequestCallback => {
     if(myRequestCallback.requestType === 'add') {
@@ -127,20 +128,6 @@
   })
 
 	subscribeToCartSectionsUpdate( sections => {
-		if (window.location.href.includes("q-rejuvalight-pro-offer"))
-		{
-			dicount(37390541553813, 44062187913455, 'N&D100');
-		}
-		else
-		{
-			{% if giftProduct != blank and giftQuantity != blank and giftPriceLimit != blank and giftDiscount != blank %}
-				gift('{{ giftProduct.variants.first.id }}', '{{ giftQuantity }}', '{{ giftPriceLimit }}', '{{ giftDiscount }}');
-			{% endif %}
-		}
-    {% if enableProductGift and giftTresholdPdm != 0 and productGiftPdm != blank %}
-      productGiftPdm('{{ productGiftPdm.variants.first.id }}', {{ giftTresholdPdm }});
-    {% endif %}
-
 		if(typeof startCartTimer == 'function') {
 			startCartTimer(15 * 60);
 		}
@@ -153,10 +140,24 @@
     	initUpsellSwiper();
 	});
 
-	function dicount(productId, dproductId, discountCode) {
-    fetch('/cart.js')
-    .then(response => response.json())
-    .then(cart => {
+  subscribeToCartStateUpdate( state => {
+    if ( state.status.cartStateSet && !state.status.requestInProgress ) {
+      const cart = state.cart;
+      if (window.location.href.includes("q-rejuvalight-pro-offer")) {
+        dicount(cart,37390541553813, 44062187913455, 'N&D100');
+      } else {
+        {% if giftProduct != blank and giftQuantity != blank and giftPriceLimit != blank and giftDiscount != blank %}
+          gift(cart,'{{ giftProduct.variants.first.id }}', '{{ giftQuantity }}', '{{ giftPriceLimit }}', '{{ giftDiscount }}');
+        {% endif %}
+      }
+
+      {% if enableProductGift and giftTresholdPdm != 0 and productGiftPdm != blank %}
+        productGiftPdm(cart,'{{ productGiftPdm.variants.first.id }}', {{ giftTresholdPdm }});
+      {% endif %}
+    }
+  });
+
+	function dicount(cart,productId, dproductId, discountCode) {
         if(window.__discount_applied == false)
         {
           if (cart.items.some(item => item.id === +(productId)) && cart.items.some(item => item.id === +(dproductId))) {
@@ -174,7 +175,6 @@
             window.__discount_applied = false;
           }
         }
-		});
 	}
 
   function giftException()
@@ -201,68 +201,63 @@
     return false;
   }
 
-  function gift(productId, productQuantity, priceLimit, discountCode = '') {
+  function gift(cart,productId, productQuantity, priceLimit, discountCode = '') {
     if(!giftException()) {
-      fetch('/cart.js')
-      .then(response => response.json())
-      .then(cart => {
-        var total_price = cart.total_price / 100;
-        var gift = cart.items.some(item => item.id === +(productId));
+      var total_price = cart.total_price / 100;
+      var gift = cart.items.some(item => item.id === +(productId));
 
-        if (total_price > priceLimit && !gift) {
-          fetch('/discount/' + discountCode).then(async () => {
-            cartRequestAdd({ 
-            items: [
-              {
-                id: productId,
-                quantity: productQuantity,
-                properties: {
-                  _discount_code: discountCode,
-                  _free_product: true
-                }
+      if (total_price > priceLimit && !gift) {
+        fetch('/discount/' + discountCode).then(async () => {
+          cartRequestAdd({ 
+          items: [
+            {
+              id: productId,
+              quantity: productQuantity,
+              properties: {
+                _discount_code: discountCode,
+                _free_product: true
               }
-            ]  
-          }, {} )
-          });
-        }
-        else if(total_price <= priceLimit && gift)
-        {
-          const giftInCart = cart.items.find(item => item.id === +(productId));
-          cartRequestChange({ 
-            id: giftInCart.key,
-            quantity: 0
-          },  {} )
-        }
-      });
+            }
+          ]  
+        }, {} )
+        return true;
+        });
+      }
+      else if(total_price <= priceLimit && gift)
+      {
+        const giftInCart = cart.items.find(item => item.id === +(productId));
+        cartRequestChange({ 
+          id: giftInCart.key,
+          quantity: 0
+        },  {} )
+      }
     }
   }
 
-  function productGiftPdm (productId,priceLimit) {
+  function productGiftPdm (cart, productId,priceLimit) {
     if(document.body.hasAttribute('data-free-gift-gamification')){
-      fetch('/cart.js').then(response => response.json()).then(cart => {
-          const gift = cart.items.some(item => item.id === +(productId) && item.properties && item.properties['_required_validation']);
-          const total_price = cart.total_price;
-          if (total_price >= priceLimit && !gift) {
-            cartRequestAdd({
-              items: [
-                {
-                  id: productId,
-                  quantity: 1,
-                  properties: {
-                    _required_validation: 'validated',
-                  }
-                }
-              ]
-            }, {} )
-          }else if (total_price < priceLimit && gift) {
-            const getGiftInCart = cart.items.find(item => item.id === +(productId) && item.properties['_required_validation']);
-            cartRequestChange({
-              id: getGiftInCart.key,
-              quantity: 0
-            },  {} )
-          }
-      });
+      const gift = cart.items.some(item => item.id === +(productId) && item.properties && item.properties['_required_validation']);
+      const total_price = cart.total_price;
+      if (total_price >= priceLimit && !gift) {
+        cartRequestAdd({
+          items: [
+            {
+              id: productId,
+              quantity: 1,
+              properties: {
+                _required_validation: 'validated',
+              }
+            }
+          ]
+        }, {} )
+      }else if (total_price < priceLimit && gift) {
+        const getGiftInCart = cart.items.find(item => item.id === +(productId) && item.properties['_required_validation']);
+        cartRequestChange({
+          id: getGiftInCart.key,
+          quantity: 0
+        },  {} )
+      }
     }
   }
-  
+});
 </script>
