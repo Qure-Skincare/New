@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "header_landing_pFmaRH": {
@@ -8,7 +17,7 @@
           "settings": {
             "link_label": "CONTENT REQUIREMENTS",
             "link_url": "#tabsAccordion",
-            "image": "shopify:\/\/shop_images\/header_cs1.webp"
+            "image": "shopify://shop_images/header_cs1.webp"
           }
         },
         "navigation_link_DgYaFx": {
@@ -16,7 +25,7 @@
           "settings": {
             "link_label": "PRODUCT",
             "link_url": "#tabsAccordion",
-            "image": "shopify:\/\/shop_images\/header_cs2.webp"
+            "image": "shopify://shop_images/header_cs2.webp"
           }
         },
         "navigation_link_3X4mrf": {
@@ -24,7 +33,7 @@
           "settings": {
             "link_label": "INSPIRING CONTENT",
             "link_url": "#tabsAccordion",
-            "image": "shopify:\/\/shop_images\/header_cs3.webp"
+            "image": "shopify://shop_images/header_cs3.webp"
           }
         }
       },
@@ -48,7 +57,42 @@
     },
     "section3": {
       "type": "temp-page-patches-content-guide-section3",
+      "blocks": {
+        "header_RA46tw": {
+          "type": "header",
+          "settings": {
+            "heading": "STEP 1",
+            "text": "Merge Qure into your creatives",
+            "image": "shopify://shop_images/ac_pro4.webp",
+            "button_label": "Content Requirements"
+          }
+        },
+        "header_LhpN6x": {
+          "type": "header",
+          "settings": {
+            "heading": "STEP 2",
+            "text": "Get to know Micro-Infusion Targeted Patches",
+            "image": "shopify://shop_images/ac_pro5.webp",
+            "button_label": "Product Information"
+          }
+        },
+        "header_AwT6ji": {
+          "type": "header",
+          "settings": {
+            "heading": "STEP 3",
+            "text": "Get inspired by other content creators",
+            "image": "shopify://shop_images/ac_pro6.webp",
+            "button_label": "Inspiring Content"
+          }
+        }
+      },
+      "block_order": [
+        "header_RA46tw",
+        "header_LhpN6x",
+        "header_AwT6ji"
+      ],
       "settings": {
+        "heading": "All you need to know before you start creating your amazing content"
       }
     }
   },

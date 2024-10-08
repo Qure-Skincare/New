@@ -1,5 +1,107 @@
+{% capture section_header_1_desktop %}
+    <li class="nav-item active1" role="presentation">
+        <h6>STEP 1</h6>
+        <p>Merge Qure into your creatives</p>
+        <img src="https://qureskincaredns.com/new/assets/ac_pro4.webp" alt="" class="img-fluid mt-2">
+        <button class="nav-link active ac_drop_btn" id="content_req-tab" data-bs-toggle="tab"
+            data-bs-target="#content_req" type="button" role="tab" aria-controls="content_req"
+            aria-selected="true">
+            <div class="container">
+                <p>
+                    Content
+                    Requirements
+                </p>
+            </div>
+        </button>
+    </li>
+{% endcapture %}
+
+{% capture section_header_1_mobile %}
+    <h2 class="accordion-header" id="acheadingOne">
+        <h6>STEP 1</h6>
+        <p>Merge Qure into your creatives</p>
+        <img src="https://qureskincaredns.com/new/assets/ac_pro4.webp" alt="" class="img-fluid mt-2">
+        <button class="accordion-button ac_drop_btn collapsed" type="button"
+            data-bs-toggle="collapse" data-bs-target="#ac_collapseOne" aria-expanded="true"
+            aria-controls="ac_collapseOne">
+            Content
+            Requirements
+        </button>
+    </h2>
+{% endcapture %}
+
+
+
+{% capture section_header_2_desktop %}
+    <li class="nav-item" role="presentation">
+        <h6>STEP 2</h6>
+        <p>Get to know Micro-Infusion Targeted Patches</p>
+        <img src="https://qureskincaredns.com/new/assets/ac_pro5.webp" alt="" class="img-fluid mt-2">
+        <button class="nav-link ac_drop_btn" id="product_info-tab" data-bs-toggle="tab"
+            data-bs-target="#product_info" type="button" role="tab" aria-controls="product_info"
+            aria-selected="false">
+            <div class="container">
+                <p>
+                    Product Information
+                </p>
+            </div>
+        </button>
+    </li>
+{% endcapture %}
+
+{% capture section_header_2_mobile %}
+    <h2 class="accordion-header" id="acheadingTwo">
+        <h6>STEP 2</h6>
+        <p>Get to know Micro-Infusion Targeted Patches</p>
+        <img src="https://qureskincaredns.com/new/assets/ac_pro5.webp" alt="" class="img-fluid mt-2">
+        <button class="accordion-button collapsed ac_drop_btn" type="button"
+            data-bs-toggle="collapse" data-bs-target="#ac_collapseTwo" aria-expanded="false"
+            aria-controls="ac_collapseTwo">
+            Product Information
+        </button>
+    </h2>
+{% endcapture %}
+
+
+
+{% capture section_header_3_desktop %}
+    <li class="nav-item" role="presentation">
+        <h6>STEP 3</h6>
+        <p>Get inspired by other content creators</p>
+        <img src="https://qureskincaredns.com/new/assets/ac_pro6.webp" alt="" class="img-fluid mt-2">
+        <button class="nav-link ac_drop_btn" id="good_content-tab" data-bs-toggle="tab"
+            data-bs-target="#good_content" type="button" role="tab" aria-controls="good_content"
+            aria-selected="false">
+            <div class="container">
+                <p> Inspiring Content </p>
+            </div>
+        </button>
+    </li>
+{% endcapture %}
+
+{% capture section_header_3_mobile %}
+    <h2 class="accordion-header" id="ac_headingThree">
+        <h6>STEP 3</h6>
+        <p>Get inspired by other content creators</p>
+        <img src="https://qureskincaredns.com/new/assets/ac_pro6.webp" alt="" class="img-fluid mt-2">
+        <button class="accordion-button collapsed ac_drop_btn" type="button"
+            data-bs-toggle="collapse" data-bs-target="#ac_collapseThree" aria-expanded="false"
+            aria-controls="ac_collapseThree">
+            Inspiring Content
+        </button>
+    </h2>
+{% endcapture %}
+
+
+
+
+{% comment %} ############## {% endcomment %}
+
+
+
 {% capture section_body_1_desktop %}
-    <div class="tab-pane fade1 active1 show1" id="target_block_desktop_1" role="tabpanel" aria-labelledby="target_block_desktop_1-tab">
+    <div class="tab-pane fade1 active1 show1" id="content_req" role="tabpanel"
+        aria-labelledby="content_req-tab">
         <div class="ac_desc_grid">
             <div class="ac_desc faq">
                 <div class="as_desc_header"> <img src="https://qureskincaredns.com/new/assets/key_message.svg" alt=""
@@ -129,7 +231,7 @@
 {% endcapture %}
 
 {% capture section_body_1_mobile %}
-    <div id="ac_target_block_mobile_1" class="accordion-collapse collapse" aria-labelledby="acheadingOne">
+    <div id="ac_collapseOne" class="accordion-collapse collapse" aria-labelledby="acheadingOne">
         <div class="accordion-body">
             <div class="ac_desc_grid">
                 <div class="ac_desc faq">
@@ -277,7 +379,7 @@
 
 
 {% capture section_body_2_desktop %}
-    <div class="tab-pane fade" id="target_block_desktop_2" role="tabpanel" aria-labelledby="target_block_desktop_2-tab">
+    <div class="tab-pane fade" id="product_info" role="tabpanel" aria-labelledby="product_info-tab">
         <div class="ac_desc_grid">
             <div class="ac_desc faq">
                 <div class="as_desc_header"> <img src="https://qureskincaredns.com/new/assets/search.svg" alt=""
@@ -372,7 +474,7 @@
 {% endcapture %}
 
 {% capture section_body_2_mobile %}
-    <div id="ac_target_block_mobile_2" class="accordion-collapse collapse" aria-labelledby="acheadingTwo">
+    <div id="ac_collapseTwo" class="accordion-collapse collapse" aria-labelledby="acheadingTwo">
         <div class="accordion-body">
             <div class="ac_desc_grid">
                 <div class="ac_desc faq">
@@ -554,7 +656,7 @@
 
 
 {% capture section_body_3_desktop %}
-    <div class="tab-pane fade" id="target_block_desktop_3" role="tabpanel" aria-labelledby="target_block_desktop_3-tab">
+    <div class="tab-pane fade" id="good_content" role="tabpanel" aria-labelledby="good_content-tab">
         <div class="ac_desc_grid d-block">
             <div class="row g-md-5">
                 <div class="col-md-6">
@@ -712,7 +814,7 @@
 {% endcapture %}
 
 {% capture section_body_3_mobile %}
-    <div id="ac_target_block_mobile_3" class="accordion-collapse collapse">
+    <div id="ac_collapseThree" class="accordion-collapse collapse">
         <div class="accordion-body">
             <div class="ac_desc_grid d-block">
                 <div class="row g-4 g-md-5">
@@ -823,46 +925,18 @@
 {% endcapture %}
 
 
-
-{% assign header_count_desktop = 0 %}
-{% assign header_count_mobile = 0 %}
-
 <!-- -- amazing content start -- -->
 <div class="amazing_content section" id="tabsAccordion">
     <div class="container">
-        {% if section.settings.heading != blank %}
-            <div class="section_header mw-680 text-md-center mb-3">
-                <h2 class="title-lg">{{ section.settings.heading }}</h2>
-            </div>
-        {% endif %}
+        <div class="section_header mw-680 text-md-center mb-3">
+            <h2 class="title-lg">All you need to know before you start creating your amazing content</h2>
+        </div>
         <div class="amazing_content_wrap d-none d-md-block">
             <ul class="nav nav-tabs" id="myTab" role="tablist">
-                {%- for block in section.blocks -%}
-                    {% if block.type == 'header' %}
-                        {% assign header_count_desktop = header_count_desktop |  plus: 1 %}
-                        <li class="nav-item active1" role="presentation">
-                            {% if block.settings.heading != blank %}
-                                <h6>{{ block.settings.heading }}</h6>
-                            {% endif %}
-                            {% if block.settings.text != blank %}
-                                <p>{{ block.settings.text }}</p>
-                            {% endif %}
-                            {% if block.settings.image != blank %}
-                                <img src="{{ block.settings.image | img_url: '500x' }}" alt="" class="img-fluid mt-2">
-                            {% endif %}
-                            {% if block.settings.button_label != blank %}
-                                {% capture target_block_desktop %}target_block_desktop_{{ header_count_desktop }}{% endcapture %}
-                                <button class="nav-link active ac_drop_btn" id="{{ target_block_desktop }}-tab" data-bs-toggle="tab"
-                                    data-bs-target="#{{ target_block_desktop }}" type="button" role="tab" aria-controls="{{ target_block_desktop }}"
-                                    aria-selected="true">
-                                    <div class="container">
-                                        <p>{{ block.settings.button_label }}</p>
-                                    </div>
-                                </button>
-                            {% endif %}
-                        </li>
-                    {% endif %}
-                {%- endfor -%}
+
+                {{ section_header_1_desktop }}
+                {{ section_header_2_desktop }}
+                {{ section_header_3_desktop }}
             </ul>
             <div class="tab-content" id="myTabContent">
                 {{ section_body_1_desktop }}
@@ -872,40 +946,18 @@
         </div>
         <div class="amazing_content_wrap d-block d-md-none">
             <div class="accordion" id="acAccordion">
-                {%- for block in section.blocks -%}
-                    {% if block.type == 'header' %}
-                        {% assign header_count_mobile = header_count_mobile |  plus: 1 %}
-                        <div class="accordion-item" id="mob_item{{ header_count_mobile }}">
-                            <h2 class="accordion-header" id="acheadingOne">
-                                {% if block.settings.heading != blank %}
-                                    <h6>{{ block.settings.heading }}</h6>
-                                {% endif %}
-                                {% if block.settings.text != blank %}
-                                    <p>{{ block.settings.text }}</p>
-                                {% endif %}
-                                {% if block.settings.image != blank %}
-                                    <img src="{{ block.settings.image | img_url: '500x' }}" alt="" class="img-fluid mt-2">
-                                {% endif %}
-                                {% if block.settings.button_label != blank %}
-                                    {% capture target_block_mobile %}target_block_mobile_{{ header_count_mobile }}{% endcapture %}
-                                    <button class="accordion-button ac_drop_btn collapsed" type="button"
-                                        data-bs-toggle="collapse" data-bs-target="#ac_{{ target_block_mobile }}" aria-expanded="true"
-                                        aria-controls="ac_{{ target_block_mobile }}">
-                                        {{ block.settings.button_label }}
-                                    </button>
-                                {% endif %}
-                            </h2>
-                            {% case header_count_mobile %}
-                                {% when 1 %}
-                                    {{ section_body_1_mobile }}
-                                {% when 2 %}
-                                    {{ section_body_2_mobile }}
-                                {% when 3 %}
-                                    {{ section_body_3_mobile }}                                
-                            {% endcase %}
-                        </div>
-                    {% endif %}
-                {%- endfor -%}
+                <div class="accordion-item" id="mob_item1">
+                    {{ section_header_1_mobile }}
+                    {{ section_body_1_mobile }}
+                </div>
+                <div class="accordion-item" id="mob_item2">
+                    {{ section_header_2_mobile }}
+                    {{ section_body_2_mobile }}
+                </div>
+                <div class="accordion-item" id="mob_item3">
+                    {{ section_header_3_mobile }}
+                    {{ section_body_3_mobile }}
+                </div>
             </div>
         </div>
     </div>
@@ -956,7 +1008,7 @@
                     {
                         "type": "text",
                         "id": "text",
-                        "label": "t:common.text.label"
+                        "label": "t:common.text.name"
                     },
                     {
                         "type": "image_picker",
