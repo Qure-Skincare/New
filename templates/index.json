@@ -97,16 +97,13 @@
       "block_order": [
         "link_GirQqh"
       ],
-      "disabled": true,
       "settings": {
         "heading": "STRONGER TOGETHER",
         "heading_mobile": "STRONGER TOGETHER",
         "heading_tag": "h1",
         "subheading": "<p>Join Us in the Fight Against Breast Cancer</p>",
         "subheading_mobile": "<p>Join Us in the Fight Against Breast \\n  Cancer</p>",
-        "text": "<p>*To support breast cancer research to prevent, detect, stop and treat breast cancer, Qure will donate $2 from every order to the National Breast Cancer Foundation.</p>",
-        "image": "",
-        "image_mobile": ""
+        "text": "<p>*To support breast cancer research to prevent, detect, stop and treat breast cancer, Qure will donate $2 from every order to the National Breast Cancer Foundation.</p>"
       }
     },
     "promotion_main_banner_second_jCUkqh": {
@@ -124,6 +121,7 @@
       "block_order": [
         "link_Pk3LH6"
       ],
+      "disabled": true,
       "settings": {
         "heading": "<p>STRONGER <strong>TOGETHER</strong></p>",
         "heading_mobile": "",
