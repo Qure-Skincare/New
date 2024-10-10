@@ -131,5 +131,22 @@
         "default": true
       }
     ]
+  },
+  {
+    "name": "Corner Treatment BFCM",
+    "settings": [
+      {
+        "type": "checkbox",
+        "id": "enable_corner_treatment_bfcm",
+        "label": "Enable corner treatment BFCM",
+        "default": false
+      },
+      {
+        "type": "text",
+        "id": "copy_corner_treatment_bfcm",
+        "label": "Copy corner treatment BFCM",
+        "default": "Save 21%"
+      }
+    ]
   }
 ]
