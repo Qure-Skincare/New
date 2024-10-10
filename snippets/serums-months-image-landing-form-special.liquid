@@ -333,5 +333,12 @@
     <!-- -- choose serum section end -- -->
 {% endif %}
 
-<script src="{{ '__app_serums-months-form-special.js' | asset_url }}"></script>
+<!-- aaaaqqqq999 -->
+{% case page.handle %}
+    {% when 'micro-infusion-special-offer-v2' %}
+        <script src="{{ '__app_serums-months-form-special2.js' | asset_url }}"></script>
+    {% else %}
+        <script src="{{ '__app_serums-months-form-special.js' | asset_url }}"></script>
+{% endcase %}
+
 <link rel="stylesheet" href="{{ '__app_serums-months-form-special.css' | asset_url }}">
