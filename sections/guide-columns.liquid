@@ -11,12 +11,16 @@
 {% capture section_body_1_desktop %}
     <div class="tab-pane fade1 active1 show1" id="target_block_desktop_1" role="tabpanel" aria-labelledby="target_block_desktop_1-tab">
         <div class="ac_desc_grid">
-            {% for __item in __itemsArray1 %}
-                {% if __typesArray1[forloop.index0] == 'description' %}<div class="ac_desc{% if forloop.index0 == 0 %} faq{% endif %}">{% endif %}
-                {{ __item }}
-                {% if __typesArray1[forloop.index] == 'description' %}</div>{% endif %}
-                {% if forloop.index ==  __itemsArray1.size %}</div>{% endif %}
-            {% endfor %}
+                {% assign was_description = false %}
+                {% for __item in __itemsArray1 %}
+                    {% if __typesArray1[forloop.index0] == 'description' %}
+                        {% if was_description %}</div>{% endif %}
+                        <div class="ac_desc{% if __classnamesArray1[forloop.index0] != 'none' %} {{ __classnamesArray1[forloop.index0] }}{% endif %}">
+                        {% assign was_description = true %}
+                    {% endif %}
+                    {{ __item }}
+                    {% if forloop.index ==  __itemsArray1.size %}</div>{% endif %}
+                {% endfor %}
         </div>
     </div> 
 {% endcapture %}
@@ -24,10 +28,15 @@
 {% capture section_body_2_desktop %}
     <div class="tab-pane fade" id="target_block_desktop_2" role="tabpanel" aria-labelledby="target_block_desktop_2-tab">
         <div class="ac_desc_grid">
+            {% assign was_description = false %}
             {% for __item in __itemsArray2 %}
-                <div class="ac_desc{% if forloop.index0 == 2 %} ingredient_text{% endif %}">
-                    {{ __item }}
-                </div>
+                {% if __typesArray2[forloop.index0] == 'description' %}
+                    {% if was_description %}</div>{% endif %}
+                    <div class="ac_desc{% if __classnamesArray2[forloop.index0] != 'none' %} {{ __classnamesArray2[forloop.index0] }}{% endif %}">
+                    {% assign was_description = true %}
+                {% endif %}
+                {{ __item }}
+                {% if forloop.index ==  __itemsArray2.size %}</div>{% endif %}
             {% endfor %}
         </div>
     </div>
@@ -88,10 +97,14 @@
     <div id="ac_target_block_mobile_1" class="accordion-collapse collapse" aria-labelledby="acheadingOne">
         <div class="accordion-body">
             <div class="ac_desc_grid">
+                {% assign was_description = false %}
                 {% for __item in __itemsArray1 %}
-                    {% if __typesArray1[forloop.index0] == 'description' %}<div class="ac_desc{% if forloop.index0 == 0 %} faq{% endif %}">{% endif %}
+                    {% if __typesArray1[forloop.index0] == 'description' %}
+                        {% if was_description %}</div>{% endif %}
+                        <div class="ac_desc{% if __classnamesArray1[forloop.index0] != 'none' %} {{ __classnamesArray1[forloop.index0] }}{% endif %}">
+                        {% assign was_description = true %}
+                    {% endif %}
                     {{ __item }}
-                    {% if __typesArray1[forloop.index] == 'description' %}</div>{% endif %}
                     {% if forloop.index ==  __itemsArray1.size %}</div>{% endif %}
                 {% endfor %}
             </div>
@@ -103,10 +116,15 @@
     <div id="ac_target_block_mobile_2" class="accordion-collapse collapse" aria-labelledby="acheadingTwo">
         <div class="accordion-body">
             <div class="ac_desc_grid">
+                {% assign was_description = false %}
                 {% for __item in __itemsArray2 %}
-                    <div class="ac_desc{% if forloop.index0 == 2 %} ingredient_text{% endif %}">
-                        {{ __item }}
-                    </div>
+                    {% if __typesArray2[forloop.index0] == 'description' %}
+                        {% if was_description %}</div>{% endif %}
+                        <div class="ac_desc{% if __classnamesArray2[forloop.index0] != 'none' %} {{ __classnamesArray2[forloop.index0] }}{% endif %}">
+                        {% assign was_description = true %}
+                    {% endif %}
+                    {{ __item }}
+                    {% if forloop.index ==  __itemsArray2.size %}</div>{% endif %}
                 {% endfor %}
             </div>
         </div>
@@ -317,6 +335,11 @@
                 "type": "description",
                 "name": "t:common.description.label",
                 "settings": [
+                    {
+                        "type": "text",
+                        "id": "classname",
+                        "label": "t:common.classname.label"
+                    },
                     {
                         "type": "text",
                         "id": "heading",
