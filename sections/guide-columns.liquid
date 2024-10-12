@@ -51,19 +51,17 @@
                     <div class="col-md-6">
                         <div class="ac_desc">
                             {% for __item in __itemsArray3 offset: __itemsNum %}
-                                {% if __typesArray3[forloop.index0] == 'heading' %}
+                                {% if __typesArray3[__itemsNum] == 'heading' %}
                                     <div class="as_desc_header">{{ __item }}</div>
+                                    {% assign __itemsNum = __itemsNum |  plus: 1 %}
                                     {% break %}
                                 {% endif %}
                             {% endfor %}
                             <div class="ac_desc_grid_video show_how-work">
                                 {% for __item in __itemsArray3 offset: __itemsNum %}
-                                    {% assign __itemsNum = __itemsNum |  plus: 1 %}
-                                    {% if __typesArray3[forloop.index0] == 'video' %}
+                                    {% if __typesArray3[__itemsNum] == 'video' %}
                                         {{ __item }}
-                                        {% if __typesArray3[forloop.index] != 'video' %}
-                                            {% break %}
-                                        {% endif %}
+                                        {% assign __itemsNum = __itemsNum |  plus: 1 %}
                                     {% endif %}
                                 {% endfor %}
                             </div>
@@ -75,19 +73,17 @@
                     <div class="col-md-6">
                         <div class="ac_desc">
                             {% for __item in __itemsArray3 offset: __itemsNum %}
-                                {% if __typesArray3[forloop.index0] == 'heading' %}
+                                {% if __typesArray3[__itemsNum] == 'heading' %}
                                     <div class="as_desc_header">{{ __item }}</div>
+                                    {% assign __itemsNum = __itemsNum |  plus: 1 %}
                                     {% break %}
                                 {% endif %}
                             {% endfor %}
                             <div class="ac_desc_grid_video show_how-work">
                                 {% for __item in __itemsArray3 offset: __itemsNum %}
-                                    {% assign __itemsNum = __itemsNum |  plus: 1 %}
-                                    {% if __typesArray3[forloop.index0] == 'video' %}
+                                    {% if __typesArray3[__itemsNum] == 'video' %}
                                         {{ __item }}
-                                        {% if __typesArray3[forloop.index] != 'video' %}
-                                            {% break %}
-                                        {% endif %}
+                                        {% assign __itemsNum = __itemsNum |  plus: 1 %}
                                     {% endif %}
                                 {% endfor %}
                             </div>
@@ -99,43 +95,39 @@
                     <div class="col-md-6">
                         <div class="ac_desc">
                             {% for __item in __itemsArray3 offset: __itemsNum %}
-                                {% if __typesArray3[forloop.index0] == 'heading' %}
+                                {% if __typesArray3[__itemsNum] == 'heading' %}
                                     <div class="as_desc_header">{{ __item }}</div>
+                                    {% assign __itemsNum = __itemsNum |  plus: 1 %}
                                     {% break %}
                                 {% endif %}
                             {% endfor %}
                             <div class="ac_desc_grid_video show_how-work">
                                 {% for __item in __itemsArray3 offset: __itemsNum %}
-                                    {% assign __itemsNum = __itemsNum |  plus: 1 %}
-                                    {% if __typesArray3[forloop.index0] == 'video' %}
+                                    {% if __typesArray3[__itemsNum] == 'video' %}
                                         {{ __item }}
-                                        {% if __typesArray3[forloop.index] != 'video' %}
-                                            {% break %}
-                                        {% endif %}
+                                        {% assign __itemsNum = __itemsNum |  plus: 1 %}
                                     {% endif %}
                                 {% endfor %}
                             </div>
                         </div>
-                    </div>    
+                    </div>  
                 {% endif %}
 
                 {% if __itemsArray3.size > __itemsNum %}
                     <div class="col-md-6">
                         <div class="ac_desc">
                             {% for __item in __itemsArray3 offset: __itemsNum %}
-                                {% if __typesArray3[forloop.index0] == 'heading' %}
+                                {% if __typesArray3[__itemsNum] == 'heading' %}
                                     <div class="as_desc_header">{{ __item }}</div>
+                                    {% assign __itemsNum = __itemsNum |  plus: 1 %}
                                     {% break %}
                                 {% endif %}
                             {% endfor %}
                             <div class="ac_desc_grid_video show_how-work">
                                 {% for __item in __itemsArray3 offset: __itemsNum %}
-                                    {% assign __itemsNum = __itemsNum |  plus: 1 %}
-                                    {% if __typesArray3[forloop.index0] == 'video' %}
+                                    {% if __typesArray3[__itemsNum] == 'video' %}
                                         {{ __item }}
-                                        {% if __typesArray3[forloop.index] != 'video' %}
-                                            {% break %}
-                                        {% endif %}
+                                        {% assign __itemsNum = __itemsNum |  plus: 1 %}
                                     {% endif %}
                                 {% endfor %}
                             </div>
@@ -196,19 +188,17 @@
                         <div class="col-md-6">
                             <div class="ac_desc">
                                 {% for __item in __itemsArray3 offset: __itemsNum %}
-                                    {% if __typesArray3[forloop.index0] == 'heading' %}
+                                    {% if __typesArray3[__itemsNum] == 'heading' %}
                                         <div class="as_desc_header">{{ __item }}</div>
+                                        {% assign __itemsNum = __itemsNum |  plus: 1 %}
                                         {% break %}
                                     {% endif %}
                                 {% endfor %}
                                 <div class="ac_desc_grid_video show_how-work">
                                     {% for __item in __itemsArray3 offset: __itemsNum %}
-                                        {% assign __itemsNum = __itemsNum |  plus: 1 %}
-                                        {% if __typesArray3[forloop.index0] == 'video' %}
+                                        {% if __typesArray3[__itemsNum] == 'video' %}
                                             {{ __item }}
-                                            {% if __typesArray3[forloop.index] != 'video' %}
-                                                {% break %}
-                                            {% endif %}
+                                            {% assign __itemsNum = __itemsNum |  plus: 1 %}
                                         {% endif %}
                                     {% endfor %}
                                 </div>
@@ -220,19 +210,17 @@
                         <div class="col-md-6">
                             <div class="ac_desc">
                                 {% for __item in __itemsArray3 offset: __itemsNum %}
-                                    {% if __typesArray3[forloop.index0] == 'heading' %}
+                                    {% if __typesArray3[__itemsNum] == 'heading' %}
                                         <div class="as_desc_header">{{ __item }}</div>
+                                        {% assign __itemsNum = __itemsNum |  plus: 1 %}
                                         {% break %}
                                     {% endif %}
                                 {% endfor %}
                                 <div class="ac_desc_grid_video show_how-work">
                                     {% for __item in __itemsArray3 offset: __itemsNum %}
-                                        {% assign __itemsNum = __itemsNum |  plus: 1 %}
-                                        {% if __typesArray3[forloop.index0] == 'video' %}
+                                        {% if __typesArray3[__itemsNum] == 'video' %}
                                             {{ __item }}
-                                            {% if __typesArray3[forloop.index] != 'video' %}
-                                                {% break %}
-                                            {% endif %}
+                                            {% assign __itemsNum = __itemsNum |  plus: 1 %}
                                         {% endif %}
                                     {% endfor %}
                                 </div>
@@ -244,43 +232,39 @@
                         <div class="col-md-6">
                             <div class="ac_desc">
                                 {% for __item in __itemsArray3 offset: __itemsNum %}
-                                    {% if __typesArray3[forloop.index0] == 'heading' %}
+                                    {% if __typesArray3[__itemsNum] == 'heading' %}
                                         <div class="as_desc_header">{{ __item }}</div>
+                                        {% assign __itemsNum = __itemsNum |  plus: 1 %}
                                         {% break %}
                                     {% endif %}
                                 {% endfor %}
                                 <div class="ac_desc_grid_video show_how-work">
                                     {% for __item in __itemsArray3 offset: __itemsNum %}
-                                        {% assign __itemsNum = __itemsNum |  plus: 1 %}
-                                        {% if __typesArray3[forloop.index0] == 'video' %}
+                                        {% if __typesArray3[__itemsNum] == 'video' %}
                                             {{ __item }}
-                                            {% if __typesArray3[forloop.index] != 'video' %}
-                                                {% break %}
-                                            {% endif %}
+                                            {% assign __itemsNum = __itemsNum |  plus: 1 %}
                                         {% endif %}
                                     {% endfor %}
                                 </div>
                             </div>
-                        </div>    
+                        </div>  
                     {% endif %}
     
                     {% if __itemsArray3.size > __itemsNum %}
                         <div class="col-md-6">
                             <div class="ac_desc">
                                 {% for __item in __itemsArray3 offset: __itemsNum %}
-                                    {% if __typesArray3[forloop.index0] == 'heading' %}
+                                    {% if __typesArray3[__itemsNum] == 'heading' %}
                                         <div class="as_desc_header">{{ __item }}</div>
+                                        {% assign __itemsNum = __itemsNum |  plus: 1 %}
                                         {% break %}
                                     {% endif %}
                                 {% endfor %}
                                 <div class="ac_desc_grid_video show_how-work">
                                     {% for __item in __itemsArray3 offset: __itemsNum %}
-                                        {% assign __itemsNum = __itemsNum |  plus: 1 %}
-                                        {% if __typesArray3[forloop.index0] == 'video' %}
+                                        {% if __typesArray3[__itemsNum] == 'video' %}
                                             {{ __item }}
-                                            {% if __typesArray3[forloop.index] != 'video' %}
-                                                {% break %}
-                                            {% endif %}
+                                            {% assign __itemsNum = __itemsNum |  plus: 1 %}
                                         {% endif %}
                                     {% endfor %}
                                 </div>
@@ -488,6 +472,31 @@
                         "default": false
                     },
                     {
+                        "type": "select",
+                        "id": "style",
+                        "label": "t:common.style.label",
+                        "options": [
+                            {
+                                "value": "default",
+                                "label": "t:common.style.default.label"
+                            },
+                            {
+                                "value": "grey",
+                                "label": "t:common.style.grey.label"
+                            },
+                            {
+                                "value": "image",
+                                "label": "t:common.style.image.label"
+                            }
+                        ],
+                        "default": "default"
+                    },
+                    {
+                        "type": "image_picker",
+                        "id": "image_large",
+                        "label": "t:common.image.large.label"
+                    },
+                    {
                         "type": "text",
                         "id": "heading",
                         "label": "t:common.heading.label"
@@ -512,6 +521,17 @@
                         "type": "text",
                         "id": "heading",
                         "label": "t:common.heading.label"
+                    }
+                ]
+		    },
+            {
+                "type": "content",
+                "name": "t:common.content.label",
+                "settings": [
+                    {
+                        "type": "richtext",
+                        "id": "text",
+                        "label": "t:common.content.label"
                     }
                 ]
 		    },

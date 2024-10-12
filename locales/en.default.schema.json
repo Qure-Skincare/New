@@ -135,7 +135,8 @@
       "verified": "Verified Customer",
       "loop": "Enable loop",
       "autoplay": "Enable autoplay",
-      "show": "Show"
+      "show": "Show",
+      "grey": "Grey"
     },
     "dropdown": {
       "design": "Dropdown design"
@@ -380,7 +381,16 @@
       "label": "Content"
     },
     "style": {
-      "label": "Style"
+      "label": "Style",
+      "default": {
+        "label": "default"
+      },
+      "grey": {
+        "label": "grey"
+      },
+      "image": {
+        "label": "image"
+      }
     },
     "media": {
       "label": "Media"
