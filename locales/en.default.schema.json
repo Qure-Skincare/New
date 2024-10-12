@@ -272,6 +272,9 @@
       "label": "Image",
       "with": "With image",
       "without": "Without image",
+      "large": {
+        "label": "Image large"
+      },
       "hide": {
         "mobile": {
           "label": "Hide on mobile",
@@ -1330,6 +1333,9 @@
     },
     "founder": {
       "label": "Qure Founder"
+    },
+    "founder-v2": {
+      "label": "Qure Founder V2"
     },
     "skin-care": {
       "label": "Skin Care Steps"
