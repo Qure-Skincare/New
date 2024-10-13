@@ -143,26 +143,54 @@
     "featuredin_extended_kENYrm": {
       "type": "featuredin_extended",
       "blocks": {
-        "text_JYLPRq": {
-          "type": "text",
-          "settings": {
-            "text": "<p>\"This helps bring life and radiance to your eyes, the focal point of your face.\"</p>"
-          }
-        },
-        "image_VRfJ7m": {
+        "image_4BcEQC": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/vogue-black.svg"
+            "image": "shopify:\/\/shop_images\/vogue-black_5851d9e9-b2a6-47f1-a606-0f0243a9319f.svg"
+          }
+        },
+        "text_49pB7c": {
+          "type": "text",
+          "settings": {
+            "text": "<p>\"Changes you’ll see are positive ones, like plumper and more taut skin and an improved skin tone.<\/p>"
+          }
+        },
+        "image_MHDmTx": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/elle-black_af7c0fb6-1535-4d44-b64c-b96b7d90bf08.svg"
+          }
+        },
+        "text_tGWG9p": {
+          "type": "text",
+          "settings": {
+            "text": "<p>\"Changes you’ll see are positive ones, like plumper and more taut skin and an improved skin tone.<\/p>"
+          }
+        },
+        "image_zYixkn": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/cosmopolitan-black.svg"
+          }
+        },
+        "text_GQ3CEw": {
+          "type": "text",
+          "settings": {
+            "text": "<p>\"Changes you’ll see are positive ones, like plumper and more taut skin and an improved skin tone.<\/p>"
           }
         }
       },
       "block_order": [
-        "text_JYLPRq",
-        "image_VRfJ7m"
+        "image_4BcEQC",
+        "text_49pB7c",
+        "image_MHDmTx",
+        "text_tGWG9p",
+        "image_zYixkn",
+        "text_GQ3CEw"
       ],
       "settings": {
         "heading": "FEATURED IN",
-        "slider_type": "five_slides"
+        "slider_type": "one_slides"
       }
     },
     "two_column_box_LbCXBk": {
