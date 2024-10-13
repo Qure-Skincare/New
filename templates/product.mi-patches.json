@@ -81,65 +81,6 @@
         "text_label_real_result_3": "Dermatologist"
       }
     },
-    "featuredin_zGJF46": {
-      "type": "featuredin",
-      "blocks": {
-        "image_EmW3pU": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/vogue.svg",
-            "mobile_hide": false
-          }
-        },
-        "image_UCfaNQ": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/elle.svg",
-            "mobile_hide": false
-          }
-        },
-        "image_nhGhH7": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/glamour.svg",
-            "mobile_hide": false
-          }
-        },
-        "image_WyNyMa": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/grazia.svg",
-            "mobile_hide": true
-          }
-        },
-        "image_6UWxUT": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/cosmopolitan.svg",
-            "mobile_hide": true
-          }
-        },
-        "image_EFhPRe": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/bazaar_889503c3-d4d6-4eb0-b7be-dd1212b56c58.png",
-            "mobile_hide": true
-          }
-        }
-      },
-      "block_order": [
-        "image_EmW3pU",
-        "image_UCfaNQ",
-        "image_nhGhH7",
-        "image_WyNyMa",
-        "image_6UWxUT",
-        "image_EFhPRe"
-      ],
-      "disabled": true,
-      "settings": {
-        "heading": ""
-      }
-    },
     "featuredin_extended_kENYrm": {
       "type": "featuredin_extended",
       "blocks": {
@@ -905,7 +846,6 @@
   },
   "order": [
     "product_landing_tetLcC",
-    "featuredin_zGJF46",
     "featuredin_extended_kENYrm",
     "two_column_box_LbCXBk",
     "confidence_slider_Wgjdzg",
