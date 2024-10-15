@@ -82,6 +82,7 @@
       "blocks": {
         "product_YMUgQb": {
           "type": "product",
+          "disabled": true,
           "settings": {
             "product": "exclusive-micro-infusion-bundle",
             "announcement_id": "",
