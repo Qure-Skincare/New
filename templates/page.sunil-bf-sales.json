@@ -101,9 +101,8 @@
         },
         "product_UQdbaG": {
           "type": "product",
-          "disabled": true,
           "settings": {
-            "product": "best-seller-bundle",
+            "product": "best-seller-bundle-1",
             "announcement_id": "Most popular",
             "button_text_id": "Get yours",
             "show_save_price": true
