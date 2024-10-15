@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "header_sales_TMQyBR": {
@@ -102,7 +102,7 @@
         "product_UQdbaG": {
           "type": "product",
           "settings": {
-            "product": "best-seller-bundle",
+            "product": "best-seller-bundle-1",
             "announcement_id": "Most popular",
             "button_text_id": "Get yours",
             "show_save_price": true
@@ -534,6 +534,7 @@
         },
         "product_3Frmww": {
           "type": "product",
+          "disabled": true,
           "settings": {
             "product": "best-seller-bundle",
             "comment_ammount": 729,
