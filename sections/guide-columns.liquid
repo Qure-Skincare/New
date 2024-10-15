@@ -46,47 +46,94 @@
     <div class="tab-pane fade" id="target_block_desktop_3" role="tabpanel" aria-labelledby="target_block_desktop_3-tab">
         <div class="ac_desc_grid d-block">
             <div class="row g-md-5">
-                <div class="col-md-6">
-                    <div class="ac_desc">
-                        {% for __item in __itemsArray3 %}
-                            {% if __typesArray3[forloop.index0] == 'heading' %}
-                                <div class="as_desc_header">{{ __item }}</div>
-                                {% break %}
-                            {% endif %}
-                        {% endfor %}
-                        <div class="ac_desc_grid_video show_how-work">
-                            {% for __item in __itemsArray3 %}
-                                {% if __typesArray3[forloop.index0] == 'video' %}
-                                    {{ __item }}
-                                    {% if __typesArray3[forloop.index] != 'video' %}
-                                        {% assign __itemsOffset3 = forloop.index %}
-                                        {% break %}
-                                    {% endif %}
+                {% assign __itemsNum = 0 %}
+                {% if __itemsArray3.size > __itemsNum %}
+                    <div class="col-md-6">
+                        <div class="ac_desc">
+                            {% for __item in __itemsArray3 offset: __itemsNum %}
+                                {% if __typesArray3[__itemsNum] == 'heading' %}
+                                    <div class="as_desc_header">{{ __item }}</div>
+                                    {% assign __itemsNum = __itemsNum |  plus: 1 %}
+                                    {% break %}
                                 {% endif %}
                             {% endfor %}
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="ac_desc">
-                        {% for __item in __itemsArray3 offset: __itemsOffset3 %}
-                            {% if __typesArray3[forloop.index0] == 'heading' %}
-                                <div class="as_desc_header">{{ __item }}</div>
-                                {% break %}
-                            {% endif %}
-                        {% endfor %}
-                        <div class="ac_desc_grid_video d-flex gap-2">
-                            {% for __item in __itemsArray3  offset: __itemsOffset3 %}
-                                {% if __typesArray3[forloop.index0] == 'video' %}
-                                    {{ __item }}
-                                    {% if __typesArray3[forloop.index] != 'video' %}
-                                        {% break %}
+                            <div class="ac_desc_grid_video show_how-work">
+                                {% for __item in __itemsArray3 offset: __itemsNum %}
+                                    {% if __typesArray3[__itemsNum] == 'video' %}
+                                        {{ __item }}
+                                        {% assign __itemsNum = __itemsNum |  plus: 1 %}
                                     {% endif %}
+                                {% endfor %}
+                            </div>
+                        </div>
+                    </div>  
+                {% endif %}
+
+                {% if __itemsArray3.size > __itemsNum %}
+                    <div class="col-md-6">
+                        <div class="ac_desc">
+                            {% for __item in __itemsArray3 offset: __itemsNum %}
+                                {% if __typesArray3[__itemsNum] == 'heading' %}
+                                    <div class="as_desc_header">{{ __item }}</div>
+                                    {% assign __itemsNum = __itemsNum |  plus: 1 %}
+                                    {% break %}
                                 {% endif %}
                             {% endfor %}
+                            <div class="ac_desc_grid_video show_how-work">
+                                {% for __item in __itemsArray3 offset: __itemsNum %}
+                                    {% if __typesArray3[__itemsNum] == 'video' %}
+                                        {{ __item }}
+                                        {% assign __itemsNum = __itemsNum |  plus: 1 %}
+                                    {% endif %}
+                                {% endfor %}
+                            </div>
                         </div>
-                    </div>
-                </div>
+                    </div>  
+                {% endif %}
+
+                {% if __itemsArray3.size > __itemsNum %}
+                    <div class="col-md-6">
+                        <div class="ac_desc">
+                            {% for __item in __itemsArray3 offset: __itemsNum %}
+                                {% if __typesArray3[__itemsNum] == 'heading' %}
+                                    <div class="as_desc_header">{{ __item }}</div>
+                                    {% assign __itemsNum = __itemsNum |  plus: 1 %}
+                                    {% break %}
+                                {% endif %}
+                            {% endfor %}
+                            <div class="ac_desc_grid_video show_how-work">
+                                {% for __item in __itemsArray3 offset: __itemsNum %}
+                                    {% if __typesArray3[__itemsNum] == 'video' %}
+                                        {{ __item }}
+                                        {% assign __itemsNum = __itemsNum |  plus: 1 %}
+                                    {% endif %}
+                                {% endfor %}
+                            </div>
+                        </div>
+                    </div>  
+                {% endif %}
+
+                {% if __itemsArray3.size > __itemsNum %}
+                    <div class="col-md-6">
+                        <div class="ac_desc">
+                            {% for __item in __itemsArray3 offset: __itemsNum %}
+                                {% if __typesArray3[__itemsNum] == 'heading' %}
+                                    <div class="as_desc_header">{{ __item }}</div>
+                                    {% assign __itemsNum = __itemsNum |  plus: 1 %}
+                                    {% break %}
+                                {% endif %}
+                            {% endfor %}
+                            <div class="ac_desc_grid_video show_how-work">
+                                {% for __item in __itemsArray3 offset: __itemsNum %}
+                                    {% if __typesArray3[__itemsNum] == 'video' %}
+                                        {{ __item }}
+                                        {% assign __itemsNum = __itemsNum |  plus: 1 %}
+                                    {% endif %}
+                                {% endfor %}
+                            </div>
+                        </div>
+                    </div>  
+                {% endif %}
             </div>
         </div>
     </div>
@@ -136,47 +183,94 @@
         <div class="accordion-body">
             <div class="ac_desc_grid d-block">
                 <div class="row g-4 g-md-5">
-                    <div class="col-md-6">
-                        <div class="ac_desc">
-                            {% for __item in __itemsArray3 %}
-                                {% if __typesArray3[forloop.index0] == 'heading' %}
-                                    <div class="as_desc_header">{{ __item }}</div>
-                                    {% break %}
-                                {% endif %}
-                            {% endfor %}
-                            <div class="ac_desc_grid_video show_how-work">
-                                {% for __item in __itemsArray3 %}
-                                    {% if __typesArray3[forloop.index0] == 'video' %}
-                                        {{ __item }}
-                                        {% if __typesArray3[forloop.index] != 'video' %}
-                                            {% assign __itemsOffset3 = forloop.index %}
-                                            {% break %}
-                                        {% endif %}
+                    {% assign __itemsNum = 0 %}
+                    {% if __itemsArray3.size > __itemsNum %}
+                        <div class="col-md-6">
+                            <div class="ac_desc">
+                                {% for __item in __itemsArray3 offset: __itemsNum %}
+                                    {% if __typesArray3[__itemsNum] == 'heading' %}
+                                        <div class="as_desc_header">{{ __item }}</div>
+                                        {% assign __itemsNum = __itemsNum |  plus: 1 %}
+                                        {% break %}
                                     {% endif %}
                                 {% endfor %}
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="ac_desc">
-                            {% for __item in __itemsArray3 offset: __itemsOffset3 %}
-                                {% if __typesArray3[forloop.index0] == 'heading' %}
-                                    <div class="as_desc_header">{{ __item }}</div>
-                                    {% break %}
-                                {% endif %}
-                            {% endfor %}
-                            <div class="ac_desc_grid_video d-flex gap-2">
-                                {% for __item in __itemsArray3  offset: __itemsOffset3 %}
-                                    {% if __typesArray3[forloop.index0] == 'video' %}
-                                        {{ __item }}
-                                        {% if __typesArray3[forloop.index] != 'video' %}
-                                            {% break %}
+                                <div class="ac_desc_grid_video show_how-work">
+                                    {% for __item in __itemsArray3 offset: __itemsNum %}
+                                        {% if __typesArray3[__itemsNum] == 'video' %}
+                                            {{ __item }}
+                                            {% assign __itemsNum = __itemsNum |  plus: 1 %}
                                         {% endif %}
+                                    {% endfor %}
+                                </div>
+                            </div>
+                        </div>  
+                    {% endif %}
+    
+                    {% if __itemsArray3.size > __itemsNum %}
+                        <div class="col-md-6">
+                            <div class="ac_desc">
+                                {% for __item in __itemsArray3 offset: __itemsNum %}
+                                    {% if __typesArray3[__itemsNum] == 'heading' %}
+                                        <div class="as_desc_header">{{ __item }}</div>
+                                        {% assign __itemsNum = __itemsNum |  plus: 1 %}
+                                        {% break %}
                                     {% endif %}
                                 {% endfor %}
+                                <div class="ac_desc_grid_video show_how-work">
+                                    {% for __item in __itemsArray3 offset: __itemsNum %}
+                                        {% if __typesArray3[__itemsNum] == 'video' %}
+                                            {{ __item }}
+                                            {% assign __itemsNum = __itemsNum |  plus: 1 %}
+                                        {% endif %}
+                                    {% endfor %}
+                                </div>
                             </div>
-                        </div>
-                    </div>
+                        </div>  
+                    {% endif %}
+    
+                    {% if __itemsArray3.size > __itemsNum %}
+                        <div class="col-md-6">
+                            <div class="ac_desc">
+                                {% for __item in __itemsArray3 offset: __itemsNum %}
+                                    {% if __typesArray3[__itemsNum] == 'heading' %}
+                                        <div class="as_desc_header">{{ __item }}</div>
+                                        {% assign __itemsNum = __itemsNum |  plus: 1 %}
+                                        {% break %}
+                                    {% endif %}
+                                {% endfor %}
+                                <div class="ac_desc_grid_video show_how-work">
+                                    {% for __item in __itemsArray3 offset: __itemsNum %}
+                                        {% if __typesArray3[__itemsNum] == 'video' %}
+                                            {{ __item }}
+                                            {% assign __itemsNum = __itemsNum |  plus: 1 %}
+                                        {% endif %}
+                                    {% endfor %}
+                                </div>
+                            </div>
+                        </div>  
+                    {% endif %}
+    
+                    {% if __itemsArray3.size > __itemsNum %}
+                        <div class="col-md-6">
+                            <div class="ac_desc">
+                                {% for __item in __itemsArray3 offset: __itemsNum %}
+                                    {% if __typesArray3[__itemsNum] == 'heading' %}
+                                        <div class="as_desc_header">{{ __item }}</div>
+                                        {% assign __itemsNum = __itemsNum |  plus: 1 %}
+                                        {% break %}
+                                    {% endif %}
+                                {% endfor %}
+                                <div class="ac_desc_grid_video show_how-work">
+                                    {% for __item in __itemsArray3 offset: __itemsNum %}
+                                        {% if __typesArray3[__itemsNum] == 'video' %}
+                                            {{ __item }}
+                                            {% assign __itemsNum = __itemsNum |  plus: 1 %}
+                                        {% endif %}
+                                    {% endfor %}
+                                </div>
+                            </div>
+                        </div>  
+                    {% endif %}
                 </div>
             </div>
         </div>
@@ -349,7 +443,12 @@
                         "type": "image_picker",
                         "id": "image",
                         "label": "t:common.image.label"
-                    },                    
+                    }, 
+                    {
+                        "type": "image_picker",
+                        "id": "image_large",
+                        "label": "t:common.image.large.label"
+                    },                   
                     {
                         "type": "richtext",
                         "id": "content",
@@ -367,6 +466,37 @@
                 "name": "t:common.collapsed.label",
                 "settings": [
                     {
+                        "type": "checkbox",
+                        "id": "show",
+                        "label": "t:common.checkbox.show",
+                        "default": false
+                    },
+                    {
+                        "type": "select",
+                        "id": "style",
+                        "label": "t:common.style.label",
+                        "options": [
+                            {
+                                "value": "default",
+                                "label": "t:common.style.default.label"
+                            },
+                            {
+                                "value": "grey",
+                                "label": "t:common.style.grey.label"
+                            },
+                            {
+                                "value": "image",
+                                "label": "t:common.style.image.label"
+                            }
+                        ],
+                        "default": "default"
+                    },
+                    {
+                        "type": "image_picker",
+                        "id": "image_large",
+                        "label": "t:common.image.large.label"
+                    },
+                    {
                         "type": "text",
                         "id": "heading",
                         "label": "t:common.heading.label"
@@ -377,10 +507,9 @@
                         "label": "t:common.content.label"
                     },
                     {
-                        "type": "checkbox",
-                        "id": "show",
-                        "label": "t:common.checkbox.show",
-                        "default": false
+                        "type": "liquid",
+                        "id": "code",
+                        "label": "t:common.code.label"
                     }
                 ]
 		    },
@@ -392,6 +521,17 @@
                         "type": "text",
                         "id": "heading",
                         "label": "t:common.heading.label"
+                    }
+                ]
+		    },
+            {
+                "type": "content",
+                "name": "t:common.content.label",
+                "settings": [
+                    {
+                        "type": "richtext",
+                        "id": "text",
+                        "label": "t:common.content.label"
                     }
                 ]
 		    },
@@ -408,6 +548,24 @@
                         "type": "text",
                         "id": "wistia_id",
                         "label": "t:common.wistia.id.label"
+                    }
+                ]
+		    },
+            {
+                "type": "button",
+                "name": "t:common.button.name",
+                "settings": [
+                    {
+                        "type": "text",
+                        "id": "button_label",
+                        "default": "Button label",
+                        "label": "t:common.button.label",
+                        "info": "t:common.button.info"
+                    },
+                    {
+                        "type": "url",
+                        "id": "button_url",
+                        "label": "t:common.button.url.label"
                     }
                 ]
 		    }
