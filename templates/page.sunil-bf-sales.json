@@ -534,9 +534,8 @@
         },
         "product_3Frmww": {
           "type": "product",
-          "disabled": true,
           "settings": {
-            "product": "best-seller-bundle",
+            "product": "best-seller-bundle-1",
             "comment_ammount": 729,
             "percent": 30,
             "ppl_choise": 1,
