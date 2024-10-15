@@ -222,8 +222,8 @@
           "trustpilot_a3exnp": {
             "type": "trustpilot",
             "settings": {
-              "text_area_first": "<p>Excellent <b>4.4</b></p>",
-              "starts": "shopify://shop_images/stars-4.5_1.svg",
+              "text_area_first": "<p>Excellent <b>4.5</b></p>",
+              "starts": "shopify://shop_images/stars-4.5_2.svg",
               "second_text_content": "reviews on",
               "logo": "shopify://shop_images/logo_truspilot.svg"
             }
