@@ -2,6 +2,26 @@
     <p>Please provide section_id property to use this snippet</p>
 {% else %}
 
+    <style>
+       .offer_active .supply_steps .step_block .step_content .serumBlock input.active+.serum_prd:after {
+            display: none !important;
+        }
+
+        .planBlock .plan_choosed span {
+            background: #000 !important;
+        }
+
+        .planBlock .plan_choosed {
+            text-align: left !important;
+            position: relative !important;
+            left: 30px !important;
+            max-width: 100% !important;
+        }
+        .step_counter_before:before {
+            display: none !important;
+        }  
+    </style>
+
     <script>
         document.addEventListener('DOMContentLoaded', function() {
             v2__selectProduct('{{ section_id }}_');
@@ -247,7 +267,7 @@
                             </div>
                         </div>
                         <div class="supply_steps">
-                            <div class="step_counter"><span>3</span></div>
+                            <div class="step_counter step_counter_before"><span>3</span></div>
                             <div class="step_block">
                                 <div class="step_header">
                                     <h3 class="align-items-baseline"><span>Step 3/3</span> Choose a payment option:
