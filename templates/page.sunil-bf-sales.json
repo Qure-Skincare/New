@@ -512,6 +512,7 @@
       "blocks": {
         "product_bMiKn4": {
           "type": "product",
+          "disabled": true,
           "settings": {
             "product": "exclusive-micro-infusion-bundle",
             "comment_ammount": 100,
