@@ -83,7 +83,7 @@
                     {% if subheading_count > 0 %}
                         {%- for block in section.blocks -%}
                             {% if block.type == 'subheading' %}
-                                <h6>{{ block.settings.text }}</h6>
+                                <p>{{ block.settings.text }}</p>
                             {% endif %}
                         {% endfor %}
                     {% endif %}
