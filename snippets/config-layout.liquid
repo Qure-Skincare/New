@@ -195,9 +195,12 @@
     {% when 'page.returns-exchanges' %}
         {% assign main_class = 'return_exchanges' %}
         <link rel="stylesheet" href="{{ 'return.css' | asset_url }}">
-        {% when 'page.return-policy' %}
-            {% assign main_class = 'return_policy' %}
-            <link rel="stylesheet" href="{{ 'return.css' | asset_url }}">
+    {% when 'page.return-policy' %}
+        {% assign main_class = 'return_policy' %}
+        <link rel="stylesheet" href="{{ 'return.css' | asset_url }}">
+    {% when 'page.bf-early-access' %}
+        {% assign main_class = 'early_acess_sale' %}
+        <link rel="stylesheet" href="{{ 'early-acess-password-bf-bundle.css' | asset_url }}">
     {% when 'blog' %}
         {% assign main_class = 'blogs' %}
         <link rel="stylesheet" href="{{ 'blogs.css' | asset_url }}">
