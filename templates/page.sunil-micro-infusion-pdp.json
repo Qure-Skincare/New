@@ -28,6 +28,7 @@
         },
         "media_CwfKJr": {
           "type": "media",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/awardMI.png",
             "wistia_id": ""
@@ -35,6 +36,7 @@
         },
         "media_JnMF7G": {
           "type": "media",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/mi_pdp-product-2.webp",
             "wistia_id": "jg8c1a3bee"
@@ -42,6 +44,7 @@
         },
         "media_a6KBAn": {
           "type": "media",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/mi-product-3.png",
             "wistia_id": ""
@@ -49,6 +52,7 @@
         },
         "media_6QEUHd": {
           "type": "media",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/mi_pdp-product-4.webp",
             "wistia_id": ""
@@ -56,6 +60,7 @@
         },
         "media_CeVxmC": {
           "type": "media",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/mi_pdp-product-5.webp",
             "wistia_id": ""
@@ -63,6 +68,7 @@
         },
         "media_9gQKQ7": {
           "type": "media",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Rectangle_376.png",
             "wistia_id": ""
@@ -70,6 +76,7 @@
         },
         "media_dmxg7T": {
           "type": "media",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/mi_pdp-result-1.webp",
             "wistia_id": ""
@@ -77,6 +84,7 @@
         },
         "media_kaCFw8": {
           "type": "media",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/mi_pdp-result-2.webp",
             "wistia_id": ""
@@ -84,6 +92,7 @@
         },
         "media_bEn9Dc": {
           "type": "media",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/mi_pdp-result-3.webp",
             "wistia_id": ""
